@@ -1,0 +1,30 @@
+## Interface: 36325
+## Title: TnT DKP
+## Author: Akaran - <Theres No Tomorrow> - Whitemane [A]
+## SavedVariables: T3_PRIORITY_DKP_TABLE, T3_LOTTERY_DKP_TABLE, T2PT5_PRIORITY_DKP_TABLE, T2PT5_LOTTERY_DKP_TABLE, T2_PRIORITY_DKP_TABLE, T2_LOTTERY_DKP_TABLE, T1_PRIORITY_DKP_TABLE, T1_LOTTERY_DKP_TABLE, T3_PRIORITY_TRANSACTIONS, T3_LOTTERY_TRANSACTIONS, T2PT5_PRIORITY_TRANSACTIONS, T2PT5_LOTTERY_TRANSACTIONS, T2_PRIORITY_TRANSACTIONS, T2_LOTTERY_TRANSACTIONS, T1_PRIORITY_TRANSACTIONS, T1_LOTTERY_TRANSACTIONS, PLAYER_PRIORITY_REGISTRY, PLAYER_LOTTERY_REGISTRY, PLAYER_ROLE_CONFIG, OPEN_TRANSACTIONS, STANDBYEP, STANDBYOFFLINE, STANDBYPERCENT, CEPGP_standby_whisper_msg, STANDBY_ROSTER
+## Notes: TnT DKP manages the three-tiered loot distribution system pioneered by Theres No Tomorrow - [A] Whitemane. Usage: /tntdkp or /tnt for options
+
+Virtual.xml
+Frame.xml
+Button.lua
+Utility.lua
+Scrollbar.lua
+Loot.lua
+Handlers.lua
+TierOneBossConfig.lua
+TierTwoBossConfig.lua
+TierTwoPointFiveBossConfig.lua
+TierThreeBossConfig.lua
+LootTableRoleConfig.lua
+TierOneLoot.lua
+TierTwoLoot.lua
+TierTwoPointFiveLoot.lua
+TierThreeLoot.lua
+CustomItemCostConfig.lua
+NonEpicItemCostConfig.lua
+MainRaidRoster.lua
+ReserveRaidRoster.lua
+TnTDKPTestRunner.lua
+AltMapConfig.lua
+Roles.lua
+Core.lua

@@ -254,14 +254,14 @@ altMapConfig = {
 	-- Haytme's Priest
 	["Elliee"] = "Haytme",
 
-	-- Rudolf's Rogue
-	["Stealthgiff"] = "Rudolf",
+	-- Roodolph's Rogue
+	["Stealthgiff"] = "Roodolph",
 
-	-- Rudolf's Mage
-	["Archgiff"] = "Rudolf",
+	-- Roodolph's Mage
+	["Archgiff"] = "Roodolph",
 
-	-- Rudolf's Dwarft Hunter (TBC Main)
-	["Roodolph"] = "Rudolf",
+	-- Roodolph's NE Hunter
+	["Rudolf"] = "Roodolph",
 
 	-- Phi's Paladin
 	["Phidose"] = "Phi",

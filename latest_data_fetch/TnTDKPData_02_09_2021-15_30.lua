@@ -1375,12 +1375,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Justin"] = 1,
 		["Radicola"] = 1,
 	},
-	[23057] = {
-		["Ashori"] = 1,
-		["Goodjorb"] = 1,
-		["Scrodo"] = 1,
-		["Sizzleñips"] = 1,
-	},
 	[21625] = {
 		["Ashori"] = 1,
 		["Salchant"] = 1,
@@ -1606,7 +1600,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[19364] = {
 		["Dienasty"] = 1,
-		["Hulkhigginz"] = 1,
 		["Raichau"] = 1,
 		["Roodolph"] = 1,
 	},
@@ -1792,6 +1785,11 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Glimfolkor"] = 1,
 		["Sizzleñips"] = 1,
 	},
+	[23057] = {
+		["Goodjorb"] = 1,
+		["Scrodo"] = 1,
+		["Sizzleñips"] = 1,
+	},
 	[19437] = {
 		["Hattyy"] = 1,
 		["Sheol"] = 1,
@@ -1826,9 +1824,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[22936] = {
 		["Hulkhigginz"] = 1,
 		["Simptease"] = 1,
-	},
-	[23031] = {
-		["Justin"] = 1,
 	},
 	[22800] = {
 		["Justin"] = 1,

@@ -3,5 +3,4 @@ reserveRaiders = {
 	[2] = "Chuunin",
 	[3] = "Goodjorb",
 	[4] = "Hyolin",
-	[5] = "Nynisa",
 }

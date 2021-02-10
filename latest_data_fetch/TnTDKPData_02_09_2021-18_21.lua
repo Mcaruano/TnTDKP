@@ -1066,6 +1066,10 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Emianne"] = 1,
 		["Galm"] = 1,
 	},
+	[23050] = {
+		["Goodjorb"] = 1,
+		["Realfrosted"] = 1,
+	},
 	[21583] = {
 		["Hattyy"] = 1,
 		["Sofakinglulz"] = 1,
@@ -1113,6 +1117,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[22802] = {
 		["Kortey"] = 1,
+		["Simptease"] = 1,
 		["Whogryps"] = 1,
 	},
 	[19356] = {
@@ -1142,9 +1147,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Sofakinglulz"] = 1,
 	},
 	[23031] = {
-		["Realfrosted"] = 1,
-	},
-	[23050] = {
 		["Realfrosted"] = 1,
 	},
 	[23046] = {
@@ -1556,7 +1558,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[22802] = {
 		["Chuunin"] = 1,
 		["Roodolph"] = 1,
-		["Simptease"] = 1,
 	},
 	[21608] = {
 		["Demeker"] = 1,

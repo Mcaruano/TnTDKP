@@ -359,6 +359,9 @@ altMapConfig = {
 	-- Hyolin's Druid
 	["Envishift"] = "Hyolin",
 
+	-- Hyolin's Hunter
+	["Envigunner"] = "Hyolin",
+
 	-- Chuunin's other Rogue
 	["Choonin"] = "Chuunin",
 }

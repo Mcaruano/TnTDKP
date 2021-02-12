@@ -1390,7 +1390,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Dienasty"] = 1,
 		["Hulkhigginz"] = 1,
 		["Roodolph"] = 1,
-		["Sylador"] = 1,
 	},
 	[18832] = {
 		["Baopi"] = 1,

@@ -120,13 +120,13 @@ function CEPGP_handleCombat(bossEncounter, except)
 						end
 					end
 				end
-				if tier == "T1" then
-					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T1, T2, T2.5, and T3 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
-				elseif tier == "T2" then
-					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T2, T2.5, and T3 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
-				elseif tier == "T2.5" then
-					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T2.5 and T3 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
-				elseif tier == "T3" then
+				-- if tier == "T1" then
+				-- 	SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T1, T2, T2.5, and T3 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
+				-- elseif tier == "T2" then
+				-- 	SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T2, T2.5, and T3 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
+				-- elseif tier == "T2.5" then
+				-- 	SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T2.5 and T3 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
+				if tier == "T3" then
 					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T3 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
 				end
 				CEPGP_UpdateTrafficScrollBar();

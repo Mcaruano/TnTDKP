@@ -146,6 +146,9 @@ altMapConfig = {
 	-- Shnackypacky's Mage
 	["Shnackattack"] = "Shnackypacky",
 
+	-- Shnackypacky's Druid
+	["Shnacks"] = "Shnackypacky",
+
 	-- Pureheart's Rogue
 	["Enough"] = "Pureheart",
 

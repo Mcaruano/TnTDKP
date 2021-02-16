@@ -926,6 +926,8 @@ PLAYER_PRIORITY_REGISTRY = {
 	[22691] = {
 		["Ashori"] = 1,
 		["Berzerk"] = 1,
+		["Chocothunda"] = 1,
+		["Roodolph"] = 1,
 		["Salchant"] = 1,
 	},
 	[21839] = {
@@ -1288,6 +1290,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Abstinence"] = 1,
 		["Akaran"] = 1,
 		["Aro"] = 1,
+		["Baopi"] = 1,
 		["Berzerk"] = 1,
 		["Galm"] = 1,
 		["Roodolph"] = 1,
@@ -1299,13 +1302,13 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[23219] = {
 		["Akaran"] = 1,
-		["Baopi"] = 1,
 		["Chocothunda"] = 1,
 		["Simptease"] = 1,
 	},
 	[23548] = {
 		["Akaran"] = 1,
 		["Hulkhigginz"] = 1,
+		["Roodolph"] = 1,
 		["Thursday"] = 1,
 		["Vermora"] = 1,
 	},
@@ -1398,6 +1401,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[19431] = {
 		["Ashori"] = 1,
+		["Sekjr"] = 1,
 	},
 	[22942] = {
 		["Ashori"] = 1,
@@ -1409,6 +1413,15 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[21837] = {
 		["Baopi"] = 1,
+	},
+	[23038] = {
+		["Baopi"] = 1,
+		["Chuunin"] = 1,
+		["Digie"] = 1,
+		["Hulkhigginz"] = 1,
+		["Kortey"] = 1,
+		["Rumegirl"] = 1,
+		["Whogryps"] = 1,
 	},
 	[21664] = {
 		["Baopi"] = 1,
@@ -1437,6 +1450,11 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Baopi"] = 1,
 		["Digie"] = 1,
 		["Raichau"] = 1,
+	},
+	[23053] = {
+		["Baopi"] = 1,
+		["Dienasty"] = 1,
+		["Hulkhigginz"] = 1,
 	},
 	[22808] = {
 		["Baopi"] = 1,
@@ -1536,14 +1554,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Raichau"] = 1,
 		["Zerxx"] = 1,
 	},
-	[23038] = {
-		["Chuunin"] = 1,
-		["Digie"] = 1,
-		["Hulkhigginz"] = 1,
-		["Kortey"] = 1,
-		["Rumegirl"] = 1,
-		["Whogryps"] = 1,
-	},
 	[23060] = {
 		["Chuunin"] = 1,
 		["Digie"] = 1,
@@ -1614,10 +1624,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Dienasty"] = 1,
 		["Ellwindelm"] = 1,
 		["Raichau"] = 1,
-	},
-	[23053] = {
-		["Dienasty"] = 1,
-		["Hulkhigginz"] = 1,
 	},
 	[21586] = {
 		["Digie"] = 1,
@@ -1818,6 +1824,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[23045] = {
 		["Hulkhigginz"] = 1,
+		["Roodolph"] = 1,
 		["Vermora"] = 1,
 	},
 	[22936] = {
@@ -1903,6 +1910,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Roodolph"] = 1,
 	},
 	[23039] = {
+		["Roodolph"] = 1,
+	},
+	[21599] = {
 		["Roodolph"] = 1,
 	},
 	[21701] = {

@@ -37,9 +37,8 @@ mainRaiders = {
 	[36] = "Snickercakes",
 	[37] = "Sofakinglulz",
 	[38] = "Stephany",
-	[39] = "Suwuavo",
-	[40] = "Sylador",
-	[41] = "Thursday",
-	[42] = "Vermora",
-	[43] = "Zóff",
+	[39] = "Sylador",
+	[40] = "Thursday",
+	[41] = "Vermora",
+	[42] = "Zóff",
 }

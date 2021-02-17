@@ -966,6 +966,7 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Berzerk"] = 1,
 		["Dalran"] = 1,
 		["Dienasty"] = 1,
+		["Hulkhigginz"] = 1,
 		["Kang"] = 1,
 		["Zerxx"] = 1,
 	},
@@ -1015,7 +1016,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[23049] = {
 		["Demeker"] = 1,
-		["Emianne"] = 1,
 		["Galm"] = 1,
 	},
 	[22807] = {
@@ -1048,6 +1048,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[22351] = {
 		["Ekohz"] = 1,
+		["Hattyy"] = 1,
 		["Hyolin"] = 1,
 		["Radicola"] = 1,
 		["Realfrosted"] = 1,
@@ -1096,6 +1097,19 @@ PLAYER_PRIORITY_REGISTRY = {
 	[21583] = {
 		["Hattyy"] = 1,
 		["Sofakinglulz"] = 1,
+	},
+	[22960] = {
+		["Hattyy"] = 1,
+	},
+	[22367] = {
+		["Hattyy"] = 1,
+		["Sizzleñips"] = 1,
+	},
+	[22366] = {
+		["Hattyy"] = 1,
+	},
+	[22368] = {
+		["Hattyy"] = 1,
 	},
 	[21615] = {
 		["Hattyy"] = 1,
@@ -1199,9 +1213,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Shnackypacky"] = 1,
 		["Sofakinglulz"] = 1,
 	},
-	[22367] = {
-		["Sizzleñips"] = 1,
-	},
 	[19379] = {
 		["Sizzleñips"] = 1,
 	},
@@ -1237,6 +1248,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[23557] = {
 		["Suwuavo"] = 1,
+	},
+	[22520] = {
+		["Thursday"] = 1,
 	},
 	[21618] = {
 		["Zerxx"] = 1,
@@ -1295,7 +1309,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Galm"] = 1,
 		["Roodolph"] = 1,
 		["Sizzleñips"] = 1,
-		["Thursday"] = 1,
 	},
 	[21695] = {
 		["Akaran"] = 1,
@@ -1372,7 +1385,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22960] = {
 		["Ashori"] = 1,
-		["Hattyy"] = 1,
 		["Pudzey"] = 1,
 		["Sofakinglulz"] = 1,
 	},
@@ -1462,7 +1474,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22806] = {
 		["Baopi"] = 1,
-		["Thursday"] = 1,
 	},
 	[21581] = {
 		["Berzerk"] = 1,
@@ -1527,6 +1538,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Kang"] = 1,
 		["Nashy"] = 1,
 	},
+	[23226] = {
+		["Caelandine"] = 1,
+	},
 	[22732] = {
 		["Caelandine"] = 1,
 		["Nashy"] = 1,
@@ -1547,6 +1561,10 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Dalran"] = 1,
 		["Hulkhigginz"] = 1,
 		["Raichau"] = 1,
+		["Snickercakes"] = 1,
+	},
+	[23000] = {
+		["Chocothunda"] = 1,
 		["Snickercakes"] = 1,
 	},
 	[21677] = {
@@ -1592,7 +1610,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ellievyra"] = 1,
 		["Galm"] = 1,
 		["Glimfolkor"] = 1,
-		["Hattyy"] = 1,
 		["Justin"] = 1,
 		["Radicola"] = 1,
 		["Realfrosted"] = 1,
@@ -1681,7 +1698,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22366] = {
 		["Ellievyra"] = 1,
-		["Hattyy"] = 1,
 		["Sheol"] = 1,
 	},
 	[23061] = {
@@ -1739,10 +1755,15 @@ PLAYER_LOTTERY_REGISTRY = {
 	[21666] = {
 		["Elphirt"] = 1,
 	},
+	[22800] = {
+		["Emianne"] = 1,
+		["Mlg"] = 1,
+		["Radicola"] = 1,
+		["Sizzleñips"] = 1,
+	},
 	[22351] = {
 		["Emianne"] = 1,
 		["Glimfolkor"] = 1,
-		["Hattyy"] = 1,
 		["Justin"] = 1,
 		["Pudzey"] = 1,
 		["Sheol"] = 1,
@@ -1753,6 +1774,12 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Goodjorb"] = 1,
 		["Mlg"] = 1,
 		["Sizzleñips"] = 1,
+	},
+	[23032] = {
+		["Emianne"] = 1,
+	},
+	[22968] = {
+		["Emianne"] = 1,
 	},
 	[19145] = {
 		["Emianne"] = 1,
@@ -1794,19 +1821,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hattyy"] = 1,
 		["Sheol"] = 1,
 	},
-	[22368] = {
-		["Hattyy"] = 1,
-		["Mlg"] = 1,
-		["Pudzey"] = 1,
-		["Radicola"] = 1,
-	},
 	[21839] = {
 		["Hattyy"] = 1,
 		["Sheol"] = 1,
-	},
-	[23054] = {
-		["Hulkhigginz"] = 1,
-		["Raichau"] = 1,
 	},
 	[21232] = {
 		["Hulkhigginz"] = 1,
@@ -1817,10 +1834,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hulkhigginz"] = 1,
 		["Kang"] = 1,
 		["Zerxx"] = 1,
-	},
-	[23000] = {
-		["Hulkhigginz"] = 1,
-		["Snickercakes"] = 1,
 	},
 	[23045] = {
 		["Hulkhigginz"] = 1,
@@ -1851,13 +1864,13 @@ PLAYER_LOTTERY_REGISTRY = {
 	[19403] = {
 		["Mlg"] = 1,
 	},
-	[22800] = {
-		["Mlg"] = 1,
-		["Radicola"] = 1,
-		["Sizzleñips"] = 1,
-	},
 	[22371] = {
 		["Mlg"] = 1,
+	},
+	[22368] = {
+		["Mlg"] = 1,
+		["Pudzey"] = 1,
+		["Radicola"] = 1,
 	},
 	[23049] = {
 		["Mlg"] = 1,
@@ -1881,6 +1894,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[23547] = {
 		["Pudzey"] = 1,
 	},
+	[23054] = {
+		["Raichau"] = 1,
+	},
 	[23577] = {
 		["Raichau"] = 1,
 	},
@@ -1894,7 +1910,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[22360] = {
 		["Roodolph"] = 1,
 		["Sofakinglulz"] = 1,
-		["Sylador"] = 1,
 	},
 	[16940] = {
 		["Roodolph"] = 1,

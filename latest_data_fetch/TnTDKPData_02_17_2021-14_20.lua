@@ -1276,6 +1276,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[19361] = {
 		["Abstinence"] = 1,
 	},
+	[23242] = {
+		["Abstinence"] = 1,
+	},
 	[21134] = {
 		["Abstinence"] = 1,
 		["Baopi"] = 1,

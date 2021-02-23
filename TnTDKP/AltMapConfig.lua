@@ -353,6 +353,9 @@ altMapConfig = {
 	-- Hatty's Warrior
 	["Yttah"] = "Hatty",
 
+	-- Hatty's Other Warrior
+	["Jerillak"] = "Hatty",
+
 	-- Scrodo's Rogue
 	["Poekin"] = "Scrodo",
 
@@ -364,6 +367,9 @@ altMapConfig = {
 
 	-- Hyolin's Hunter
 	["Envigunner"] = "Hyolin",
+
+	-- Hyolin's Paladin
+	["Envisage"] = "Hyolin",
 
 	-- Chuunin's other Rogue
 	["Choonin"] = "Chuunin",

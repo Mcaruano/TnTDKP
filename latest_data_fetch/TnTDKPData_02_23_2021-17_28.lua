@@ -951,7 +951,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Ashori"] = 1,
 		["Berzerk"] = 1,
 		["Chocothunda"] = 1,
-		["Roodolph"] = 1,
 		["Salchant"] = 1,
 	},
 	[21839] = {
@@ -1236,6 +1235,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	[21604] = {
 		["Shnackypacky"] = 1,
 		["Sofakinglulz"] = 1,
+	},
+	[23014] = {
+		["Simptease"] = 1,
 	},
 	[19379] = {
 		["Sizzleñips"] = 1,
@@ -1826,6 +1828,12 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Scrodo"] = 1,
 		["Sizzleñips"] = 1,
 	},
+	[23049] = {
+		["Goodjorb"] = 1,
+		["Mlg"] = 1,
+		["Realfrosted"] = 1,
+		["Sizzleñips"] = 1,
+	},
 	[19437] = {
 		["Hattyy"] = 1,
 		["Sheol"] = 1,
@@ -1874,11 +1882,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Pudzey"] = 1,
 		["Radicola"] = 1,
 	},
-	[23049] = {
-		["Mlg"] = 1,
-		["Realfrosted"] = 1,
-		["Sizzleñips"] = 1,
-	},
 	[17076] = {
 		["Muck"] = 1,
 		["Nashy"] = 1,
@@ -1907,6 +1910,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[21635] = {
 		["Roodolph"] = 1,
 		["Suwuavo"] = 1,
+	},
+	[22691] = {
+		["Roodolph"] = 1,
 	},
 	[16940] = {
 		["Roodolph"] = 1,

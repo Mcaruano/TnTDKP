@@ -350,11 +350,11 @@ altMapConfig = {
 	-- Suwuavo's Druid
 	["Suwaco"] = "Suwuavo",
 
-	-- Hatty's Warrior
-	["Yttah"] = "Hatty",
+	-- Hattyy's Warrior
+	["Yttah"] = "Hattyy",
 
-	-- Hatty's Other Warrior
-	["Jerillak"] = "Hatty",
+	-- Hattyy's Other Warrior
+	["Jerillak"] = "Hattyy",
 
 	-- Scrodo's Rogue
 	["Poekin"] = "Scrodo",

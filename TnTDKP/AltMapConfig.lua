@@ -373,4 +373,7 @@ altMapConfig = {
 
 	-- Chuunin's other Rogue
 	["Choonin"] = "Chuunin",
+
+	-- Hatie's Warrior
+	["Chocothunda"] = "Haties",
 }

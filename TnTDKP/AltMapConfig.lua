@@ -354,7 +354,7 @@ altMapConfig = {
 	["Hattyy"] = "Jerillak",
 
 	-- Jerillak's Other Warrior
-	["Jerillak"] = "Jerillak",
+	["Yttah"] = "Jerillak",
 
 	-- Scrodo's Rogue
 	["Poekin"] = "Scrodo",

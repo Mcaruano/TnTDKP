@@ -362,14 +362,14 @@ altMapConfig = {
 	-- Scrodo's Hunter
 	["Boekin"] = "Scrodo",
 
-	-- Hyolin's Druid
-	["Envishift"] = "Hyolin",
+	-- Envisage's Druid
+	["Envishift"] = "Envisage",
 
-	-- Hyolin's Hunter
-	["Envigunner"] = "Hyolin",
+	-- Envisage's Hunter
+	["Envigunner"] = "Envisage",
 
-	-- Hyolin's Paladin
-	["Envisage"] = "Hyolin",
+	-- Envisage's Priest
+	["Hyolin"] = "Envisage",
 
 	-- Chuunin's other Rogue
 	["Choonin"] = "Chuunin",

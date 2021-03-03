@@ -944,7 +944,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Dalran"] = 1,
 		["Digie"] = 1,
 		["Muck"] = 1,
-		["Rumegirl"] = 1,
 		["Sapper"] = 1,
 		["Searus"] = 1,
 		["Venjamen"] = 1,
@@ -955,7 +954,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Akaran"] = 1,
 		["Digie"] = 1,
 		["Raichau"] = 1,
-		["Rumegirl"] = 1,
 	},
 	[22732] = {
 		["Akaran"] = 1,
@@ -1036,7 +1034,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[23014] = {
 		["Dalran"] = 1,
-		["Rumegirl"] = 1,
 		["Simptease"] = 1,
 	},
 	[22820] = {
@@ -1169,7 +1166,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[23570] = {
 		["Kaylä"] = 1,
 		["Roodolph"] = 1,
-		["Rumegirl"] = 1,
 	},
 	[19377] = {
 		["Kaylä"] = 1,
@@ -1355,7 +1351,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Pudzey"] = 2,
 		["Raichau"] = 1,
 		["Realfrosted"] = 8,
-		["Rumegirl"] = 7,
 		["Sapper"] = 5,
 		["Searus"] = 2,
 		["Sekjr"] = 4,
@@ -1468,7 +1463,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Digie"] = 1,
 		["Hulkhigginz"] = 1,
 		["Kortey"] = 1,
-		["Rumegirl"] = 1,
 		["Whogryps"] = 1,
 	},
 	[21664] = {
@@ -1567,7 +1561,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[23060] = {
 		["Chuunin"] = 1,
 		["Digie"] = 1,
-		["Rumegirl"] = 1,
 		["Venjamen"] = 1,
 		["Whiskeysour"] = 1,
 	},

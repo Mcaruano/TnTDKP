@@ -1,3 +1,4 @@
 reserveRaiders = {
-	[1] = "Venjamen",
+	[1] = "Peacard",
+	[2] = "Venjamen",
 }

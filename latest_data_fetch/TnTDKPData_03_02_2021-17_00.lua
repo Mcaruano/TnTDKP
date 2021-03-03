@@ -1142,7 +1142,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[22368] = {
 		["Haties"] = 1,
-		["Scrodo"] = 1,
 	},
 	[19379] = {
 		["Haties"] = 1,
@@ -1245,6 +1244,12 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Shnackypacky"] = 1,
 		["Sofakinglulz"] = 1,
 	},
+	[23219] = {
+		["Simptease"] = 1,
+	},
+	[23000] = {
+		["Simptease"] = 1,
+	},
 	[22367] = {
 		["Sizzleñips"] = 1,
 	},
@@ -1320,6 +1325,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Baopi"] = 1,
 		["Kang"] = 5,
 		["Roodolph"] = 4,
+		["Simptease"] = 1,
 		["Thursday"] = 1,
 		["Vermora"] = 2,
 	},
@@ -1329,7 +1335,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[23219] = {
 		["Akaran"] = 1,
 		["Dienasty"] = 1,
-		["Simptease"] = 1,
 	},
 	[17966] = {
 		["Akaran"] = 1,
@@ -1579,6 +1584,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Dienasty"] = 1,
 		["Hulkhigginz"] = 1,
 		["Raichau"] = 1,
+		["Simptease"] = 1,
 	},
 	[22808] = {
 		["Dalran"] = 1,
@@ -1684,6 +1690,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[23046] = {
 		["Ekohz"] = 1,
+		["Goodjorb"] = 1,
 		["Justin"] = 1,
 		["Mlg"] = 1,
 		["Radicola"] = 1,
@@ -1873,6 +1880,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[22368] = {
 		["Mlg"] = 1,
 		["Radicola"] = 1,
+		["Scrodo"] = 1,
 	},
 	[17076] = {
 		["Muck"] = 1,
@@ -1952,6 +1960,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[21694] = {
 		["Sheol"] = 1,
+	},
+	[22806] = {
+		["Simptease"] = 1,
 	},
 	[23001] = {
 		["Sizzleñips"] = 1,

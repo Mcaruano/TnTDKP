@@ -1208,6 +1208,10 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Emianne"] = 1,
 		["Scrodo"] = 1,
 	},
+	[21583] = {
+		["Envisage"] = 1,
+		["Sofakinglulz"] = 1,
+	},
 	[23047] = {
 		["Envisage"] = 1,
 		["Salchant"] = 1,
@@ -1222,10 +1226,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[21620] = {
 		["Envisage"] = 1,
 		["Kiele"] = 1,
-		["Sofakinglulz"] = 1,
-	},
-	[19430] = {
-		["Envisage"] = 1,
 		["Sofakinglulz"] = 1,
 	},
 	[22731] = {
@@ -1390,9 +1390,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[16915] = {
 		["Sizzleñips"] = 1,
 	},
-	[21583] = {
-		["Sofakinglulz"] = 1,
-	},
 	[16958] = {
 		["Sofakinglulz"] = 1,
 	},
@@ -1406,6 +1403,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Sofakinglulz"] = 1,
 	},
 	[21663] = {
+		["Sofakinglulz"] = 1,
+	},
+	[19430] = {
 		["Sofakinglulz"] = 1,
 	},
 	[22726] = {
@@ -1891,11 +1891,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	[19145] = {
 		["Emianne"] = 1,
 	},
-	[21583] = {
-		["Envisage"] = 1,
-		["Kiele"] = 1,
-	},
 	[19382] = {
+		["Envisage"] = 1,
+	},
+	[19430] = {
 		["Envisage"] = 1,
 	},
 	[21585] = {
@@ -1990,6 +1989,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22940] = {
 		["Kang"] = 1,
+	},
+	[21583] = {
+		["Kiele"] = 1,
 	},
 	[22353] = {
 		["Kortey"] = 1,

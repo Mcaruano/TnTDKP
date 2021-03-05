@@ -376,4 +376,7 @@ altMapConfig = {
 
 	-- Hatie's Warrior
 	["Chocothunda"] = "Haties",
+
+	-- Sizzle's Paladin
+	["Arklight"] = "Sizzleñips",
 }

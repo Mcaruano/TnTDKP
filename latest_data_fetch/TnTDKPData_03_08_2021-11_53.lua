@@ -1336,12 +1336,12 @@ PLAYER_PRIORITY_REGISTRY = {
 	[22800] = {
 		["Murduc"] = 1,
 	},
+	[22370] = {
+		["Murduc"] = 1,
+	},
 	[22367] = {
 		["Murduc"] = 1,
 		["Sizzleñips"] = 1,
-	},
-	[22368] = {
-		["Murduc"] = 1,
 	},
 	[19407] = {
 		["Murduc"] = 1,
@@ -2030,10 +2030,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Nashy"] = 1,
 		["Raichau"] = 1,
 	},
-	[22370] = {
-		["Murduc"] = 1,
-		["Sheol"] = 1,
-	},
 	[18820] = {
 		["Murduc"] = 1,
 	},
@@ -2108,6 +2104,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[19431] = {
 		["Sekjr"] = 1,
+	},
+	[22370] = {
+		["Sheol"] = 1,
 	},
 	[22366] = {
 		["Sheol"] = 1,
@@ -2191,6 +2190,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[16821] = {
 		["Tylerniknam"] = 1,
+	},
+	[23073] = {
+		["Venjamen"] = 1,
 	},
 	[21126] = {
 		["Venjamen"] = 1,

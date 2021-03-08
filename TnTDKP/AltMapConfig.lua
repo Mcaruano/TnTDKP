@@ -379,4 +379,7 @@ altMapConfig = {
 
 	-- Sizzle's Paladin
 	["Arklight"] = "Sizzleñips",
+
+	-- Peacard's Paladin
+	["Kidboomer"] = "Peacard",
 }

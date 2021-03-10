@@ -59,7 +59,7 @@ T3_PRIORITY_DKP_TABLE = {
    ["Krumys"] = 0.0,
    ["Krumyx"] = 0.0,
    ["Malchazor"] = 9413.49,
-   ["Mitchel"] = 1672.5,
+   ["Mitchel"] = 2572.5,
    ["Mlg"] = 2941.25,
    ["Muck"] = 3.24,
    ["Muckjr"] = 469.06,
@@ -188,7 +188,7 @@ T2PT5_PRIORITY_DKP_TABLE = {
    ["Krumys"] = 0.0,
    ["Krumyx"] = 0.0,
    ["Malchazor"] = 10340.39,
-   ["Mitchel"] = 1095.0,
+   ["Mitchel"] = 1770.0,
    ["Mlg"] = 2841.68,
    ["Muck"] = 6.4,
    ["Muckjr"] = 839.97,
@@ -317,7 +317,7 @@ T2_PRIORITY_DKP_TABLE = {
    ["Krumys"] = 0.0,
    ["Krumyx"] = 0.0,
    ["Malchazor"] = 6931.1,
-   ["Mitchel"] = 730.0,
+   ["Mitchel"] = 1180.0,
    ["Mlg"] = 1914.53,
    ["Muck"] = 11.08,
    ["Muckjr"] = 564.89,
@@ -446,7 +446,7 @@ T1_PRIORITY_DKP_TABLE = {
    ["Krumys"] = 0.0,
    ["Krumyx"] = 0.0,
    ["Malchazor"] = 3479.71,
-   ["Mitchel"] = 365.0,
+   ["Mitchel"] = 590.0,
    ["Mlg"] = 953.37,
    ["Muck"] = 4.18,
    ["Muckjr"] = 305.74,
@@ -575,7 +575,7 @@ T3_LOTTERY_DKP_TABLE = {
    ["Krumys"] = 0.0,
    ["Krumyx"] = 0.0,
    ["Malchazor"] = 5210.25,
-   ["Mitchel"] = 1672.5,
+   ["Mitchel"] = 2572.5,
    ["Mlg"] = -792.52,
    ["Muck"] = 2.97,
    ["Muckjr"] = 273.57,
@@ -704,7 +704,7 @@ T2PT5_LOTTERY_DKP_TABLE = {
    ["Krumys"] = 0.0,
    ["Krumyx"] = 0.0,
    ["Malchazor"] = 10002.18,
-   ["Mitchel"] = -7905.0,
+   ["Mitchel"] = -7230.0,
    ["Mlg"] = 2413.29,
    ["Muck"] = 5.72,
    ["Muckjr"] = 452.3,
@@ -833,7 +833,7 @@ T2_LOTTERY_DKP_TABLE = {
    ["Krumys"] = 0.0,
    ["Krumyx"] = 0.0,
    ["Malchazor"] = 6781.96,
-   ["Mitchel"] = 730.0,
+   ["Mitchel"] = 1180.0,
    ["Mlg"] = 1918.13,
    ["Muck"] = 9.88,
    ["Muckjr"] = 582.97,
@@ -962,7 +962,7 @@ T1_LOTTERY_DKP_TABLE = {
    ["Krumys"] = 0.0,
    ["Krumyx"] = 0.0,
    ["Malchazor"] = 3475.79,
-   ["Mitchel"] = 365.0,
+   ["Mitchel"] = 590.0,
    ["Mlg"] = 959.57,
    ["Muck"] = 4.26,
    ["Muckjr"] = 285.1,
@@ -1197,6 +1197,12 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Haties"] = 1,
 		["Mlg"] = 1,
 		["Murduc"] = 1,
+	},
+	[23062] = {
+		["Ekohz"] = 1,
+	},
+	[23025] = {
+		["Ekohz"] = 1,
 	},
 	[21891] = {
 		["Ekohz"] = 1,
@@ -1452,7 +1458,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[23548] = {
 		["Abstinence"] = 4,
-		["Akaran"] = 1,
 		["Ashori"] = 1,
 		["Baopi"] = 1,
 		["Kang"] = 5,
@@ -1580,14 +1585,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[21674] = {
 		["Ashori"] = 1,
-	},
-	[22798] = {
-		["Ashori"] = 1,
-		["Dalran"] = 1,
-		["Dienasty"] = 1,
-		["Hulkhigginz"] = 1,
-		["Kang"] = 1,
-		["Zerxx"] = 1,
 	},
 	[21601] = {
 		["Ashori"] = 1,
@@ -1752,6 +1749,13 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Kineztra"] = 1,
 		["Snickercakes"] = 1,
 	},
+	[22798] = {
+		["Dalran"] = 1,
+		["Dienasty"] = 1,
+		["Hulkhigginz"] = 1,
+		["Kang"] = 1,
+		["Zerxx"] = 1,
+	},
 	[21608] = {
 		["Demeker"] = 1,
 		["Escapé"] = 1,
@@ -1818,16 +1822,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[19377] = {
 		["Digie"] = 1,
-	},
-	[23062] = {
-		["Ekohz"] = 1,
-		["Galm"] = 1,
-		["Haties"] = 1,
-		["Mlg"] = 1,
-	},
-	[23025] = {
-		["Ekohz"] = 1,
-		["Sizzleñips"] = 1,
 	},
 	[19356] = {
 		["Ekohz"] = 1,
@@ -1900,6 +1894,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[22821] = {
 		["Emianne"] = 1,
 		["Goodjorb"] = 1,
+		["Haties"] = 1,
 		["Mlg"] = 1,
 		["Sizzleñips"] = 1,
 	},
@@ -1917,6 +1912,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22800] = {
 		["Escapé"] = 1,
+		["Haties"] = 1,
 		["Mlg"] = 1,
 		["Radicola"] = 1,
 		["Sizzleñips"] = 1,
@@ -1948,6 +1944,11 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[21647] = {
 		["Galm"] = 1,
+	},
+	[23062] = {
+		["Galm"] = 1,
+		["Haties"] = 1,
+		["Mlg"] = 1,
 	},
 	[21676] = {
 		["Galm"] = 1,
@@ -1981,23 +1982,21 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Haties"] = 1,
 		["Mlg"] = 1,
 	},
-	[23031] = {
-		["Haties"] = 1,
-	},
 	[19374] = {
 		["Haties"] = 1,
 	},
 	[16914] = {
 		["Haties"] = 1,
 	},
-	[22936] = {
-		["Hulkhigginz"] = 1,
-	},
 	[23046] = {
+		["Haties"] = 1,
 		["Justin"] = 1,
 		["Mlg"] = 1,
 		["Radicola"] = 1,
 		["Sizzleñips"] = 1,
+	},
+	[22936] = {
+		["Hulkhigginz"] = 1,
 	},
 	[22940] = {
 		["Kang"] = 1,
@@ -2128,6 +2127,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sizzleñips"] = 1,
 	},
 	[16916] = {
+		["Sizzleñips"] = 1,
+	},
+	[23025] = {
 		["Sizzleñips"] = 1,
 	},
 	[22939] = {

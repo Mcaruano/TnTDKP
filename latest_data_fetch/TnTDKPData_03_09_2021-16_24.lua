@@ -1190,6 +1190,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[22351] = {
 		["Ekohz"] = 1,
+		["Goodjorb"] = 1,
 		["Haties"] = 1,
 		["Radicola"] = 1,
 		["Realfrosted"] = 1,

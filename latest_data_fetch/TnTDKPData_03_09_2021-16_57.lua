@@ -1666,6 +1666,12 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Raichau"] = 1,
 		["Tylerniknam"] = 1,
 	},
+	[23045] = {
+		["Baopi"] = 1,
+		["Hulkhigginz"] = 1,
+		["Roodolph"] = 1,
+		["Vermora"] = 1,
+	},
 	[23053] = {
 		["Baopi"] = 1,
 		["Dienasty"] = 1,
@@ -2001,11 +2007,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Kineztra"] = 1,
 		["Snickercakes"] = 1,
 		["Zóff"] = 1,
-	},
-	[23045] = {
-		["Hulkhigginz"] = 1,
-		["Roodolph"] = 1,
-		["Vermora"] = 1,
 	},
 	[22936] = {
 		["Hulkhigginz"] = 1,

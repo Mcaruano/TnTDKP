@@ -2065,8 +2065,15 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Tylerniknam"] = 1,
 		["Zerxx"] = 1,
 	},
+	[23029] = {
+		["Pudzey"] = 1,
+	},
 	[23547] = {
 		["Pudzey"] = 1,
+	},
+	[23048] = {
+		["Pudzey"] = 1,
+		["Sylador"] = 1,
 	},
 	[22942] = {
 		["Pudzey"] = 1,
@@ -2170,9 +2177,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sylador"] = 1,
 	},
 	[19379] = {
-		["Sylador"] = 1,
-	},
-	[23048] = {
 		["Sylador"] = 1,
 	},
 	[18823] = {

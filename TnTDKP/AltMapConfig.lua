@@ -17,11 +17,11 @@ altMapConfig = {
 	-- Kiele's Druid
 	["Maii"] = "Kiele",
 
-	-- Kortey's Hunter
-	["Korteh"] = "Kortey",
+	-- Korteh's Rogue
+	["Kortey"] = "Korteh",
 
-	-- Kortey's Druid
-	["Mike"] = "Kortey",
+	-- Korteh's Druid
+	["Mike"] = "Korteh",
 
 	-- Crylo's Mage
 	["Winster"] = "Crylo",
@@ -97,15 +97,6 @@ altMapConfig = {
 
 	-- Dalran's Hunter
 	["Dalryn"] = "Dalran",
-
-	-- Gulrin's Warrior
-	["Cptfillmore"] = "Gulrin",
-
-	-- Gulrin's Druid
-	["Gul"] = "Gulrin",
-
-	-- Ändreas' Paladin
-	["Guerillatoss"] = "Ändreas",
 
 	-- Demeker's Rogue
 	["Demek"] = "Demeker",
@@ -188,9 +179,6 @@ altMapConfig = {
 	-- Zerxx's Mage
 	["Metrixx"] = "Zerxx",
 
-	-- Portalplz's Druid
-	["Pitunia"] = "Portalplz",
-
 	-- Justin's Warrior
 	["Oní"] = "Justin",
 
@@ -202,12 +190,6 @@ altMapConfig = {
 
 	-- Lynn's Rogue
 	["Kierandros"] = "Caelandine",
-
-	-- Noro's Warrior
-	["Tavios"] = "Noro",
-
-	-- Papadab's Mage
-	["Delicieuse"] = "Papadab",
 
 	-- Berzerk's Paladin
 	["Padaladin"] = "Berzerk",
@@ -223,9 +205,6 @@ altMapConfig = {
 
 	-- Zóff's Mage
 	["Dangger"] = "Zóff",
-
-	-- Mujerhulk's Mage
-	["Miníhulk"] = "Mujerhulk",
 
 	-- Nocjr's Mage
 	["Mastrmago"] = "Nocjr",
@@ -272,11 +251,11 @@ altMapConfig = {
 	-- Phi's Druid
 	["Shiftphi"] = "Phi",
 
-	-- Raichau's Rogue
-	["Pikachau"] = "Raichau",
+	-- Pikachau's Warrior
+	["Raichau"] = "Pikachau",
 
-	-- Raichau's Mage
-	["Pikamage"] = "Raichau",
+	-- Pikachau's Mage
+	["Pikamage"] = "Pikachau",
 
 	-- Drunkinrage's Warlock
 	["Drunkinfears"] = "Drunkinrage",
@@ -308,24 +287,6 @@ altMapConfig = {
 	-- Nocjr's Warrior
 	["Muckjr"] = "Nocjr",
 
-	-- Swiftsx' Priest
-	["Nightwolfx"] = "Swiftsx",
-
-	-- Hexea's Hunter
-	["Alexstraza"] = "Hexea",
-
-	-- Fearbot's Hunter
-	["Lilsqueeze"] = "Fearbot",
-
-	-- Fearbot's Priest
-	["Vsco"] = "Fearbot",
-
-	-- Fearbot's Mage
-	["Filmcamera"] = "Fearbot",
-
-	-- Squl's Warlock
-	["Evilsqul"] = "Squl",
-
 	-- Glim's other Mage
 	["Notglim"] = "Glimfolkor",
 
@@ -347,15 +308,6 @@ altMapConfig = {
 	-- Salchant's Hunter
 	["Putri"] = "Salchant",
 
-	-- Suwuavo's Druid
-	["Suwaco"] = "Suwuavo",
-
-	-- Jerillak's Priest
-	["Hattyy"] = "Jerillak",
-
-	-- Jerillak's Other Warrior
-	["Yttah"] = "Jerillak",
-
 	-- Scrodo's Rogue
 	["Poekin"] = "Scrodo",
 
@@ -373,9 +325,6 @@ altMapConfig = {
 
 	-- Chuunin's other Rogue
 	["Choonin"] = "Chuunin",
-
-	-- Hatie's Warrior
-	["Chocothunda"] = "Haties",
 
 	-- Sizzle's Paladin
 	["Arklight"] = "Sizzleñips",

@@ -1940,6 +1940,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[22940] = {
 		["Kang"] = 1,
 	},
+	[17082] = {
+		["Kang"] = 1,
+	},
 	[21232] = {
 		["Kaylä"] = 2,
 	},
@@ -2100,6 +2103,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[19379] = {
 		["Sylador"] = 1,
+	},
+	[23059] = {
+		["Thursday"] = 1,
 	},
 	[19381] = {
 		["Venjamen"] = 1,

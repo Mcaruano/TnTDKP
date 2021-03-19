@@ -1,10 +1,11 @@
 reserveRaiders = {
 	[1] = "Barlen",
-	[2] = "Kineztra",
-	[3] = "Korteh",
-	[4] = "Mitchel",
-	[5] = "Murduc",
-	[6] = "Peacard",
-	[7] = "Pikachau",
-	[8] = "Venjamen",
+	[2] = "Kharagan",
+	[3] = "Kineztra",
+	[4] = "Korteh",
+	[5] = "Mitchel",
+	[6] = "Murduc",
+	[7] = "Peacard",
+	[8] = "Pikachau",
+	[9] = "Venjamen",
 }

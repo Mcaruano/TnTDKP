@@ -299,11 +299,26 @@ altMapConfig = {
 	-- Pudzey's Rogue
 	["Puds"] = "Pudzey",
 
+	-- Pudzey's other Priest
+	["Pudzy"] = "Pudzey",
+
 	-- Hulkhigginz's Paladin
 	["Higginz"] = "Hulkhigginz",
 
+	-- Hulkhigginz's Mage
+	["Higginzz"] = "Hulkhigginz",
+
 	-- Hulkhigginz's Priest
 	["Fearwardz"] = "Hulkhigginz",
+
+	-- Hulkhigginz's Druid
+	["Cyclonespam"] = "Hulkhigginz",
+
+	-- Dienasty's Rogue
+	["Rekaronie"] = "Dienasty",
+
+	-- Dienasty's Druid
+	["Swoleosopher"] = "Dienasty",
 
 	-- Salchant's Hunter
 	["Putri"] = "Salchant",
@@ -313,6 +328,9 @@ altMapConfig = {
 
 	-- Scrodo's Hunter
 	["Boekin"] = "Scrodo",
+
+	-- Scrodo's other Mage
+	["Wankdalf"] = "Scrodo",
 
 	-- Envisage's Druid
 	["Envishift"] = "Envisage",
@@ -326,9 +344,33 @@ altMapConfig = {
 	-- Chuunin's other Rogue
 	["Choonin"] = "Chuunin",
 
+	-- Chuunin's Mage
+	["Frostone"] = "Chuunin",
+
 	-- Sizzle's Paladin
 	["Arklight"] = "Sizzleñips",
 
 	-- Peacard's Paladin
 	["Kidboomer"] = "Peacard",
+
+	-- Ellievyra's Druid
+	["Mmtsunami"] = "Ellievyra",
+
+	-- Ellievyra's Warlock
+	["Hamiltonadam"] = "Ellievyra",
+
+	-- Murduc's Paladin
+	["Lancetankman"] = "Ellievyra",
+
+	-- Drizzyydrake's Rogue
+	["Youngdrizzy"] = "Drizzyydrake",
+
+	-- Drizzyydrake's Hunter
+	["Riskyrizzy"] = "Drizzyydrake",
+
+	-- Drizzyydrake's Mage
+	["Drizzyy"] = "Drizzyydrake",
+
+	-- Drizzyydrake's Warrior
+	["Deerizzy"] = "Drizzyydrake",
 }

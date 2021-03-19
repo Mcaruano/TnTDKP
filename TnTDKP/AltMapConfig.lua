@@ -101,6 +101,9 @@ altMapConfig = {
 	-- Demeker's Rogue
 	["Demek"] = "Demeker",
 
+	-- Demeker's Druid
+	["Ristin"] = "Demeker",
+
 	-- Realfrosted's Mage
 	["Frósted"] = "Realfrosted",
 

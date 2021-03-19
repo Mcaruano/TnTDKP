@@ -376,4 +376,28 @@ altMapConfig = {
 
 	-- Drizzyydrake's Warrior
 	["Deerizzy"] = "Drizzyydrake",
+
+	-- Simptease's Other Warrior
+	["Shrimptease"] = "Simptease",
+
+	-- Simptease's Rogue
+	["Babyshrimp"] = "Simptease",
+
+	-- Simptease's Druid
+	["Wildshrimp"] = "Simptease",
+
+	-- Simptease's Paladin
+	["Andjelleh"] = "Simptease",
+
+	-- Simptease's Priest
+	["Thizguy"] = "Simptease",
+
+	-- Simptease's Warlock
+	["Dottyshrimp"] = "Simptease",
+
+	-- Simptease's Mage
+	["Shrimptea"] = "Simptease",
+
+	-- Simptease's Hunter
+	["Shrimpea"] = "Simptease",
 }

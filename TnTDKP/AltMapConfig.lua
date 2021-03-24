@@ -400,4 +400,7 @@ altMapConfig = {
 
 	-- Simptease's Hunter
 	["Shrimpea"] = "Simptease",
+
+	-- Goodjorb's Priest
+	["Holyjorb"] = "Goodjorb",
 }

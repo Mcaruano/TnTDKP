@@ -35,6 +35,7 @@ mainRaiders = {
 	[34] = "Stephany",
 	[35] = "Sylador",
 	[36] = "Thursday",
-	[37] = "Vermora",
-	[38] = "Zóff",
+	[37] = "Venjamen",
+	[38] = "Vermora",
+	[39] = "Zóff",
 }

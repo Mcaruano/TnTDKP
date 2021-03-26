@@ -7,5 +7,4 @@ reserveRaiders = {
 	[6] = "Murduc",
 	[7] = "Peacard",
 	[8] = "Pikachau",
-	[9] = "Venjamen",
 }

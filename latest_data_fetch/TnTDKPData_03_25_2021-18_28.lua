@@ -1618,7 +1618,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[21232] = {
 		["Peacard"] = 1,
-		["Pikachau"] = 1,
 	},
 	[21126] = {
 		["Pikachau"] = 1,
@@ -1832,6 +1831,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[21232] = {
 		["Ashori"] = 1,
 		["Kaylä"] = 2,
+		["Pikachau"] = 1,
 	},
 	[23545] = {
 		["Ashori"] = 1,

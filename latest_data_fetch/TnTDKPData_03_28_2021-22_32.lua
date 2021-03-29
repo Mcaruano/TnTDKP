@@ -1389,6 +1389,7 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Baopi"] = 1,
 		["Berzerk"] = 1,
 		["Kineztra"] = 1,
+		["Mitchel"] = 1,
 		["Snickercakes"] = 1,
 		["Venjamen"] = 1,
 	},
@@ -1453,6 +1454,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Dienasty"] = 1,
 		["Kineztra"] = 1,
 		["Mitchel"] = 1,
+	},
+	[21134] = {
+		["Dienasty"] = 1,
 	},
 	[17069] = {
 		["Digie"] = 1,
@@ -1534,6 +1538,10 @@ PLAYER_PRIORITY_REGISTRY = {
 	[21647] = {
 		["Galm"] = 1,
 		["Scrodo"] = 1,
+	},
+	[23070] = {
+		["Galm"] = 1,
+		["Realfrosted"] = 1,
 	},
 	[22798] = {
 		["Hulkhigginz"] = 1,
@@ -1650,9 +1658,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[23057] = {
 		["Realfrosted"] = 1,
 	},
-	[23070] = {
-		["Realfrosted"] = 1,
-	},
 	[17064] = {
 		["Sheol"] = 1,
 		["Shnackypacky"] = 1,
@@ -1712,7 +1717,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[21134] = {
 		["Abstinence"] = 1,
 		["Baopi"] = 1,
-		["Dienasty"] = 1,
 		["Thursday"] = 1,
 	},
 	[21221] = {
@@ -1994,7 +1998,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[23054] = {
 		["Dienasty"] = 1,
-		["Mitchel"] = 1,
 		["Thursday"] = 1,
 	},
 	[22808] = {
@@ -2151,18 +2154,17 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Galm"] = 1,
 		["Mlg"] = 1,
 	},
-	[23070] = {
-		["Galm"] = 1,
-		["Glimfolkor"] = 1,
-		["Goodjorb"] = 1,
-		["Justin"] = 1,
-		["Sizzleñips"] = 1,
-	},
 	[21676] = {
 		["Galm"] = 1,
 	},
 	[19147] = {
 		["Galm"] = 1,
+	},
+	[23070] = {
+		["Glimfolkor"] = 1,
+		["Goodjorb"] = 1,
+		["Justin"] = 1,
+		["Sizzleñips"] = 1,
 	},
 	[22983] = {
 		["Glimfolkor"] = 1,

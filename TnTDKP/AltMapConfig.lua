@@ -403,4 +403,10 @@ altMapConfig = {
 
 	-- Goodjorb's Priest
 	["Holyjorb"] = "Goodjorb",
+
+	-- Vermora's Paladin
+	["Solljus"] = "Vermora",
+
+	-- Vermora's Warlock
+	["Lunarie"] = "Vermora",
 }

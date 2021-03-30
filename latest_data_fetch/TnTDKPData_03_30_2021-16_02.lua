@@ -1390,6 +1390,7 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Berzerk"] = 1,
 		["Kineztra"] = 1,
 		["Mitchel"] = 1,
+		["Pikachau"] = 1,
 		["Snickercakes"] = 1,
 		["Venjamen"] = 1,
 	},
@@ -1582,6 +1583,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[23041] = {
 		["Kharagan"] = 1,
+		["Korteh"] = 1,
 		["Roodolph"] = 1,
 		["Vermora"] = 1,
 	},
@@ -1799,6 +1801,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Aro"] = 1,
 		["Barlen"] = 1,
 		["Ellwindelm"] = 1,
+		["Korteh"] = 1,
 		["Roodolph"] = 1,
 		["Sofakinglulz"] = 1,
 	},
@@ -1855,9 +1858,11 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22988] = {
 		["Ashori"] = 1,
+		["Barlen"] = 1,
 	},
 	[23043] = {
 		["Ashori"] = 1,
+		["Envisage"] = 1,
 		["Malchazor"] = 1,
 	},
 	[21670] = {
@@ -1916,10 +1921,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Barlen"] = 1,
 		["Sofakinglulz"] = 1,
 	},
-	[23066] = {
-		["Barlen"] = 1,
-		["Envisage"] = 1,
-	},
 	[22819] = {
 		["Barlen"] = 1,
 	},
@@ -1974,6 +1975,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hulkhigginz"] = 1,
 		["Kineztra"] = 1,
 		["Mitchel"] = 1,
+		["Pikachau"] = 1,
 	},
 	[23068] = {
 		["Dalran"] = 1,
@@ -2139,6 +2141,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[19382] = {
 		["Envisage"] = 1,
 	},
+	[23066] = {
+		["Envisage"] = 1,
+	},
 	[21625] = {
 		["Envisage"] = 1,
 		["Salchant"] = 1,
@@ -2202,6 +2207,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[22802] = {
 		["Kharagan"] = 1,
 		["Kineztra"] = 1,
+		["Pikachau"] = 1,
 		["Roodolph"] = 1,
 	},
 	[19437] = {
@@ -2230,12 +2236,13 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Whiskeysour"] = 1,
 		["Whogryps"] = 1,
 	},
-	[23221] = {
-		["Kineztra"] = 1,
-	},
 	[22812] = {
 		["Kineztra"] = 1,
 		["Vermora"] = 1,
+	},
+	[23039] = {
+		["Korteh"] = 1,
+		["Roodolph"] = 1,
 	},
 	[20927] = {
 		["Mitchel"] = 1,
@@ -2319,9 +2326,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Roodolph"] = 1,
 	},
 	[21596] = {
-		["Roodolph"] = 1,
-	},
-	[23039] = {
 		["Roodolph"] = 1,
 	},
 	[19398] = {

@@ -1705,9 +1705,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Shnackypacky"] = 1,
 		["Sofakinglulz"] = 1,
 	},
-	[23000] = {
-		["Simptease"] = 1,
-	},
 	[16915] = {
 		["Sizzleñips"] = 1,
 	},

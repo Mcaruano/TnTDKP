@@ -1448,9 +1448,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Mitchel"] = 1,
 		["Zerxx"] = 1,
 	},
-	[22363] = {
-		["Caelandine"] = 1,
-	},
 	[21602] = {
 		["Caelandine"] = 1,
 	},
@@ -1658,9 +1655,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Simptease"] = 1,
 	},
 	[23219] = {
-		["Peacard"] = 1,
-	},
-	[22816] = {
 		["Peacard"] = 1,
 	},
 	[21126] = {
@@ -1985,6 +1979,10 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sapper"] = 1,
 		["Sylador"] = 1,
 		["Whiskeysour"] = 1,
+	},
+	[22363] = {
+		["Caelandine"] = 1,
+		["Sofakinglulz"] = 1,
 	},
 	[19406] = {
 		["Caelandine"] = 1,
@@ -2322,6 +2320,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sapper"] = 1,
 		["Zerxx"] = 1,
 	},
+	[22816] = {
+		["Peacard"] = 1,
+	},
 	[21677] = {
 		["Peacard"] = 1,
 		["Zerxx"] = 1,
@@ -2372,9 +2373,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[23075] = {
 		["Sofakinglulz"] = 1,
 	},
-	[22363] = {
-		["Sofakinglulz"] = 1,
-	},
 	[22360] = {
 		["Sofakinglulz"] = 1,
 	},
@@ -2389,6 +2387,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[19379] = {
 		["Sylador"] = 1,
+	},
+	[22811] = {
+		["Venjamen"] = 1,
 	},
 	[22352] = {
 		["Whiskeysour"] = 1,

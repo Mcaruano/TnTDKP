@@ -1568,6 +1568,10 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Envisage"] = 1,
 		["Sofakinglulz"] = 1,
 	},
+	[22367] = {
+		["Galm"] = 1,
+		["Murduc"] = 1,
+	},
 	[21647] = {
 		["Galm"] = 1,
 		["Scrodo"] = 1,
@@ -1598,7 +1602,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Kaylä"] = 1,
 		["Mitchel"] = 1,
 		["Roodolph"] = 1,
-		["Vermora"] = 1,
 	},
 	[19377] = {
 		["Kaylä"] = 1,
@@ -1636,9 +1639,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[19356] = {
 		["Mlg"] = 1,
-	},
-	[22367] = {
-		["Murduc"] = 1,
 	},
 	[19379] = {
 		["Murduc"] = 1,
@@ -1809,7 +1809,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Mitchel"] = 1,
 		["Peacard"] = 1,
 		["Sizzleñips"] = 1,
-		["Zóff"] = 1,
 	},
 	[22364] = {
 		["Aro"] = 1,
@@ -1826,6 +1825,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[23570] = {
 		["Aro"] = 1,
+		["Vermora"] = 1,
 		["Whogryps"] = 1,
 		["Zóff"] = 1,
 	},
@@ -2057,7 +2057,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22367] = {
 		["Ellievyra"] = 1,
-		["Galm"] = 1,
 		["Glimfolkor"] = 1,
 		["Radicola"] = 1,
 		["Realfrosted"] = 1,
@@ -2304,6 +2303,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[21677] = {
 		["Peacard"] = 1,
 		["Zerxx"] = 1,
+	},
+	[22811] = {
+		["Peacard"] = 1,
 	},
 	[23047] = {
 		["Pudzey"] = 1,

@@ -1961,6 +1961,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22363] = {
 		["Caelandine"] = 1,
+		["Korteh"] = 1,
 		["Sofakinglulz"] = 1,
 	},
 	[19406] = {
@@ -2004,6 +2005,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Mlg"] = 1,
 		["Radicola"] = 1,
 		["Sizzleñips"] = 1,
+		["Stephany"] = 1,
 	},
 	[23054] = {
 		["Dienasty"] = 1,
@@ -2040,6 +2042,13 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Glimfolkor"] = 1,
 		["Murduc"] = 1,
 		["Realfrosted"] = 1,
+	},
+	[23049] = {
+		["Ekohz"] = 1,
+		["Goodjorb"] = 1,
+		["Mlg"] = 1,
+		["Realfrosted"] = 1,
+		["Sizzleñips"] = 1,
 	},
 	[21891] = {
 		["Ekohz"] = 1,
@@ -2110,6 +2119,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Emianne"] = 1,
 		["Mlg"] = 1,
 		["Sizzleñips"] = 1,
+		["Stephany"] = 1,
 	},
 	[23032] = {
 		["Emianne"] = 1,
@@ -2191,12 +2201,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22807] = {
 		["Glimfolkor"] = 1,
-	},
-	[23049] = {
-		["Goodjorb"] = 1,
-		["Mlg"] = 1,
-		["Realfrosted"] = 1,
-		["Sizzleñips"] = 1,
 	},
 	[22802] = {
 		["Hulkhigginz"] = 1,
@@ -2307,6 +2311,12 @@ PLAYER_LOTTERY_REGISTRY = {
 	[22811] = {
 		["Peacard"] = 1,
 	},
+	[22353] = {
+		["Pikachau"] = 1,
+		["Venjamen"] = 1,
+		["Whiskeysour"] = 1,
+		["Whogryps"] = 1,
+	},
 	[23047] = {
 		["Pudzey"] = 1,
 		["Salchant"] = 1,
@@ -2361,11 +2371,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[21126] = {
 		["Venjamen"] = 1,
-	},
-	[22353] = {
-		["Venjamen"] = 1,
-		["Whiskeysour"] = 1,
-		["Whogryps"] = 1,
 	},
 	[22352] = {
 		["Whiskeysour"] = 1,

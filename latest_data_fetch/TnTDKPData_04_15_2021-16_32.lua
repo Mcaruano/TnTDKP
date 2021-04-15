@@ -1394,6 +1394,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[21625] = {
 		["Ashori"] = 1,
+		["Kiele"] = 1,
 	},
 	[19431] = {
 		["Ashori"] = 1,
@@ -1473,6 +1474,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[22731] = {
 		["Demeker"] = 1,
+		["Ekohz"] = 1,
 		["Fearbot"] = 1,
 	},
 	[23050] = {
@@ -1517,14 +1519,29 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Realfrosted"] = 1,
 		["Sizzleñips"] = 1,
 	},
+	[21647] = {
+		["Ekohz"] = 1,
+		["Galm"] = 1,
+		["Scrodo"] = 1,
+	},
 	[23062] = {
 		["Ekohz"] = 1,
+	},
+	[21891] = {
+		["Ekohz"] = 1,
+		["Kang"] = 1,
+		["Scrodo"] = 1,
 	},
 	[23046] = {
 		["Ekohz"] = 1,
 		["Murduc"] = 1,
 		["Realfrosted"] = 1,
 		["Sizzleñips"] = 1,
+	},
+	[21579] = {
+		["Ekohz"] = 1,
+		["Kang"] = 1,
+		["Scrodo"] = 1,
 	},
 	[22807] = {
 		["Ekohz"] = 1,
@@ -1580,10 +1597,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Envisage"] = 1,
 		["Sofakinglulz"] = 1,
 	},
-	[21647] = {
-		["Galm"] = 1,
-		["Scrodo"] = 1,
-	},
 	[22936] = {
 		["Hulkhigginz"] = 1,
 	},
@@ -1591,16 +1604,8 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Justin"] = 1,
 		["Realfrosted"] = 1,
 	},
-	[21891] = {
-		["Kang"] = 1,
-		["Scrodo"] = 1,
-	},
 	[17104] = {
 		["Kang"] = 1,
-	},
-	[21579] = {
-		["Kang"] = 1,
-		["Scrodo"] = 1,
 	},
 	[18823] = {
 		["Kaylä"] = 1,
@@ -1610,7 +1615,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Kaylä"] = 1,
 		["Mitchel"] = 1,
 		["Peacard"] = 1,
-		["Roodolph"] = 1,
 	},
 	[19377] = {
 		["Kaylä"] = 1,
@@ -1629,6 +1633,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	[21650] = {
 		["Kineztra"] = 1,
 		["Mitchel"] = 1,
+		["Pikachau"] = 1,
 	},
 	[21126] = {
 		["Kineztra"] = 1,
@@ -1713,6 +1718,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	[21604] = {
 		["Shnackypacky"] = 1,
 		["Sofakinglulz"] = 1,
+		["Sylador"] = 1,
 	},
 	[16915] = {
 		["Sizzleñips"] = 1,
@@ -1837,6 +1843,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[23570] = {
 		["Aro"] = 1,
+		["Roodolph"] = 1,
 		["Vermora"] = 1,
 		["Whogryps"] = 1,
 		["Zóff"] = 1,
@@ -2039,12 +2046,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[18821] = {
 		["Digie"] = 1,
-	},
-	[22731] = {
-		["Ekohz"] = 1,
-		["Glimfolkor"] = 1,
-		["Murduc"] = 1,
-		["Realfrosted"] = 1,
+		["Sylador"] = 1,
 	},
 	[23049] = {
 		["Ekohz"] = 1,
@@ -2053,18 +2055,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Realfrosted"] = 1,
 		["Sizzleñips"] = 1,
 	},
-	[21891] = {
-		["Ekohz"] = 1,
-		["Galm"] = 1,
-		["Sizzleñips"] = 1,
-	},
 	[23021] = {
 		["Ekohz"] = 1,
 		["Scrodo"] = 1,
-	},
-	[21579] = {
-		["Ekohz"] = 1,
-		["Sizzleñips"] = 1,
 	},
 	[22367] = {
 		["Ellievyra"] = 1,
@@ -2109,6 +2102,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[21582] = {
 		["Elphirt"] = 1,
+		["Sylador"] = 1,
 	},
 	[21237] = {
 		["Elphirt"] = 1,
@@ -2179,6 +2173,15 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[19147] = {
 		["Galm"] = 1,
+	},
+	[21891] = {
+		["Galm"] = 1,
+		["Sizzleñips"] = 1,
+	},
+	[22731] = {
+		["Glimfolkor"] = 1,
+		["Murduc"] = 1,
+		["Realfrosted"] = 1,
 	},
 	[22351] = {
 		["Glimfolkor"] = 1,
@@ -2278,6 +2281,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[18820] = {
 		["Murduc"] = 1,
+		["Sylador"] = 1,
 	},
 	[22820] = {
 		["Murduc"] = 1,
@@ -2305,6 +2309,16 @@ PLAYER_LOTTERY_REGISTRY = {
 	[22811] = {
 		["Peacard"] = 1,
 	},
+	[20929] = {
+		["Pikachau"] = 1,
+	},
+	[21701] = {
+		["Pikachau"] = 1,
+		["Salchant"] = 1,
+		["Sapper"] = 1,
+		["Sylador"] = 1,
+		["Zerxx"] = 1,
+	},
 	[23047] = {
 		["Pudzey"] = 1,
 		["Salchant"] = 1,
@@ -2323,10 +2337,8 @@ PLAYER_LOTTERY_REGISTRY = {
 	[21596] = {
 		["Roodolph"] = 1,
 	},
-	[21701] = {
-		["Salchant"] = 1,
-		["Sapper"] = 1,
-		["Zerxx"] = 1,
+	[21599] = {
+		["Roodolph"] = 1,
 	},
 	[19398] = {
 		["Sapper"] = 1,
@@ -2341,6 +2353,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sheol"] = 1,
 	},
 	[16912] = {
+		["Sizzleñips"] = 1,
+	},
+	[21579] = {
 		["Sizzleñips"] = 1,
 	},
 	[22939] = {
@@ -2360,6 +2375,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[19360] = {
 		["Sylador"] = 1,
+	},
+	[21665] = {
+		["Sylador"] = 1,
+		["Zóff"] = 1,
 	},
 	[19379] = {
 		["Sylador"] = 1,
@@ -2382,9 +2401,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Whiskeysour"] = 1,
 	},
 	[17063] = {
-		["Zóff"] = 1,
-	},
-	[21665] = {
 		["Zóff"] = 1,
 	},
 }

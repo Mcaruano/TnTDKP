@@ -412,4 +412,7 @@ altMapConfig = {
 
 	-- Vermora's Warlock
 	["Lunarie"] = "Vermora",
+
+	-- Snickercakes' Mage
+	["Manarolls"] = "Snickercakes",
 }

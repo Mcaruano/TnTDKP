@@ -1542,6 +1542,7 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Ekohz"] = 1,
 		["Kang"] = 1,
 		["Scrodo"] = 1,
+		["Thursday"] = 1,
 	},
 	[22807] = {
 		["Ekohz"] = 1,
@@ -1618,6 +1619,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[19377] = {
 		["Kaylä"] = 1,
+		["Korteh"] = 1,
 		["Searus"] = 1,
 		["Whiskeysour"] = 1,
 	},

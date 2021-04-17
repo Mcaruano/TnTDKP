@@ -1701,6 +1701,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Kineztra"] = 1,
 		["Whogryps"] = 1,
 	},
+	[22808] = {
+		["Kineztra"] = 1,
+	},
 	[21837] = {
 		["Mitchel"] = 1,
 	},
@@ -1979,6 +1982,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Baopi"] = 1,
 		["Dienasty"] = 1,
 		["Kharagan"] = 1,
+		["Mitchel"] = 1,
 	},
 	[23045] = {
 		["Baopi"] = 1,
@@ -2075,7 +2079,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22808] = {
 		["Dienasty"] = 1,
-		["Kineztra"] = 1,
 		["Mitchel"] = 1,
 	},
 	[23038] = {
@@ -2281,6 +2284,15 @@ PLAYER_LOTTERY_REGISTRY = {
 	[19372] = {
 		["Kharagan"] = 1,
 	},
+	[22355] = {
+		["Kineztra"] = 1,
+	},
+	[22354] = {
+		["Kineztra"] = 1,
+	},
+	[22358] = {
+		["Kineztra"] = 1,
+	},
 	[23039] = {
 		["Korteh"] = 1,
 	},
@@ -2297,6 +2309,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[19431] = {
 		["Mitchel"] = 1,
 		["Salchant"] = 1,
+	},
+	[22806] = {
+		["Mitchel"] = 1,
 	},
 	[19403] = {
 		["Mlg"] = 1,
@@ -2412,6 +2427,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22362] = {
 		["Sofakinglulz"] = 1,
+	},
+	[23001] = {
+		["Stephany"] = 1,
 	},
 	[19381] = {
 		["Sylador"] = 1,

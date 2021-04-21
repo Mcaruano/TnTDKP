@@ -2034,7 +2034,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Nashy"] = 1,
 	},
 	[23549] = {
-		["Caelandine"] = 1,
+		["Caelandine"] = 2,
 		["Kang"] = 2,
 	},
 	[21672] = {

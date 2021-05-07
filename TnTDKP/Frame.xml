@@ -4,25 +4,18 @@
 	<Script File="Utility.lua"/>
 	<Script File="Core.lua"/>
 		
-	<Frame name="CEPGP_frame" parent="UIParent" hidden="true" enableMouse="true" toplevel="true" movable="true" clampedToScreen="true">
+	<Frame name="CEPGP_frame" parent="UIParent" hidden="true" enableMouse="true" toplevel="true" movable="true" clampedToScreen="true" inherits="BackdropTemplate">
+		<KeyValues>
+			<KeyValue key="backdropInfo" value="BACKDROP_TOOLTIP_16_16_5555" type="global"/>
+			<KeyValue key="backdropColor" value="TOOLTIP_DEFAULT_BACKGROUND_COLOR" type="global"/>
+			<KeyValue key="backdropBorderColor" value="TOOLTIP_DEFAULT_COLOR" type="global"/>
+		</KeyValues>
 		<Size>
 			<AbsDimension x="450" y="530" />
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER" />
 		</Anchors>
-		<Backdrop bgFile="Interface\Tooltips\UI-Tooltip-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
-			<Color r="0" g="0" b="0" />
-			<BackgroundInsets>
-				<AbsInset left="11" right="12" top="12" bottom="11" />
-			</BackgroundInsets>
-			<TileSize>
-				<AbsValue val="32" />
-			</TileSize>
-			<EdgeSize>
-				<AbsValue val="32" />
-			</EdgeSize>
-		</Backdrop>
 		<Frames>
 			<Button name="CEPGP_button_guild" inherits="GameMenuButtonTemplate" text="All">
 				<Size>
@@ -2383,7 +2376,7 @@
 			</Frame>
 		</Frames>
 		<Scripts>
-			<OnLoad>
+			<OnLoad inherit="prepend">
 				self:RegisterEvent("LOOT_OPENED");
 				self:RegisterEvent("LOOT_CLOSED");
 				self:RegisterEvent("LOOT_SLOT_CLEARED");
@@ -2414,24 +2407,18 @@
 		</Scripts>
 	</Frame>
 	
-	<Frame name="CEPGP_distribute_popup" toplevel="true" frameStrata="DIALOG" enableMouse="true" parent="UIParent" hidden="true" clampedToScreen="true">
+	<Frame name="CEPGP_distribute_popup" toplevel="true" frameStrata="DIALOG" enableMouse="true" parent="UIParent" hidden="true" clampedToScreen="true" inherits="BackdropTemplate">
+		<KeyValues>
+			<KeyValue key="backdropInfo" value="BACKDROP_TOOLTIP_16_16_5555" type="global"/>
+			<KeyValue key="backdropColor" value="TOOLTIP_DEFAULT_BACKGROUND_COLOR" type="global"/>
+			<KeyValue key="backdropBorderColor" value="TOOLTIP_DEFAULT_COLOR" type="global"/>
+		</KeyValues>
 		<Size>
 			<AbsDimension x="300" y="100"/>
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER"/>
 		</Anchors>
-		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
-			<BackgroundInsets>
-				<AbsInset left="11" right="12" top="12" bottom="11"/>
-			</BackgroundInsets>
-			<TileSize>
-				<AbsValue val="32"/>
-			</TileSize>
-			<EdgeSize>
-				<AbsValue val="32"/>
-			</EdgeSize>
-		</Backdrop>
 		<Layers>
 			<Layer level="ARTWORK">
 				<Texture file="Interface\DialogFrame\UI-DialogBox-Header">
@@ -2489,7 +2476,7 @@
 			</Button>
 		</Frames>
 		<Scripts>
-			<OnLoad>
+			<OnLoad inherit="prepend">
 				self:RegisterEvent("UI_ERROR_MESSAGE");
 				self:RegisterForDrag("LeftButton");
 			</OnLoad>
@@ -2508,24 +2495,18 @@
 	</Frame>
 	
 	<!-- TODO: Differentiate this from other context popups -->
-	<Frame name="CEPGP_context_popup" toplevel="true" frameStrata="DIALOG" enableMouse="true" parent="UIParent" hidden="true" movable="true" clampedToScreen="true">
+	<Frame name="CEPGP_context_popup" toplevel="true" frameStrata="DIALOG" enableMouse="true" parent="UIParent" hidden="true" movable="true" clampedToScreen="true" inherits="BackdropTemplate">
+		<KeyValues>
+			<KeyValue key="backdropInfo" value="BACKDROP_TOOLTIP_16_16_5555" type="global"/>
+			<KeyValue key="backdropColor" value="TOOLTIP_DEFAULT_BACKGROUND_COLOR" type="global"/>
+			<KeyValue key="backdropBorderColor" value="TOOLTIP_DEFAULT_COLOR" type="global"/>
+		</KeyValues>
 		<Size>
 			<AbsDimension x="550" y="250"/>
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER"/>
 		</Anchors>
-		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
-			<BackgroundInsets>
-				<AbsInset left="11" right="12" top="12" bottom="11"/>
-			</BackgroundInsets>
-			<TileSize>
-				<AbsValue val="32"/>
-			</TileSize>
-			<EdgeSize>
-				<AbsValue val="32"/>
-			</EdgeSize>
-		</Backdrop>
 		<Layers>
 			<Layer level="ARTWORK">
 				<Texture file="Interface\DialogFrame\UI-DialogBox-Header">
@@ -2964,7 +2945,7 @@
 			</Button>
 		</Frames>
 		<Scripts>
-			<OnLoad>
+			<OnLoad inherit="prepend">
 				self:RegisterForDrag("LeftButton");
 			</OnLoad>
 			<OnDragStart>
@@ -2976,24 +2957,18 @@
 		</Scripts>
 	</Frame>
 	
-	<Frame name="CEPGP_traffic" toplevel="true" frameStrata="HIGH" enableMouse="true" parent="UIParent" hidden="true" movable="true" clampedToScreen="true">
+	<Frame name="CEPGP_traffic" toplevel="true" frameStrata="HIGH" enableMouse="true" parent="UIParent" hidden="true" movable="true" clampedToScreen="true" inherits="BackdropTemplate">
+		<KeyValues>
+			<KeyValue key="backdropInfo" value="BACKDROP_TOOLTIP_16_16_5555" type="global"/>
+			<KeyValue key="backdropColor" value="TOOLTIP_DEFAULT_BACKGROUND_COLOR" type="global"/>
+			<KeyValue key="backdropBorderColor" value="TOOLTIP_DEFAULT_COLOR" type="global"/>
+		</KeyValues>
 		<Size>
 			<AbsDimension x="800" y="480"/>
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER"/>
 		</Anchors>
-		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
-			<BackgroundInsets>
-				<AbsInset left="11" right="12" top="12" bottom="11"/>
-			</BackgroundInsets>
-			<TileSize>
-				<AbsValue val="32"/>
-			</TileSize>
-			<EdgeSize>
-				<AbsValue val="32"/>
-			</EdgeSize>
-		</Backdrop>
 		<Layers>
 			<Layer level="ARTWORK">
 				<Texture file="Interface\DialogFrame\UI-DialogBox-Header">
@@ -3532,7 +3507,7 @@
 			</Frame>
 		</Frames>
 		<Scripts>
-			<OnLoad>
+			<OnLoad inherit="prepend">
 				self:RegisterForDrag("LeftButton");
 				self:EnableKeyboard(true);
 			</OnLoad>
@@ -3571,25 +3546,18 @@
 		</Scripts>
 	</Frame>
 
-	<Frame name="CEPGP_debuginfo" parent="UIParent" hidden="true" enableMouse="true" toplevel="true" movable="true" clampedToScreen="true">
+	<Frame name="CEPGP_debuginfo" parent="UIParent" hidden="true" enableMouse="true" toplevel="true" movable="true" clampedToScreen="true" inherits="BackdropTemplate">
+		<KeyValues>
+			<KeyValue key="backdropInfo" value="BACKDROP_TOOLTIP_16_16_5555" type="global"/>
+			<KeyValue key="backdropColor" value="TOOLTIP_DEFAULT_BACKGROUND_COLOR" type="global"/>
+			<KeyValue key="backdropBorderColor" value="TOOLTIP_DEFAULT_COLOR" type="global"/>
+		</KeyValues>
 		<Size>
 			<AbsDimension x="400" y="100" />
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER" />
 		</Anchors>
-		<Backdrop bgFile="Interface\Tooltips\UI-Tooltip-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
-			<Color r="0" g="0" b="0" />
-			<BackgroundInsets>
-				<AbsInset left="11" right="12" top="12" bottom="11" />
-			</BackgroundInsets>
-			<TileSize>
-				<AbsValue val="32" />
-			</TileSize>
-			<EdgeSize>
-				<AbsValue val="32" />
-			</EdgeSize>
-		</Backdrop>
 		<Layers>
 			<Layer level="ARTWORK">
 				<Texture file="Interface\DialogFrame\UI-DialogBox-Header">
@@ -3669,5 +3637,10 @@
 				</Scripts>
 			</EditBox>
 		</Frames>
+		<Scripts>
+        <OnLoad inherit="prepend">
+            print("Loaded!");
+        </OnLoad>
+    </Scripts>
 	</Frame>
 </Ui>

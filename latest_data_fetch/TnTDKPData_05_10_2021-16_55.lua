@@ -1875,6 +1875,12 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Roodolph"] = 3,
 		["Vermora"] = 2,
 	},
+	[23219] = {
+		["Akaran"] = 1,
+		["Ashori"] = 1,
+		["Dienasty"] = 1,
+		["Kharagan"] = 1,
+	},
 	[21618] = {
 		["Akaran"] = 1,
 		["Berzerk"] = 1,
@@ -1951,11 +1957,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ashori"] = 1,
 		["Baopi"] = 1,
 		["Sekjr"] = 1,
-	},
-	[23219] = {
-		["Ashori"] = 1,
-		["Dienasty"] = 1,
-		["Kharagan"] = 1,
 	},
 	[21232] = {
 		["Ashori"] = 1,

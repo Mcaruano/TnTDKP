@@ -1450,7 +1450,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[23577] = {
 		["Akaran"] = 1,
 		["Berzerk"] = 1,
-		["Dalran"] = 1,
 		["Zerxx"] = 1,
 	},
 	[22520] = {
@@ -1521,6 +1520,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Korteh"] = 1,
 		["Mitchel"] = 1,
 	},
+	[23006] = {
+		["Barlen"] = 1,
+	},
 	[23066] = {
 		["Barlen"] = 1,
 	},
@@ -1537,6 +1539,13 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[21602] = {
 		["Caelandine"] = 1,
+	},
+	[23068] = {
+		["Dalran"] = 1,
+	},
+	[23000] = {
+		["Dalran"] = 1,
+		["Kharagan"] = 1,
 	},
 	[23050] = {
 		["Demeker"] = 1,
@@ -1693,9 +1702,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Whogryps"] = 1,
 	},
 	[22732] = {
-		["Kharagan"] = 1,
-	},
-	[23000] = {
 		["Kharagan"] = 1,
 	},
 	[21583] = {
@@ -2053,13 +2059,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hulkhigginz"] = 1,
 		["Sylador"] = 1,
 	},
-	[23068] = {
-		["Dalran"] = 1,
-		["Dienasty"] = 1,
-		["Mitchel"] = 1,
-		["Peacard"] = 1,
-		["Zóff"] = 1,
-	},
 	[23046] = {
 		["Demeker"] = 1,
 		["Justin"] = 1,
@@ -2080,6 +2079,12 @@ PLAYER_LOTTERY_REGISTRY = {
 	[23014] = {
 		["Dienasty"] = 1,
 		["Pikachau"] = 1,
+	},
+	[23068] = {
+		["Dienasty"] = 1,
+		["Mitchel"] = 1,
+		["Peacard"] = 1,
+		["Zóff"] = 1,
 	},
 	[23060] = {
 		["Digie"] = 1,
@@ -2220,6 +2225,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22807] = {
 		["Glimfolkor"] = 1,
+		["Scrodo"] = 1,
 	},
 	[21602] = {
 		["Hulkhigginz"] = 1,

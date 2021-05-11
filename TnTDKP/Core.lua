@@ -528,7 +528,22 @@ end
 -- itemIDOrReason - The message to use for this transaction. If an ItemID is provided, it will be
 --                  used to fetch the String Name for the item to auto-generate a "reason"
 --                  for the Transaction of the format: "Quick Strike Ring - 18821"
-function TnTDKP_logOpenTransaction(player, itemIDOrReason)
+-- tier - The "Tier" of content this boss was from. Used to determine which Transaction table to modify. Examples: "T1", "T2", etc.
+function TnTDKP_logOpenTransaction(itemIDOrReason, tier)
+
+	-- Fetch a reference to the proper table. This logic can't be abstracted to a helper method because if I return
+	-- these, they won't be returned by Reference
+	local openTransactionsTable = {}
+	if tier == "T3" then
+		openTransactionsTable = T3_OPEN_TRANSACTIONS
+	elseif tier == "T2.5" then
+		openTransactionsTable = T2PT5_OPEN_TRANSACTIONS
+	elseif tier == "T2" then
+		openTransactionsTable = T2_OPEN_TRANSACTIONS
+	elseif tier == "T1" then
+		openTransactionsTable = T1_OPEN_TRANSACTIONS
+	end
+
 	-- Check to see if itemIDOrReason is, in fact, an itemID
 	local itemID, actionMsg
 	if CEPGP_isNumber(itemIDOrReason) then
@@ -536,26 +551,21 @@ function TnTDKP_logOpenTransaction(player, itemIDOrReason)
 
 		-- We have a valid itemID, so build the Transaction Message string
 		if name then
-			itemID = tonumber(itemIDNameOrReason)
-			-- This should NEVER occur, but if by chance we were given a String ItemID without a
-			-- corresponding valid itemLink, we will regenerate the itemLink
-			if not itemLink then
-				itemLink = CEPGP_getItemLink(itemID)
-			end
-			actionMsg = name .. " - " .. itemID
+			itemID = tonumber(itemIDOrReason)
+			actionMsg = "[" .. tier .. " Open Transaction]: " .. name .. " (ItemID: " .. itemID .. ")"
 		-- itemIDOrReason is a number but is not a valid item ID, so the actionMsg will just be the reason exactly as it was provided
 		else
-			actionMsg = itemIDOrReason
+			actionMsg = "[" .. tier .. " Open Transaction]: " .. itemIDOrReason
 		end
 	-- itemIDOrReason isn't even a number, so the actionMsg will just be the reason exactly as it was provided
 	else
-		actionMsg = itemIDOrReason
+		actionMsg = "[" .. tier .. " Open Transaction]: " .. itemIDOrReason
 	end
 
 	local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 	local timestamp = date("%c", time())
-	OPEN_TRANSACTIONS[CEPGP_ntgetn(OPEN_TRANSACTIONS)+1] = {
-		[1] = player, -- Recipient
+	openTransactionsTable[CEPGP_ntgetn(openTransactionsTable)+1] = {
+		[1] = "", -- Recipient
 		[2] = UnitName("player"), -- Issuer
 		[3] = actionMsg, -- Action
 		[4] = "", -- DKP Before
@@ -565,10 +575,6 @@ function TnTDKP_logOpenTransaction(player, itemIDOrReason)
 		[8] = timestamp
 	};
 
-	-- I don't bother broadcasting to the guild, because I assume that will be done as part of the Open Roll flow
-	if itemLink then
-		OPEN_TRANSACTIONS[CEPGP_ntgetn(OPEN_TRANSACTIONS)][6] = itemLink;
-	end
 	TnTDKP_UpdateDKPRelatedScrollBars();
 end
 

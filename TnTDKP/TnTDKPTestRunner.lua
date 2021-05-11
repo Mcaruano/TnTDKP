@@ -128,7 +128,7 @@ function simulateMLingItemInALootSlot(lootSlot)
 			else
 				-- TODO: This distPlayer will have to be set as a result of the Open Roll item being distributed
 				SendChatMessage("Awarded " .. CEPGP_distItemLink .. " to ".. CEPGP_distPlayer .. " for free (Open Roll)", GUILD, CEPGP_LANGUAGE);
-				TnTDKP_logOpenTransaction(CEPGP_distPlayer, CEPGP_DistID)
+				TnTDKP_logOpenTransaction(CEPGP_DistID)
 			end
 			CEPGP_distPlayer = "";
 			CEPGP_distribute_popup:Hide();

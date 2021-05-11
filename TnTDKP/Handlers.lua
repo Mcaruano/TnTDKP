@@ -274,10 +274,9 @@ function CEPGP_handleLoot(event, arg1, arg2)
 
 					TnTDKP_addOrRemoveLotteryDKP(CEPGP_distPlayer, dkpCost, distItemID, CEPGP_distItemLink, tier);
 				else
-					-- TODO: This distPlayer will have to be set as a result of the Open Roll item being distributed
-					SendChatMessage(CEPGP_distItemLink .. " was distributed for without cost", GUILD, CEPGP_LANGUAGE);
-					-- SendChatMessage("Awarded " .. CEPGP_distItemLink .. " to ".. CEPGP_distPlayer .. " for free (Open Roll)", GUILD, CEPGP_LANGUAGE);
-					-- TnTDKP_logOpenTransaction(CEPGP_distPlayer, CEPGP_DistID)
+					-- This block only gets hit if a CEPGP_distPlayer (AKA a recipient) was set, yet the loot mode wasn't
+					-- Priority or Lottery. AKA this should never be hit based on how I've designed the logic
+					SendChatMessage(CEPGP_distItemLink .. " was distributed without cost", GUILD, CEPGP_LANGUAGE);
 				end
 				CEPGP_distPlayer = "";
 				CEPGP_distribute_popup:Hide();
@@ -285,10 +284,12 @@ function CEPGP_handleLoot(event, arg1, arg2)
 				_G["distributing"]:Hide();
 				CEPGP_loot:Show();
 			else
-				-- If CEPGP_distPlayer was not set, that means an item was MLed to someone without going through EPGPs functions
-				-- CEPGP_distPlayer being set implies that the decision has been made via EPGP rules
+				-- If CEPGP_distPlayer was not set this likely means that the item was distributed via Open Roll
 				CEPGP_distributing = false;
 				SendChatMessage(CEPGP_distItemLink .. " has been distributed without DKP", GUILD, CEPGP_LANGUAGE);
+				local distItemID = tonumber(CEPGP_DistID)
+				local tier = determineRaidTierFromItemID(tonumber(distItemID))
+				TnTDKP_logOpenTransaction(tonumber(distItemID), tier)
 				CEPGP_distribute_popup:Hide();
 				CEPGP_distribute:Hide();
 				_G["distributing"]:Hide();

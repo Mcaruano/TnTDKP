@@ -367,7 +367,15 @@ function CEPGP_UpdateTrafficScrollBar()
 			records = T1_LOTTERY_TRANSACTIONS
 		end
 	else
-		records = OPEN_TRANSACTIONS
+		if TnTDKP_tierToDisplay == "T3" then
+			records = T3_OPEN_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T2.5" then
+			records = T2PT5_OPEN_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T2" then
+			records = T2_OPEN_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T1" then
+			records = T1_OPEN_TRANSACTIONS
+		end
 	end
 
 	if records == nil then

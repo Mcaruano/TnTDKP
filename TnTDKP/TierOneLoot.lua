@@ -176,4 +176,6 @@ tierOneLoot = {
 
     -- Custom non-epic items
     [149] = 17966, -- Onyxia Hide Backpack
+    [150] = 2589,
+    [151] = 2592,
 }

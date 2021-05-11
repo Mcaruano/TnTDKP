@@ -169,24 +169,24 @@ end
 function CEPGP_UpdateAllMembersScrollBar()
 	local records = {}
 	if TnTDKP_displayMode == "priority" then
-		if TnTDKP_tierToDisplay == "T3" then
-			records = T3_PRIORITY_DKP_TABLE
-		elseif TnTDKP_tierToDisplay == "T2.5" then
-			records = T2PT5_PRIORITY_DKP_TABLE
-		elseif TnTDKP_tierToDisplay == "T2" then
-			records = T2_PRIORITY_DKP_TABLE
-		elseif TnTDKP_tierToDisplay == "T1" then
-			records = T1_PRIORITY_DKP_TABLE
+		if TnTDKP_tierToDisplay == "T6.5" then
+			records = T6PT5_PRIORITY_DKP_TABLE
+		elseif TnTDKP_tierToDisplay == "T6" then
+			records = T6_PRIORITY_DKP_TABLE
+		elseif TnTDKP_tierToDisplay == "T5" then
+			records = T5_PRIORITY_DKP_TABLE
+		elseif TnTDKP_tierToDisplay == "T4" then
+			records = T4_PRIORITY_DKP_TABLE
 		end
 	else
-		if TnTDKP_tierToDisplay == "T3" then
-			records = T3_LOTTERY_DKP_TABLE
-		elseif TnTDKP_tierToDisplay == "T2.5" then
-			records = T2PT5_LOTTERY_DKP_TABLE
-		elseif TnTDKP_tierToDisplay == "T2" then
-			records = T2_LOTTERY_DKP_TABLE
-		elseif TnTDKP_tierToDisplay == "T1" then
-			records = T1_LOTTERY_DKP_TABLE
+		if TnTDKP_tierToDisplay == "T6.5" then
+			records = T6PT5_LOTTERY_DKP_TABLE
+		elseif TnTDKP_tierToDisplay == "T6" then
+			records = T6_LOTTERY_DKP_TABLE
+		elseif TnTDKP_tierToDisplay == "T5" then
+			records = T5_LOTTERY_DKP_TABLE
+		elseif TnTDKP_tierToDisplay == "T4" then
+			records = T4_LOTTERY_DKP_TABLE
 		end
 	end
 
@@ -347,27 +347,35 @@ end
 function CEPGP_UpdateTrafficScrollBar()
 	local records = {}
 	if TnTDKP_displayMode == "priority" then
-		if TnTDKP_tierToDisplay == "T3" then
-			records = T3_PRIORITY_TRANSACTIONS
-		elseif TnTDKP_tierToDisplay == "T2.5" then
-			records = T2PT5_PRIORITY_TRANSACTIONS
-		elseif TnTDKP_tierToDisplay == "T2" then
-			records = T2_PRIORITY_TRANSACTIONS
-		elseif TnTDKP_tierToDisplay == "T1" then
-			records = T1_PRIORITY_TRANSACTIONS
+		if TnTDKP_tierToDisplay == "T6.5" then
+			records = T6PT5_PRIORITY_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T6" then
+			records = T6_PRIORITY_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T5" then
+			records = T5_PRIORITY_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T4" then
+			records = T4_PRIORITY_TRANSACTIONS
 		end
 	elseif TnTDKP_displayMode == "lottery" then
-		if TnTDKP_tierToDisplay == "T3" then
-			records = T3_LOTTERY_TRANSACTIONS
-		elseif TnTDKP_tierToDisplay == "T2.5" then
-			records = T2PT5_LOTTERY_TRANSACTIONS
-		elseif TnTDKP_tierToDisplay == "T2" then
-			records = T2_LOTTERY_TRANSACTIONS
-		elseif TnTDKP_tierToDisplay == "T1" then
-			records = T1_LOTTERY_TRANSACTIONS
+		if TnTDKP_tierToDisplay == "T6.5" then
+			records = T6PT5_LOTTERY_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T6" then
+			records = T6_LOTTERY_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T5" then
+			records = T5_LOTTERY_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T4" then
+			records = T4_LOTTERY_TRANSACTIONS
 		end
 	else
-		records = OPEN_TRANSACTIONS
+		if TnTDKP_tierToDisplay == "T6.5" then
+			records = T6PT5_OPEN_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T6" then
+			records = T6_OPEN_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T5" then
+			records = T5_OPEN_TRANSACTIONS
+		elseif TnTDKP_tierToDisplay == "T4" then
+			records = T4_OPEN_TRANSACTIONS
+		end
 	end
 
 	if records == nil then
@@ -458,7 +466,7 @@ function CEPGP_UpdateStandbyScrollBar()
 		name = STANDBY_ROSTER[x];
 		_, class = CEPGP_getPlayerInfoFromGuildRosterTable(name);
 		role = TnTDKP_getRoleForPlayerAndCreateRecordIfNotFound(name)
-		DKP = TnTDKP_getPriorityDKP(name, "T1");
+		DKP = TnTDKP_getPriorityDKP(name, "T4");
 		t[x] = {
 			[1] = name,
 			[2] = class,

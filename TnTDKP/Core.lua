@@ -31,7 +31,7 @@ STANDBY_ROSTER = {}; -- The roster of the standby list
 CEPGP_raidRosterAndRelatedMetadata = {}; -- The roster of the current raid group. Keyed by name, and has sub-keys 1 & 2 for Class and RaidGroup. Not saved to disk, always refreshed.
 CEPGP_ElvUI = nil; --nil or 1, used when determining where to mount one of the buttons
 CEPGP_RAZORGORE_EGG_COUNT = 0;
-TnTDKP_tierToDisplay = "T1" -- This is the global variable which holds the state of the T1/T2 checkboxes on various flows of the AddOn
+TnTDKP_tierToDisplay = "T4" -- This is the global variable which holds the state of the T4/T5 checkboxes on various flows of the AddOn
 
 --[[ SAVED VARIABLES ]]--
 BASEGP = 1500;
@@ -162,35 +162,13 @@ function CEPGP_OnEvent(event, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, ar
 			-- killed during the fight to evaluate whether or not the fight is actually
 			-- over. The logic determining how many significant mobs are required to be
 			-- killed for each fight is contained in CEPGP_confirmBossEncounterDefeated()
-			if name == "Flamewaker Elite" or name == "Flamewaker Healer" then
-				name = "Majordomo Executus"
-			elseif name == "Princess Yauj" or name == "Vem" or name == "Lord Kri" then
-				name = "The Bug Trio"
-			elseif name == "Emperor Vek'lor" or name == "Emperor Vek'nilash" then
-				name = "The Twin Emperors"
-			elseif name == "Highlord Mograine" or name == "Thane Korth'azz" or name == "Lady Blaumeux" or name == "Sir Zeliek" then
-				name = "The Four Horsemen"
+			if name == "Kiggler the Crazed" or name == "Blindeye the Seer" or name == "Olm the Summoner" or name == "Krosh Firehand" then
+				name = "High King Maulgar"
 			end
 
 			-- Make sure this is a boss we support
-			if tierOneBossConfig[name] or tierTwoBossConfig[name] or tierTwoPointFiveBossConfig[name] or tierThreeBossConfig[name] then
+			if tierFourBossConfig[name] or tierFiveBossConfig[name] or tierSixBossConfig[name] or tierSixPointFiveBossConfig[name] then
 				CEPGP_handleCombat(name)
-			end
-
-		-- For Razorgore, we need to listen to SPELL_CAST_SUCCESS events from him casting Destroy Egg
-		-- Note: This doesn't work.
-		elseif action == "SPELL_CAST_SUCCESS" then
-			local spellName;
-			_, _, _, _, name, _, _, _, _, _, _, _, spellName = CombatLogGetCurrentEventInfo();
-			if name == "Razorgore the Untamed" and spellName == "Destroy Egg" then --Razorgore casts destroy egg
-				CEPGP_kills = CEPGP_kills + 1;
-			end
-		end
-		
-	elseif event == "CHAT_MSG_MONSTER_YELL" then
-		if arg2 == "The Prophet Skeram" then
-			if arg1 == "You only delay the inevitable!" then
-				CEPGP_handleCombat(arg2, true);
 			end
 		end
 		
@@ -333,7 +311,7 @@ end
 -- amount - The amount of DKP to award
 -- msg - (Optional) a CUSTOM message. This will be added permanently in the Transactions table, and also broadcasted to the raid
 -- encounter - (Optional) The boss that was killed. If a "msg" was not provided, the "encounter" will be used to generate a broadcast message
--- tier - The "Tier" of content this boss was from. Used to determine which DKP and Transaction tables to modify. Examples: "T1", "T2", etc.
+-- tier - The "Tier" of content this boss was from. Used to determine which DKP and Transaction tables to modify. Examples: "T4", "T5", etc.
 function CEPGP_AddRaidDKP(timestamp, amount, msg, encounter, tier)
 	if msg == nil and encounter == nil then
 		CEPGP_print("DKP NOT awarded. Either a message or encounter is required and neither was provided.", true)
@@ -346,26 +324,26 @@ function CEPGP_AddRaidDKP(timestamp, amount, msg, encounter, tier)
 	local lotteryDKPTable = {}
 	local priorityTransactionsTable = {}
 	local lotteryTransactionsTable = {}
-	if tier == "T3" then
-		priorityDKPTable = T3_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T3_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T3_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T3_LOTTERY_TRANSACTIONS
-	elseif tier == "T2.5" then
-		priorityDKPTable = T2PT5_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2PT5_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T2PT5_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T2PT5_LOTTERY_TRANSACTIONS
-	elseif tier == "T2" then
-		priorityDKPTable = T2_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T2_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T2_LOTTERY_TRANSACTIONS
-	elseif tier == "T1" then
-		priorityDKPTable = T1_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T1_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T1_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T1_LOTTERY_TRANSACTIONS
+	if tier == "T6.5" then
+		priorityDKPTable = T6PT5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6PT5_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T6PT5_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T6PT5_LOTTERY_TRANSACTIONS
+	elseif tier == "T6" then
+		priorityDKPTable = T6_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T6_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T6_LOTTERY_TRANSACTIONS
+	elseif tier == "T5" then
+		priorityDKPTable = T5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T5_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T5_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T5_LOTTERY_TRANSACTIONS
+	elseif tier == "T4" then
+		priorityDKPTable = T4_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T4_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T4_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T4_LOTTERY_TRANSACTIONS
 	end
 
 	-- If a custom message was provided, use it as the Transaction record description
@@ -445,7 +423,7 @@ end
 -- player - The player to award. This player has already been confirmed to be in our Guild
 -- amount - The amount of DKP to award
 -- actionMsg - The message to put in the Transaction log for this award
--- tier - The "Tier" of content this boss was from. Used to determine which DKP and Transaction tables to modify. Examples: "T1", "T2", etc.
+-- tier - The "Tier" of content this boss was from. Used to determine which DKP and Transaction tables to modify. Examples: "T4", "T5", etc.
 function CEPGP_addStandbyDKP(timestamp, playerNameOnStandby, amount, actionMsg, tier)
 	if amount == nil then
 		CEPGP_print("Please enter a valid number", 1);
@@ -458,26 +436,26 @@ function CEPGP_addStandbyDKP(timestamp, playerNameOnStandby, amount, actionMsg, 
 	local lotteryDKPTable = {}
 	local priorityTransactionsTable = {}
 	local lotteryTransactionsTable = {}
-	if tier == "T3" then
-		priorityDKPTable = T3_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T3_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T3_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T3_LOTTERY_TRANSACTIONS
-	elseif tier == "T2.5" then
-		priorityDKPTable = T2PT5_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2PT5_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T2PT5_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T2PT5_LOTTERY_TRANSACTIONS
-	elseif tier == "T2" then
-		priorityDKPTable = T2_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T2_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T2_LOTTERY_TRANSACTIONS
-	elseif tier == "T1" then
-		priorityDKPTable = T1_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T1_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T1_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T1_LOTTERY_TRANSACTIONS
+	if tier == "T6.5" then
+		priorityDKPTable = T6PT5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6PT5_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T6PT5_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T6PT5_LOTTERY_TRANSACTIONS
+	elseif tier == "T6" then
+		priorityDKPTable = T6_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T6_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T6_LOTTERY_TRANSACTIONS
+	elseif tier == "T5" then
+		priorityDKPTable = T5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T5_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T5_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T5_LOTTERY_TRANSACTIONS
+	elseif tier == "T4" then
+		priorityDKPTable = T4_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T4_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T4_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T4_LOTTERY_TRANSACTIONS
 	end
 
 	player = TnTDKP_getMainCharacterName(playerNameOnStandby)
@@ -528,7 +506,22 @@ end
 -- itemIDOrReason - The message to use for this transaction. If an ItemID is provided, it will be
 --                  used to fetch the String Name for the item to auto-generate a "reason"
 --                  for the Transaction of the format: "Quick Strike Ring - 18821"
-function TnTDKP_logOpenTransaction(player, itemIDOrReason)
+-- tier - The "Tier" of content this boss was from. Used to determine which Transaction table to modify. Examples: "T4", "T5", etc.
+function TnTDKP_logOpenTransaction(itemIDOrReason, tier)
+
+	-- Fetch a reference to the proper table. This logic can't be abstracted to a helper method because if I return
+	-- these, they won't be returned by Reference
+	local openTransactionsTable = {}
+	if tier == "T6.5" then
+		openTransactionsTable = T6PT5_OPEN_TRANSACTIONS
+	elseif tier == "T6" then
+		openTransactionsTable = T6_OPEN_TRANSACTIONS
+	elseif tier == "T5" then
+		openTransactionsTable = T5_OPEN_TRANSACTIONS
+	elseif tier == "T4" then
+		openTransactionsTable = T4_OPEN_TRANSACTIONS
+	end
+
 	-- Check to see if itemIDOrReason is, in fact, an itemID
 	local itemID, actionMsg
 	if CEPGP_isNumber(itemIDOrReason) then
@@ -536,26 +529,21 @@ function TnTDKP_logOpenTransaction(player, itemIDOrReason)
 
 		-- We have a valid itemID, so build the Transaction Message string
 		if name then
-			itemID = tonumber(itemIDNameOrReason)
-			-- This should NEVER occur, but if by chance we were given a String ItemID without a
-			-- corresponding valid itemLink, we will regenerate the itemLink
-			if not itemLink then
-				itemLink = CEPGP_getItemLink(itemID)
-			end
-			actionMsg = name .. " - " .. itemID
+			itemID = tonumber(itemIDOrReason)
+			actionMsg = "[" .. tier .. " Open Transaction]: " .. name .. " (ItemID: " .. itemID .. ")"
 		-- itemIDOrReason is a number but is not a valid item ID, so the actionMsg will just be the reason exactly as it was provided
 		else
-			actionMsg = itemIDOrReason
+			actionMsg = "[" .. tier .. " Open Transaction]: " .. itemIDOrReason
 		end
 	-- itemIDOrReason isn't even a number, so the actionMsg will just be the reason exactly as it was provided
 	else
-		actionMsg = itemIDOrReason
+		actionMsg = "[" .. tier .. " Open Transaction]: " .. itemIDOrReason
 	end
 
 	local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 	local timestamp = date("%c", time())
-	OPEN_TRANSACTIONS[CEPGP_ntgetn(OPEN_TRANSACTIONS)+1] = {
-		[1] = player, -- Recipient
+	openTransactionsTable[CEPGP_ntgetn(openTransactionsTable)+1] = {
+		[1] = "", -- Recipient
 		[2] = UnitName("player"), -- Issuer
 		[3] = actionMsg, -- Action
 		[4] = "", -- DKP Before
@@ -565,10 +553,6 @@ function TnTDKP_logOpenTransaction(player, itemIDOrReason)
 		[8] = timestamp
 	};
 
-	-- I don't bother broadcasting to the guild, because I assume that will be done as part of the Open Roll flow
-	if itemLink then
-		OPEN_TRANSACTIONS[CEPGP_ntgetn(OPEN_TRANSACTIONS)][6] = itemLink;
-	end
 	TnTDKP_UpdateDKPRelatedScrollBars();
 end
 
@@ -589,7 +573,7 @@ end
 -- itemLink - [Optional] Two flows invoke this method, one is via the Loot distribution flow and the other is due to a manual transaction.
 --            When a Manual Transaction is entered, an itemLink is not provided, and itemIDOrReason could be a string ItemID or not. When
 --            invoked via the Loot Distribution flow, both a valid ItemID and an itemLink will be provided. We need to handle either case.
--- tier - The "Tier" of content this boss was from. Used to determine which DKP and Transaction tables to modify. Examples: "T1", "T2", etc.
+-- tier - The "Tier" of content this boss was from. Used to determine which DKP and Transaction tables to modify. Examples: "T4", "T5", etc.
 function TnTDKP_addOrRemovePriorityDKP(player, amount, itemIDOrReason, itemLink, tier)
 	if amount == nil then
 		CEPGP_print("Please enter a valid number", 1);
@@ -600,18 +584,18 @@ function TnTDKP_addOrRemovePriorityDKP(player, amount, itemIDOrReason, itemLink,
 	-- these, they won't be returned by Reference
 	local priorityDKPTable = {}
 	local priorityTransactionsTable = {}
-	if tier == "T3" then
-		priorityDKPTable = T3_PRIORITY_DKP_TABLE
-		priorityTransactionsTable = T3_PRIORITY_TRANSACTIONS
-	elseif tier == "T2.5" then
-		priorityDKPTable = T2PT5_PRIORITY_DKP_TABLE
-		priorityTransactionsTable = T2PT5_PRIORITY_TRANSACTIONS
-	elseif tier == "T2" then
-		priorityDKPTable = T2_PRIORITY_DKP_TABLE
-		priorityTransactionsTable = T2_PRIORITY_TRANSACTIONS
-	elseif tier == "T1" then
-		priorityDKPTable = T1_PRIORITY_DKP_TABLE
-		priorityTransactionsTable = T1_PRIORITY_TRANSACTIONS
+	if tier == "T6.5" then
+		priorityDKPTable = T6PT5_PRIORITY_DKP_TABLE
+		priorityTransactionsTable = T6PT5_PRIORITY_TRANSACTIONS
+	elseif tier == "T6" then
+		priorityDKPTable = T6_PRIORITY_DKP_TABLE
+		priorityTransactionsTable = T6_PRIORITY_TRANSACTIONS
+	elseif tier == "T5" then
+		priorityDKPTable = T5_PRIORITY_DKP_TABLE
+		priorityTransactionsTable = T5_PRIORITY_TRANSACTIONS
+	elseif tier == "T4" then
+		priorityDKPTable = T4_PRIORITY_DKP_TABLE
+		priorityTransactionsTable = T4_PRIORITY_TRANSACTIONS
 	end
 
 	player = TnTDKP_getMainCharacterName(player)
@@ -689,7 +673,7 @@ end
 -- itemLink - [Optional] Two flows invoke this method, one is via the Loot distribution flow and the other is due to a manual transaction.
 --            When a Manual Transaction is entered, an itemLink is not provided, and itemIDOrReason could be a string ItemID or not. When
 --            invoked via the Loot Distribution flow, both a valid ItemID and an itemLink will be provided. We need to handle either case.
--- tier - The "Tier" of content this boss was from. Used to determine which DKP and Transaction tables to modify. Examples: "T1", "T2", etc.
+-- tier - The "Tier" of content this boss was from. Used to determine which DKP and Transaction tables to modify. Examples: "T4", "T5", etc.
 function TnTDKP_addOrRemoveLotteryDKP(player, amount, itemIDOrReason, itemLink, tier)
 	if amount == nil then
 		CEPGP_print("Please enter a valid number", 1);
@@ -700,18 +684,18 @@ function TnTDKP_addOrRemoveLotteryDKP(player, amount, itemIDOrReason, itemLink, 
 	-- these, they won't be returned by Reference
 	local lotteryDKPTable = {}
 	local lotteryTransactionsTable = {}
-	if tier == "T3" then
-		lotteryDKPTable = T3_LOTTERY_DKP_TABLE
-		lotteryTransactionsTable = T3_LOTTERY_TRANSACTIONS
-	elseif tier == "T2.5" then
-		lotteryDKPTable = T2PT5_LOTTERY_DKP_TABLE
-		lotteryTransactionsTable = T2PT5_LOTTERY_TRANSACTIONS
-	elseif tier == "T2" then
-		lotteryDKPTable = T2_LOTTERY_DKP_TABLE
-		lotteryTransactionsTable = T2_LOTTERY_TRANSACTIONS
-	elseif tier == "T1" then
-		lotteryDKPTable = T1_LOTTERY_DKP_TABLE
-		lotteryTransactionsTable = T1_LOTTERY_TRANSACTIONS
+	if tier == "T6.5" then
+		lotteryDKPTable = T6PT5_LOTTERY_DKP_TABLE
+		lotteryTransactionsTable = T6PT5_LOTTERY_TRANSACTIONS
+	elseif tier == "T6" then
+		lotteryDKPTable = T6_LOTTERY_DKP_TABLE
+		lotteryTransactionsTable = T6_LOTTERY_TRANSACTIONS
+	elseif tier == "T5" then
+		lotteryDKPTable = T5_LOTTERY_DKP_TABLE
+		lotteryTransactionsTable = T5_LOTTERY_TRANSACTIONS
+	elseif tier == "T4" then
+		lotteryDKPTable = T4_LOTTERY_DKP_TABLE
+		lotteryTransactionsTable = T4_LOTTERY_TRANSACTIONS
 	end
 
 	player = TnTDKP_getMainCharacterName(player)
@@ -788,18 +772,18 @@ function TnTDKP_decay(amount)
 	local timestamp = date("%c", time())
 	local actionMsg = "All DKP Tables decayed by " .. amount .. "%"
 
-	-- Decay the T1 "Priority" DKP table
-	for name,_ in pairs(T1_PRIORITY_DKP_TABLE)do
+	-- Decay the T4 "Priority" DKP table
+	for name,_ in pairs(T4_PRIORITY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
-		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T1")
+		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T4")
 		local decayedPriorityDKP = 0
 		if initialPriorityDKP < 0 then -- Don't decay Negative values
 			decayedPriorityDKP = initialPriorityDKP
-			CEPGP_print(format("%s had negative T1 Priority DKP (%d), skipping.", name, initialPriorityDKP))
+			CEPGP_print(format("%s had negative T4 Priority DKP (%d), skipping.", name, initialPriorityDKP))
 		else
 			decayedPriorityDKP = tonumber(string.format("%2.2f", tonumber(initialPriorityDKP)*(1-(amount/100))))
 		end
-		T1_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T1_PRIORITY_TRANSACTIONS)+1] = {
+		T4_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T4_PRIORITY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -811,21 +795,21 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T1_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
+		T4_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
 	end
 
-	-- Decay the T1 "Lottery" DKP table
-	for name,_ in pairs(T1_LOTTERY_DKP_TABLE)do
+	-- Decay the T4 "Lottery" DKP table
+	for name,_ in pairs(T4_LOTTERY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
-		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T1")
+		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T4")
 		local decayedLotteryDKP = 0
 		if initialLotteryDKP < 0 then -- Don't decay Negative values
 			decayedLotteryDKP = initialLotteryDKP
-			CEPGP_print(format("%s had negative T1 Lottery DKP (%d), skipping.", name, initialLotteryDKP))
+			CEPGP_print(format("%s had negative T4 Lottery DKP (%d), skipping.", name, initialLotteryDKP))
 		else
 			decayedLotteryDKP = tonumber(string.format("%2.2f", tonumber(initialLotteryDKP)*(1-(amount/100))))
 		end
-		T1_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T1_LOTTERY_TRANSACTIONS)+1] = {
+		T4_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T4_LOTTERY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -837,21 +821,21 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T1_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
+		T4_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
 	end
 
-	-- Decay the T2 "Priority" DKP table
-	for name,_ in pairs(T2_PRIORITY_DKP_TABLE)do
+	-- Decay the T5 "Priority" DKP table
+	for name,_ in pairs(T5_PRIORITY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
-		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T2")
+		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T5")
 		local decayedPriorityDKP = 0
 		if initialPriorityDKP < 0 then -- Don't decay Negative values
 			decayedPriorityDKP = initialPriorityDKP
-			CEPGP_print(format("%s had negative T2 Priority DKP (%d), skipping.", name, initialPriorityDKP))
+			CEPGP_print(format("%s had negative T5 Priority DKP (%d), skipping.", name, initialPriorityDKP))
 		else
 			decayedPriorityDKP = tonumber(string.format("%2.2f", tonumber(initialPriorityDKP)*(1-(amount/100))))
 		end
-		T2_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T2_PRIORITY_TRANSACTIONS)+1] = {
+		T5_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T5_PRIORITY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -863,21 +847,21 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T2_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
+		T5_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
 	end
 
-	-- Decay the T2 "Lottery" DKP table
-	for name,_ in pairs(T2_LOTTERY_DKP_TABLE)do
+	-- Decay the T5 "Lottery" DKP table
+	for name,_ in pairs(T5_LOTTERY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
-		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T2")
+		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T5")
 		local decayedLotteryDKP = 0
 		if initialLotteryDKP < 0 then -- Don't decay Negative values
 			decayedLotteryDKP = initialLotteryDKP
-			CEPGP_print(format("%s had negative T2 Lottery DKP (%d), skipping.", name, initialLotteryDKP))
+			CEPGP_print(format("%s had negative T5 Lottery DKP (%d), skipping.", name, initialLotteryDKP))
 		else
 			decayedLotteryDKP = tonumber(string.format("%2.2f", tonumber(initialLotteryDKP)*(1-(amount/100))))
 		end
-		T2_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T2_LOTTERY_TRANSACTIONS)+1] = {
+		T5_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T5_LOTTERY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -889,21 +873,21 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T2_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
+		T5_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
 	end
 
-	-- Decay the T2.5 "Priority" DKP table
-	for name,_ in pairs(T2PT5_PRIORITY_DKP_TABLE)do
+	-- Decay the T6 "Priority" DKP table
+	for name,_ in pairs(T6_PRIORITY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
-		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T2.5")
+		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T6")
 		local decayedPriorityDKP = 0
 		if initialPriorityDKP < 0 then -- Don't decay Negative values
 			decayedPriorityDKP = initialPriorityDKP
-			CEPGP_print(format("%s had negative T2.5 Priority DKP (%d), skipping.", name, initialPriorityDKP))
+			CEPGP_print(format("%s had negative T6 Priority DKP (%d), skipping.", name, initialPriorityDKP))
 		else
 			decayedPriorityDKP = tonumber(string.format("%2.2f", tonumber(initialPriorityDKP)*(1-(amount/100))))
 		end
-		T2PT5_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T2PT5_PRIORITY_TRANSACTIONS)+1] = {
+		T6_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T6_PRIORITY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -915,21 +899,21 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T2PT5_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
+		T6_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
 	end
 
-	-- Decay the T2.5 "Lottery" DKP table
-	for name,_ in pairs(T2PT5_LOTTERY_DKP_TABLE)do
+	-- Decay the T6 "Lottery" DKP table
+	for name,_ in pairs(T6_LOTTERY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
-		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T2.5")
+		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T6")
 		local decayedLotteryDKP = 0
 		if initialLotteryDKP < 0 then -- Don't decay Negative values
 			decayedLotteryDKP = initialLotteryDKP
-			CEPGP_print(format("%s had negative T2.5 Lottery DKP (%d), skipping.", name, initialLotteryDKP))
+			CEPGP_print(format("%s had negative T6 Lottery DKP (%d), skipping.", name, initialLotteryDKP))
 		else
 			decayedLotteryDKP = tonumber(string.format("%2.2f", tonumber(initialLotteryDKP)*(1-(amount/100))))
 		end
-		T2PT5_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T2PT5_LOTTERY_TRANSACTIONS)+1] = {
+		T6_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T6_LOTTERY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -941,21 +925,21 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T2PT5_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
+		T6_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
 	end
 
-	-- Decay the T3 "Priority" DKP table
-	for name,_ in pairs(T3_PRIORITY_DKP_TABLE)do
+	-- Decay the T6.5 "Priority" DKP table
+	for name,_ in pairs(T6PT5_PRIORITY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
-		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T3")
+		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T6.5")
 		local decayedPriorityDKP = 0
 		if initialPriorityDKP < 0 then -- Don't decay Negative values
 			decayedPriorityDKP = initialPriorityDKP
-			CEPGP_print(format("%s had negative T2 Priority DKP (%d), skipping.", name, initialPriorityDKP))
+			CEPGP_print(format("%s had negative T5 Priority DKP (%d), skipping.", name, initialPriorityDKP))
 		else
 			decayedPriorityDKP = tonumber(string.format("%2.2f", tonumber(initialPriorityDKP)*(1-(amount/100))))
 		end
-		T3_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T3_PRIORITY_TRANSACTIONS)+1] = {
+		T6PT5_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T6PT5_PRIORITY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -967,21 +951,21 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T3_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
+		T6PT5_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
 	end
 
-	-- Decay the T3 "Lottery" DKP table
-	for name,_ in pairs(T3_LOTTERY_DKP_TABLE)do
+	-- Decay the T6.5 "Lottery" DKP table
+	for name,_ in pairs(T6PT5_LOTTERY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
-		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T3")
+		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T6.5")
 		local decayedLotteryDKP = 0
 		if initialLotteryDKP < 0 then -- Don't decay Negative values
 			decayedLotteryDKP = initialLotteryDKP
-			CEPGP_print(format("%s had negative T2 Lottery DKP (%d), skipping.", name, initialLotteryDKP))
+			CEPGP_print(format("%s had negative T5 Lottery DKP (%d), skipping.", name, initialLotteryDKP))
 		else
 			decayedLotteryDKP = tonumber(string.format("%2.2f", tonumber(initialLotteryDKP)*(1-(amount/100))))
 		end
-		T3_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T3_LOTTERY_TRANSACTIONS)+1] = {
+		T6PT5_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T6PT5_LOTTERY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -993,7 +977,7 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T3_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
+		T6PT5_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
 	end
 
 	TnTDKP_UpdateDKPRelatedScrollBars();

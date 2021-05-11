@@ -79,8 +79,17 @@ function CEPGP_initialise()
 	if T1_LOTTERY_TRANSACTIONS == nil then
 		T1_LOTTERY_TRANSACTIONS = {}
 	end
-	if OPEN_TRANSACTIONS == nil then
-		OPEN_TRANSACTIONS = {}
+	if T3_OPEN_TRANSACTIONS == nil then
+		T3_OPEN_TRANSACTIONS = {}
+	end
+	if T2PT5_OPEN_TRANSACTIONS == nil then
+		T2PT5_OPEN_TRANSACTIONS = {}
+	end
+	if T2_OPEN_TRANSACTIONS == nil then
+		T2_OPEN_TRANSACTIONS = {}
+	end
+	if T1_OPEN_TRANSACTIONS == nil then
+		T1_OPEN_TRANSACTIONS = {}
 	end
 	if PLAYER_ROLE_CONFIG == nil then
 		PLAYER_ROLE_CONFIG = {}

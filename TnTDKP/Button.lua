@@ -96,8 +96,7 @@ function CEPGP_ListButton_OnClick(obj)
 
 															-- If we're just trying to log an Open transaction, the flow is way more trivial
 															if TnTDKP_awardMode == "open" then
-																TnTDKP_logOpenTransaction(name, itemIDOrReason)
-																CEPGP_print("Open Transaction logged. \"Amount\" field was disregarded")
+																CEPGP_print("The ability to log Open Transactions on a per-character basis is just old code that should be removed. This is an unnecessary action. Disregarding.")
 																return
 															end
 

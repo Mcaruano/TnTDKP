@@ -1,4 +1,4 @@
 nonEpicItemCostConfig = {
-    -- Onyxia Hide Backpack --
-	[17966] = 2000,
+    -- Pit Lord's Satchel --
+	[34845] = 2000,
 }

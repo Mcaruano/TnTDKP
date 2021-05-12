@@ -344,13 +344,13 @@ function TnTDKP_determineDKPCostOfItem(itemID)
 	end
 
 	-- Simply check to see which Loot Table the item is in to determine the cost
-	if CEPGP_tContains(tierOneLoot, tonumber(itemID), false) then
+	if CEPGP_tContains(tierFourLoot, tonumber(itemID), false) then
 		return -1000
-	elseif CEPGP_tContains(tierTwoLoot, tonumber(itemID), false) then
+	elseif CEPGP_tContains(tierFiveLoot, tonumber(itemID), false) then
 		return -2000
-	elseif CEPGP_tContains(tierTwoPointFiveLoot, tonumber(itemID), false) then
+	elseif CEPGP_tContains(tierSixLoot, tonumber(itemID), false) then
 		return -3000
-	elseif CEPGP_tContains(tierThreeLoot, tonumber(itemID), false) then
+	elseif CEPGP_tContains(tierSixPointFiveLoot, tonumber(itemID), false) then
 		return -4000
 	else
 		CEPGP_print(format("ItemID: %s not found on any of the Loot LUA config files for any tier", itemID), true)
@@ -1022,13 +1022,13 @@ end
 -- AddOns from easily telling which zone you zone into, so it's easy enough for me to simply maintain
 -- a list of itemIDs for each raid tier
 function determineRaidTierFromItemID(itemID)
-	if CEPGP_tContains(tierOneLoot, tonumber(itemID), false) then
+	if CEPGP_tContains(tierFourLoot, tonumber(itemID), false) then
 		return "T4"
-	elseif CEPGP_tContains(tierTwoLoot, tonumber(itemID), false) then
+	elseif CEPGP_tContains(tierFiveLoot, tonumber(itemID), false) then
 		return "T5"
-	elseif CEPGP_tContains(tierTwoPointFiveLoot, tonumber(itemID), false) then
+	elseif CEPGP_tContains(tierSixLoot, tonumber(itemID), false) then
 		return "T6"
-	elseif CEPGP_tContains(tierThreeLoot, tonumber(itemID), false) then
+	elseif CEPGP_tContains(tierSixPointFiveLoot, tonumber(itemID), false) then
 		return "T6.5"
 	end
 end

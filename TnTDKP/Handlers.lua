@@ -143,56 +143,16 @@ end
 -- have been killed for each such encounter.
 function CEPGP_confirmBossEncounterDefeated(encounterName)
 
-	-- Determine if all 8 of Majordomo's advisors have been killed
-	if encounterName == "Majordomo Executus" then
+	-- Determine if all 5 members of High King Maulgar's council were defeated
+	if encounterName == "High King Maulgar" then
 		CEPGP_kills = CEPGP_kills + 1;
-		if CEPGP_kills == 8 then
+		if CEPGP_kills == 5 then
 			return true;
 		else
 			return false;
 		end
 	end
 	
-	-- Razorgore is only successfully defeated if he is killed AND all 30 of his eggs
-	-- have been killed. Egg kills are captured via "SPELL_CAST_SUCCESS" events, and
-	-- as such are tracked in CEPGP_OnEvent()
-	-- if encounterName == "Razorgore the Untamed" then
-	-- 	if CEPGP_kills == 30 then --For this encounter, CEPGP_kills is used for the eggs
-	-- 		return true;
-	-- 	else
-	-- 		return false;
-	-- 	end
-	-- end
-	
-	-- Determine if all 3 bugs have been killed
-	if encounterName == "The Bug Trio" then
-		CEPGP_kills = CEPGP_kills + 1;
-		if CEPGP_kills == 3 then
-			return true;
-		else
-			return false;
-		end
-	end
-	
-	-- Determine if both emperors have been killed
-	if encounterName == "The Twin Emperors" then
-		CEPGP_kills = CEPGP_kills + 1;
-		if CEPGP_kills == 2 then
-			return true;
-		else
-			return false;
-		end
-	end
-	
-	-- Determine if all four horsemen have been killed
-	if encounterName == "The Four Horsemen" then
-		CEPGP_kills = CEPGP_kills + 1;
-		if CEPGP_kills == 4 then
-			return true;
-		else
-			return false;
-		end
-	end
 	return true;
 end
 

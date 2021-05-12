@@ -36,17 +36,17 @@ function CEPGP_handleCombat(bossEncounter, except)
 			return;
 		end
 		local tier = "T4"
-		if CEPGP_tContains(tierOneBossConfig, bossEncounter, true) then
-			DKP = tierOneBossConfig[bossEncounter]["KillDKPAward"]
+		if CEPGP_tContains(tierFourBossConfig, bossEncounter, true) then
+			DKP = tierFourBossConfig[bossEncounter]["KillDKPAward"]
 			tier = "T4"
-		elseif CEPGP_tContains(tierTwoBossConfig, bossEncounter, true) then
-			DKP = tierTwoBossConfig[bossEncounter]["KillDKPAward"]
+		elseif CEPGP_tContains(tierFiveBossConfig, bossEncounter, true) then
+			DKP = tierFiveBossConfig[bossEncounter]["KillDKPAward"]
 			tier = "T5"
-		elseif CEPGP_tContains(tierTwoPointFiveBossConfig, bossEncounter, true) then
-			DKP = tierTwoPointFiveBossConfig[bossEncounter]["KillDKPAward"]
+		elseif CEPGP_tContains(tierSixBossConfig, bossEncounter, true) then
+			DKP = tierSixBossConfig[bossEncounter]["KillDKPAward"]
 			tier = "T6"
-		elseif CEPGP_tContains(tierThreeBossConfig, bossEncounter, true) then
-			DKP = tierThreeBossConfig[bossEncounter]["KillDKPAward"]
+		elseif CEPGP_tContains(tierSixPointFiveBossConfig, bossEncounter, true) then
+			DKP = tierSixPointFiveBossConfig[bossEncounter]["KillDKPAward"]
 			tier = "T6.5"
 		end
 		if DKP > 0 then

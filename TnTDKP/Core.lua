@@ -173,7 +173,7 @@ function CEPGP_OnEvent(event, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, ar
 			end
 
 			-- Make sure this is a boss we support
-			if tierOneBossConfig[name] or tierTwoBossConfig[name] or tierTwoPointFiveBossConfig[name] or tierThreeBossConfig[name] then
+			if tierFourBossConfig[name] or tierFiveBossConfig[name] or tierSixBossConfig[name] or tierSixPointFiveBossConfig[name] then
 				CEPGP_handleCombat(name)
 			end
 

@@ -24,7 +24,6 @@ CustomItemCostConfig.lua
 NonEpicItemCostConfig.lua
 MainRaidRoster.lua
 ReserveRaidRoster.lua
-TnTDKPTestRunner.lua
 AltMapConfig.lua
 Roles.lua
 Core.lua

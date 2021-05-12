@@ -170,6 +170,7 @@ function CEPGP_OnEvent(event, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, ar
 			if tierFourBossConfig[name] or tierFiveBossConfig[name] or tierSixBossConfig[name] or tierSixPointFiveBossConfig[name] then
 				CEPGP_handleCombat(name)
 			end
+		end
 		
 	elseif (event == "LOOT_OPENED" or event == "LOOT_CLOSED" or event == "LOOT_SLOT_CLEARED") then
 		CEPGP_handleLoot(event, arg1, arg2);

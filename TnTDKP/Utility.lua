@@ -31,65 +31,65 @@ function CEPGP_initialise()
 	if PLAYER_LOTTERY_REGISTRY == nil then
 		PLAYER_LOTTERY_REGISTRY = {}
 	end
-	if T3_PRIORITY_DKP_TABLE == nil then
-		T3_PRIORITY_DKP_TABLE = {}
+	if T6PT5_PRIORITY_DKP_TABLE == nil then
+		T6PT5_PRIORITY_DKP_TABLE = {}
 	end
-	if T3_LOTTERY_DKP_TABLE == nil then
-		T3_LOTTERY_DKP_TABLE = {}
+	if T6PT5_LOTTERY_DKP_TABLE == nil then
+		T6PT5_LOTTERY_DKP_TABLE = {}
 	end
-	if T2PT5_PRIORITY_DKP_TABLE == nil then
-		T2PT5_PRIORITY_DKP_TABLE = {}
+	if T6_PRIORITY_DKP_TABLE == nil then
+		T6_PRIORITY_DKP_TABLE = {}
 	end
-	if T2PT5_LOTTERY_DKP_TABLE == nil then
-		T2PT5_LOTTERY_DKP_TABLE = {}
+	if T6_LOTTERY_DKP_TABLE == nil then
+		T6_LOTTERY_DKP_TABLE = {}
 	end
-	if T2_PRIORITY_DKP_TABLE == nil then
-		T2_PRIORITY_DKP_TABLE = {}
+	if T5_PRIORITY_DKP_TABLE == nil then
+		T5_PRIORITY_DKP_TABLE = {}
 	end
-	if T2_LOTTERY_DKP_TABLE == nil then
-		T2_LOTTERY_DKP_TABLE = {}
+	if T5_LOTTERY_DKP_TABLE == nil then
+		T5_LOTTERY_DKP_TABLE = {}
 	end
-	if T1_PRIORITY_DKP_TABLE == nil then
-		T1_PRIORITY_DKP_TABLE = {}
+	if T4_PRIORITY_DKP_TABLE == nil then
+		T4_PRIORITY_DKP_TABLE = {}
 	end
-	if T1_LOTTERY_DKP_TABLE == nil then
-		T1_LOTTERY_DKP_TABLE = {}
+	if T4_LOTTERY_DKP_TABLE == nil then
+		T4_LOTTERY_DKP_TABLE = {}
 	end
-	if T3_PRIORITY_TRANSACTIONS == nil then
-		T3_PRIORITY_TRANSACTIONS = {}
+	if T6PT5_PRIORITY_TRANSACTIONS == nil then
+		T6PT5_PRIORITY_TRANSACTIONS = {}
 	end
-	if T3_LOTTERY_TRANSACTIONS == nil then
-		T3_LOTTERY_TRANSACTIONS = {}
+	if T6PT5_LOTTERY_TRANSACTIONS == nil then
+		T6PT5_LOTTERY_TRANSACTIONS = {}
 	end
-	if T2PT5_PRIORITY_TRANSACTIONS == nil then
-		T2PT5_PRIORITY_TRANSACTIONS = {}
+	if T6_PRIORITY_TRANSACTIONS == nil then
+		T6_PRIORITY_TRANSACTIONS = {}
 	end
-	if T2PT5_LOTTERY_TRANSACTIONS == nil then
-		T2PT5_LOTTERY_TRANSACTIONS = {}
+	if T6_LOTTERY_TRANSACTIONS == nil then
+		T6_LOTTERY_TRANSACTIONS = {}
 	end
-	if T2_PRIORITY_TRANSACTIONS == nil then
-		T2_PRIORITY_TRANSACTIONS = {}
+	if T5_PRIORITY_TRANSACTIONS == nil then
+		T5_PRIORITY_TRANSACTIONS = {}
 	end
-	if T2_LOTTERY_TRANSACTIONS == nil then
-		T2_LOTTERY_TRANSACTIONS = {}
+	if T5_LOTTERY_TRANSACTIONS == nil then
+		T5_LOTTERY_TRANSACTIONS = {}
 	end
-	if T1_PRIORITY_TRANSACTIONS == nil then
-		T1_PRIORITY_TRANSACTIONS = {}
+	if T4_PRIORITY_TRANSACTIONS == nil then
+		T4_PRIORITY_TRANSACTIONS = {}
 	end
-	if T1_LOTTERY_TRANSACTIONS == nil then
-		T1_LOTTERY_TRANSACTIONS = {}
+	if T4_LOTTERY_TRANSACTIONS == nil then
+		T4_LOTTERY_TRANSACTIONS = {}
 	end
-	if T3_OPEN_TRANSACTIONS == nil then
-		T3_OPEN_TRANSACTIONS = {}
+	if T6PT5_OPEN_TRANSACTIONS == nil then
+		T6PT5_OPEN_TRANSACTIONS = {}
 	end
-	if T2PT5_OPEN_TRANSACTIONS == nil then
-		T2PT5_OPEN_TRANSACTIONS = {}
+	if T6_OPEN_TRANSACTIONS == nil then
+		T6_OPEN_TRANSACTIONS = {}
 	end
-	if T2_OPEN_TRANSACTIONS == nil then
-		T2_OPEN_TRANSACTIONS = {}
+	if T5_OPEN_TRANSACTIONS == nil then
+		T5_OPEN_TRANSACTIONS = {}
 	end
-	if T1_OPEN_TRANSACTIONS == nil then
-		T1_OPEN_TRANSACTIONS = {}
+	if T4_OPEN_TRANSACTIONS == nil then
+		T4_OPEN_TRANSACTIONS = {}
 	end
 	if PLAYER_ROLE_CONFIG == nil then
 		PLAYER_ROLE_CONFIG = {}
@@ -1039,17 +1039,17 @@ function TnTDKP_getPlayerDKPFromPriorityTableAndInitIfNotFound(name, dkpTable)
 	local priorityDKPTable = {}
 	local lotteryDKPTable = {}
 	if dkpTable == "T3" then
-		priorityDKPTable = T3_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T3_LOTTERY_DKP_TABLE
+		priorityDKPTable = T6PT5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6PT5_LOTTERY_DKP_TABLE
 	elseif dkpTable == "T2.5" then
-		priorityDKPTable = T2PT5_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2PT5_LOTTERY_DKP_TABLE
+		priorityDKPTable = T6_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6_LOTTERY_DKP_TABLE
 	elseif dkpTable == "T2" then
-		priorityDKPTable = T2_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2_LOTTERY_DKP_TABLE
+		priorityDKPTable = T5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T5_LOTTERY_DKP_TABLE
 	elseif dkpTable == "T1" then
-		priorityDKPTable = T1_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T1_LOTTERY_DKP_TABLE
+		priorityDKPTable = T4_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T4_LOTTERY_DKP_TABLE
 	end
 
 	if priorityDKPTable[name] == nil then
@@ -1071,17 +1071,17 @@ function TnTDKP_getPlayerDKPFromLotteryTableAndInitIfNotFound(name, dkpTable)
 	local priorityDKPTable = {}
 	local lotteryDKPTable = {}
 	if dkpTable == "T3" then
-		priorityDKPTable = T3_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T3_LOTTERY_DKP_TABLE
+		priorityDKPTable = T6PT5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6PT5_LOTTERY_DKP_TABLE
 	elseif dkpTable == "T2.5" then
-		priorityDKPTable = T2PT5_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2PT5_LOTTERY_DKP_TABLE
+		priorityDKPTable = T6_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6_LOTTERY_DKP_TABLE
 	elseif dkpTable == "T2" then
-		priorityDKPTable = T2_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2_LOTTERY_DKP_TABLE
+		priorityDKPTable = T5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T5_LOTTERY_DKP_TABLE
 	elseif dkpTable == "T1" then
-		priorityDKPTable = T1_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T1_LOTTERY_DKP_TABLE
+		priorityDKPTable = T4_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T4_LOTTERY_DKP_TABLE
 	end
 
 	if lotteryDKPTable[name] == nil then

@@ -347,25 +347,25 @@ function CEPGP_AddRaidDKP(timestamp, amount, msg, encounter, tier)
 	local priorityTransactionsTable = {}
 	local lotteryTransactionsTable = {}
 	if tier == "T3" then
-		priorityDKPTable = T3_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T3_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T3_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T3_LOTTERY_TRANSACTIONS
+		priorityDKPTable = T6PT5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6PT5_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T6PT5_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T6PT5_LOTTERY_TRANSACTIONS
 	elseif tier == "T2.5" then
-		priorityDKPTable = T2PT5_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2PT5_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T2PT5_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T2PT5_LOTTERY_TRANSACTIONS
+		priorityDKPTable = T6_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T6_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T6_LOTTERY_TRANSACTIONS
 	elseif tier == "T2" then
-		priorityDKPTable = T2_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T2_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T2_LOTTERY_TRANSACTIONS
+		priorityDKPTable = T5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T5_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T5_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T5_LOTTERY_TRANSACTIONS
 	elseif tier == "T1" then
-		priorityDKPTable = T1_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T1_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T1_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T1_LOTTERY_TRANSACTIONS
+		priorityDKPTable = T4_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T4_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T4_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T4_LOTTERY_TRANSACTIONS
 	end
 
 	-- If a custom message was provided, use it as the Transaction record description
@@ -459,25 +459,25 @@ function CEPGP_addStandbyDKP(timestamp, playerNameOnStandby, amount, actionMsg, 
 	local priorityTransactionsTable = {}
 	local lotteryTransactionsTable = {}
 	if tier == "T3" then
-		priorityDKPTable = T3_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T3_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T3_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T3_LOTTERY_TRANSACTIONS
+		priorityDKPTable = T6PT5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6PT5_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T6PT5_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T6PT5_LOTTERY_TRANSACTIONS
 	elseif tier == "T2.5" then
-		priorityDKPTable = T2PT5_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2PT5_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T2PT5_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T2PT5_LOTTERY_TRANSACTIONS
+		priorityDKPTable = T6_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T6_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T6_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T6_LOTTERY_TRANSACTIONS
 	elseif tier == "T2" then
-		priorityDKPTable = T2_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T2_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T2_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T2_LOTTERY_TRANSACTIONS
+		priorityDKPTable = T5_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T5_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T5_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T5_LOTTERY_TRANSACTIONS
 	elseif tier == "T1" then
-		priorityDKPTable = T1_PRIORITY_DKP_TABLE
-		lotteryDKPTable = T1_LOTTERY_DKP_TABLE
-		priorityTransactionsTable = T1_PRIORITY_TRANSACTIONS
-		lotteryTransactionsTable = T1_LOTTERY_TRANSACTIONS
+		priorityDKPTable = T4_PRIORITY_DKP_TABLE
+		lotteryDKPTable = T4_LOTTERY_DKP_TABLE
+		priorityTransactionsTable = T4_PRIORITY_TRANSACTIONS
+		lotteryTransactionsTable = T4_LOTTERY_TRANSACTIONS
 	end
 
 	player = TnTDKP_getMainCharacterName(playerNameOnStandby)
@@ -535,13 +535,13 @@ function TnTDKP_logOpenTransaction(itemIDOrReason, tier)
 	-- these, they won't be returned by Reference
 	local openTransactionsTable = {}
 	if tier == "T3" then
-		openTransactionsTable = T3_OPEN_TRANSACTIONS
+		openTransactionsTable = T6PT5_OPEN_TRANSACTIONS
 	elseif tier == "T2.5" then
-		openTransactionsTable = T2PT5_OPEN_TRANSACTIONS
+		openTransactionsTable = T6_OPEN_TRANSACTIONS
 	elseif tier == "T2" then
-		openTransactionsTable = T2_OPEN_TRANSACTIONS
+		openTransactionsTable = T5_OPEN_TRANSACTIONS
 	elseif tier == "T1" then
-		openTransactionsTable = T1_OPEN_TRANSACTIONS
+		openTransactionsTable = T4_OPEN_TRANSACTIONS
 	end
 
 	-- Check to see if itemIDOrReason is, in fact, an itemID
@@ -607,17 +607,17 @@ function TnTDKP_addOrRemovePriorityDKP(player, amount, itemIDOrReason, itemLink,
 	local priorityDKPTable = {}
 	local priorityTransactionsTable = {}
 	if tier == "T3" then
-		priorityDKPTable = T3_PRIORITY_DKP_TABLE
-		priorityTransactionsTable = T3_PRIORITY_TRANSACTIONS
+		priorityDKPTable = T6PT5_PRIORITY_DKP_TABLE
+		priorityTransactionsTable = T6PT5_PRIORITY_TRANSACTIONS
 	elseif tier == "T2.5" then
-		priorityDKPTable = T2PT5_PRIORITY_DKP_TABLE
-		priorityTransactionsTable = T2PT5_PRIORITY_TRANSACTIONS
+		priorityDKPTable = T6_PRIORITY_DKP_TABLE
+		priorityTransactionsTable = T6_PRIORITY_TRANSACTIONS
 	elseif tier == "T2" then
-		priorityDKPTable = T2_PRIORITY_DKP_TABLE
-		priorityTransactionsTable = T2_PRIORITY_TRANSACTIONS
+		priorityDKPTable = T5_PRIORITY_DKP_TABLE
+		priorityTransactionsTable = T5_PRIORITY_TRANSACTIONS
 	elseif tier == "T1" then
-		priorityDKPTable = T1_PRIORITY_DKP_TABLE
-		priorityTransactionsTable = T1_PRIORITY_TRANSACTIONS
+		priorityDKPTable = T4_PRIORITY_DKP_TABLE
+		priorityTransactionsTable = T4_PRIORITY_TRANSACTIONS
 	end
 
 	player = TnTDKP_getMainCharacterName(player)
@@ -707,17 +707,17 @@ function TnTDKP_addOrRemoveLotteryDKP(player, amount, itemIDOrReason, itemLink, 
 	local lotteryDKPTable = {}
 	local lotteryTransactionsTable = {}
 	if tier == "T3" then
-		lotteryDKPTable = T3_LOTTERY_DKP_TABLE
-		lotteryTransactionsTable = T3_LOTTERY_TRANSACTIONS
+		lotteryDKPTable = T6PT5_LOTTERY_DKP_TABLE
+		lotteryTransactionsTable = T6PT5_LOTTERY_TRANSACTIONS
 	elseif tier == "T2.5" then
-		lotteryDKPTable = T2PT5_LOTTERY_DKP_TABLE
-		lotteryTransactionsTable = T2PT5_LOTTERY_TRANSACTIONS
+		lotteryDKPTable = T6_LOTTERY_DKP_TABLE
+		lotteryTransactionsTable = T6_LOTTERY_TRANSACTIONS
 	elseif tier == "T2" then
-		lotteryDKPTable = T2_LOTTERY_DKP_TABLE
-		lotteryTransactionsTable = T2_LOTTERY_TRANSACTIONS
+		lotteryDKPTable = T5_LOTTERY_DKP_TABLE
+		lotteryTransactionsTable = T5_LOTTERY_TRANSACTIONS
 	elseif tier == "T1" then
-		lotteryDKPTable = T1_LOTTERY_DKP_TABLE
-		lotteryTransactionsTable = T1_LOTTERY_TRANSACTIONS
+		lotteryDKPTable = T4_LOTTERY_DKP_TABLE
+		lotteryTransactionsTable = T4_LOTTERY_TRANSACTIONS
 	end
 
 	player = TnTDKP_getMainCharacterName(player)
@@ -795,7 +795,7 @@ function TnTDKP_decay(amount)
 	local actionMsg = "All DKP Tables decayed by " .. amount .. "%"
 
 	-- Decay the T1 "Priority" DKP table
-	for name,_ in pairs(T1_PRIORITY_DKP_TABLE)do
+	for name,_ in pairs(T4_PRIORITY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T1")
 		local decayedPriorityDKP = 0
@@ -805,7 +805,7 @@ function TnTDKP_decay(amount)
 		else
 			decayedPriorityDKP = tonumber(string.format("%2.2f", tonumber(initialPriorityDKP)*(1-(amount/100))))
 		end
-		T1_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T1_PRIORITY_TRANSACTIONS)+1] = {
+		T4_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T4_PRIORITY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -817,11 +817,11 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T1_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
+		T4_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
 	end
 
 	-- Decay the T1 "Lottery" DKP table
-	for name,_ in pairs(T1_LOTTERY_DKP_TABLE)do
+	for name,_ in pairs(T4_LOTTERY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T1")
 		local decayedLotteryDKP = 0
@@ -831,7 +831,7 @@ function TnTDKP_decay(amount)
 		else
 			decayedLotteryDKP = tonumber(string.format("%2.2f", tonumber(initialLotteryDKP)*(1-(amount/100))))
 		end
-		T1_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T1_LOTTERY_TRANSACTIONS)+1] = {
+		T4_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T4_LOTTERY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -843,11 +843,11 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T1_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
+		T4_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
 	end
 
 	-- Decay the T2 "Priority" DKP table
-	for name,_ in pairs(T2_PRIORITY_DKP_TABLE)do
+	for name,_ in pairs(T5_PRIORITY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T2")
 		local decayedPriorityDKP = 0
@@ -857,7 +857,7 @@ function TnTDKP_decay(amount)
 		else
 			decayedPriorityDKP = tonumber(string.format("%2.2f", tonumber(initialPriorityDKP)*(1-(amount/100))))
 		end
-		T2_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T2_PRIORITY_TRANSACTIONS)+1] = {
+		T5_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T5_PRIORITY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -869,11 +869,11 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T2_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
+		T5_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
 	end
 
 	-- Decay the T2 "Lottery" DKP table
-	for name,_ in pairs(T2_LOTTERY_DKP_TABLE)do
+	for name,_ in pairs(T5_LOTTERY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T2")
 		local decayedLotteryDKP = 0
@@ -883,7 +883,7 @@ function TnTDKP_decay(amount)
 		else
 			decayedLotteryDKP = tonumber(string.format("%2.2f", tonumber(initialLotteryDKP)*(1-(amount/100))))
 		end
-		T2_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T2_LOTTERY_TRANSACTIONS)+1] = {
+		T5_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T5_LOTTERY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -895,11 +895,11 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T2_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
+		T5_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
 	end
 
 	-- Decay the T2.5 "Priority" DKP table
-	for name,_ in pairs(T2PT5_PRIORITY_DKP_TABLE)do
+	for name,_ in pairs(T6_PRIORITY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T2.5")
 		local decayedPriorityDKP = 0
@@ -909,7 +909,7 @@ function TnTDKP_decay(amount)
 		else
 			decayedPriorityDKP = tonumber(string.format("%2.2f", tonumber(initialPriorityDKP)*(1-(amount/100))))
 		end
-		T2PT5_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T2PT5_PRIORITY_TRANSACTIONS)+1] = {
+		T6_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T6_PRIORITY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -921,11 +921,11 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T2PT5_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
+		T6_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
 	end
 
 	-- Decay the T2.5 "Lottery" DKP table
-	for name,_ in pairs(T2PT5_LOTTERY_DKP_TABLE)do
+	for name,_ in pairs(T6_LOTTERY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T2.5")
 		local decayedLotteryDKP = 0
@@ -935,7 +935,7 @@ function TnTDKP_decay(amount)
 		else
 			decayedLotteryDKP = tonumber(string.format("%2.2f", tonumber(initialLotteryDKP)*(1-(amount/100))))
 		end
-		T2PT5_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T2PT5_LOTTERY_TRANSACTIONS)+1] = {
+		T6_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T6_LOTTERY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -947,11 +947,11 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T2PT5_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
+		T6_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
 	end
 
 	-- Decay the T3 "Priority" DKP table
-	for name,_ in pairs(T3_PRIORITY_DKP_TABLE)do
+	for name,_ in pairs(T6PT5_PRIORITY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 		local initialPriorityDKP = TnTDKP_getPriorityDKP(name, "T3")
 		local decayedPriorityDKP = 0
@@ -961,7 +961,7 @@ function TnTDKP_decay(amount)
 		else
 			decayedPriorityDKP = tonumber(string.format("%2.2f", tonumber(initialPriorityDKP)*(1-(amount/100))))
 		end
-		T3_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T3_PRIORITY_TRANSACTIONS)+1] = {
+		T6PT5_PRIORITY_TRANSACTIONS[CEPGP_ntgetn(T6PT5_PRIORITY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -973,11 +973,11 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T3_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
+		T6PT5_PRIORITY_DKP_TABLE[name] = decayedPriorityDKP
 	end
 
 	-- Decay the T3 "Lottery" DKP table
-	for name,_ in pairs(T3_LOTTERY_DKP_TABLE)do
+	for name,_ in pairs(T6PT5_LOTTERY_DKP_TABLE)do
 		local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 		local initialLotteryDKP = TnTDKP_getLotteryDKP(name, "T3")
 		local decayedLotteryDKP = 0
@@ -987,7 +987,7 @@ function TnTDKP_decay(amount)
 		else
 			decayedLotteryDKP = tonumber(string.format("%2.2f", tonumber(initialLotteryDKP)*(1-(amount/100))))
 		end
-		T3_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T3_LOTTERY_TRANSACTIONS)+1] = {
+		T6PT5_LOTTERY_TRANSACTIONS[CEPGP_ntgetn(T6PT5_LOTTERY_TRANSACTIONS)+1] = {
 			[1] = name, -- Recipient
 			[2] = UnitName("player"), -- Issuer
 			[3] = actionMsg, -- Action
@@ -999,7 +999,7 @@ function TnTDKP_decay(amount)
 		};
 
 		-- Actually update the value
-		T3_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
+		T6PT5_LOTTERY_DKP_TABLE[name] = decayedLotteryDKP
 	end
 
 	TnTDKP_UpdateDKPRelatedScrollBars();

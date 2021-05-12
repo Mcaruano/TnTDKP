@@ -366,7 +366,7 @@ end
 function TnTDKP_addItemToPriorityList(player, itemID)
 	-- Simply fetch the DKP for this player from any table to be sure a record
 	-- gets generated for this player if one doesn't yet exist
-	local DKP = TnTDKP_getPriorityDKP(player, "T1")
+	local DKP = TnTDKP_getPriorityDKP(player, "T4")
 
 	-- Make sure the itemID is a valid itemID
 	if not TnTDKP_isItemID(itemID) then
@@ -404,7 +404,7 @@ end
 function TnTDKP_addItemToLotteryList(player, itemID)
 	-- Simply fetch the DKP for this player from any table to be sure a record
 	-- gets generated for this player if one doesn't yet exist
-	local DKP = TnTDKP_getLotteryDKP(player, "T1")
+	local DKP = TnTDKP_getLotteryDKP(player, "T4")
 
 	-- Make sure the itemID is a valid itemID
 	if not TnTDKP_isItemID(itemID) then
@@ -437,7 +437,7 @@ end
 function TnTDKP_removeItemFromPriorityList(player, itemID)
 	-- Simply fetch the DKP for this player from any table to be sure a record
 	-- gets generated for this player if one doesn't yet exist
-	local DKP = TnTDKP_getPriorityDKP(player, "T1")
+	local DKP = TnTDKP_getPriorityDKP(player, "T4")
 
 	-- Make sure the itemID is a valid itemID
 	if not TnTDKP_isItemID(itemID) then
@@ -478,7 +478,7 @@ end
 function TnTDKP_removeItemFromLotteryList(player, itemID)
 	-- Simply fetch the DKP for this player from any table to be sure a record
 	-- gets generated for this player if one doesn't yet exist
-	local DKP = TnTDKP_getLotteryDKP(player, "T1")
+	local DKP = TnTDKP_getLotteryDKP(player, "T4")
 
 	-- Make sure the itemID is a valid itemID
 	if not TnTDKP_isItemID(itemID) then
@@ -1023,13 +1023,13 @@ end
 -- a list of itemIDs for each raid tier
 function determineRaidTierFromItemID(itemID)
 	if CEPGP_tContains(tierOneLoot, tonumber(itemID), false) then
-		return "T1"
+		return "T4"
 	elseif CEPGP_tContains(tierTwoLoot, tonumber(itemID), false) then
-		return "T2"
+		return "T5"
 	elseif CEPGP_tContains(tierTwoPointFiveLoot, tonumber(itemID), false) then
-		return "T2.5"
+		return "T6"
 	elseif CEPGP_tContains(tierThreeLoot, tonumber(itemID), false) then
-		return "T3"
+		return "T6.5"
 	end
 end
 
@@ -1038,16 +1038,16 @@ end
 function TnTDKP_getPlayerDKPFromPriorityTableAndInitIfNotFound(name, dkpTable)
 	local priorityDKPTable = {}
 	local lotteryDKPTable = {}
-	if dkpTable == "T3" then
+	if dkpTable == "T6.5" then
 		priorityDKPTable = T6PT5_PRIORITY_DKP_TABLE
 		lotteryDKPTable = T6PT5_LOTTERY_DKP_TABLE
-	elseif dkpTable == "T2.5" then
+	elseif dkpTable == "T6" then
 		priorityDKPTable = T6_PRIORITY_DKP_TABLE
 		lotteryDKPTable = T6_LOTTERY_DKP_TABLE
-	elseif dkpTable == "T2" then
+	elseif dkpTable == "T5" then
 		priorityDKPTable = T5_PRIORITY_DKP_TABLE
 		lotteryDKPTable = T5_LOTTERY_DKP_TABLE
-	elseif dkpTable == "T1" then
+	elseif dkpTable == "T4" then
 		priorityDKPTable = T4_PRIORITY_DKP_TABLE
 		lotteryDKPTable = T4_LOTTERY_DKP_TABLE
 	end
@@ -1070,16 +1070,16 @@ end
 function TnTDKP_getPlayerDKPFromLotteryTableAndInitIfNotFound(name, dkpTable)
 	local priorityDKPTable = {}
 	local lotteryDKPTable = {}
-	if dkpTable == "T3" then
+	if dkpTable == "T6.5" then
 		priorityDKPTable = T6PT5_PRIORITY_DKP_TABLE
 		lotteryDKPTable = T6PT5_LOTTERY_DKP_TABLE
-	elseif dkpTable == "T2.5" then
+	elseif dkpTable == "T6" then
 		priorityDKPTable = T6_PRIORITY_DKP_TABLE
 		lotteryDKPTable = T6_LOTTERY_DKP_TABLE
-	elseif dkpTable == "T2" then
+	elseif dkpTable == "T5" then
 		priorityDKPTable = T5_PRIORITY_DKP_TABLE
 		lotteryDKPTable = T5_LOTTERY_DKP_TABLE
-	elseif dkpTable == "T1" then
+	elseif dkpTable == "T4" then
 		priorityDKPTable = T4_PRIORITY_DKP_TABLE
 		lotteryDKPTable = T4_LOTTERY_DKP_TABLE
 	end

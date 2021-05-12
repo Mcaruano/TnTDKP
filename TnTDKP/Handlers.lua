@@ -9,7 +9,7 @@ function CEPGP_handleComms(event, arg1, arg2)
 		nameWithoutServer = string.sub(arg2, 0, string.find(arg2, "-")-1);
 	end
 	if event == "CHAT_MSG_WHISPER" and string.lower(arg1) == "!me" then
-		local DKP = TnTDKP_getLotteryDKP(nameWithoutServer, "T1")
+		local DKP = TnTDKP_getLotteryDKP(nameWithoutServer, "T4")
 		SendChatMessage(format("[Report for %s] Lottery DKP = " .. DKP, nameWithoutServer), WHISPER, CEPGP_LANGUAGE, fullyQualifiedName);
 	end
 end
@@ -35,59 +35,59 @@ function CEPGP_handleCombat(bossEncounter, except)
 		if not wasDefeated then
 			return;
 		end
-		local tier = "T1"
+		local tier = "T4"
 		if CEPGP_tContains(tierOneBossConfig, bossEncounter, true) then
 			DKP = tierOneBossConfig[bossEncounter]["KillDKPAward"]
-			tier = "T1"
+			tier = "T4"
 		elseif CEPGP_tContains(tierTwoBossConfig, bossEncounter, true) then
 			DKP = tierTwoBossConfig[bossEncounter]["KillDKPAward"]
-			tier = "T2"
+			tier = "T5"
 		elseif CEPGP_tContains(tierTwoPointFiveBossConfig, bossEncounter, true) then
 			DKP = tierTwoPointFiveBossConfig[bossEncounter]["KillDKPAward"]
-			tier = "T2.5"
+			tier = "T6"
 		elseif CEPGP_tContains(tierThreeBossConfig, bossEncounter, true) then
 			DKP = tierThreeBossConfig[bossEncounter]["KillDKPAward"]
-			tier = "T3"
+			tier = "T6.5"
 		end
 		if DKP > 0 then
 			-- For Raidwide DKP Awards, we use the same Timestamp for each transaction record
 			local timestamp = date("%c", time())
 
-			-- If a T1 boss is killed, we award DKP for the T1, T2, T2.5, and T3 DKP tables
-			-- if tier == "T1" then
+			-- If a T4 boss is killed, we award DKP for the T4, T5, T6, and T6.5 DKP tables
+			-- if tier == "T4" then
 			-- 	-- Announce the boss kill to Raid and Gchat
-			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T1, T2, T2.5, and T3 DKP has been awarded to the Raid & Standby", RAID, CEPGP_LANGUAGE);
-			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T1, T2, T2.5, and T3 DKP has been awarded to the Raid & Standby", GUILD, CEPGP_LANGUAGE);
-			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T1");
-			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T2");
-			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T2.5");
-			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T3");
+			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T4, T5, T6, and T6.5 DKP has been awarded to the Raid & Standby", RAID, CEPGP_LANGUAGE);
+			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T4, T5, T6, and T6.5 DKP has been awarded to the Raid & Standby", GUILD, CEPGP_LANGUAGE);
+			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T4");
+			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T5");
+			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T6");
+			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T6.5");
 				
-			-- -- If a T2 boss is killed, we only award DKP for the T2, T2.5, and T3 DKP tables
-			-- elseif tier == "T2" then
+			-- -- If a T5 boss is killed, we only award DKP for the T5, T6, and T6.5 DKP tables
+			-- elseif tier == "T5" then
 			-- 	-- Announce the boss kill to Raid and Gchat
-			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T2, T2.5, and T3 DKP has been awarded to the Raid & Standby", RAID, CEPGP_LANGUAGE);
-			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T2, T2.5, and T3 DKP has been awarded to the Raid & Standby", GUILD, CEPGP_LANGUAGE);
-			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T2");
-			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T2.5");
-			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T3");
+			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T5, T6, and T6.5 DKP has been awarded to the Raid & Standby", RAID, CEPGP_LANGUAGE);
+			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T5, T6, and T6.5 DKP has been awarded to the Raid & Standby", GUILD, CEPGP_LANGUAGE);
+			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T5");
+			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T6");
+			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T6.5");
 
-			-- -- If a T2.5 boss is killed, we only award DKP for the T2.5 and T3 DKP tables
-			-- elseif tier == "T2.5" then
+			-- -- If a T6 boss is killed, we only award DKP for the T6 and T6.5 DKP tables
+			-- elseif tier == "T6" then
 			-- 	-- Announce the boss kill to Raid and Gchat
-			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T2.5 and T3 DKP has been awarded to the Raid & Standby", RAID, CEPGP_LANGUAGE);
-			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T2.5 and T3 DKP has been awarded to the Raid & Standby", GUILD, CEPGP_LANGUAGE);
-			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T2.5");
-			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T3");
-			-- If a T3 boss is killed, we only award DKP for the T3 DKP table
-			if tier == "T3" then
+			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T6 and T6.5 DKP has been awarded to the Raid & Standby", RAID, CEPGP_LANGUAGE);
+			-- 	SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T6 and T6.5 DKP has been awarded to the Raid & Standby", GUILD, CEPGP_LANGUAGE);
+			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T6");
+			-- 	CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T6.5");
+			-- If a T6.5 boss is killed, we only award DKP for the T6.5 DKP table
+			if tier == "T6.5" then
 				-- Announce the boss kill to Raid and Gchat
-				SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T3 DKP has been awarded to the Raid & Standby, as well as a proportional amount of T1, T2, and T2.5 DKP.", RAID, CEPGP_LANGUAGE);
-				SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T3 DKP has been awarded to the Raid & Standby,  as well as a proportional amount of T1, T2, and T2.5 DKP.", GUILD, CEPGP_LANGUAGE);
-				CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T3");
-				CEPGP_AddRaidDKP(timestamp, ceil(DKP*0.75), nil, bossEncounter, "T2.5");
-				CEPGP_AddRaidDKP(timestamp, ceil(DKP*0.5), nil, bossEncounter, "T2");
-				CEPGP_AddRaidDKP(timestamp, ceil(DKP*0.25), nil, bossEncounter, "T1");
+				SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T6.5 DKP has been awarded to the Raid & Standby, as well as a proportional amount of T4, T5, and T6 DKP.", RAID, CEPGP_LANGUAGE);
+				SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T6.5 DKP has been awarded to the Raid & Standby,  as well as a proportional amount of T4, T5, and T6 DKP.", GUILD, CEPGP_LANGUAGE);
+				CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T6.5");
+				CEPGP_AddRaidDKP(timestamp, ceil(DKP*0.75), nil, bossEncounter, "T6");
+				CEPGP_AddRaidDKP(timestamp, ceil(DKP*0.5), nil, bossEncounter, "T5");
+				CEPGP_AddRaidDKP(timestamp, ceil(DKP*0.25), nil, bossEncounter, "T4");
 			end
 			-- Award standby members
 			if STANDBYEP then
@@ -99,35 +99,35 @@ function CEPGP_handleCombat(bossEncounter, except)
 		
 						-- Enforce the Online requirement if STANDBYOFFLINE override not enabled
 						if online == 1 or STANDBYOFFLINE then
-							-- if tier == "T1" then
-							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T1 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T1");
-							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T2 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T2");
-							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T2.5 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T2.5");
-							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T3 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T3");
-							-- elseif tier == "T2" then
-							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T2 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T2");
-							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T2.5 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T2.5");
-							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T3 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T3");
-							-- elseif tier == "T2.5" then
-							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T2.5 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T2.5");
-							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T3 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T3");
-							if tier == "T3" then
-								CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T3 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T3");
-								CEPGP_addStandbyDKP(timestamp, standbyMember, ceil(DKP*0.75)*(STANDBYPERCENT/100), "[T2.5 DKP " .. ceil(DKP*0.75) .. "]: " .. bossEncounter .. " (Standby)", "T2.5");
-								CEPGP_addStandbyDKP(timestamp, standbyMember, ceil(DKP*0.5)*(STANDBYPERCENT/100), "[T2 DKP " .. ceil(DKP*0.5) .. "]: " .. bossEncounter .. " (Standby)", "T2");
-								CEPGP_addStandbyDKP(timestamp, standbyMember, ceil(DKP*0.25)*(STANDBYPERCENT/100), "[T1 DKP " .. ceil(DKP*0.25) .. "]: " .. bossEncounter .. " (Standby)", "T1");
+							-- if tier == "T4" then
+							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T4 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T4");
+							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T5 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T5");
+							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T6 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T6");
+							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T6.5 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T6.5");
+							-- elseif tier == "T5" then
+							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T5 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T5");
+							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T6 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T6");
+							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T6.5 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T6.5");
+							-- elseif tier == "T6" then
+							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T6 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T6");
+							-- 	CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T6.5 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T6.5");
+							if tier == "T6.5" then
+								CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T6.5 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T6.5");
+								CEPGP_addStandbyDKP(timestamp, standbyMember, ceil(DKP*0.75)*(STANDBYPERCENT/100), "[T6 DKP " .. ceil(DKP*0.75) .. "]: " .. bossEncounter .. " (Standby)", "T6");
+								CEPGP_addStandbyDKP(timestamp, standbyMember, ceil(DKP*0.5)*(STANDBYPERCENT/100), "[T5 DKP " .. ceil(DKP*0.5) .. "]: " .. bossEncounter .. " (Standby)", "T5");
+								CEPGP_addStandbyDKP(timestamp, standbyMember, ceil(DKP*0.25)*(STANDBYPERCENT/100), "[T4 DKP " .. ceil(DKP*0.25) .. "]: " .. bossEncounter .. " (Standby)", "T4");
 							end
 						end
 					end
 				end
-				-- if tier == "T1" then
-				-- 	SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T1, T2, T2.5, and T3 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
-				-- elseif tier == "T2" then
-				-- 	SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T2, T2.5, and T3 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
-				-- elseif tier == "T2.5" then
-				-- 	SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T2.5 and T3 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
-				if tier == "T3" then
-					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T3 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
+				-- if tier == "T4" then
+				-- 	SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T4, T5, T6, and T6.5 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
+				-- elseif tier == "T5" then
+				-- 	SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T5, T6, and T6.5 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
+				-- elseif tier == "T6" then
+				-- 	SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T6 and T6.5 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
+				if tier == "T6.5" then
+					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T6.5 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
 				end
 				CEPGP_UpdateTrafficScrollBar();
 				SendChatMessage("Whisper me \"" .. CEPGP_standby_whisper_msg .. "\" from your MAIN to add yourself to the Standby list", GUILD, CEPGP_LANGUAGE);

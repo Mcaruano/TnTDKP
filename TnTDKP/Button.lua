@@ -58,19 +58,19 @@ function CEPGP_ListButton_OnClick(obj)
 		CEPGP_context_popup_ADD_check:SetChecked(nil);
 		CEPGP_context_popup_REMOVE_check:SetChecked(nil);
 
-		-- Display the T1/T2/T2.5/T3 Checkboxes, and initialize them with "T3" checked
-		ShowUIPanel(CEPGP_context_popup_T1_check);
-		ShowUIPanel(CEPGP_context_popup_T2_check);
-		ShowUIPanel(CEPGP_context_popup_T2PT5_check);
-		ShowUIPanel(CEPGP_context_popup_T3_check);
-		_G["CEPGP_context_popup_T1_check_text"]:Show();
-		_G["CEPGP_context_popup_T2_check_text"]:Show();
-		_G["CEPGP_context_popup_T2PT5_check_text"]:Show();
-		_G["CEPGP_context_popup_T3_check_text"]:Show();
-		CEPGP_context_popup_T1_check:SetChecked(nil);
-		CEPGP_context_popup_T2_check:SetChecked(nil);
-		CEPGP_context_popup_T2PT5_check:SetChecked(nil);
-		CEPGP_context_popup_T3_check:SetChecked(1);
+		-- Display the T4/T5/T6/T6.5 Checkboxes, and initialize them with "T4" checked
+		ShowUIPanel(CEPGP_context_popup_T4_check);
+		ShowUIPanel(CEPGP_context_popup_T5_check);
+		ShowUIPanel(CEPGP_context_popup_T6_check);
+		ShowUIPanel(CEPGP_context_popup_T6PT5_check);
+		_G["CEPGP_context_popup_T4_check_text"]:Show();
+		_G["CEPGP_context_popup_T5_check_text"]:Show();
+		_G["CEPGP_context_popup_T6_check_text"]:Show();
+		_G["CEPGP_context_popup_T6PT5_check_text"]:Show();
+		CEPGP_context_popup_T4_check:SetChecked(1);
+		CEPGP_context_popup_T5_check:SetChecked(nil);
+		CEPGP_context_popup_T6_check:SetChecked(nil);
+		CEPGP_context_popup_T6PT5_check:SetChecked(nil);
 
 		-- Display the text fields we want to display and initialize them for this flow
 		CEPGP_context_popup_header:SetText("Manual Transaction");
@@ -107,31 +107,31 @@ function CEPGP_ListButton_OnClick(obj)
 
 															if TnTDKP_awardMode == "priority" then
 																-- Check each "Tier" checkbox and award the corresponding tables with DKP
-																if CEPGP_context_popup_T1_check:GetChecked() then
-																	TnTDKP_addOrRemovePriorityDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T1");
+																if CEPGP_context_popup_T4_check:GetChecked() then
+																	TnTDKP_addOrRemovePriorityDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T4");
 																end
-																if CEPGP_context_popup_T2_check:GetChecked() then
-																	TnTDKP_addOrRemovePriorityDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T2");
+																if CEPGP_context_popup_T5_check:GetChecked() then
+																	TnTDKP_addOrRemovePriorityDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T5");
 																end
-																if CEPGP_context_popup_T2PT5_check:GetChecked() then
-																	TnTDKP_addOrRemovePriorityDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T2.5");
+																if CEPGP_context_popup_T6_check:GetChecked() then
+																	TnTDKP_addOrRemovePriorityDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T6");
 																end
-																if CEPGP_context_popup_T3_check:GetChecked() then
-																	TnTDKP_addOrRemovePriorityDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T3");
+																if CEPGP_context_popup_T6PT5_check:GetChecked() then
+																	TnTDKP_addOrRemovePriorityDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T6.5");
 																end
 															else
 																-- Check each "Tier" checkbox and award the corresponding tables with DKP
-																if CEPGP_context_popup_T1_check:GetChecked() then
-																	TnTDKP_addOrRemoveLotteryDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T1");
+																if CEPGP_context_popup_T4_check:GetChecked() then
+																	TnTDKP_addOrRemoveLotteryDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T4");
 																end
-																if CEPGP_context_popup_T2_check:GetChecked() then
-																	TnTDKP_addOrRemoveLotteryDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T2");
+																if CEPGP_context_popup_T5_check:GetChecked() then
+																	TnTDKP_addOrRemoveLotteryDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T5");
 																end
-																if CEPGP_context_popup_T2PT5_check:GetChecked() then
-																	TnTDKP_addOrRemoveLotteryDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T2.5");
+																if CEPGP_context_popup_T6_check:GetChecked() then
+																	TnTDKP_addOrRemoveLotteryDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T6");
 																end
-																if CEPGP_context_popup_T3_check:GetChecked() then
-																	TnTDKP_addOrRemoveLotteryDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T3");
+																if CEPGP_context_popup_T6PT5_check:GetChecked() then
+																	TnTDKP_addOrRemoveLotteryDKP(name, tonumber(CEPGP_context_amount_editbox:GetText()), itemIDOrReason, nil, "T6.5");
 																end
 															end
 														end);
@@ -162,19 +162,19 @@ function CEPGP_ListButton_OnClick(obj)
 		CEPGP_context_popup_ADD_check:SetChecked(nil);
 		CEPGP_context_popup_REMOVE_check:SetChecked(nil);
 
-		-- Suppress the T1/T2/T2.5/T3 Checkboxes
-		HideUIPanel(CEPGP_context_popup_T1_check);
-		HideUIPanel(CEPGP_context_popup_T2_check);
-		HideUIPanel(CEPGP_context_popup_T2PT5_check);
-		HideUIPanel(CEPGP_context_popup_T3_check);
-		_G["CEPGP_context_popup_T1_check_text"]:Hide();
-		_G["CEPGP_context_popup_T2_check_text"]:Hide();
-		_G["CEPGP_context_popup_T2PT5_check_text"]:Hide();
-		_G["CEPGP_context_popup_T3_check_text"]:Hide();
-		CEPGP_context_popup_T1_check:SetChecked(nil);
-		CEPGP_context_popup_T2_check:SetChecked(nil);
-		CEPGP_context_popup_T2PT5_check:SetChecked(nil);
-		CEPGP_context_popup_T3_check:SetChecked(nil);
+		-- Suppress the T4/T5/T6/T6.5 Checkboxes
+		HideUIPanel(CEPGP_context_popup_T4_check);
+		HideUIPanel(CEPGP_context_popup_T5_check);
+		HideUIPanel(CEPGP_context_popup_T6_check);
+		HideUIPanel(CEPGP_context_popup_T6PT5_check);
+		_G["CEPGP_context_popup_T4_check_text"]:Hide();
+		_G["CEPGP_context_popup_T5_check_text"]:Hide();
+		_G["CEPGP_context_popup_T6_check_text"]:Hide();
+		_G["CEPGP_context_popup_T6PT5_check_text"]:Hide();
+		CEPGP_context_popup_T4_check:SetChecked(nil);
+		CEPGP_context_popup_T5_check:SetChecked(nil);
+		CEPGP_context_popup_T6_check:SetChecked(nil);
+		CEPGP_context_popup_T6PT5_check:SetChecked(nil);
 
 		-- Hide the Prefix/Suffix text fields, we use a centered one for this flow
 		_G["CEPGP_context_popup_title"]:Hide();
@@ -223,19 +223,19 @@ function CEPGP_ListButton_OnClick(obj)
 		-- Hide TextFields we won't be using
 		_G["CEPGP_context_popup_title"]:Hide();
 
-		-- Display the T1/T2/T2.5/T3 Checkboxes, and initialize them with "T3" checked
-		ShowUIPanel(CEPGP_context_popup_T1_check);
-		ShowUIPanel(CEPGP_context_popup_T2_check);
-		ShowUIPanel(CEPGP_context_popup_T2PT5_check);
-		ShowUIPanel(CEPGP_context_popup_T3_check);
-		_G["CEPGP_context_popup_T1_check_text"]:Show();
-		_G["CEPGP_context_popup_T2_check_text"]:Show();
-		_G["CEPGP_context_popup_T2PT5_check_text"]:Show();
-		_G["CEPGP_context_popup_T3_check_text"]:Show();
-		CEPGP_context_popup_T1_check:SetChecked(nil);
-		CEPGP_context_popup_T2_check:SetChecked(nil);
-		CEPGP_context_popup_T2PT5_check:SetChecked(nil);
-		CEPGP_context_popup_T3_check:SetChecked(1);
+		-- Display the T4/T5/T6/T6.5 Checkboxes, and initialize them with "T4" checked
+		ShowUIPanel(CEPGP_context_popup_T4_check);
+		ShowUIPanel(CEPGP_context_popup_T5_check);
+		ShowUIPanel(CEPGP_context_popup_T6_check);
+		ShowUIPanel(CEPGP_context_popup_T6PT5_check);
+		_G["CEPGP_context_popup_T4_check_text"]:Show();
+		_G["CEPGP_context_popup_T5_check_text"]:Show();
+		_G["CEPGP_context_popup_T6_check_text"]:Show();
+		_G["CEPGP_context_popup_T6PT5_check_text"]:Show();
+		CEPGP_context_popup_T4_check:SetChecked(1);
+		CEPGP_context_popup_T5_check:SetChecked(nil);
+		CEPGP_context_popup_T6_check:SetChecked(nil);
+		CEPGP_context_popup_T6PT5_check:SetChecked(nil);
 
 		CEPGP_context_popup_header:SetText("Award Raid DKP");
 		_G["CEPGP_context_popup_desc_centered"]:Show();
@@ -265,24 +265,24 @@ function CEPGP_ListButton_OnClick(obj)
 
 															-- Check each "Tier" checkbox and award the corresponding tables with DKP
 															local tiersBeingAwarded = {}
-															if CEPGP_context_popup_T1_check:GetChecked() then
-																CEPGP_AddRaidDKP(timestamp, amount, reason, nil, "T1");
-																table.insert(tiersBeingAwarded, "T1")
+															if CEPGP_context_popup_T4_check:GetChecked() then
+																CEPGP_AddRaidDKP(timestamp, amount, reason, nil, "T4");
+																table.insert(tiersBeingAwarded, "T4")
 															end
-															if CEPGP_context_popup_T2_check:GetChecked() then
-																CEPGP_AddRaidDKP(timestamp, amount, reason, nil, "T2");
-																table.insert(tiersBeingAwarded, "T2")
+															if CEPGP_context_popup_T5_check:GetChecked() then
+																CEPGP_AddRaidDKP(timestamp, amount, reason, nil, "T5");
+																table.insert(tiersBeingAwarded, "T5")
 															end
-															if CEPGP_context_popup_T2PT5_check:GetChecked() then
-																CEPGP_AddRaidDKP(timestamp, amount, reason, nil, "T2.5");
-																table.insert(tiersBeingAwarded, "T2.5")
+															if CEPGP_context_popup_T6_check:GetChecked() then
+																CEPGP_AddRaidDKP(timestamp, amount, reason, nil, "T6");
+																table.insert(tiersBeingAwarded, "T6")
 															end
-															if CEPGP_context_popup_T3_check:GetChecked() then
-																CEPGP_AddRaidDKP(timestamp, amount, reason, nil, "T3");
-																table.insert(tiersBeingAwarded, "T3")
+															if CEPGP_context_popup_T6PT5_check:GetChecked() then
+																CEPGP_AddRaidDKP(timestamp, amount, reason, nil, "T6.5");
+																table.insert(tiersBeingAwarded, "T6.5")
 															end
 
-															-- Form the string for the award message: E.g. "T1 & T2"
+															-- Form the string for the award message: E.g. "T4 & T5"
 															tierString = table.concat(tiersBeingAwarded, " & ")
 
 															SendChatMessage("Awarded the Raid & Standby " .. amount .. " " .. tierString .. " DKP. Reason: " .. reason, RAID, CEPGP_LANGUAGE);
@@ -298,17 +298,17 @@ function CEPGP_ListButton_OnClick(obj)
 														
 																		-- Enforce the Online requirement if STANDBYOFFLINE override not enabled
 																		if online == 1 or STANDBYOFFLINE then
-																			if CEPGP_context_popup_T1_check:GetChecked() then
-																				CEPGP_addStandbyDKP(timestamp, standbyMember, amount*(STANDBYPERCENT/100), "[T1 DKP " .. amount .. "]: " .. reason .. " (Standby)", "T1");
+																			if CEPGP_context_popup_T4_check:GetChecked() then
+																				CEPGP_addStandbyDKP(timestamp, standbyMember, amount*(STANDBYPERCENT/100), "[T4 DKP " .. amount .. "]: " .. reason .. " (Standby)", "T4");
 																			end
-																			if CEPGP_context_popup_T2_check:GetChecked() then
-																				CEPGP_addStandbyDKP(timestamp, standbyMember, amount*(STANDBYPERCENT/100), "[T2 DKP " .. amount .. "]: " .. reason .. " (Standby)", "T2");
+																			if CEPGP_context_popup_T5_check:GetChecked() then
+																				CEPGP_addStandbyDKP(timestamp, standbyMember, amount*(STANDBYPERCENT/100), "[T5 DKP " .. amount .. "]: " .. reason .. " (Standby)", "T5");
 																			end
-																			if CEPGP_context_popup_T2PT5_check:GetChecked() then
-																				CEPGP_addStandbyDKP(timestamp, standbyMember, amount*(STANDBYPERCENT/100), "[T2.5 DKP " .. amount .. "]: " .. reason .. " (Standby)", "T2.5");
+																			if CEPGP_context_popup_T6_check:GetChecked() then
+																				CEPGP_addStandbyDKP(timestamp, standbyMember, amount*(STANDBYPERCENT/100), "[T6 DKP " .. amount .. "]: " .. reason .. " (Standby)", "T6");
 																			end
-																			if CEPGP_context_popup_T3_check:GetChecked() then
-																				CEPGP_addStandbyDKP(timestamp, standbyMember, amount*(STANDBYPERCENT/100), "[T3 DKP " .. amount .. "]: " .. reason .. " (Standby)", "T3");
+																			if CEPGP_context_popup_T6PT5_check:GetChecked() then
+																				CEPGP_addStandbyDKP(timestamp, standbyMember, amount*(STANDBYPERCENT/100), "[T6.5 DKP " .. amount .. "]: " .. reason .. " (Standby)", "T6.5");
 																			end
 																		end
 																	end
@@ -348,19 +348,19 @@ function CEPGP_ListButton_OnClick(obj)
 		CEPGP_context_popup_ADD_check:SetChecked(nil);
 		CEPGP_context_popup_REMOVE_check:SetChecked(nil);
 
-		-- Suppress the T1/T2/T2.5/T3 Checkboxes
-		HideUIPanel(CEPGP_context_popup_T1_check);
-		HideUIPanel(CEPGP_context_popup_T2_check);
-		HideUIPanel(CEPGP_context_popup_T2PT5_check);
-		HideUIPanel(CEPGP_context_popup_T3_check);
-		_G["CEPGP_context_popup_T1_check_text"]:Hide();
-		_G["CEPGP_context_popup_T2_check_text"]:Hide();
-		_G["CEPGP_context_popup_T2PT5_check_text"]:Hide();
-		_G["CEPGP_context_popup_T3_check_text"]:Hide();
-		CEPGP_context_popup_T1_check:SetChecked(nil);
-		CEPGP_context_popup_T2_check:SetChecked(nil);
-		CEPGP_context_popup_T2PT5_check:SetChecked(nil);
-		CEPGP_context_popup_T3_check:SetChecked(nil);
+		-- Suppress the T4/T5/T6/T6.5 Checkboxes
+		HideUIPanel(CEPGP_context_popup_T4_check);
+		HideUIPanel(CEPGP_context_popup_T5_check);
+		HideUIPanel(CEPGP_context_popup_T6_check);
+		HideUIPanel(CEPGP_context_popup_T6PT5_check);
+		_G["CEPGP_context_popup_T4_check_text"]:Hide();
+		_G["CEPGP_context_popup_T5_check_text"]:Hide();
+		_G["CEPGP_context_popup_T6_check_text"]:Hide();
+		_G["CEPGP_context_popup_T6PT5_check_text"]:Hide();
+		CEPGP_context_popup_T4_check:SetChecked(nil);
+		CEPGP_context_popup_T5_check:SetChecked(nil);
+		CEPGP_context_popup_T6_check:SetChecked(nil);
+		CEPGP_context_popup_T6PT5_check:SetChecked(nil);
 
 		-- Hide TextFields we won't be using
 		_G["CEPGP_context_popup_title"]:Hide();
@@ -415,19 +415,19 @@ function CEPGP_ListButton_OnClick(obj)
 		CEPGP_context_popup_ADD_check:SetChecked(1);
 		CEPGP_context_popup_REMOVE_check:SetChecked(nil);
 
-		-- Suppress the T1/T2/T2.5/T3 Checkboxes
-		HideUIPanel(CEPGP_context_popup_T1_check);
-		HideUIPanel(CEPGP_context_popup_T2_check);
-		HideUIPanel(CEPGP_context_popup_T2PT5_check);
-		HideUIPanel(CEPGP_context_popup_T3_check);
-		_G["CEPGP_context_popup_T1_check_text"]:Hide();
-		_G["CEPGP_context_popup_T2_check_text"]:Hide();
-		_G["CEPGP_context_popup_T2PT5_check_text"]:Hide();
-		_G["CEPGP_context_popup_T3_check_text"]:Hide();
-		CEPGP_context_popup_T1_check:SetChecked(nil);
-		CEPGP_context_popup_T2_check:SetChecked(nil);
-		CEPGP_context_popup_T2PT5_check:SetChecked(nil);
-		CEPGP_context_popup_T3_check:SetChecked(nil);
+		-- Suppress the T4/T5/T6/T6.5 Checkboxes
+		HideUIPanel(CEPGP_context_popup_T4_check);
+		HideUIPanel(CEPGP_context_popup_T5_check);
+		HideUIPanel(CEPGP_context_popup_T6_check);
+		HideUIPanel(CEPGP_context_popup_T6PT5_check);
+		_G["CEPGP_context_popup_T4_check_text"]:Hide();
+		_G["CEPGP_context_popup_T5_check_text"]:Hide();
+		_G["CEPGP_context_popup_T6_check_text"]:Hide();
+		_G["CEPGP_context_popup_T6PT5_check_text"]:Hide();
+		CEPGP_context_popup_T4_check:SetChecked(nil);
+		CEPGP_context_popup_T5_check:SetChecked(nil);
+		CEPGP_context_popup_T6_check:SetChecked(nil);
+		CEPGP_context_popup_T6PT5_check:SetChecked(nil);
 
 		-- Display the text fields we want to display and initialize them for this flow
 		CEPGP_context_popup_header:SetText("Modify Item List");
@@ -507,19 +507,19 @@ function CEPGP_ListButton_OnClick(obj)
 		CEPGP_context_popup_ADD_check:SetChecked(nil);
 		CEPGP_context_popup_REMOVE_check:SetChecked(nil);
 
-		-- Suppress the T1/T2/T2.5/T3 Checkboxes
-		HideUIPanel(CEPGP_context_popup_T1_check);
-		HideUIPanel(CEPGP_context_popup_T2_check);
-		HideUIPanel(CEPGP_context_popup_T2PT5_check);
-		HideUIPanel(CEPGP_context_popup_T3_check);
-		_G["CEPGP_context_popup_T1_check_text"]:Hide();
-		_G["CEPGP_context_popup_T2_check_text"]:Hide();
-		_G["CEPGP_context_popup_T2PT5_check_text"]:Hide();
-		_G["CEPGP_context_popup_T3_check_text"]:Hide();
-		CEPGP_context_popup_T1_check:SetChecked(nil);
-		CEPGP_context_popup_T2_check:SetChecked(nil);
-		CEPGP_context_popup_T2PT5_check:SetChecked(nil);
-		CEPGP_context_popup_T3_check:SetChecked(nil);
+		-- Suppress the T4/T5/T6/T6.5 Checkboxes
+		HideUIPanel(CEPGP_context_popup_T4_check);
+		HideUIPanel(CEPGP_context_popup_T5_check);
+		HideUIPanel(CEPGP_context_popup_T6_check);
+		HideUIPanel(CEPGP_context_popup_T6PT5_check);
+		_G["CEPGP_context_popup_T4_check_text"]:Hide();
+		_G["CEPGP_context_popup_T5_check_text"]:Hide();
+		_G["CEPGP_context_popup_T6_check_text"]:Hide();
+		_G["CEPGP_context_popup_T6PT5_check_text"]:Hide();
+		CEPGP_context_popup_T4_check:SetChecked(nil);
+		CEPGP_context_popup_T5_check:SetChecked(nil);
+		CEPGP_context_popup_T6_check:SetChecked(nil);
+		CEPGP_context_popup_T6PT5_check:SetChecked(nil);
 
 		-- Hide TextFields we won't be using
 		_G["CEPGP_context_popup_title"]:Hide();
@@ -561,19 +561,19 @@ function CEPGP_ListButton_OnClick(obj)
 		CEPGP_context_popup_ADD_check:SetChecked(nil);
 		CEPGP_context_popup_REMOVE_check:SetChecked(nil);
 
-		-- Suppress the T1/T2/T2.5/T3 Checkboxes
-		HideUIPanel(CEPGP_context_popup_T1_check);
-		HideUIPanel(CEPGP_context_popup_T2_check);
-		HideUIPanel(CEPGP_context_popup_T2PT5_check);
-		HideUIPanel(CEPGP_context_popup_T3_check);
-		_G["CEPGP_context_popup_T1_check_text"]:Hide();
-		_G["CEPGP_context_popup_T2_check_text"]:Hide();
-		_G["CEPGP_context_popup_T2PT5_check_text"]:Hide();
-		_G["CEPGP_context_popup_T3_check_text"]:Hide();
-		CEPGP_context_popup_T1_check:SetChecked(nil);
-		CEPGP_context_popup_T2_check:SetChecked(nil);
-		CEPGP_context_popup_T2PT5_check:SetChecked(nil);
-		CEPGP_context_popup_T3_check:SetChecked(nil);
+		-- Suppress the T4/T5/T6/T6.5 Checkboxes
+		HideUIPanel(CEPGP_context_popup_T4_check);
+		HideUIPanel(CEPGP_context_popup_T5_check);
+		HideUIPanel(CEPGP_context_popup_T6_check);
+		HideUIPanel(CEPGP_context_popup_T6PT5_check);
+		_G["CEPGP_context_popup_T4_check_text"]:Hide();
+		_G["CEPGP_context_popup_T5_check_text"]:Hide();
+		_G["CEPGP_context_popup_T6_check_text"]:Hide();
+		_G["CEPGP_context_popup_T6PT5_check_text"]:Hide();
+		CEPGP_context_popup_T4_check:SetChecked(nil);
+		CEPGP_context_popup_T5_check:SetChecked(nil);
+		CEPGP_context_popup_T6_check:SetChecked(nil);
+		CEPGP_context_popup_T6PT5_check:SetChecked(nil);
 
 		-- Hide TextFields we won't be using
 		_G["CEPGP_context_popup_title"]:Hide();
@@ -587,7 +587,7 @@ function CEPGP_ListButton_OnClick(obj)
 															PlaySound(799);
 															HideUIPanel(CEPGP_context_popup);
 															-- Simply Fetching the DKP for the given player from ANY table is sufficient to init their record
-															local DKP = TnTDKP_getLotteryDKP(CEPGP_context_editbox_centered:GetText(), "T1")
+															local DKP = TnTDKP_getLotteryDKP(CEPGP_context_editbox_centered:GetText(), "T4")
 														end);
 	
 	elseif strfind(obj, "CEPGP_StandbyButton") then
@@ -628,19 +628,19 @@ function TnTDKP_handleRolePicker(playerName)
 	CEPGP_context_popup_ADD_check:SetChecked(nil);
 	CEPGP_context_popup_REMOVE_check:SetChecked(nil);
 
-	-- Suppress the T1/T2/T2.5/T3 Checkboxes
-	HideUIPanel(CEPGP_context_popup_T1_check);
-	HideUIPanel(CEPGP_context_popup_T2_check);
-	HideUIPanel(CEPGP_context_popup_T2PT5_check);
-	HideUIPanel(CEPGP_context_popup_T3_check);
-	_G["CEPGP_context_popup_T1_check_text"]:Hide();
-	_G["CEPGP_context_popup_T2_check_text"]:Hide();
-	_G["CEPGP_context_popup_T2PT5_check_text"]:Hide();
-	_G["CEPGP_context_popup_T3_check_text"]:Hide();
-	CEPGP_context_popup_T1_check:SetChecked(nil);
-	CEPGP_context_popup_T2_check:SetChecked(nil);
-	CEPGP_context_popup_T2PT5_check:SetChecked(nil);
-	CEPGP_context_popup_T3_check:SetChecked(nil);
+	-- Suppress the T4/T5/T6/T6.5 Checkboxes
+	HideUIPanel(CEPGP_context_popup_T4_check);
+	HideUIPanel(CEPGP_context_popup_T5_check);
+	HideUIPanel(CEPGP_context_popup_T6_check);
+	HideUIPanel(CEPGP_context_popup_T6PT5_check);
+	_G["CEPGP_context_popup_T4_check_text"]:Hide();
+	_G["CEPGP_context_popup_T5_check_text"]:Hide();
+	_G["CEPGP_context_popup_T6_check_text"]:Hide();
+	_G["CEPGP_context_popup_T6PT5_check_text"]:Hide();
+	CEPGP_context_popup_T4_check:SetChecked(nil);
+	CEPGP_context_popup_T5_check:SetChecked(nil);
+	CEPGP_context_popup_T6_check:SetChecked(nil);
+	CEPGP_context_popup_T6PT5_check:SetChecked(nil);
 
 	-- Hide TextFields we won't be using
 	_G["CEPGP_context_popup_amount_header"]:Hide();

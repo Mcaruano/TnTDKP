@@ -162,37 +162,14 @@ function CEPGP_OnEvent(event, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, ar
 			-- killed during the fight to evaluate whether or not the fight is actually
 			-- over. The logic determining how many significant mobs are required to be
 			-- killed for each fight is contained in CEPGP_confirmBossEncounterDefeated()
-			if name == "Flamewaker Elite" or name == "Flamewaker Healer" then
-				name = "Majordomo Executus"
-			elseif name == "Princess Yauj" or name == "Vem" or name == "Lord Kri" then
-				name = "The Bug Trio"
-			elseif name == "Emperor Vek'lor" or name == "Emperor Vek'nilash" then
-				name = "The Twin Emperors"
-			elseif name == "Highlord Mograine" or name == "Thane Korth'azz" or name == "Lady Blaumeux" or name == "Sir Zeliek" then
-				name = "The Four Horsemen"
+			if name == "Kiggler the Crazed" or name == "Blindeye the Seer" or name == "Olm the Summoner" or name == "Krosh Firehand" then
+				name = "High King Maulgar"
 			end
 
 			-- Make sure this is a boss we support
 			if tierFourBossConfig[name] or tierFiveBossConfig[name] or tierSixBossConfig[name] or tierSixPointFiveBossConfig[name] then
 				CEPGP_handleCombat(name)
 			end
-
-		-- For Razorgore, we need to listen to SPELL_CAST_SUCCESS events from him casting Destroy Egg
-		-- Note: This doesn't work.
-		elseif action == "SPELL_CAST_SUCCESS" then
-			local spellName;
-			_, _, _, _, name, _, _, _, _, _, _, _, spellName = CombatLogGetCurrentEventInfo();
-			if name == "Razorgore the Untamed" and spellName == "Destroy Egg" then --Razorgore casts destroy egg
-				CEPGP_kills = CEPGP_kills + 1;
-			end
-		end
-		
-	elseif event == "CHAT_MSG_MONSTER_YELL" then
-		if arg2 == "The Prophet Skeram" then
-			if arg1 == "You only delay the inevitable!" then
-				CEPGP_handleCombat(arg2, true);
-			end
-		end
 		
 	elseif (event == "LOOT_OPENED" or event == "LOOT_CLOSED" or event == "LOOT_SLOT_CLEARED") then
 		CEPGP_handleLoot(event, arg1, arg2);

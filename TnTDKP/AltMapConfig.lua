@@ -380,29 +380,29 @@ altMapConfig = {
 	-- Drizzyydrake's Warrior
 	["Deerizzy"] = "Drizzyydrake",
 
-	-- Simptease's Other Warrior
-	["Shrimptease"] = "Simptease",
+	-- Wildshrimp's Other Warrior
+	["Shrimptease"] = "Wildshrimp",
 
-	-- Simptease's Rogue
-	["Babyshrimp"] = "Simptease",
+	-- Wildshrimp's Rogue
+	["Babyshrimp"] = "Wildshrimp",
 
-	-- Simptease's Druid
-	["Wildshrimp"] = "Simptease",
+	-- Wildshrimp's Warrior
+	["Simptease"] = "Wildshrimp",
 
-	-- Simptease's Paladin
-	["Andjelleh"] = "Simptease",
+	-- Wildshrimp's Paladin
+	["Andjelleh"] = "Wildshrimp",
 
-	-- Simptease's Priest
-	["Thizguy"] = "Simptease",
+	-- Wildshrimp's Priest
+	["Thizguy"] = "Wildshrimp",
 
-	-- Simptease's Warlock
-	["Dottyshrimp"] = "Simptease",
+	-- Wildshrimp's Warlock
+	["Dottyshrimp"] = "Wildshrimp",
 
-	-- Simptease's Mage
-	["Shrimptea"] = "Simptease",
+	-- Wildshrimp's Mage
+	["Shrimptea"] = "Wildshrimp",
 
-	-- Simptease's Hunter
-	["Shrimpea"] = "Simptease",
+	-- Wildshrimp's Hunter
+	["Shrimpea"] = "Wildshrimp",
 
 	-- Goodjorb's Priest
 	["Holyjorb"] = "Goodjorb",

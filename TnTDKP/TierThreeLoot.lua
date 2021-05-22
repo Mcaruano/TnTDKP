@@ -168,4 +168,8 @@ tierThreeLoot = {
     [135] = 23066, -- Ring of Redemption
     [136] = 23059, -- Ring of the Dreadnaught
     [137] = 22520, -- The Phylactery of Kel'Thuzad
+
+    -- Random Sapphiron drop added during pre-patch:
+    -- https://www.reddit.com/r/classicwow/comments/ni1l72/fists_of_the_unrelenting_dropped_from_sapphiron/
+    [138] = 23072, -- Fists of the Unrelenting
 }

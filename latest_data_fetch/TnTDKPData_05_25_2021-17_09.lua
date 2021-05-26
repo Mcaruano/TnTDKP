@@ -1469,8 +1469,12 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Aro"] = 1,
 		["Ellwindelm"] = 1,
 	},
+	[22811] = {
+		["Aro"] = 1,
+	},
 	[23038] = {
 		["Ashori"] = 1,
+		["Baopi"] = 1,
 		["Kharagan"] = 1,
 		["Peacard"] = 1,
 	},
@@ -1519,11 +1523,14 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Dalran"] = 1,
 		["Digie"] = 1,
 		["Kharagan"] = 1,
+		["Pikachau"] = 1,
+		["Zóff"] = 1,
 	},
 	[22798] = {
 		["Baopi"] = 1,
 		["Dienasty"] = 1,
 		["Mitchel"] = 1,
+		["Zóff"] = 1,
 	},
 	[18821] = {
 		["Baopi"] = 1,
@@ -1795,6 +1802,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[22354] = {
 		["Pikachau"] = 1,
+		["Zóff"] = 1,
 	},
 	[22960] = {
 		["Pudzey"] = 1,
@@ -2004,15 +2012,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[22988] = {
 		["Ashori"] = 1,
 	},
-	[23038] = {
-		["Baopi"] = 1,
-		["Dienasty"] = 1,
-		["Digie"] = 1,
-		["Hulkhigginz"] = 1,
-		["Kineztra"] = 1,
-		["Mitchel"] = 1,
-		["Whogryps"] = 1,
-	},
 	[19432] = {
 		["Baopi"] = 1,
 		["Drunkinrage"] = 1,
@@ -2022,10 +2021,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Dalran"] = 1,
 		["Mitchel"] = 1,
 	},
-	[23226] = {
-		["Baopi"] = 1,
-		["Kharagan"] = 1,
-	},
 	[22732] = {
 		["Baopi"] = 1,
 		["Nashy"] = 1,
@@ -2034,6 +2029,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	[23059] = {
 		["Baopi"] = 1,
 		["Zóff"] = 1,
+	},
+	[23043] = {
+		["Baopi"] = 1,
+		["Malchazor"] = 1,
 	},
 	[21650] = {
 		["Berzerk"] = 1,
@@ -2083,6 +2082,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[22811] = {
 		["Dalran"] = 1,
+		["Korteh"] = 1,
 	},
 	[23046] = {
 		["Demeker"] = 1,
@@ -2092,6 +2092,14 @@ PLAYER_LOTTERY_REGISTRY = {
 	[21670] = {
 		["Dienasty"] = 1,
 		["Ellwindelm"] = 1,
+	},
+	[23038] = {
+		["Dienasty"] = 1,
+		["Digie"] = 1,
+		["Hulkhigginz"] = 1,
+		["Kineztra"] = 1,
+		["Mitchel"] = 1,
+		["Whogryps"] = 1,
 	},
 	[21664] = {
 		["Dienasty"] = 1,
@@ -2281,6 +2289,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[21814] = {
 		["Kharagan"] = 1,
 	},
+	[23226] = {
+		["Kharagan"] = 1,
+	},
 	[21596] = {
 		["Kharagan"] = 1,
 	},
@@ -2295,9 +2306,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[22808] = {
 		["Kineztra"] = 1,
 		["Vermora"] = 1,
-	},
-	[23043] = {
-		["Malchazor"] = 1,
 	},
 	[19341] = {
 		["Mitchel"] = 1,
@@ -2447,9 +2455,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Whiskeysour"] = 1,
 	},
 	[17063] = {
-		["Zóff"] = 1,
-	},
-	[22354] = {
 		["Zóff"] = 1,
 	},
 }

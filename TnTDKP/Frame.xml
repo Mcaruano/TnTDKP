@@ -191,7 +191,7 @@
 							</OnClick>
 						</Scripts>
 					</CheckButton>
-					<CheckButton name="CEPGP_all_T4_check" inherits="UIOptionsCheckButtonTemplate">
+					<CheckButton name="CEPGP_all_T1_check" inherits="UIOptionsCheckButtonTemplate">
 						<Anchors>
 							<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="CEPGP_button_guild">
 								<Offset>
@@ -205,18 +205,18 @@
 							</OnLoad>
 							<OnClick>
 								if self:GetChecked() then
-									CEPGP_all_T5_check:SetChecked(nil);
-									CEPGP_all_T6_check:SetChecked(nil);
-									CEPGP_all_T6PT5_check:SetChecked(nil);
+									CEPGP_all_T2_check:SetChecked(nil);
+									CEPGP_all_T2PT5_check:SetChecked(nil);
+									CEPGP_all_T3_check:SetChecked(nil);
 								else
 									self:SetChecked(1);
 								end
-								TnTDKP_tierToDisplay = "T4";
+								TnTDKP_tierToDisplay = "T1";
 								CEPGP_UpdateAllMembersScrollBar();
 							</OnClick>
 						</Scripts>
 					</CheckButton>
-					<CheckButton name="CEPGP_all_T5_check" inherits="UIOptionsCheckButtonTemplate">
+					<CheckButton name="CEPGP_all_T2_check" inherits="UIOptionsCheckButtonTemplate">
 						<Anchors>
 							<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="CEPGP_button_guild">
 								<Offset>
@@ -230,18 +230,18 @@
 							</OnLoad>
 							<OnClick>
 								if self:GetChecked() then
-									CEPGP_all_T4_check:SetChecked(nil);
-									CEPGP_all_T6_check:SetChecked(nil);
-									CEPGP_all_T6PT5_check:SetChecked(nil);
+									CEPGP_all_T1_check:SetChecked(nil);
+									CEPGP_all_T2PT5_check:SetChecked(nil);
+									CEPGP_all_T3_check:SetChecked(nil);
 								else
 									self:SetChecked(1);
 								end
-								TnTDKP_tierToDisplay = "T5";
+								TnTDKP_tierToDisplay = "T2";
 								CEPGP_UpdateAllMembersScrollBar();
 							</OnClick>
 						</Scripts>
 					</CheckButton>
-					<CheckButton name="CEPGP_all_T6_check" inherits="UIOptionsCheckButtonTemplate">
+					<CheckButton name="CEPGP_all_T2PT5_check" inherits="UIOptionsCheckButtonTemplate">
 						<Anchors>
 							<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="CEPGP_button_guild">
 								<Offset>
@@ -255,18 +255,18 @@
 							</OnLoad>
 							<OnClick>
 								if self:GetChecked() then
-									CEPGP_all_T4_check:SetChecked(nil);
-									CEPGP_all_T5_check:SetChecked(nil);
-									CEPGP_all_T6PT5_check:SetChecked(nil);
+									CEPGP_all_T1_check:SetChecked(nil);
+									CEPGP_all_T2_check:SetChecked(nil);
+									CEPGP_all_T3_check:SetChecked(nil);
 								else
 									self:SetChecked(1);
 								end
-								TnTDKP_tierToDisplay = "T6";
+								TnTDKP_tierToDisplay = "T2.5";
 								CEPGP_UpdateAllMembersScrollBar();
 							</OnClick>
 						</Scripts>
 					</CheckButton>
-					<CheckButton name="CEPGP_all_T6PT5_check" inherits="UIOptionsCheckButtonTemplate" checked="1">
+					<CheckButton name="CEPGP_all_T3_check" inherits="UIOptionsCheckButtonTemplate" checked="1">
 						<Anchors>
 							<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="CEPGP_button_guild">
 								<Offset>
@@ -280,13 +280,13 @@
 							</OnLoad>
 							<OnClick>
 								if self:GetChecked() then
-									CEPGP_all_T4_check:SetChecked(nil);
-									CEPGP_all_T5_check:SetChecked(nil);
-									CEPGP_all_T6_check:SetChecked(nil);
+									CEPGP_all_T1_check:SetChecked(nil);
+									CEPGP_all_T2_check:SetChecked(nil);
+									CEPGP_all_T2PT5_check:SetChecked(nil);
 								else
 									self:SetChecked(1);
 								end
-								TnTDKP_tierToDisplay = "T6.5";
+								TnTDKP_tierToDisplay = "T3";
 								CEPGP_UpdateAllMembersScrollBar();
 							</OnClick>
 						</Scripts>
@@ -586,36 +586,36 @@
 								</Anchor>
 							</Anchors>
 						</FontString>
-						<FontString name="CEPGP_all_T4_check_text" inherits="GameFontNormal" text="T4">
+						<FontString name="CEPGP_all_T1_check_text" inherits="GameFontNormal" text="T1">
 							<Anchors>
-								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_all_T4_check">
+								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_all_T1_check">
 									<Offset>
 										<AbsDimension x="0" y="0"/>
 									</Offset>
 								</Anchor>
 							</Anchors>
 						</FontString>
-						<FontString name="CEPGP_all_T5_check_text" inherits="GameFontNormal" text="T5">
+						<FontString name="CEPGP_all_T2_check_text" inherits="GameFontNormal" text="T2">
 							<Anchors>
-								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_all_T5_check">
+								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_all_T2_check">
 									<Offset>
 										<AbsDimension x="0" y="0"/>
 									</Offset>
 								</Anchor>
 							</Anchors>
 						</FontString>
-						<FontString name="CEPGP_all_T6_check_text" inherits="GameFontNormal" text="T6">
+						<FontString name="CEPGP_all_T2PT5_check_text" inherits="GameFontNormal" text="T2.5">
 							<Anchors>
-								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_all_T6_check">
+								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_all_T2PT5_check">
 									<Offset>
 										<AbsDimension x="0" y="0"/>
 									</Offset>
 								</Anchor>
 							</Anchors>
 						</FontString>
-						<FontString name="CEPGP_all_T6PT5_check_text" inherits="GameFontNormal" text="T6.5">
+						<FontString name="CEPGP_all_T3_check_text" inherits="GameFontNormal" text="T3">
 							<Anchors>
-								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_all_T6PT5_check">
+								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_all_T3_check">
 									<Offset>
 										<AbsDimension x="0" y="0"/>
 									</Offset>
@@ -645,27 +645,27 @@
 							CEPGP_all_need_check:SetChecked(1);
 						end
 
-						<!-- Since the TnTDKP_tierToDisplay can be toggled on two different frames, we need to be sure the T4/T5 CheckBoxes get properly initialized -->
-						if TnTDKP_tierToDisplay == "T4" then
-							CEPGP_all_T4_check:SetChecked(1);
-							CEPGP_all_T5_check:SetChecked(nil);
-							CEPGP_all_T6_check:SetChecked(nil);
-							CEPGP_all_T6PT5_check:SetChecked(nil);
-						elseif TnTDKP_tierToDisplay == "T5" then
-							CEPGP_all_T4_check:SetChecked(nil);
-							CEPGP_all_T5_check:SetChecked(1);
-							CEPGP_all_T6_check:SetChecked(nil);
-							CEPGP_all_T6PT5_check:SetChecked(nil);
-						elseif TnTDKP_tierToDisplay == "T6" then
-							CEPGP_all_T4_check:SetChecked(nil);
-							CEPGP_all_T5_check:SetChecked(nil);
-							CEPGP_all_T6_check:SetChecked(1);
-							CEPGP_all_T6PT5_check:SetChecked(nil);
+						<!-- Since the TnTDKP_tierToDisplay can be toggled on two different frames, we need to be sure the T1/T2 CheckBoxes get properly initialized -->
+						if TnTDKP_tierToDisplay == "T1" then
+							CEPGP_all_T1_check:SetChecked(1);
+							CEPGP_all_T2_check:SetChecked(nil);
+							CEPGP_all_T2PT5_check:SetChecked(nil);
+							CEPGP_all_T3_check:SetChecked(nil);
+						elseif TnTDKP_tierToDisplay == "T2" then
+							CEPGP_all_T1_check:SetChecked(nil);
+							CEPGP_all_T2_check:SetChecked(1);
+							CEPGP_all_T2PT5_check:SetChecked(nil);
+							CEPGP_all_T3_check:SetChecked(nil);
+						elseif TnTDKP_tierToDisplay == "T2.5" then
+							CEPGP_all_T1_check:SetChecked(nil);
+							CEPGP_all_T2_check:SetChecked(nil);
+							CEPGP_all_T2PT5_check:SetChecked(1);
+							CEPGP_all_T3_check:SetChecked(nil);
 						else
-							CEPGP_all_T4_check:SetChecked(nil);
-							CEPGP_all_T5_check:SetChecked(nil);
-							CEPGP_all_T6_check:SetChecked(nil);
-							CEPGP_all_T6PT5_check:SetChecked(1);
+							CEPGP_all_T1_check:SetChecked(nil);
+							CEPGP_all_T2_check:SetChecked(nil);
+							CEPGP_all_T2PT5_check:SetChecked(nil);
+							CEPGP_all_T3_check:SetChecked(1);
 						end
 						CEPGP_UpdateAllMembersScrollBar();
 					</OnShow>
@@ -733,7 +733,7 @@
 							</OnClick>
 						</Scripts>
 					</Button>
-					<CheckButton name="CEPGP_raid_T4_check" inherits="UIOptionsCheckButtonTemplate">
+					<CheckButton name="CEPGP_raid_T1_check" inherits="UIOptionsCheckButtonTemplate">
 						<Anchors>
 							<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="CEPGP_raid_add_EP">
 								<Offset>
@@ -747,18 +747,18 @@
 							</OnLoad>
 							<OnClick>
 								if self:GetChecked() then
-									CEPGP_raid_T5_check:SetChecked(nil);
-									CEPGP_raid_T6_check:SetChecked(nil);
-									CEPGP_raid_T6PT5_check:SetChecked(nil);
+									CEPGP_raid_T2_check:SetChecked(nil);
+									CEPGP_raid_T2PT5_check:SetChecked(nil);
+									CEPGP_raid_T3_check:SetChecked(nil);
 								else
 									self:SetChecked(1);
 								end
-								TnTDKP_tierToDisplay = "T4";
+								TnTDKP_tierToDisplay = "T1";
 								CEPGP_UpdateRaidScrollBar();
 							</OnClick>
 						</Scripts>
 					</CheckButton>
-					<CheckButton name="CEPGP_raid_T5_check" inherits="UIOptionsCheckButtonTemplate">
+					<CheckButton name="CEPGP_raid_T2_check" inherits="UIOptionsCheckButtonTemplate">
 						<Anchors>
 							<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="CEPGP_raid_add_EP">
 								<Offset>
@@ -772,18 +772,18 @@
 							</OnLoad>
 							<OnClick>
 								if self:GetChecked() then
-									CEPGP_raid_T4_check:SetChecked(nil);
-									CEPGP_raid_T6_check:SetChecked(nil);
-									CEPGP_raid_T6PT5_check:SetChecked(nil);
+									CEPGP_raid_T1_check:SetChecked(nil);
+									CEPGP_raid_T2PT5_check:SetChecked(nil);
+									CEPGP_raid_T3_check:SetChecked(nil);
 								else
 									self:SetChecked(1);
 								end
-								TnTDKP_tierToDisplay = "T5";
+								TnTDKP_tierToDisplay = "T2";
 								CEPGP_UpdateRaidScrollBar();
 							</OnClick>
 						</Scripts>
 					</CheckButton>
-					<CheckButton name="CEPGP_raid_T6_check" inherits="UIOptionsCheckButtonTemplate">
+					<CheckButton name="CEPGP_raid_T2PT5_check" inherits="UIOptionsCheckButtonTemplate">
 						<Anchors>
 							<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="CEPGP_raid_add_EP">
 								<Offset>
@@ -797,18 +797,18 @@
 							</OnLoad>
 							<OnClick>
 								if self:GetChecked() then
-									CEPGP_raid_T4_check:SetChecked(nil);
-									CEPGP_raid_T5_check:SetChecked(nil);
-									CEPGP_raid_T6PT5_check:SetChecked(nil);
+									CEPGP_raid_T1_check:SetChecked(nil);
+									CEPGP_raid_T2_check:SetChecked(nil);
+									CEPGP_raid_T3_check:SetChecked(nil);
 								else
 									self:SetChecked(1);
 								end
-								TnTDKP_tierToDisplay = "T6";
+								TnTDKP_tierToDisplay = "T2.5";
 								CEPGP_UpdateAllMembersScrollBar();
 							</OnClick>
 						</Scripts>
 					</CheckButton>
-					<CheckButton name="CEPGP_raid_T6PT5_check" inherits="UIOptionsCheckButtonTemplate" checked="1">
+					<CheckButton name="CEPGP_raid_T3_check" inherits="UIOptionsCheckButtonTemplate" checked="1">
 						<Anchors>
 							<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="CEPGP_raid_add_EP">
 								<Offset>
@@ -822,13 +822,13 @@
 							</OnLoad>
 							<OnClick>
 								if self:GetChecked() then
-									CEPGP_raid_T4_check:SetChecked(nil);
-									CEPGP_raid_T5_check:SetChecked(nil);
-									CEPGP_raid_T6_check:SetChecked(nil);
+									CEPGP_raid_T1_check:SetChecked(nil);
+									CEPGP_raid_T2_check:SetChecked(nil);
+									CEPGP_raid_T2PT5_check:SetChecked(nil);
 								else
 									self:SetChecked(1);
 								end
-								TnTDKP_tierToDisplay = "T6.5";
+								TnTDKP_tierToDisplay = "T3";
 								CEPGP_UpdateAllMembersScrollBar();
 							</OnClick>
 						</Scripts>
@@ -1139,36 +1139,36 @@
 								</Anchor>
 							</Anchors>
 						</FontString>
-						<FontString name="CEPGP_raid_T4_check_text" inherits="GameFontNormal" text="T4">
+						<FontString name="CEPGP_raid_T1_check_text" inherits="GameFontNormal" text="T1">
 							<Anchors>
-								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_raid_T4_check">
+								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_raid_T1_check">
 									<Offset>
 										<AbsDimension x="0" y="0"/>
 									</Offset>
 								</Anchor>
 							</Anchors>
 						</FontString>
-						<FontString name="CEPGP_raid_T5_check_text" inherits="GameFontNormal" text="T5">
+						<FontString name="CEPGP_raid_T2_check_text" inherits="GameFontNormal" text="T2">
 							<Anchors>
-								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_raid_T5_check">
+								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_raid_T2_check">
 									<Offset>
 										<AbsDimension x="0" y="0"/>
 									</Offset>
 								</Anchor>
 							</Anchors>
 						</FontString>
-						<FontString name="CEPGP_raid_T6_check_text" inherits="GameFontNormal" text="T6">
+						<FontString name="CEPGP_raid_T2PT5_check_text" inherits="GameFontNormal" text="T2.5">
 							<Anchors>
-								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_raid_T6_check">
+								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_raid_T2PT5_check">
 									<Offset>
 										<AbsDimension x="0" y="0"/>
 									</Offset>
 								</Anchor>
 							</Anchors>
 						</FontString>
-						<FontString name="CEPGP_raid_T6PT5_check_text" inherits="GameFontNormal" text="T6.5">
+						<FontString name="CEPGP_raid_T3_check_text" inherits="GameFontNormal" text="T3">
 							<Anchors>
-								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_raid_T6PT5_check">
+								<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="CEPGP_raid_T3_check">
 									<Offset>
 										<AbsDimension x="0" y="0"/>
 									</Offset>
@@ -1199,27 +1199,27 @@
 							CEPGP_raid_need_check:SetChecked(1);
 						end
 
-						<!-- Since the TnTDKP_tierToDisplay can be toggled on two different frames, we need to be sure the T4/T5 CheckBoxes get properly initialized -->
-						if TnTDKP_tierToDisplay == "T4" then
-							CEPGP_raid_T4_check:SetChecked(1);
-							CEPGP_raid_T5_check:SetChecked(nil);
-							CEPGP_raid_T6_check:SetChecked(nil);
-							CEPGP_raid_T6PT5_check:SetChecked(nil);
-						elseif TnTDKP_tierToDisplay == "T5" then
-							CEPGP_raid_T4_check:SetChecked(nil);
-							CEPGP_raid_T5_check:SetChecked(1);
-							CEPGP_raid_T6_check:SetChecked(nil);
-							CEPGP_raid_T6PT5_check:SetChecked(nil);
-						elseif TnTDKP_tierToDisplay == "T6" then
-							CEPGP_raid_T4_check:SetChecked(nil);
-							CEPGP_raid_T5_check:SetChecked(nil);
-							CEPGP_raid_T6_check:SetChecked(1);
-							CEPGP_raid_T6PT5_check:SetChecked(nil);
+						<!-- Since the TnTDKP_tierToDisplay can be toggled on two different frames, we need to be sure the T1/T2 CheckBoxes get properly initialized -->
+						if TnTDKP_tierToDisplay == "T1" then
+							CEPGP_raid_T1_check:SetChecked(1);
+							CEPGP_raid_T2_check:SetChecked(nil);
+							CEPGP_raid_T2PT5_check:SetChecked(nil);
+							CEPGP_raid_T3_check:SetChecked(nil);
+						elseif TnTDKP_tierToDisplay == "T2" then
+							CEPGP_raid_T1_check:SetChecked(nil);
+							CEPGP_raid_T2_check:SetChecked(1);
+							CEPGP_raid_T2PT5_check:SetChecked(nil);
+							CEPGP_raid_T3_check:SetChecked(nil);
+						elseif TnTDKP_tierToDisplay == "T2.5" then
+							CEPGP_raid_T1_check:SetChecked(nil);
+							CEPGP_raid_T2_check:SetChecked(nil);
+							CEPGP_raid_T2PT5_check:SetChecked(1);
+							CEPGP_raid_T3_check:SetChecked(nil);
 						else
-							CEPGP_raid_T4_check:SetChecked(nil);
-							CEPGP_raid_T5_check:SetChecked(nil);
-							CEPGP_raid_T6_check:SetChecked(nil);
-							CEPGP_raid_T6PT5_check:SetChecked(1);
+							CEPGP_raid_T1_check:SetChecked(nil);
+							CEPGP_raid_T2_check:SetChecked(nil);
+							CEPGP_raid_T2PT5_check:SetChecked(nil);
+							CEPGP_raid_T3_check:SetChecked(1);
 						end
 						CEPGP_UpdateRaidScrollBar();
 					</OnShow>
@@ -2523,7 +2523,7 @@
 				</Texture>
 			</Layer>
 			<Layer level="OVERLAY">
-				<FontString name="CEPGP_context_popup_T4_check_text" inherits="GameFontNormal" text="T4">
+				<FontString name="CEPGP_context_popup_T1_check_text" inherits="GameFontNormal" text="T1">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="CEPGP_context_popup">
 							<Offset>
@@ -2532,7 +2532,7 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="CEPGP_context_popup_T5_check_text" inherits="GameFontNormal" text="T5">
+				<FontString name="CEPGP_context_popup_T2_check_text" inherits="GameFontNormal" text="T2">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="CEPGP_context_popup">
 							<Offset>
@@ -2541,7 +2541,7 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="CEPGP_context_popup_T6_check_text" inherits="GameFontNormal" text="T6">
+				<FontString name="CEPGP_context_popup_T2PT5_check_text" inherits="GameFontNormal" text="T2.5">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="CEPGP_context_popup">
 							<Offset>
@@ -2550,7 +2550,7 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="CEPGP_context_popup_T6PT5_check_text" inherits="GameFontNormal" text="T6.5">
+				<FontString name="CEPGP_context_popup_T3_check_text" inherits="GameFontNormal" text="T3">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="CEPGP_context_popup">
 							<Offset>
@@ -2694,7 +2694,7 @@
 					</OnEnterPressed>
 				</Scripts>
 			</EditBox>
-			<CheckButton name="CEPGP_context_popup_T4_check" inherits="UIOptionsCheckButtonTemplate">
+			<CheckButton name="CEPGP_context_popup_T1_check" inherits="UIOptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
@@ -2708,9 +2708,9 @@
 					</OnLoad>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="CEPGP_context_popup_T5_check" inherits="UIOptionsCheckButtonTemplate">
+			<CheckButton name="CEPGP_context_popup_T2_check" inherits="UIOptionsCheckButtonTemplate">
 				<Anchors>
-					<Anchor point="BOTTOM" relativeTo="CEPGP_context_popup_T4_check">
+					<Anchor point="BOTTOM" relativeTo="CEPGP_context_popup_T1_check">
 						<Offset>
 							<AbsDimension x="0" y="-20" />
 						</Offset>
@@ -2722,9 +2722,9 @@
 					</OnLoad>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="CEPGP_context_popup_T6_check" inherits="UIOptionsCheckButtonTemplate">
+			<CheckButton name="CEPGP_context_popup_T2PT5_check" inherits="UIOptionsCheckButtonTemplate">
 				<Anchors>
-					<Anchor point="BOTTOM" relativeTo="CEPGP_context_popup_T5_check">
+					<Anchor point="BOTTOM" relativeTo="CEPGP_context_popup_T2_check">
 						<Offset>
 							<AbsDimension x="0" y="-20" />
 						</Offset>
@@ -2736,9 +2736,9 @@
 					</OnLoad>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="CEPGP_context_popup_T6PT5_check" inherits="UIOptionsCheckButtonTemplate" checked="1">
+			<CheckButton name="CEPGP_context_popup_T3_check" inherits="UIOptionsCheckButtonTemplate" checked="1">
 				<Anchors>
-					<Anchor point="BOTTOM" relativeTo="CEPGP_context_popup_T6_check">
+					<Anchor point="BOTTOM" relativeTo="CEPGP_context_popup_T2PT5_check">
 						<Offset>
 							<AbsDimension x="0" y="-20" />
 						</Offset>
@@ -3030,7 +3030,7 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="CEPGP_traffic_T4_check_text" inherits="GameFontNormal" text="T4">
+				<FontString name="CEPGP_traffic_T1_check_text" inherits="GameFontNormal" text="T1">
 					<Anchors>
 						<Anchor point="TOPRIGHT" relativeTo="CEPGP_traffic">
 							<Offset>
@@ -3039,7 +3039,7 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="CEPGP_traffic_T5_check_text" inherits="GameFontNormal" text="T5">
+				<FontString name="CEPGP_traffic_T2_check_text" inherits="GameFontNormal" text="T2">
 					<Anchors>
 						<Anchor point="TOPRIGHT" relativeTo="CEPGP_traffic">
 							<Offset>
@@ -3048,7 +3048,7 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="CEPGP_traffic_T6_check_text" inherits="GameFontNormal" text="T6">
+				<FontString name="CEPGP_traffic_T2PT5_check_text" inherits="GameFontNormal" text="T2.5">
 					<Anchors>
 						<Anchor point="TOPRIGHT" relativeTo="CEPGP_traffic">
 							<Offset>
@@ -3057,7 +3057,7 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="CEPGP_traffic_T6PT5_check_text" inherits="GameFontNormal" text="T6.5">
+				<FontString name="CEPGP_traffic_T3_check_text" inherits="GameFontNormal" text="T3">
 					<Anchors>
 						<Anchor point="TOPRIGHT" relativeTo="CEPGP_traffic">
 							<Offset>
@@ -3207,7 +3207,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<CheckButton name="CEPGP_traffic_T4_check" inherits="UIOptionsCheckButtonTemplate">
+			<CheckButton name="CEPGP_traffic_T1_check" inherits="UIOptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPRIGHT" relativePoint="BOTTOMRIGHT" relativeTo="CEPGP_traffic_close">
 						<Offset>
@@ -3221,18 +3221,18 @@
 					</OnLoad>
 					<OnClick>
 						if self:GetChecked() then
-							CEPGP_traffic_T5_check:SetChecked(nil);
-							CEPGP_traffic_T6_check:SetChecked(nil);
-							CEPGP_traffic_T6PT5_check:SetChecked(nil);
+							CEPGP_traffic_T2_check:SetChecked(nil);
+							CEPGP_traffic_T2PT5_check:SetChecked(nil);
+							CEPGP_traffic_T3_check:SetChecked(nil);
 						else
 							self:SetChecked(1);
 						end
-						TnTDKP_tierToDisplay = "T4";
+						TnTDKP_tierToDisplay = "T1";
 						CEPGP_UpdateTrafficScrollBar();
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="CEPGP_traffic_T5_check" inherits="UIOptionsCheckButtonTemplate">
+			<CheckButton name="CEPGP_traffic_T2_check" inherits="UIOptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPRIGHT" relativePoint="BOTTOMRIGHT" relativeTo="CEPGP_traffic_close">
 						<Offset>
@@ -3246,18 +3246,18 @@
 					</OnLoad>
 					<OnClick>
 						if self:GetChecked() then
-							CEPGP_traffic_T4_check:SetChecked(nil);
-							CEPGP_traffic_T6_check:SetChecked(nil);
-							CEPGP_traffic_T6PT5_check:SetChecked(nil);
+							CEPGP_traffic_T1_check:SetChecked(nil);
+							CEPGP_traffic_T2PT5_check:SetChecked(nil);
+							CEPGP_traffic_T3_check:SetChecked(nil);
 						else
 							self:SetChecked(1);
 						end
-						TnTDKP_tierToDisplay = "T5";
+						TnTDKP_tierToDisplay = "T2";
 						CEPGP_UpdateTrafficScrollBar();
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="CEPGP_traffic_T6_check" inherits="UIOptionsCheckButtonTemplate">
+			<CheckButton name="CEPGP_traffic_T2PT5_check" inherits="UIOptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPRIGHT" relativePoint="BOTTOMRIGHT" relativeTo="CEPGP_traffic_close">
 						<Offset>
@@ -3271,18 +3271,18 @@
 					</OnLoad>
 					<OnClick>
 						if self:GetChecked() then
-							CEPGP_traffic_T4_check:SetChecked(nil);
-							CEPGP_traffic_T5_check:SetChecked(nil);
-							CEPGP_traffic_T6PT5_check:SetChecked(nil);
+							CEPGP_traffic_T1_check:SetChecked(nil);
+							CEPGP_traffic_T2_check:SetChecked(nil);
+							CEPGP_traffic_T3_check:SetChecked(nil);
 						else
 							self:SetChecked(1);
 						end
-						TnTDKP_tierToDisplay = "T6";
+						TnTDKP_tierToDisplay = "T2.5";
 						CEPGP_UpdateTrafficScrollBar();
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="CEPGP_traffic_T6PT5_check" inherits="UIOptionsCheckButtonTemplate">
+			<CheckButton name="CEPGP_traffic_T3_check" inherits="UIOptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPRIGHT" relativePoint="BOTTOMRIGHT" relativeTo="CEPGP_traffic_close">
 						<Offset>
@@ -3296,13 +3296,13 @@
 					</OnLoad>
 					<OnClick>
 						if self:GetChecked() then
-							CEPGP_traffic_T4_check:SetChecked(nil);
-							CEPGP_traffic_T5_check:SetChecked(nil);
-							CEPGP_traffic_T6_check:SetChecked(nil);
+							CEPGP_traffic_T1_check:SetChecked(nil);
+							CEPGP_traffic_T2_check:SetChecked(nil);
+							CEPGP_traffic_T2PT5_check:SetChecked(nil);
 						else
 							self:SetChecked(1);
 						end
-						TnTDKP_tierToDisplay = "T6.5";
+						TnTDKP_tierToDisplay = "T3";
 						CEPGP_UpdateTrafficScrollBar();
 					</OnClick>
 				</Scripts>
@@ -3518,27 +3518,27 @@
 				self:StopMovingOrSizing();
 			</OnDragStop>
 			<OnShow>
-				<!-- Since the TnTDKP_tierToDisplay can be toggled on two different frames, we need to be sure the T4/T5 CheckBoxes get properly initialized -->
-				if TnTDKP_tierToDisplay == "T4" then
-					CEPGP_traffic_T4_check:SetChecked(1);
-					CEPGP_traffic_T5_check:SetChecked(nil);
-					CEPGP_traffic_T6_check:SetChecked(nil);
-					CEPGP_traffic_T6PT5_check:SetChecked(nil);
-				elseif TnTDKP_tierToDisplay == "T5" then
-					CEPGP_traffic_T4_check:SetChecked(nil);
-					CEPGP_traffic_T5_check:SetChecked(1);
-					CEPGP_traffic_T6_check:SetChecked(nil);
-					CEPGP_traffic_T6PT5_check:SetChecked(nil);
-				elseif TnTDKP_tierToDisplay == "T6" then
-					CEPGP_traffic_T4_check:SetChecked(nil);
-					CEPGP_traffic_T5_check:SetChecked(nil);
-					CEPGP_traffic_T6_check:SetChecked(1);
-					CEPGP_traffic_T6PT5_check:SetChecked(nil);
+				<!-- Since the TnTDKP_tierToDisplay can be toggled on two different frames, we need to be sure the T1/T2 CheckBoxes get properly initialized -->
+				if TnTDKP_tierToDisplay == "T1" then
+					CEPGP_traffic_T1_check:SetChecked(1);
+					CEPGP_traffic_T2_check:SetChecked(nil);
+					CEPGP_traffic_T2PT5_check:SetChecked(nil);
+					CEPGP_traffic_T3_check:SetChecked(nil);
+				elseif TnTDKP_tierToDisplay == "T2" then
+					CEPGP_traffic_T1_check:SetChecked(nil);
+					CEPGP_traffic_T2_check:SetChecked(1);
+					CEPGP_traffic_T2PT5_check:SetChecked(nil);
+					CEPGP_traffic_T3_check:SetChecked(nil);
+				elseif TnTDKP_tierToDisplay == "T2.5" then
+					CEPGP_traffic_T1_check:SetChecked(nil);
+					CEPGP_traffic_T2_check:SetChecked(nil);
+					CEPGP_traffic_T2PT5_check:SetChecked(1);
+					CEPGP_traffic_T3_check:SetChecked(nil);
 				else
-					CEPGP_traffic_T4_check:SetChecked(nil);
-					CEPGP_traffic_T5_check:SetChecked(nil);
-					CEPGP_traffic_T6_check:SetChecked(nil);
-					CEPGP_traffic_T6PT5_check:SetChecked(1);
+					CEPGP_traffic_T1_check:SetChecked(nil);
+					CEPGP_traffic_T2_check:SetChecked(nil);
+					CEPGP_traffic_T2PT5_check:SetChecked(nil);
+					CEPGP_traffic_T3_check:SetChecked(1);
 				end
 
 				CEPGP_UpdateTrafficScrollBar();

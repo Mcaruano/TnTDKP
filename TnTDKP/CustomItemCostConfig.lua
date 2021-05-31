@@ -1,4 +1,4 @@
 customItemCostConfig = {
-    -- Ancient Petrified Leaf --
-	[99999] = 500, -- This is left as an example
+    -- Pit Lord's Satchel --
+	[34845] = 2000,
 }

@@ -2,36 +2,6 @@
 -- we might need for a given encounter still get their DKP awards attributed
 -- to their "main" character
 altMapConfig = {
-	-- Tong's Mage
-	["Tongsta"] = "Stephany",
-
-	-- Tong's Warrior
-	["Tongster"] = "Stephany",
-
-	-- Tong's Rogue
-	["Krumsons"] = "Stephany",
-
-	-- Kiele's Paladin
-	["Tsukie"] = "Kiele",
-
-	-- Kiele's Druid
-	["Maii"] = "Kiele",
-
-	-- Korteh's Rogue
-	["Kortey"] = "Korteh",
-
-	-- Korteh's Druid
-	["Mike"] = "Korteh",
-
-	-- Crylo's Mage
-	["Winster"] = "Crylo",
-
-	-- Crylo's Hunter
-	["Zingshot"] = "Crylo",
-
-	-- Crylo's Priest
-	["Stillshade"] = "Crylo",
-
 	-- Malch's Rogue
 	["Stacylet"] = "Malchazor",
 
@@ -77,12 +47,6 @@ altMapConfig = {
 	-- Rotheart's Rogue
 	["Gkp"] = "Rotheart",
 
-	-- Phirt's Warlock
-	["Phirthulu"] = "Elphirt",
-
-	-- Phirt's Paladin
-	["Phirt"] = "Elphirt",
-
 	-- Mlg's Rogue
 	["Backhugs"] = "Mlg",
 
@@ -103,6 +67,9 @@ altMapConfig = {
 
 	-- Demeker's Druid
 	["Ristin"] = "Demeker",
+
+	-- Demeker's Hunter
+	["Driffa"] = "Demeker",
 
 	-- Realfrosted's Mage
 	["Frósted"] = "Realfrosted",
@@ -134,23 +101,26 @@ altMapConfig = {
 	-- Akaran's Druid
 	["Shnaxx"] = "Akaran",
 
-	-- Shnackypacky's Paladin
-	["Anarra"] = "Shnackypacky",
+	-- Akaran's Shaman
+	["Spacejote"] = "Akaran",
 
-	-- Shnackypacky's Mage
-	["Shnackattack"] = "Shnackypacky",
+	-- Akaran's Paladin
+	["Shnaxxorcism"] = "Akaran",
 
-	-- Shnackypacky's Druid
-	["Shnacks"] = "Shnackypacky",
+	-- Shnacks' Paladin
+	["Anarra"] = "Shnacks",
 
-	-- Pureheart's Rogue
-	["Enough"] = "Pureheart",
+	-- Shnacks' Mage
+	["Shnackattack"] = "Shnacks",
 
-	-- Pureheart's Warrior
-	["Effect"] = "Pureheart",
+	-- Shnacks' Priest
+	["Shnackypacky"] = "Shnacks",
 
-	-- Grove's Paladin
-	["Airey"] = "Grove",
+	-- Shnacks' Shaman
+	["Shpacejote"] = "Shnacks",
+
+	-- Shnacks' Warlock
+	["Shpookyshnax"] = "Shnacks",
 
 	-- Sylador's Mage
 	["Autist"] = "Sylador",
@@ -176,9 +146,6 @@ altMapConfig = {
 	-- Rumegirl's Priest
 	["Rumelol"] = "Rumegirl",
 
-	-- Demeker's Hunter
-	["Driffa"] = "Demeker",
-
 	-- Zerxx's Mage
 	["Metrixx"] = "Zerxx",
 
@@ -196,24 +163,6 @@ altMapConfig = {
 
 	-- Berzerk's Paladin
 	["Padaladin"] = "Berzerk",
-
-	-- Whogryps' Druid
-	["Kamishiro"] = "Whogryps",
-
-	-- Krumsons' Mage
-	["Krumson"] = "Krumsons",
-
-	-- Zóff's Priest
-	["Armer"] = "Zóff",
-
-	-- Zóff's Mage
-	["Dangger"] = "Zóff",
-
-	-- Nocjr's Mage
-	["Mastrmago"] = "Nocjr",
-
-	-- Thursday's Priest
-	["Oneforall"] = "Thursday",
 
 	-- Digie's Paladin
 	["Digiret"] = "Digie",
@@ -284,26 +233,8 @@ altMapConfig = {
 	-- Whiskeysour's Mage
 	["Vodkatonic"] = "Whiskeysour",
 
-	-- Haytme's Mage
-	["Cheekyfk"] = "Haytme",
-
-	-- Nocjr's Warrior
-	["Muckjr"] = "Nocjr",
-
 	-- Glim's other Mage
 	["Notglim"] = "Glimfolkor",
-
-	-- Ekohz's Paladin
-	["Aldonis"] = "Ekohz",
-
-	-- Kaylä's Mage
-	["Glöbetrötter"] = "Kaylä",
-
-	-- Pudzey's Rogue
-	["Puds"] = "Pudzey",
-
-	-- Pudzey's other Priest
-	["Pudzy"] = "Pudzey",
 
 	-- Hulkhigginz's Paladin
 	["Higginz"] = "Hulkhigginz",
@@ -316,12 +247,6 @@ altMapConfig = {
 
 	-- Hulkhigginz's Druid
 	["Cyclonespam"] = "Hulkhigginz",
-
-	-- Dienasty's Rogue
-	["Rekaronie"] = "Dienasty",
-
-	-- Dienasty's Druid
-	["Swoleosopher"] = "Dienasty",
 
 	-- Salchant's Hunter
 	["Putri"] = "Salchant",

@@ -162,9 +162,10 @@ function CEPGP_OnEvent(event, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, ar
 			-- killed during the fight to evaluate whether or not the fight is actually
 			-- over. The logic determining how many significant mobs are required to be
 			-- killed for each fight is contained in CEPGP_confirmBossEncounterDefeated()
-			if name == "Kiggler the Crazed" or name == "Blindeye the Seer" or name == "Olm the Summoner" or name == "Krosh Firehand" then
-				name = "High King Maulgar"
-			end
+			-- if name == "Kiggler the Crazed" or name == "Blindeye the Seer" or name == "Olm the Summoner" or name == "Krosh Firehand" then
+			-- 	name = "High King Maulgar"
+			-- end
+			-- NOTE: Leaving the above block as an example stub for Fathom-Lord Karathress & Illidari Council
 
 			-- Make sure this is a boss we support
 			if tierFourBossConfig[name] or tierFiveBossConfig[name] or tierSixBossConfig[name] or tierSixPointFiveBossConfig[name] then

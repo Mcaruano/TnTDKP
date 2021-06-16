@@ -16,9 +16,6 @@ end
 
 -- Awards DKP only if the boss encounter was actually defeated
 function CEPGP_handleCombat(bossEncounter, except)
-	if bossEncounter == "The Prophet Skeram" and not except then
-		return;
-	end
 	local DKP = 0;
 
 	-- Determine the Raid "rank" of the AddOn Administrator
@@ -94,14 +91,15 @@ end
 function CEPGP_confirmBossEncounterDefeated(encounterName)
 
 	-- Determine if all 5 members of High King Maulgar's council were defeated
-	if encounterName == "High King Maulgar" then
-		CEPGP_kills = CEPGP_kills + 1;
-		if CEPGP_kills == 5 then
-			return true;
-		else
-			return false;
-		end
-	end
+	-- if encounterName == "High King Maulgar" then
+	-- 	CEPGP_kills = CEPGP_kills + 1;
+	-- 	if CEPGP_kills == 5 then
+	-- 		return true;
+	-- 	else
+	-- 		return false;
+	-- 	end
+	-- end
+	-- NOTE: Leaving the above block as example code for future council fights
 	
 	return true;
 end

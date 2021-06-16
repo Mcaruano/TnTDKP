@@ -316,6 +316,7 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Chuunin"] = 1,
 		["Digie"] = 1,
 		["Kang"] = 1,
+		["Pikachau"] = 1,
 		["Roodolph"] = 1,
 		["Vermora"] = 1,
 		["Zerxx"] = 1,
@@ -431,9 +432,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[28782] = {
 		["Schroumpf"] = 1,
-	},
-	[28803] = {
-		["Sylador"] = 1,
 	},
 	[28779] = {
 		["Zerxx"] = 1,

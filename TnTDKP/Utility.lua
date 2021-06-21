@@ -996,7 +996,9 @@ function TnTDKP_executeLotteryLogicAndDetermineWinner()
 			local numTickets = TnTDKP_lottery_participants[player]["Tickets"]
 			local rangeMin = TnTDKP_lottery_participants[player]["RangeMin"]
 			local rangeMax = TnTDKP_lottery_participants[player]["RangeMax"]
-			SendChatMessage(format("- %s // %s Lottery DKP = %s Lottery Tickets // Winning Range [%d-%d]", player, lotteryDKP, numTickets, rangeMin, rangeMax), "RAID", CEPGP_LANGUAGE);
+			local lotteryOddsNum = (tonumber(numTickets) / totalTicketsInLottery) * 100
+			local lotteryOdds = format("%2.2f", lotteryOddsNum)
+			SendChatMessage(format("- %s // %s Lottery DKP = %s Lottery Tickets // Winning Range [%d-%d] (%s%% Odds)", player, lotteryDKP, numTickets, rangeMin, rangeMax, lotteryOdds), "RAID", CEPGP_LANGUAGE);
 		end
 
 		-- Frame which simply performs the random lottery roll after a one-second delay

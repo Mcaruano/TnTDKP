@@ -46,4 +46,5 @@ tierFourLoot = {
     [39] = 28789, -- Eye of Magtheridon
     [40] = 28774, -- Glaive of the Pit
     [41] = 32385, -- Magtheridon's Head (Alliance)
+    [42] = 34845, -- Pit Lord's Satchel
 }

@@ -420,7 +420,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29767] = {
 		["Akaran"] = 1,
-		["Hyolin"] = 1,
 		["Wildshrimp"] = 1,
 	},
 	[29764] = {

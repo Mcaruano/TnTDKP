@@ -392,8 +392,8 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Justin"] = 1,
 		["Sizzleñips"] = 1,
 	},
-	[29765] = {
-		["Murduc"] = 1,
+	[29754] = {
+		["Malchazor"] = 1,
 	},
 }
 PLAYER_LOTTERY_REGISTRY = {
@@ -439,7 +439,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ashori"] = 1,
 		["Chuunin"] = 1,
 		["Digie"] = 1,
-		["Malchazor"] = 1,
 		["Rayas"] = 1,
 		["Sekjr"] = 1,
 		["Vermora"] = 1,
@@ -479,6 +478,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29765] = {
 		["Galm"] = 1,
+		["Murduc"] = 1,
 	},
 	[29762] = {
 		["Galm"] = 1,

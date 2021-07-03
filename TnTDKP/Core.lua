@@ -371,7 +371,7 @@ function CEPGP_AddRaidDKP(timestamp, amount, msg, encounter, tier)
 			name = TnTDKP_getMainCharacterName(name)
 
 			-- Even though we use the same Timestamp across all transactions, we still generate separate Transaction IDs
-			local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
+			local priorityTransactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 
 			-- Update the player's DKP value in the "Priority" table
 			local initialPlayerPriorityDKP = TnTDKP_getPriorityDKP(name, tier)
@@ -383,12 +383,15 @@ function CEPGP_AddRaidDKP(timestamp, amount, msg, encounter, tier)
 				[4] = initialPlayerPriorityDKP, -- Priority DKP Before
 				[5] = newPriorityDKP, -- Priority DKP After
 				[6] = "", -- Field used for ItemLink
-				[7] = transactionID,
+				[7] = priorityTransactionID,
 				[8] = timestamp
 			};
 
 			-- Actually update the value
 			priorityDKPTable[name] = newPriorityDKP
+
+			-- Even though we use the same Timestamp across all transactions, we still generate separate Transaction IDs
+			local lotteryTransactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 
 			-- Update the player's DKP value in the "Lottery" table
 			local initialPlayerLotteryDKP = TnTDKP_getLotteryDKP(name, tier)
@@ -400,7 +403,7 @@ function CEPGP_AddRaidDKP(timestamp, amount, msg, encounter, tier)
 				[4] = initialPlayerLotteryDKP, -- Lottery DKP Before
 				[5] = newLotteryDKP, -- Lottery DKP After
 				[6] = "", -- Field used for ItemLink
-				[7] = transactionID,
+				[7] = lotteryTransactionID,
 				[8] = timestamp
 			};
 
@@ -461,7 +464,7 @@ function CEPGP_addStandbyDKP(timestamp, playerNameOnStandby, amount, actionMsg, 
 
 	player = TnTDKP_getMainCharacterName(playerNameOnStandby)
 
-	local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
+	local priorityTransactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 
 	-- Update the player's "Priority" DKP value
 	local initialPriorityDKP = TnTDKP_getPriorityDKP(player, tier)
@@ -473,12 +476,14 @@ function CEPGP_addStandbyDKP(timestamp, playerNameOnStandby, amount, actionMsg, 
 		[4] = initialPriorityDKP, -- Priority DKP Before
 		[5] = newPriorityDKP, -- Priority DKP After
 		[6] = "", -- Field used for ItemLink
-		[7] = transactionID,
+		[7] = priorityTransactionID,
 		[8] = timestamp
 	};
 
 	-- Actually update the value
 	priorityDKPTable[player] = newPriorityDKP
+
+	local lotteryTransactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
 
 	-- Update the player's "Lottery" DKP value
 	local initialLotteryDKP = TnTDKP_getLotteryDKP(player, tier)
@@ -490,7 +495,7 @@ function CEPGP_addStandbyDKP(timestamp, playerNameOnStandby, amount, actionMsg, 
 		[4] = initialLotteryDKP, -- Lottery DKP Before
 		[5] = newLotteryDKP, -- Lottery DKP After
 		[6] = "", -- Field used for ItemLink
-		[7] = transactionID,
+		[7] = lotteryTransactionID,
 		[8] = timestamp
 	};
 
@@ -601,7 +606,7 @@ function TnTDKP_addOrRemovePriorityDKP(player, amount, itemIDOrReason, itemLink,
 
 	player = TnTDKP_getMainCharacterName(player)
 	local timestamp = date("%c", time())
-	local transactionID = format("%010d%010d", random(0, MAX_INT), random(0, MAX_INT))
+	local transactionID = format("%010d%010d", random(0, MAX_INT), random(300, MAX_INT))
 
 	-- Check to see if itemIDOrReason is, in fact, an itemID
 	local itemID, actionMsg

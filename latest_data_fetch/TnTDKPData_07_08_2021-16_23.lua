@@ -382,6 +382,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	[28779] = {
 		["Baopi"] = 1,
 	},
+	[29755] = {
+		["Demeker"] = 1,
+	},
 	[29762] = {
 		["Demeker"] = 1,
 		["Murduc"] = 1,
@@ -492,6 +495,11 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Crazydaisy"] = 1,
 		["Sekjr"] = 1,
 	},
+	[28789] = {
+		["Ellievyra"] = 1,
+		["Malchazor"] = 1,
+		["Murduc"] = 1,
+	},
 	[28780] = {
 		["Ellievyra"] = 1,
 		["Kinasa"] = 1,
@@ -518,10 +526,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28802] = {
 		["Malchazor"] = 1,
 	},
-	[28789] = {
-		["Malchazor"] = 1,
-		["Murduc"] = 1,
-	},
 	[28824] = {
 		["Nashy"] = 1,
 	},
@@ -531,15 +535,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28799] = {
 		["Solzar"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Dalran", -- [2]
-	"Goodjorb", -- [3]
-	"Mitchendo", -- [4]
-	"Zerxx", -- [5]
-	"Kinasa", -- [6]
-	"Solzar", -- [7]
-	"Kang", -- [8]
-	"Malchazor", -- [9]
 }

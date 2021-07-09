@@ -484,6 +484,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Barnabris"] = 1,
 		["Crazydaisy"] = 1,
 	},
+	[28828] = {
+		["Crazydaisy"] = 1,
+	},
 	[28789] = {
 		["Ellievyra"] = 1,
 		["Malchazor"] = 1,

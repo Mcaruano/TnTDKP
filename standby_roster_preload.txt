@@ -1,7 +1,7 @@
 ==== Standby Roster for 7/15 (Starting with Gruul's Lair) ====
 STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
-	"Dalran", -- [2]
+	"Chuunin", -- [2]
 	"Nashy", -- [3]
 	"Mitchendo", -- [4]
 	"Zerxx", -- [5]

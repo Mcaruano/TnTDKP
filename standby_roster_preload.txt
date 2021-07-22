@@ -1,13 +1,13 @@
-==== Standby Roster for 7/15 (Starting with Gruul's Lair) ====
+==== Standby Roster for 7/22 (Starting with Gruul's Lair) ====
 STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
-	"Chuunin", -- [2]
+	"Murduc", -- [2]
 	"Nashy", -- [3]
-	"Mitchendo", -- [4]
+	"Solzar", -- [4]
 	"Zerxx", -- [5]
-	"Kinasa", -- [6]
-	"Solzar", -- [7]
+	"Chuunin", -- [6]
+	"Malchazor", -- [7]
 	"Mlg", -- [8]
-	"Malchazor", -- [9]
-	"Baopi", -- [10]
+	"Goodjorb", -- [9]
+	"Mitchendo", -- [10]
 }

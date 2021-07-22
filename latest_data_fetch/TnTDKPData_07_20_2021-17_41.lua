@@ -524,3 +524,15 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Nashy"] = 1,
 	},
 }
+STANDBY_ROSTER = {
+	"Sizzleñips", -- [1]
+	"Murduc", -- [2]
+	"Nashy", -- [3]
+	"Solzar", -- [4]
+	"Zerxx", -- [5]
+	"Chuunin", -- [6]
+	"Malchazor", -- [7]
+	"Mlg", -- [8]
+	"Goodjorb", -- [9]
+	"Mitchendo", -- [10]
+}

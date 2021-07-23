@@ -382,6 +382,10 @@ PLAYER_PRIORITY_REGISTRY = {
 	[28779] = {
 		["Baopi"] = 1,
 	},
+	[29754] = {
+		["Chuunin"] = 1,
+		["Malchazor"] = 1,
+	},
 	[28824] = {
 		["Dalran"] = 1,
 	},
@@ -404,9 +408,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Kinasa"] = 1,
 		["Sizzleñips"] = 1,
 		["Solzar"] = 1,
-	},
-	[29754] = {
-		["Malchazor"] = 1,
 	},
 	[29763] = {
 		["Mitchendo"] = 1,
@@ -444,7 +445,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29754] = {
 		["Ashori"] = 1,
 		["Barnabris"] = 1,
-		["Chuunin"] = 1,
 		["Digie"] = 1,
 		["Rayas"] = 1,
 		["Sekjr"] = 1,

@@ -42,7 +42,7 @@ T4_PRIORITY_DKP_TABLE = {
    ["Vermora"] = 2449.87,
    ["Wildshrimp"] = 1948.37,
    ["Zeion"] = 2449.87,
-   ["Zerxx"] = 2371.57,
+   ["Zerxx"] = 2449.87,
 }
 T4_LOTTERY_DKP_TABLE = {
    ["Abstinence"] = 287.77,
@@ -88,7 +88,7 @@ T4_LOTTERY_DKP_TABLE = {
    ["Vermora"] = 2449.87,
    ["Wildshrimp"] = 830.59,
    ["Zeion"] = 2449.87,
-   ["Zerxx"] = 385.5,
+   ["Zerxx"] = 463.8,
 }
 T5_PRIORITY_DKP_TABLE = {
    ["Abstinence"] = 0.0,
@@ -382,10 +382,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[28779] = {
 		["Baopi"] = 1,
 	},
-	[29754] = {
-		["Chuunin"] = 1,
-		["Malchazor"] = 1,
-	},
 	[28824] = {
 		["Dalran"] = 1,
 	},
@@ -408,6 +404,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Kinasa"] = 1,
 		["Sizzleñips"] = 1,
 		["Solzar"] = 1,
+	},
+	[29754] = {
+		["Malchazor"] = 1,
 	},
 	[29763] = {
 		["Mitchendo"] = 1,
@@ -445,6 +444,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29754] = {
 		["Ashori"] = 1,
 		["Barnabris"] = 1,
+		["Chuunin"] = 1,
 		["Digie"] = 1,
 		["Rayas"] = 1,
 		["Sekjr"] = 1,

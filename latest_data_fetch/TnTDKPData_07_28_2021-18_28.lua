@@ -383,6 +383,10 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Zerxx"] = 0.0,
 }
 PLAYER_PRIORITY_REGISTRY = {
+	[30238] = {
+		["Abstinence"] = 1,
+		["Roodolph"] = 1,
+	},
 	[28830] = {
 		["Abstinence"] = 1,
 		["Ashori"] = 1,
@@ -394,6 +398,22 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Nashy"] = 1,
 		["Roodolph"] = 1,
 		["Vermora"] = 1,
+	},
+	[30241] = {
+		["Abstinence"] = 1,
+		["Roodolph"] = 1,
+	},
+	[30244] = {
+		["Abstinence"] = 1,
+		["Roodolph"] = 1,
+	},
+	[30250] = {
+		["Abstinence"] = 1,
+		["Roodolph"] = 1,
+	},
+	[30105] = {
+		["Abstinence"] = 1,
+		["Roodolph"] = 1,
 	},
 	[28779] = {
 		["Baopi"] = 1,
@@ -428,6 +448,18 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 }
 PLAYER_LOTTERY_REGISTRY = {
+	[30106] = {
+		["Abstinence"] = 1,
+		["Roodolph"] = 1,
+	},
+	[29948] = {
+		["Abstinence"] = 1,
+		["Roodolph"] = 1,
+	},
+	[29995] = {
+		["Abstinence"] = 1,
+		["Roodolph"] = 1,
+	},
 	[32385] = {
 		["Abstinence"] = 1,
 		["Barnabris"] = 1,
@@ -438,6 +470,14 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sekjr"] = 1,
 		["Shnacks"] = 1,
 		["Sizzleñips"] = 1,
+	},
+	[32944] = {
+		["Abstinence"] = 1,
+		["Roodolph"] = 1,
+	},
+	[29994] = {
+		["Abstinence"] = 1,
+		["Roodolph"] = 1,
 	},
 	[28825] = {
 		["Akaran"] = 1,

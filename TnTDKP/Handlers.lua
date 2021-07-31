@@ -90,16 +90,15 @@ end
 -- have been killed for each such encounter.
 function CEPGP_confirmBossEncounterDefeated(encounterName)
 
-	-- Determine if all 5 members of High King Maulgar's council were defeated
-	-- if encounterName == "High King Maulgar" then
-	-- 	CEPGP_kills = CEPGP_kills + 1;
-	-- 	if CEPGP_kills == 5 then
-	-- 		return true;
-	-- 	else
-	-- 		return false;
-	-- 	end
-	-- end
-	-- NOTE: Leaving the above block as example code for future council fights
+	-- Determine if Al'ar died twice (Phase 1 & Phase 2)
+	if encounterName == "Al'ar" then
+		CEPGP_kills = CEPGP_kills + 1;
+		if CEPGP_kills == 2 then
+			return true;
+		else
+			return false;
+		end
+	end
 	
 	return true;
 end

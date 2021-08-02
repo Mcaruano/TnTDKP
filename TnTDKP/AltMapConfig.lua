@@ -182,8 +182,11 @@ altMapConfig = {
 	-- Nashy's Druid
 	["Neldy"] = "Nashy",
 
-	-- Sekjr's Warlock
-	["Twosek"] = "Sekjr",
+	-- Sekkondary's Warlock
+	["Twosek"] = "Sekkondary",
+
+	-- Sekkondary's Paladin
+	["Sekjr"] = "Sekkondary",
 
 	-- Haytme's Priest
 	["Elliee"] = "Haytme",

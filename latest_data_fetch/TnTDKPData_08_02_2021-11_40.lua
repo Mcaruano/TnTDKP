@@ -467,6 +467,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Mitchendo"] = 1,
 		["Mlg"] = 1,
 		["Murduc"] = 1,
+		["Sekkondary"] = 1,
 		["Shnacks"] = 1,
 		["Sizzleñips"] = 1,
 	},
@@ -496,6 +497,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Chuunin"] = 1,
 		["Digie"] = 1,
 		["Rayas"] = 1,
+		["Sekkondary"] = 1,
 		["Vermora"] = 1,
 	},
 	[28779] = {
@@ -506,11 +508,13 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29766] = {
 		["Ashori"] = 1,
 		["Barnabris"] = 1,
+		["Sekkondary"] = 1,
 	},
 	[29763] = {
 		["Ashori"] = 1,
 		["Crazydaisy"] = 1,
 		["Malchazor"] = 1,
+		["Sekkondary"] = 1,
 	},
 	[29753] = {
 		["Baopi"] = 1,

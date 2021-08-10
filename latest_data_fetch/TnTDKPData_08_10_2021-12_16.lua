@@ -523,9 +523,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Shnacks"] = 1,
 		["Zerxx"] = 1,
 	},
-	[28797] = {
-		["Galm"] = 1,
-	},
 	[29755] = {
 		["Galm"] = 1,
 		["Justin"] = 1,
@@ -558,14 +555,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28799] = {
 		["Solzar"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Akaran", -- [2]
-	"Shnacks", -- [3]
-	"Mlg", -- [4]
-	"Goodjorb", -- [5]
-	"Justin", -- [6]
-	"Kinasa", -- [7]
-	"Jahmee", -- [8]
 }

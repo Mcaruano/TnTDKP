@@ -505,7 +505,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29766] = {
 		["Ashori"] = 1,
 		["Barnabris"] = 1,
-		["Sekkondary"] = 1,
 	},
 	[29763] = {
 		["Ashori"] = 1,
@@ -533,7 +532,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[28783] = {
 		["Goodjorb"] = 1,
-		["Mlg"] = 1,
 		["Murduc"] = 1,
 	},
 	[28780] = {
@@ -551,24 +549,13 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28802] = {
 		["Malchazor"] = 1,
 	},
-	[29762] = {
-		["Mlg"] = 1,
-		["Sizzleñips"] = 1,
-	},
 	[28824] = {
 		["Nashy"] = 1,
+	},
+	[29762] = {
+		["Sizzleñips"] = 1,
 	},
 	[28799] = {
 		["Solzar"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Akaran", -- [2]
-	"Shnacks", -- [3]
-	"Mlg", -- [4]
-	"Goodjorb", -- [5]
-	"Justin", -- [6]
-	"Kinasa", -- [7]
-	"Jahmee", -- [8]
 }

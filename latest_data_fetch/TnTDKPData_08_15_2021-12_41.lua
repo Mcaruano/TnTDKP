@@ -494,6 +494,12 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29767] = {
 		["Akaran"] = 1,
 	},
+	[29764] = {
+		["Akaran"] = 1,
+		["Baopi"] = 1,
+		["Nashy"] = 1,
+		["Shnacks"] = 1,
+	},
 	[28795] = {
 		["Ashori"] = 1,
 		["Dalran"] = 1,
@@ -522,11 +528,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29753] = {
 		["Baopi"] = 1,
 		["Wildshrimp"] = 1,
-	},
-	[29764] = {
-		["Baopi"] = 1,
-		["Nashy"] = 1,
-		["Shnacks"] = 1,
 	},
 	[29996] = {
 		["Crazydaisy"] = 1,

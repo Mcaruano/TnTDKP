@@ -168,4 +168,9 @@ tierFiveLoot = {
     [141] = 29989, -- Sunshower Light Cloak
     [142] = 29995, -- Leggings of Murderous Intent
     [143] = 29991, -- Sunhawk Leggings
+
+    -- TK Trash loot that was missed initially
+    [144] = 30028, -- Seventh Ring of the Tirisfalen
+    [145] = 30029, -- Bark-Gloves of Ancient Wisdom
+    
 }

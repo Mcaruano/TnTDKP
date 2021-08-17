@@ -393,6 +393,7 @@ T6PT5_LOTTERY_DKP_TABLE = {
 PLAYER_PRIORITY_REGISTRY = {
 	[30238] = {
 		["Abstinence"] = 1,
+		["Galm"] = 1,
 		["Roodolph"] = 1,
 	},
 	[28830] = {
@@ -408,14 +409,17 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[30241] = {
 		["Abstinence"] = 1,
+		["Galm"] = 1,
 		["Roodolph"] = 1,
 	},
 	[30244] = {
 		["Abstinence"] = 1,
+		["Galm"] = 1,
 		["Roodolph"] = 1,
 	},
 	[30250] = {
 		["Abstinence"] = 1,
+		["Galm"] = 1,
 		["Roodolph"] = 1,
 	},
 	[30105] = {
@@ -455,6 +459,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[28823] = {
 		["Ellievyra"] = 1,
+	},
+	[30247] = {
+		["Galm"] = 1,
 	},
 	[29766] = {
 		["Jahmee"] = 1,
@@ -556,6 +563,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32405] = {
 		["Akaran"] = 1,
+		["Galm"] = 1,
 	},
 	[32515] = {
 		["Akaran"] = 1,
@@ -603,6 +611,28 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Galm"] = 1,
 		["Justin"] = 1,
 	},
+	[30095] = {
+		["Galm"] = 1,
+		["Malchazor"] = 1,
+	},
+	[30049] = {
+		["Galm"] = 1,
+	},
+	[29987] = {
+		["Galm"] = 1,
+	},
+	[29918] = {
+		["Galm"] = 1,
+	},
+	[29992] = {
+		["Galm"] = 1,
+	},
+	[30720] = {
+		["Galm"] = 1,
+	},
+	[30067] = {
+		["Galm"] = 1,
+	},
 	[28783] = {
 		["Goodjorb"] = 1,
 		["Murduc"] = 1,
@@ -620,9 +650,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Malchazor"] = 1,
 	},
 	[28802] = {
-		["Malchazor"] = 1,
-	},
-	[30095] = {
 		["Malchazor"] = 1,
 	},
 	[30245] = {

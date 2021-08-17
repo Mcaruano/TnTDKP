@@ -8,6 +8,9 @@ altMapConfig = {
 	-- Malch's Druid
 	["Messao"] = "Malchazor",
 
+	-- Malch's Shaman
+	["Shmalchazor"] = "Malchazor",
+
 	-- Searus' Hunter
 	["Searious"] = "Searus",
 
@@ -55,6 +58,9 @@ altMapConfig = {
 
 	-- Mlg's Warrior
 	["Ltc"] = "Mlg",
+
+	-- Mlg's Hunter
+	["Vipershot"] = "Mlg",
 
 	-- Dalran's other Warrior
 	["Daleran"] = "Dalran",
@@ -124,6 +130,9 @@ altMapConfig = {
 
 	-- Sylador's Mage
 	["Autist"] = "Sylador",
+
+	-- Sylador's Paladin
+	["Silador"] = "Sylador",
 
 	-- Galm's Hunter
 	["Gilanerth"] = "Galm",
@@ -200,6 +209,9 @@ altMapConfig = {
 	-- Roodolph's NE Hunter
 	["Rudolf"] = "Roodolph",
 
+	-- Roodolph's Paladin
+	["Holygiff"] = "Roodolph",
+
 	-- Phi's Paladin
 	["Phidose"] = "Phi",
 
@@ -272,6 +284,9 @@ altMapConfig = {
 	-- Hyolin's Paladin
 	["Envisage"] = "Hyolin",
 
+	-- Hyolin's Shaman
+	["Heatriser"] = "Hyolin",
+
 	-- Chuunin's other Rogue
 	["Choonin"] = "Chuunin",
 
@@ -343,4 +358,19 @@ altMapConfig = {
 
 	-- Snickercakes' Mage
 	["Manarolls"] = "Snickercakes",
+
+	-- Kinasa's Shaman
+	["Kinastra"] = "Kinasa",
+
+	-- Kinasa's Warrior
+	["Kinyonga"] = "Kinasa",
+
+	-- Kinasa's Rogue
+	["Kineztra"] = "Kinasa",
+
+	-- Rayas' Paladin
+	["Ráya"] = "Rayas",
+
+	-- Barnabris' Mage
+	["Higginzz"] = "Barnabris",
 }

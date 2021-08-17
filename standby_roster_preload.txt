@@ -1,11 +1,11 @@
-==== Standby Roster for 7/22 (Starting with Gruul's Lair) ====
+==== Standby Roster for 8/17 (Starting with Gruul's Lair) ====
 STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
-	"Akaran", -- [2]
-	"Shnacks", -- [3]
+	"Kinasa", -- [2]
+	"Zerxx", -- [3]
 	"Mlg", -- [4]
-	"Goodjorb", -- [5]
-	"Justin", -- [6]
-	"Kinasa", -- [7]
-	"Jahmee", -- [8]
+	"Jahmee", -- [5]
+	"Goodjorb", -- [6]
+	"Justin", -- [7]
+	"Digie", -- [8]
 }

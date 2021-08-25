@@ -479,11 +479,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 }
 PLAYER_LOTTERY_REGISTRY = {
-	[30106] = {
-		["Abstinence"] = 1,
-		["Ashori"] = 1,
-		["Roodolph"] = 1,
-	},
 	[29948] = {
 		["Abstinence"] = 1,
 		["Roodolph"] = 1,
@@ -585,6 +580,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29997] = {
 		["Ashori"] = 1,
 	},
+	[30106] = {
+		["Ashori"] = 1,
+	},
 	[28795] = {
 		["Ashori"] = 1,
 		["Dalran"] = 1,
@@ -678,16 +676,14 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[28780] = {
 		["Jahmee"] = 1,
-		["Kinasa"] = 1,
-	},
-	[28789] = {
-		["Kinasa"] = 1,
-		["Malchazor"] = 1,
 	},
 	[28825] = {
 		["Malchazor"] = 1,
 	},
 	[28802] = {
+		["Malchazor"] = 1,
+	},
+	[28789] = {
 		["Malchazor"] = 1,
 	},
 	[30245] = {

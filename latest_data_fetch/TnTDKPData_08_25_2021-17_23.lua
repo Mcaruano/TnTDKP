@@ -440,6 +440,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Barnabris"] = 1,
 		["Sylador"] = 1,
 	},
+	[30107] = {
+		["Demeker"] = 1,
+	},
 	[28823] = {
 		["Ellievyra"] = 1,
 	},
@@ -562,6 +565,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32405] = {
 		["Akaran"] = 1,
+		["Demeker"] = 1,
 		["Galm"] = 1,
 		["Sylador"] = 1,
 	},
@@ -635,23 +639,32 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30055] = {
 		["Crazydaisy"] = 1,
 	},
-	[29755] = {
-		["Galm"] = 1,
-	},
 	[30095] = {
+		["Demeker"] = 1,
 		["Galm"] = 1,
 		["Malchazor"] = 1,
+	},
+	[29918] = {
+		["Demeker"] = 1,
+		["Galm"] = 1,
+	},
+	[30109] = {
+		["Demeker"] = 1,
+	},
+	[29992] = {
+		["Demeker"] = 1,
+		["Galm"] = 1,
+	},
+	[29982] = {
+		["Demeker"] = 1,
+	},
+	[29755] = {
+		["Galm"] = 1,
 	},
 	[30049] = {
 		["Galm"] = 1,
 	},
 	[29987] = {
-		["Galm"] = 1,
-	},
-	[29918] = {
-		["Galm"] = 1,
-	},
-	[29992] = {
 		["Galm"] = 1,
 	},
 	[30720] = {

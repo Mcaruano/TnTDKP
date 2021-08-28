@@ -661,6 +661,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29755] = {
 		["Galm"] = 1,
 	},
+	[28789] = {
+		["Galm"] = 1,
+		["Malchazor"] = 1,
+	},
 	[30049] = {
 		["Galm"] = 1,
 	},
@@ -684,9 +688,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Malchazor"] = 1,
 	},
 	[28802] = {
-		["Malchazor"] = 1,
-	},
-	[28789] = {
 		["Malchazor"] = 1,
 	},
 	[30245] = {

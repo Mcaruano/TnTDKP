@@ -359,14 +359,14 @@ altMapConfig = {
 	-- Snickercakes' Mage
 	["Manarolls"] = "Snickercakes",
 
-	-- Kinasa's Shaman
-	["Kinastra"] = "Kinasa",
+	-- Kinastra's Priest
+	["Kinasa"] = "Kinastra",
 
-	-- Kinasa's Warrior
-	["Kinyonga"] = "Kinasa",
+	-- Kinastra's Warrior
+	["Kinyonga"] = "Kinastra",
 
-	-- Kinasa's Rogue
-	["Kineztra"] = "Kinasa",
+	-- Kinastra's Rogue
+	["Kineztra"] = "Kinastra",
 
 	-- Rayas' Paladin
 	["Ráya"] = "Rayas",

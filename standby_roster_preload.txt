@@ -1,4 +1,4 @@
-==== Standby Roster for 8/32 (Starting with Gruul's Lair) ====
+==== Standby Roster for 8/31 (Starting with Gruul's Lair) ====
 STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
 	"Dalran", -- [2]

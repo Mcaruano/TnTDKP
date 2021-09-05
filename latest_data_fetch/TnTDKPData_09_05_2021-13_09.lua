@@ -533,6 +533,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hyolin"] = 1,
 		["Nashy"] = 1,
 		["Sylador"] = 1,
+		["Wildshrimp"] = 1,
 		["Zeion"] = 1,
 	},
 	[30099] = {
@@ -553,6 +554,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Baopi"] = 1,
 		["Ellievyra"] = 1,
 		["Hyolin"] = 1,
+		["Wildshrimp"] = 1,
 		["Zeion"] = 1,
 	},
 	[30058] = {
@@ -560,6 +562,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29764] = {
 		["Akaran"] = 1,
+		["Zerxx"] = 1,
 	},
 	[30249] = {
 		["Akaran"] = 1,
@@ -568,6 +571,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hyolin"] = 1,
 		["Nashy"] = 1,
 		["Sylador"] = 1,
+		["Wildshrimp"] = 1,
 		["Zeion"] = 1,
 	},
 	[29925] = {
@@ -629,9 +633,11 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30236] = {
 		["Ashori"] = 1,
+		["Barnabris"] = 1,
 	},
 	[28779] = {
 		["Ashori"] = 1,
+		["Zerxx"] = 1,
 	},
 	[29947] = {
 		["Ashori"] = 1,
@@ -642,6 +648,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30245] = {
 		["Ashori"] = 1,
+		["Barnabris"] = 1,
 		["Crazydaisy"] = 1,
 		["Malchazor"] = 1,
 	},
@@ -681,13 +688,20 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hyolin"] = 1,
 		["Nashy"] = 1,
 		["Sylador"] = 1,
+		["Wildshrimp"] = 1,
 		["Zeion"] = 1,
 	},
 	[30239] = {
+		["Barnabris"] = 1,
 		["Crazydaisy"] = 1,
 	},
 	[30242] = {
+		["Barnabris"] = 1,
 		["Crazydaisy"] = 1,
+	},
+	[30248] = {
+		["Barnabris"] = 1,
+		["Malchazor"] = 1,
 	},
 	[29996] = {
 		["Crazydaisy"] = 1,
@@ -793,9 +807,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28802] = {
 		["Malchazor"] = 1,
 	},
-	[30248] = {
-		["Malchazor"] = 1,
-	},
 	[33054] = {
 		["Malchazor"] = 1,
 	},
@@ -828,5 +839,11 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29989] = {
 		["Sylador"] = 1,
+	},
+	[30305] = {
+		["Wildshrimp"] = 1,
+	},
+	[30021] = {
+		["Wildshrimp"] = 1,
 	},
 }

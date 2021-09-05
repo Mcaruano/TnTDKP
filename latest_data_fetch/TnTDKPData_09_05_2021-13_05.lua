@@ -632,7 +632,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[28779] = {
 		["Ashori"] = 1,
-		["Dalran"] = 1,
 	},
 	[29947] = {
 		["Ashori"] = 1,

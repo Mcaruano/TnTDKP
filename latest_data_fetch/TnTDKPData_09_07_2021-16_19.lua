@@ -847,3 +847,12 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Wildshrimp"] = 1,
 	},
 }
+STANDBY_ROSTER = {
+	"Sizzleñips", -- [1]
+	"Jahmee", -- [2]
+	"Zeion", -- [3]
+	"Mlg", -- [4]
+	"Baopi", -- [5]
+	"Digie", -- [6]
+	"Solzar", -- [7]
+}

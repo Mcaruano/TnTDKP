@@ -428,6 +428,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[30106] = {
 		["Akaran"] = 1,
+		["Zerxx"] = 1,
 	},
 	[30055] = {
 		["Ashori"] = 1,
@@ -621,7 +622,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ashori"] = 1,
 		["Baopi"] = 1,
 		["Nashy"] = 1,
-		["Zerxx"] = 1,
 	},
 	[29754] = {
 		["Ashori"] = 1,
@@ -846,13 +846,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30021] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Jahmee", -- [2]
-	"Zeion", -- [3]
-	"Mlg", -- [4]
-	"Baopi", -- [5]
-	"Digie", -- [6]
-	"Solzar", -- [7]
 }

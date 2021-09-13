@@ -1,10 +1,9 @@
-==== Standby Roster for 8/31 (Starting with Gruul's Lair) ====
+==== Standby Roster for 9/14 (Starting with Gruul's Lair) ====
 STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
-	"Jahmee", -- [2]
-	"Zeion", -- [3]
-	"Mlg", -- [4]
-	"Baopi", -- [5]
-	"Digie", -- [6]
-	"Solzar", -- [7]
+	"Demeker", -- [2]
+	"Goodjorb", -- [3]
+	"Baopi", -- [4]
+	"Digie", -- [5]
+	"Solzar", -- [6]
 }

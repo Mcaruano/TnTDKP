@@ -868,3 +868,11 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Zerxx"] = 1,
 	},
 }
+STANDBY_ROSTER = {
+	"Sizzleñips", -- [1]
+	"Demeker", -- [2]
+	"Goodjorb", -- [3]
+	"Baopi", -- [4]
+	"Digie", -- [5]
+	"Solzar", -- [6]
+}

@@ -874,5 +874,5 @@ STANDBY_ROSTER = {
 	"Goodjorb", -- [3]
 	"Baopi", -- [4]
 	"Digie", -- [5]
-	"Solzar", -- [6]
+	"Barnabris", -- [6]
 }

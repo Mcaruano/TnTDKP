@@ -394,7 +394,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30238] = {
 		["Abstinence"] = 1,
 		["Galm"] = 1,
-		["Roodolph"] = 1,
 	},
 	[28830] = {
 		["Abstinence"] = 1,
@@ -403,28 +402,23 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Chuunin"] = 1,
 		["Kang"] = 1,
 		["Nashy"] = 1,
-		["Roodolph"] = 1,
 		["Vermora"] = 1,
 	},
 	[30241] = {
 		["Abstinence"] = 1,
 		["Galm"] = 1,
-		["Roodolph"] = 1,
 	},
 	[30244] = {
 		["Abstinence"] = 1,
 		["Galm"] = 1,
-		["Roodolph"] = 1,
 	},
 	[30250] = {
 		["Abstinence"] = 1,
 		["Galm"] = 1,
 		["Goodjorb"] = 1,
-		["Roodolph"] = 1,
 	},
 	[30105] = {
 		["Abstinence"] = 1,
-		["Roodolph"] = 1,
 	},
 	[30106] = {
 		["Akaran"] = 1,
@@ -514,23 +508,19 @@ PLAYER_PRIORITY_REGISTRY = {
 PLAYER_LOTTERY_REGISTRY = {
 	[29948] = {
 		["Abstinence"] = 1,
-		["Roodolph"] = 1,
 	},
 	[29995] = {
 		["Abstinence"] = 1,
 		["Nashy"] = 1,
-		["Roodolph"] = 1,
 		["Zerxx"] = 1,
 	},
 	[32944] = {
 		["Abstinence"] = 1,
-		["Roodolph"] = 1,
 	},
 	[29994] = {
 		["Abstinence"] = 1,
 		["Crazydaisy"] = 1,
 		["Digie"] = 1,
-		["Roodolph"] = 1,
 	},
 	[30061] = {
 		["Akaran"] = 1,

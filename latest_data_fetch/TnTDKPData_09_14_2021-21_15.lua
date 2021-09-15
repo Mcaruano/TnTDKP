@@ -501,6 +501,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	[28780] = {
 		["Solzar"] = 1,
 	},
+	[32385] = {
+		["Sylador"] = 1,
+	},
 	[29989] = {
 		["Zeion"] = 1,
 	},
@@ -540,6 +543,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Wildshrimp"] = 1,
 		["Zeion"] = 1,
 	},
+	[28777] = {
+		["Akaran"] = 1,
+	},
 	[30099] = {
 		["Akaran"] = 1,
 	},
@@ -559,6 +565,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Baopi"] = 1,
 		["Ellievyra"] = 1,
 		["Hyolin"] = 1,
+		["Sylador"] = 1,
 		["Wildshrimp"] = 1,
 		["Zeion"] = 1,
 	},
@@ -597,6 +604,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Akaran"] = 1,
 	},
 	[30028] = {
+		["Akaran"] = 1,
+	},
+	[28826] = {
 		["Akaran"] = 1,
 	},
 	[30620] = {
@@ -805,6 +815,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30103] = {
 		["Kang"] = 1,
 	},
+	[30626] = {
+		["Kinastra"] = 1,
+	},
 	[28802] = {
 		["Malchazor"] = 1,
 	},
@@ -852,10 +865,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30008] = {
 		["Solzar"] = 1,
 	},
-	[29984] = {
-		["Sylador"] = 1,
-	},
-	[30062] = {
+	[29767] = {
 		["Sylador"] = 1,
 	},
 	[30092] = {

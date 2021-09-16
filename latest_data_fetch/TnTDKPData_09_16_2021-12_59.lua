@@ -390,9 +390,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32385] = {
 		["Sylador"] = 1,
 	},
-	[29989] = {
-		["Zeion"] = 1,
-	},
 }
 PLAYER_LOTTERY_REGISTRY = {
 	[29948] = {
@@ -517,6 +514,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30106] = {
 		["Ashori"] = 1,
+		["Chuunin"] = 1,
 		["Crazydaisy"] = 1,
 		["Nashy"] = 1,
 	},
@@ -739,6 +737,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29989] = {
 		["Sylador"] = 1,
+		["Zeion"] = 1,
 	},
 	[29949] = {
 		["Vermora"] = 1,

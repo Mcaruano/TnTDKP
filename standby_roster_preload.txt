@@ -5,5 +5,5 @@ STANDBY_ROSTER = {
 	"Nashy", -- [3]
 	"Kang", -- [4]
 	"Vermora", -- [5]
-	"Chuunin", -- [6]
+	"Crazydaisy", -- [6]
 }

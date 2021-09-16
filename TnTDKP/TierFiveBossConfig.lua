@@ -12,7 +12,7 @@ tierFiveBossConfig = {
 		["KillDKPAward"] = 150,
 	},
 
-	["Kathom-Lord Karathress"] = {
+	["Fathom-Lord Karathress"] = {
 		["KillDKPAward"] = 100,
 	},
 

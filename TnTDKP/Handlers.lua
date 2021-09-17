@@ -99,14 +99,14 @@ end
 function CEPGP_confirmBossEncounterDefeated(encounterName)
 
 	-- Determine if Al'ar died twice (Phase 1 & Phase 2)
-	if encounterName == "Al'ar" then
-		CEPGP_kills = CEPGP_kills + 1;
-		if CEPGP_kills == 2 then
-			return true;
-		else
-			return false;
-		end
-	end
+	-- if encounterName == "Al'ar" then
+	-- 	CEPGP_kills = CEPGP_kills + 1;
+	-- 	if CEPGP_kills == 2 then
+	-- 		return true;
+	-- 	else
+	-- 		return false;
+	-- 	end
+	-- end
 	
 	return true;
 end

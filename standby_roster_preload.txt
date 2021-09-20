@@ -1,9 +1,8 @@
-==== Standby Roster for 9/15 (SSC) ====
+==== Standby Roster for 9/21 (SSC) ====
 STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
 	"Demeker", -- [2]
-	"Nashy", -- [3]
-	"Kang", -- [4]
-	"Vermora", -- [5]
-	"Crazydaisy", -- [6]
+	"Baopi", -- [3]
+	"Nashy", -- [4]
+	"Chuunin", -- [5]
 }

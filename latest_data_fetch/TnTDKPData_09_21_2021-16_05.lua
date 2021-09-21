@@ -370,7 +370,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[29982] = {
 		["Goodjorb"] = 1,
-		["Solzar"] = 1,
 	},
 	[29918] = {
 		["Jahmee"] = 1,
@@ -503,12 +502,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Akaran"] = 1,
 		["Malchazor"] = 1,
 	},
-	[29997] = {
-		["Ashori"] = 1,
-		["Baopi"] = 1,
-		["Kang"] = 1,
-		["Nashy"] = 1,
-	},
 	[30106] = {
 		["Ashori"] = 1,
 		["Crazydaisy"] = 1,
@@ -534,16 +527,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Baopi"] = 1,
 		["Nashy"] = 1,
 	},
-	[29947] = {
-		["Ashori"] = 1,
-	},
 	[29766] = {
 		["Ashori"] = 1,
 		["Barnabris"] = 1,
-	},
-	[30022] = {
-		["Ashori"] = 1,
-		["Nashy"] = 1,
 	},
 	[30627] = {
 		["Ashori"] = 1,
@@ -551,10 +537,14 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Kang"] = 1,
 		["Nashy"] = 1,
 		["Wildshrimp"] = 1,
-		["Zerxx"] = 1,
 	},
 	[30081] = {
 		["Ashori"] = 1,
+		["Baopi"] = 1,
+		["Kang"] = 1,
+		["Nashy"] = 1,
+	},
+	[29997] = {
 		["Baopi"] = 1,
 		["Kang"] = 1,
 		["Nashy"] = 1,
@@ -638,6 +628,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Demeker"] = 1,
 		["Justin"] = 1,
 		["Murduc"] = 1,
+		["Solzar"] = 1,
 	},
 	[30110] = {
 		["Ellievyra"] = 1,
@@ -704,6 +695,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28783] = {
 		["Murduc"] = 1,
 	},
+	[30022] = {
+		["Nashy"] = 1,
+	},
 	[30105] = {
 		["Nashy"] = 1,
 	},
@@ -744,11 +738,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29949] = {
 		["Vermora"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Demeker", -- [2]
-	"Baopi", -- [3]
-	"Nashy", -- [4]
-	"Chuunin", -- [5]
 }

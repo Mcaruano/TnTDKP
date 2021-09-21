@@ -563,7 +563,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30239] = {
 		["Barnabris"] = 1,
-		["Vermora"] = 1,
 	},
 	[30242] = {
 		["Barnabris"] = 1,
@@ -602,7 +601,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Galm"] = 1,
 		["Goodjorb"] = 1,
 		["Justin"] = 1,
-		["Kinastra"] = 1,
 		["Murduc"] = 1,
 	},
 	[30282] = {
@@ -684,7 +682,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30248] = {
 		["Malchazor"] = 1,
-		["Vermora"] = 1,
 	},
 	[30028] = {
 		["Malchazor"] = 1,
@@ -735,14 +732,4 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sylador"] = 1,
 		["Zeion"] = 1,
 	},
-	[29949] = {
-		["Vermora"] = 1,
-	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Demeker", -- [2]
-	"Baopi", -- [3]
-	"Nashy", -- [4]
-	"Chuunin", -- [5]
 }

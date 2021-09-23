@@ -1,8 +1,9 @@
-==== Standby Roster for 9/21 (SSC) ====
+==== Standby Roster for 9/23 (Gruul's Lair) ====
 STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
 	"Demeker", -- [2]
 	"Baopi", -- [3]
 	"Ashori", -- [4]
-	"Barnabris", -- [5]
+	"Solzar", -- [5]
+	"Goodjorb", -- [5]
 }

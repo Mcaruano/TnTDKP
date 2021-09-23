@@ -3,6 +3,6 @@ STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
 	"Demeker", -- [2]
 	"Baopi", -- [3]
-	"Nashy", -- [4]
-	"Chuunin", -- [5]
+	"Ashori", -- [4]
+	"Barnabris", -- [5]
 }

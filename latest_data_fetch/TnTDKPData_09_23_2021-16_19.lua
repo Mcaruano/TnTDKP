@@ -647,6 +647,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32385] = {
 		["Digie"] = 1,
 		["Sizzleñips"] = 1,
+		["Vermora"] = 1,
 	},
 	[30110] = {
 		["Ellievyra"] = 1,
@@ -739,13 +740,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29949] = {
 		["Vermora"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Demeker", -- [2]
-	"Baopi", -- [3]
-	"Ashori", -- [4]
-	"Solzar", -- [5]
-	"Nashy", -- [6]
-	"Kinastra", -- [7]
 }

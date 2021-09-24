@@ -11,14 +11,14 @@ altMapConfig = {
 	-- Malch's Shaman
 	["Shmalchazor"] = "Malchazor",
 
-	-- Searus' Hunter
-	["Searious"] = "Searus",
+	-- Searus' Rogue
+	["Searus"] = "Searious",
 
 	-- Searus' Warrior
-	["Seariously"] = "Searus",
+	["Seariously"] = "Searious",
 
 	-- Searus' Paladin
-	["Searusbuffs"] = "Searus",
+	["Searusbuffs"] = "Searious",
 
 	-- Kang's Paladin
 	["Blessbeard"] = "Kang",

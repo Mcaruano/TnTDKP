@@ -32,6 +32,12 @@ altMapConfig = {
 	-- Kang's Rogue
 	["Furtive"] = "Kang",
 
+	-- Kang's Mage
+	["Bankdude"] = "Kang",
+
+	-- Kang's Druid
+	["Weedster"] = "Kang",
+
 	-- Ashori's Priest
 	["Amilea"] = "Ashori",
 

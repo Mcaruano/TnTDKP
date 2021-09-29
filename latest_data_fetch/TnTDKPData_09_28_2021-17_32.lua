@@ -473,6 +473,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Baopi"] = 1,
 		["Ellievyra"] = 1,
 		["Kang"] = 1,
+		["Nashy"] = 1,
 		["Sylador"] = 1,
 		["Zeion"] = 1,
 	},
@@ -596,6 +597,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29966] = {
 		["Chuunin"] = 1,
+		["Vermora"] = 1,
 	},
 	[29763] = {
 		["Crazydaisy"] = 1,
@@ -670,6 +672,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30241] = {
 		["Galm"] = 1,
 	},
+	[30720] = {
+		["Galm"] = 1,
+	},
 	[29988] = {
 		["Galm"] = 1,
 		["Kinastra"] = 1,
@@ -738,13 +743,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29949] = {
 		["Vermora"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Chubrock", -- [2]
-	"Searious", -- [3]
-	"Chuunin", -- [4]
-	"Kang", -- [5]
-	"Digie", -- [6]
-	"Baopi", -- [7]
 }

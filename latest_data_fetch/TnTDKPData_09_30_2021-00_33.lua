@@ -704,6 +704,12 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Kinastra"] = 1,
 		["Solzar"] = 1,
 	},
+	[29755] = {
+		["Goodjorb"] = 1,
+	},
+	[29765] = {
+		["Goodjorb"] = 1,
+	},
 	[30107] = {
 		["Goodjorb"] = 1,
 	},
@@ -773,14 +779,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28823] = {
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Nashy", -- [2]
-	"Searious", -- [3]
-	"Rayas", -- [4]
-	"Zerxx", -- [5]
-	"Solzar", -- [6]
-	"Baopi", -- [7]
-	"Kinastra", -- [8]
 }

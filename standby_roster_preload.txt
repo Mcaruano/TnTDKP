@@ -1,10 +1,11 @@
-==== Standby Roster for 9/28 (SSC) ====
+==== Standby Roster for 9/30 (Gruul) ====
 STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
-	"Chubrock", -- [2]
+	"Nashy", -- [2]
 	"Searious", -- [3]
-	"Chuunin", -- [4]
-	"Kang", -- [5]
-	"Digie", -- [6]
+	"Rayas", -- [4]
+	"Zerxx", -- [5]
+	"Solzar", -- [6]
 	"Baopi", -- [7]
+	"Kinastra", -- [8]
 }

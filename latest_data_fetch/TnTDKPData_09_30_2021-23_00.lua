@@ -710,6 +710,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28797] = {
 		["Jahmee"] = 1,
 	},
+	[28783] = {
+		["Justin"] = 1,
+	},
 	[30250] = {
 		["Justin"] = 1,
 	},

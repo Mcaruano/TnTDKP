@@ -439,6 +439,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30250] = {
 		["Galm"] = 1,
 	},
+	[30095] = {
+		["Goodjorb"] = 1,
+	},
 	[29918] = {
 		["Goodjorb"] = 1,
 	},
@@ -636,7 +639,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30095] = {
 		["Demeker"] = 1,
-		["Goodjorb"] = 1,
 		["Justin"] = 1,
 		["Malchazor"] = 1,
 		["Murduc"] = 1,
@@ -699,6 +701,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Solzar"] = 1,
 	},
 	[29765] = {
+		["Goodjorb"] = 1,
+	},
+	[30626] = {
 		["Goodjorb"] = 1,
 	},
 	[30107] = {
@@ -773,13 +778,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28823] = {
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Searious", -- [2]
-	"Chubrock", -- [3]
-	"Digie", -- [4]
-	"Zerxx", -- [5]
-	"Kinastra", -- [6]
-	"Chuunin", -- [7]
 }

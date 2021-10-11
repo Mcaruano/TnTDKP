@@ -100,7 +100,7 @@ T5_PRIORITY_DKP_TABLE = {
    ["Barnabris"] = 3582.79,
    ["Brittany"] = 0.0,
    ["Chubrock"] = 2058.21,
-   ["Chuunin"] = 4201.44,
+   ["Chuunin"] = 4328.94,
    ["Crazydaisy"] = 3959.06,
    ["Dalran"] = 558.74,
    ["Demeker"] = 4040.0,
@@ -146,7 +146,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Barnabris"] = 875.34,
    ["Brittany"] = 0.0,
    ["Chubrock"] = 2058.21,
-   ["Chuunin"] = 2703.78,
+   ["Chuunin"] = 2831.28,
    ["Crazydaisy"] = -435.89,
    ["Dalran"] = 473.02,
    ["Demeker"] = 4228.42,
@@ -616,6 +616,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30242] = {
 		["Barnabris"] = 1,
+		["Chuunin"] = 1,
 		["Malchazor"] = 1,
 		["Vermora"] = 1,
 	},
@@ -787,13 +788,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28823] = {
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Searious", -- [2]
-	"Chubrock", -- [3]
-	"Sylador", -- [4]
-	"Barnabris", -- [5]
-	"Chuunin", -- [6]
-	"Zerxx", -- [7]
 }

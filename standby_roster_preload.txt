@@ -1,10 +1,10 @@
-==== Standby Roster for 10/7 (Vashj) ====
+==== Standby Roster for 10/12 (SSC) ====
 STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
 	"Searious", -- [2]
 	"Chubrock", -- [3]
-	"Vermora", -- [4]
-	"Baopi", -- [5]
-	"Kang", -- [6]
-	"Zeion", -- [7]
+	"Sylador", -- [4]
+	"Barnabris", -- [5]
+	"Chuunin", -- [6]
+	"Zerxx", -- [7]
 }

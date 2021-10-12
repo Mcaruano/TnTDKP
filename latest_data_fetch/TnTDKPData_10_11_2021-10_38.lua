@@ -796,5 +796,5 @@ STANDBY_ROSTER = {
 	"Sylador", -- [4]
 	"Barnabris", -- [5]
 	"Chuunin", -- [6]
-	"Zerxx", -- [7]
+	"Rayas", -- [7]
 }

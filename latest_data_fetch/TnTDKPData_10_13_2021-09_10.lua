@@ -125,7 +125,7 @@ T5_PRIORITY_DKP_TABLE = {
    ["Roodolph"] = 1748.72,
    ["Searious"] = 2908.21,
    ["Seion"] = 280.5,
-   ["Sekkondary"] = 4940.51,
+   ["Sekkondary"] = 5178.94,
    ["Shnacks"] = 4134.93,
    ["Sizzleñips"] = 5178.94,
    ["Solzar"] = 3026.19,
@@ -155,7 +155,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Galm"] = -125.73,
    ["Goodjorb"] = 3828.58,
    ["Hulkhigginz"] = 0.0,
-   ["Hyolin"] = 987.8399999999999,
+   ["Hyolin"] = 987.84,
    ["Jahmee"] = 3950.69,
    ["Justin"] = 4785.57,
    ["Kang"] = 231.11,
@@ -163,7 +163,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Kinastra"] = 3308.85,
    ["Kurister"] = 0.0,
    ["Malchazor"] = -3274.09,
-   ["Murduc"] = 4784.690000000001,
+   ["Murduc"] = 4784.69,
    ["Nashy"] = 1377.3,
    ["Nynisa"] = 238.42,
    ["Onetotemman"] = 1139.0,
@@ -171,7 +171,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Roodolph"] = 1648.2,
    ["Searious"] = 2908.21,
    ["Seion"] = 280.5,
-   ["Sekkondary"] = 2722.73,
+   ["Sekkondary"] = 2961.16,
    ["Shnacks"] = 4134.93,
    ["Sizzleñips"] = 5178.94,
    ["Solzar"] = 4552.76,
@@ -180,7 +180,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Weedster"] = 1381.11,
    ["Wildshrimp"] = 4658.49,
    ["Zeion"] = 2288.94,
-   ["Zerxx"] = 4469.639999999999,
+   ["Zerxx"] = 4469.64,
 }
 T6_PRIORITY_DKP_TABLE = {
    ["Abstinence"] = 0.0,
@@ -765,14 +765,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28823] = {
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Searious", -- [2]
-	"Sylador", -- [3]
-	"Barnabris", -- [4]
-	"Baopi", -- [5]
-	"Nashy", -- [6]
-	"Solzar", -- [7]
-	"Zerxx", -- [8]
 }

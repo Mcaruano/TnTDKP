@@ -91,96 +91,96 @@ T4_LOTTERY_DKP_TABLE = {
    ["Zerxx"] = 2004.81,
 }
 T5_PRIORITY_DKP_TABLE = {
-   ["Abstinence"] = 1183.94,
-   ["Akaran"] = 4328.94,
+   ["Abstinence"] = 2033.94,
+   ["Akaran"] = 5178.94,
    ["Aro"] = 0.0,
-   ["Ashori"] = 4300.22,
+   ["Ashori"] = 5150.22,
    ["Bankdude"] = 4328.94,
-   ["Baopi"] = 4315.88,
-   ["Barnabris"] = 3582.79,
+   ["Baopi"] = 5165.88,
+   ["Barnabris"] = 4432.79,
    ["Brittany"] = 0.0,
-   ["Chubrock"] = 2058.21,
-   ["Chuunin"] = 4328.94,
-   ["Crazydaisy"] = 3959.06,
+   ["Chubrock"] = 2908.21,
+   ["Chuunin"] = 5178.94,
+   ["Crazydaisy"] = 4809.06,
    ["Dalran"] = 558.74,
-   ["Demeker"] = 4040.0,
-   ["Digie"] = 4164.88,
-   ["Ellievyra"] = 4137.47,
-   ["Galm"] = 828.42,
-   ["Goodjorb"] = 4251.05,
+   ["Demeker"] = 4890.0,
+   ["Digie"] = 5014.88,
+   ["Ellievyra"] = 4987.47,
+   ["Galm"] = 1678.42,
+   ["Goodjorb"] = 5101.05,
    ["Hulkhigginz"] = 0.0,
-   ["Hyolin"] = 4328.94,
-   ["Jahmee"] = 1739.41,
-   ["Justin"] = 4210.58,
-   ["Kang"] = 4328.94,
+   ["Hyolin"] = 5178.94,
+   ["Jahmee"] = 2589.41,
+   ["Justin"] = 5060.58,
+   ["Kang"] = 5178.94,
    ["Kangbuff"] = 469.62,
-   ["Kinastra"] = 4315.88,
+   ["Kinastra"] = 5165.88,
    ["Kurister"] = 0.0,
-   ["Malchazor"] = 4210.58,
-   ["Murduc"] = 3840.71,
-   ["Nashy"] = 4122.68,
+   ["Malchazor"] = 5060.58,
+   ["Murduc"] = 3690.71,
+   ["Nashy"] = 4972.68,
    ["Nynisa"] = 238.42,
-   ["Onetotemman"] = 289.0,
-   ["Rayas"] = 3039.5,
+   ["Onetotemman"] = 1139.0,
+   ["Rayas"] = 3889.5,
    ["Roodolph"] = 1748.72,
-   ["Searious"] = 2058.21,
+   ["Searious"] = 2908.21,
    ["Seion"] = 280.5,
-   ["Sekkondary"] = 4090.51,
-   ["Shnacks"] = 3284.93,
-   ["Sizzleñips"] = 4328.94,
-   ["Solzar"] = 4176.19,
-   ["Sylador"] = 4328.94,
-   ["Vermora"] = 4328.94,
+   ["Sekkondary"] = 4940.51,
+   ["Shnacks"] = 4134.93,
+   ["Sizzleñips"] = 5178.94,
+   ["Solzar"] = 3026.19,
+   ["Sylador"] = 5178.94,
+   ["Vermora"] = 5178.94,
    ["Weedster"] = 4328.94,
-   ["Wildshrimp"] = 4278.46,
-   ["Zeion"] = 4328.94,
-   ["Zerxx"] = 4328.94,
+   ["Wildshrimp"] = 5128.46,
+   ["Zeion"] = 5178.94,
+   ["Zerxx"] = 5178.94,
 }
 T5_LOTTERY_DKP_TABLE = {
-   ["Abstinence"] = 3843.74,
-   ["Akaran"] = -6052.81,
+   ["Abstinence"] = 2693.74,
+   ["Akaran"] = -9202.81,
    ["Aro"] = 0.0,
-   ["Ashori"] = 1316.97,
+   ["Ashori"] = 2166.97,
    ["Bankdude"] = 1381.11,
-   ["Baopi"] = 2849.78,
-   ["Barnabris"] = 875.34,
+   ["Baopi"] = 3699.78,
+   ["Barnabris"] = 1725.34,
    ["Brittany"] = 0.0,
-   ["Chubrock"] = 2058.21,
-   ["Chuunin"] = 2831.28,
-   ["Crazydaisy"] = -435.89,
+   ["Chubrock"] = 2908.21,
+   ["Chuunin"] = 3681.28,
+   ["Crazydaisy"] = 414.11,
    ["Dalran"] = 473.02,
-   ["Demeker"] = 4228.42,
-   ["Digie"] = 4328.94,
-   ["Ellievyra"] = 3100.69,
-   ["Galm"] = 1024.27,
-   ["Goodjorb"] = 2978.58,
+   ["Demeker"] = 5078.42,
+   ["Digie"] = 5178.94,
+   ["Ellievyra"] = 1950.69,
+   ["Galm"] = -125.73,
+   ["Goodjorb"] = 3828.58,
    ["Hulkhigginz"] = 0.0,
-   ["Hyolin"] = 137.84,
-   ["Jahmee"] = 3100.69,
-   ["Justin"] = 3935.57,
-   ["Kang"] = 1381.11,
+   ["Hyolin"] = 987.8399999999999,
+   ["Jahmee"] = 3950.69,
+   ["Justin"] = 4785.57,
+   ["Kang"] = 231.11,
    ["Kangbuff"] = 469.62,
-   ["Kinastra"] = 2458.85,
+   ["Kinastra"] = 3308.85,
    ["Kurister"] = 0.0,
-   ["Malchazor"] = -2124.09,
-   ["Murduc"] = 3934.69,
-   ["Nashy"] = 527.3,
+   ["Malchazor"] = -3274.09,
+   ["Murduc"] = 4784.690000000001,
+   ["Nashy"] = 1377.3,
    ["Nynisa"] = 238.42,
-   ["Onetotemman"] = 289.0,
-   ["Rayas"] = 4218.41,
+   ["Onetotemman"] = 1139.0,
+   ["Rayas"] = 5068.41,
    ["Roodolph"] = 1648.2,
-   ["Searious"] = 2058.21,
+   ["Searious"] = 2908.21,
    ["Seion"] = 280.5,
-   ["Sekkondary"] = 1872.73,
-   ["Shnacks"] = 3284.93,
-   ["Sizzleñips"] = 4328.94,
-   ["Solzar"] = 3702.76,
-   ["Sylador"] = 2719.06,
-   ["Vermora"] = 1400.69,
+   ["Sekkondary"] = 2722.73,
+   ["Shnacks"] = 4134.93,
+   ["Sizzleñips"] = 5178.94,
+   ["Solzar"] = 4552.76,
+   ["Sylador"] = 3569.06,
+   ["Vermora"] = 250.69,
    ["Weedster"] = 1381.11,
-   ["Wildshrimp"] = 3808.49,
-   ["Zeion"] = 1438.94,
-   ["Zerxx"] = 3619.64,
+   ["Wildshrimp"] = 4658.49,
+   ["Zeion"] = 2288.94,
+   ["Zerxx"] = 4469.639999999999,
 }
 T6_PRIORITY_DKP_TABLE = {
    ["Abstinence"] = 0.0,
@@ -464,9 +464,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[28783] = {
 		["Murduc"] = 1,
 	},
-	[30282] = {
-		["Murduc"] = 1,
-	},
 	[28779] = {
 		["Nashy"] = 1,
 		["Zerxx"] = 1,
@@ -478,9 +475,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[28789] = {
 		["Sizzleñips"] = 1,
 	},
-	[29982] = {
-		["Solzar"] = 1,
-	},
 }
 PLAYER_LOTTERY_REGISTRY = {
 	[29948] = {
@@ -490,9 +484,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Abstinence"] = 1,
 		["Nashy"] = 1,
 		["Zerxx"] = 1,
-	},
-	[32944] = {
-		["Abstinence"] = 1,
 	},
 	[29994] = {
 		["Abstinence"] = 1,
@@ -515,16 +506,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28777] = {
 		["Akaran"] = 1,
 	},
-	[30096] = {
-		["Akaran"] = 1,
-	},
-	[30240] = {
-		["Akaran"] = 1,
-	},
 	[30246] = {
 		["Akaran"] = 1,
 		["Baopi"] = 1,
-		["Ellievyra"] = 1,
 		["Nashy"] = 1,
 		["Sylador"] = 1,
 		["Zeion"] = 1,
@@ -660,6 +644,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Crazydaisy"] = 1,
 		["Zerxx"] = 1,
 	},
+	[32944] = {
+		["Crazydaisy"] = 1,
+	},
 	[30095] = {
 		["Demeker"] = 1,
 		["Justin"] = 1,
@@ -709,9 +696,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30238] = {
 		["Galm"] = 1,
 	},
-	[30241] = {
-		["Galm"] = 1,
-	},
 	[29988] = {
 		["Galm"] = 1,
 		["Kinastra"] = 1,
@@ -732,10 +716,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30250] = {
 		["Justin"] = 1,
 	},
-	[30057] = {
-		["Kang"] = 1,
-		["Nashy"] = 1,
-	},
 	[30103] = {
 		["Kang"] = 1,
 	},
@@ -745,11 +725,11 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30239] = {
 		["Malchazor"] = 1,
 	},
-	[30248] = {
-		["Malchazor"] = 1,
-	},
 	[32515] = {
 		["Malchazor"] = 1,
+	},
+	[30057] = {
+		["Nashy"] = 1,
 	},
 	[29996] = {
 		["Nashy"] = 1,
@@ -782,19 +762,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29949] = {
 		["Vermora"] = 1,
 	},
-	[30101] = {
-		["Vermora"] = 1,
-	},
 	[28823] = {
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Searious", -- [2]
-	"Chubrock", -- [3]
-	"Sylador", -- [4]
-	"Barnabris", -- [5]
-	"Chuunin", -- [6]
-	"Rayas", -- [7]
 }

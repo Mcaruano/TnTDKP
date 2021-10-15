@@ -475,6 +475,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	[28789] = {
 		["Sizzleñips"] = 1,
 	},
+	[29992] = {
+		["Solzar"] = 1,
+	},
 }
 PLAYER_LOTTERY_REGISTRY = {
 	[29948] = {
@@ -488,6 +491,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29994] = {
 		["Abstinence"] = 1,
 		["Crazydaisy"] = 1,
+		["Digie"] = 1,
 	},
 	[32267] = {
 		["Akaran"] = 1,
@@ -500,6 +504,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hyolin"] = 1,
 		["Nashy"] = 1,
 		["Shnacks"] = 1,
+		["Solzar"] = 1,
 		["Sylador"] = 1,
 		["Zeion"] = 1,
 	},
@@ -533,8 +538,8 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32405] = {
 		["Akaran"] = 1,
 		["Demeker"] = 1,
+		["Digie"] = 1,
 		["Galm"] = 1,
-		["Jahmee"] = 1,
 		["Justin"] = 1,
 		["Kinastra"] = 1,
 		["Murduc"] = 1,
@@ -559,6 +564,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ashori"] = 1,
 		["Barnabris"] = 1,
 		["Crazydaisy"] = 1,
+		["Jahmee"] = 1,
 		["Malchazor"] = 1,
 		["Rayas"] = 1,
 		["Sekkondary"] = 1,
@@ -584,6 +590,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29997] = {
 		["Baopi"] = 1,
+		["Digie"] = 1,
 		["Kang"] = 1,
 		["Nashy"] = 1,
 		["Searious"] = 1,
@@ -595,17 +602,20 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hyolin"] = 1,
 		["Nashy"] = 1,
 		["Shnacks"] = 1,
+		["Solzar"] = 1,
 		["Sylador"] = 1,
 		["Zeion"] = 1,
 	},
 	[30242] = {
 		["Barnabris"] = 1,
 		["Chuunin"] = 1,
+		["Digie"] = 1,
 		["Malchazor"] = 1,
 		["Vermora"] = 1,
 	},
 	[30245] = {
 		["Barnabris"] = 1,
+		["Digie"] = 1,
 		["Malchazor"] = 1,
 	},
 	[28783] = {
@@ -675,7 +685,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Galm"] = 1,
 		["Malchazor"] = 1,
 		["Murduc"] = 1,
-		["Solzar"] = 1,
 	},
 	[29982] = {
 		["Demeker"] = 1,
@@ -699,7 +708,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29988] = {
 		["Galm"] = 1,
 		["Kinastra"] = 1,
-		["Solzar"] = 1,
 	},
 	[30626] = {
 		["Goodjorb"] = 1,
@@ -752,9 +760,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29922] = {
 		["Solzar"] = 1,
 	},
-	[30008] = {
-		["Solzar"] = 1,
-	},
 	[29989] = {
 		["Sylador"] = 1,
 		["Zeion"] = 1,
@@ -765,14 +770,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28823] = {
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Searious", -- [2]
-	"Sylador", -- [3]
-	"Barnabris", -- [4]
-	"Baopi", -- [5]
-	"Nashy", -- [6]
-	"Solzar", -- [7]
-	"Zerxx", -- [8]
 }

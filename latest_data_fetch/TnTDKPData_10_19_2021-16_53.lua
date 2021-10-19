@@ -754,9 +754,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29991] = {
 		["Sekkondary"] = 1,
 	},
-	[29922] = {
-		["Solzar"] = 1,
-	},
 	[29989] = {
 		["Sylador"] = 1,
 	},
@@ -766,13 +763,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28823] = {
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Searious", -- [2]
-	"Chubrock", -- [3]
-	"Barnabris", -- [4]
-	"Sylador", -- [5]
-	"Ashori", -- [6]
-	"Digie", -- [7]
 }

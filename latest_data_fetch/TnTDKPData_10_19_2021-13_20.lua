@@ -445,13 +445,22 @@ PLAYER_PRIORITY_REGISTRY = {
 	[34845] = {
 		["Goodjorb"] = 1,
 	},
+	[28797] = {
+		["Jahmee"] = 1,
+	},
 	[30109] = {
+		["Jahmee"] = 1,
+	},
+	[29988] = {
 		["Jahmee"] = 1,
 	},
 	[29762] = {
 		["Justin"] = 1,
 	},
 	[28783] = {
+		["Murduc"] = 1,
+	},
+	[29982] = {
 		["Murduc"] = 1,
 	},
 	[28779] = {
@@ -681,7 +690,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Demeker"] = 1,
 		["Goodjorb"] = 1,
 		["Justin"] = 1,
-		["Murduc"] = 1,
 	},
 	[30110] = {
 		["Ellievyra"] = 1,
@@ -705,9 +713,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30107] = {
 		["Goodjorb"] = 1,
-	},
-	[28797] = {
-		["Jahmee"] = 1,
 	},
 	[30049] = {
 		["Justin"] = 1,

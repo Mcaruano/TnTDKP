@@ -7,5 +7,5 @@ STANDBY_ROSTER = {
 	"Sylador", -- [5]
 	"Ashori", -- [6]
 	"Nashy", -- [7]
-	"Zerxx", -- [7]
+	"Zerxx", -- [8]
 }

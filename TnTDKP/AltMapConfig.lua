@@ -299,6 +299,9 @@ altMapConfig = {
 	-- Chuunin's Mage
 	["Frostone"] = "Chuunin",
 
+	-- Chuunin's New Mage
+	["Arcaneburden"] = "Chuunin",
+
 	-- Sizzle's Paladin
 	["Arklight"] = "Sizzleñips",
 

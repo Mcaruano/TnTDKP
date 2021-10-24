@@ -557,7 +557,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ashori"] = 1,
 		["Barnabris"] = 1,
 		["Rayas"] = 1,
-		["Vermora"] = 1,
 	},
 	[30236] = {
 		["Ashori"] = 1,

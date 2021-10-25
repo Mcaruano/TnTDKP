@@ -460,6 +460,10 @@ PLAYER_PRIORITY_REGISTRY = {
 	[29762] = {
 		["Justin"] = 1,
 	},
+	[29992] = {
+		["Malchazor"] = 1,
+		["Solzar"] = 1,
+	},
 	[28783] = {
 		["Murduc"] = 1,
 	},
@@ -469,9 +473,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[28789] = {
 		["Sizzleñips"] = 1,
-	},
-	[29992] = {
-		["Solzar"] = 1,
 	},
 	[28780] = {
 		["Solzar"] = 1,
@@ -546,7 +547,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29998] = {
 		["Akaran"] = 1,
-		["Malchazor"] = 1,
 	},
 	[30106] = {
 		["Ashori"] = 1,
@@ -656,7 +656,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30095] = {
 		["Demeker"] = 1,
 		["Justin"] = 1,
-		["Malchazor"] = 1,
 		["Murduc"] = 1,
 	},
 	[29918] = {
@@ -677,7 +676,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29992] = {
 		["Demeker"] = 1,
 		["Galm"] = 1,
-		["Malchazor"] = 1,
 		["Murduc"] = 1,
 	},
 	[29982] = {

@@ -1,11 +1,10 @@
-==== Standby Roster for 10/21 (Gruul's Lair) ====
+==== Standby Roster for 10/25 (TK) ====
 STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
-	"Searious", -- [2]
-	"Crazydaisy", -- [3]
-	"Barnabris", -- [4]
-	"Sylador", -- [5]
+	"Chubrock", -- [2]
+	"Barnabris", -- [3]
+	"Jahmee", -- [4]
+	"Digie", -- [5]
 	"Ashori", -- [6]
-	"Nashy", -- [7]
-	"Zerxx", -- [8]
+	"Demeker", -- [7]
 }

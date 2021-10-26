@@ -463,9 +463,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Malchazor"] = 1,
 		["Solzar"] = 1,
 	},
-	[28783] = {
-		["Murduc"] = 1,
-	},
 	[28779] = {
 		["Nashy"] = 1,
 		["Zerxx"] = 1,
@@ -749,13 +746,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28823] = {
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Chubrock", -- [2]
-	"Barnabris", -- [3]
-	"Jahmee", -- [4]
-	"Digie", -- [5]
-	"Ashori", -- [6]
-	"Demeker", -- [7]
 }

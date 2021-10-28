@@ -483,7 +483,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Baopi"] = 1,
 		["Digie"] = 1,
 		["Kang"] = 1,
-		["Nashy"] = 1,
 		["Searious"] = 1,
 		["Vermora"] = 1,
 	},
@@ -525,7 +524,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30246] = {
 		["Akaran"] = 1,
 		["Baopi"] = 1,
-		["Nashy"] = 1,
 		["Sylador"] = 1,
 	},
 	[30058] = {
@@ -710,14 +708,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32515] = {
 		["Malchazor"] = 1,
 	},
-	[30057] = {
-		["Nashy"] = 1,
-	},
 	[29995] = {
-		["Nashy"] = 1,
-		["Zerxx"] = 1,
-	},
-	[30105] = {
 		["Nashy"] = 1,
 	},
 	[30047] = {

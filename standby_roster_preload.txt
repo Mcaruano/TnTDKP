@@ -1,10 +1,10 @@
-==== Standby Roster for 10/25 (TK) ====
+==== Standby Roster for 10/28 (SSC) ====
 STANDBY_ROSTER = {
 	"Sizzleñips", -- [1]
 	"Chubrock", -- [2]
 	"Barnabris", -- [3]
 	"Jahmee", -- [4]
 	"Digie", -- [5]
-	"Ashori", -- [6]
-	"Demeker", -- [7]
+	"Baopi", -- [6]
+	"Searious", -- [7]
 }

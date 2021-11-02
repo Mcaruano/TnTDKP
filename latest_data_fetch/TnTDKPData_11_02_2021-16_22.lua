@@ -459,7 +459,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[28779] = {
 		["Nashy"] = 1,
-		["Zerxx"] = 1,
 	},
 	[29458] = {
 		["Sekkondary"] = 1,
@@ -710,12 +709,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29949] = {
 		["Vermora"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Chubrock", -- [1]
-	"Barnabris", -- [2]
-	"Searious", -- [3]
-	"Zerxx", -- [4]
-	"Vermora", -- [5]
-	"Chuunin", -- [6]
 }

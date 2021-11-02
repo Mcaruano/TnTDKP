@@ -1,10 +1,9 @@
-==== Standby Roster for 10/28 (SSC) ====
+==== Standby Roster for 11/2 (SSC) ====
 STANDBY_ROSTER = {
-	"Sizzleñips", -- [1]
-	"Chubrock", -- [2]
-	"Barnabris", -- [3]
-	"Jahmee", -- [4]
-	"Digie", -- [5]
-	"Baopi", -- [6]
-	"Searious", -- [7]
+	"Chubrock", -- [1]
+	"Barnabris", -- [2]
+	"Searious", -- [3]
+	"Zerxx", -- [4]
+	"Vermora", -- [5]
+	"Chuunin", -- [6]
 }

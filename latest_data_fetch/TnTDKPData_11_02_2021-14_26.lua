@@ -415,10 +415,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Demeker"] = 1,
 		["Sizzleñips"] = 1,
 	},
-	[28828] = {
-		["Crazydaisy"] = 1,
-		["Digie"] = 1,
-	},
 	[29996] = {
 		["Crazydaisy"] = 1,
 	},
@@ -429,6 +425,10 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30082] = {
 		["Digie"] = 1,
 		["Nashy"] = 1,
+	},
+	[32385] = {
+		["Digie"] = 1,
+		["Sylador"] = 1,
 	},
 	[30665] = {
 		["Ellievyra"] = 1,
@@ -469,9 +469,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[28780] = {
 		["Solzar"] = 1,
-	},
-	[32385] = {
-		["Sylador"] = 1,
 	},
 }
 PLAYER_LOTTERY_REGISTRY = {
@@ -598,7 +595,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32385] = {
 		["Chubrock"] = 1,
-		["Digie"] = 1,
 		["Sizzleñips"] = 1,
 		["Vermora"] = 1,
 	},

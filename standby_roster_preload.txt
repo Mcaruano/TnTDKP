@@ -1,9 +1,10 @@
-==== Standby Roster for 11/2 (SSC) ====
+==== Standby Roster for 11/4 (Gruul) ====
 STANDBY_ROSTER = {
-	"Chubrock", -- [1]
-	"Barnabris", -- [2]
-	"Searious", -- [3]
-	"Zerxx", -- [4]
-	"Vermora", -- [5]
-	"Chuunin", -- [6]
+	"Barnabris", -- [1]
+	"Digie", -- [2]
+	"Chuunin", -- [3]
+	"Nashy", -- [4]
+	"Zerxx", -- [5]
+	"Searious", -- [6]
+	"Kinastra", -- [7]
 }

@@ -695,3 +695,12 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Vermora"] = 1,
 	},
 }
+STANDBY_ROSTER = {
+	"Barnabris", -- [1]
+	"Digie", -- [2]
+	"Chuunin", -- [3]
+	"Nashy", -- [4]
+	"Zerxx", -- [5]
+	"Searious", -- [6]
+	"Kinastra", -- [7]
+}

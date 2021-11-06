@@ -444,6 +444,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	[28783] = {
 		["Justin"] = 1,
 	},
+	[29982] = {
+		["Justin"] = 1,
+	},
 	[29992] = {
 		["Malchazor"] = 1,
 		["Solzar"] = 1,
@@ -622,7 +625,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29982] = {
 		["Demeker"] = 1,
-		["Justin"] = 1,
 	},
 	[29996] = {
 		["Digie"] = 1,

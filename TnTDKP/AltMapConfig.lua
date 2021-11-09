@@ -382,4 +382,10 @@ altMapConfig = {
 
 	-- Barnabris' Mage
 	["Higginzz"] = "Barnabris",
+
+	-- Zeion's Shaman
+	["Seionish"] = "Zeion",
+
+	-- Zeion's Warlock
+	["Seion"] = "Zeion",
 }

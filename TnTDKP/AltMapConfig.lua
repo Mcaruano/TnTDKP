@@ -388,4 +388,10 @@ altMapConfig = {
 
 	-- Zeion's Warlock
 	["Seion"] = "Zeion",
+
+	-- Solzar's Warrior
+	["Kharagan"] = "Solzar",
+
+	-- Baopi's Shaman
+	["Mikoyagi"] = "Baopi",
 }

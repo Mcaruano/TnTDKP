@@ -107,7 +107,7 @@ T5_PRIORITY_DKP_TABLE = {
    ["Dalran"] = 291.67,
    ["Demeker"] = 6155.09,
    ["Digie"] = 6220.28,
-   ["Ellievyra"] = 4760.969999999999,
+   ["Ellievyra"] = 4760.97,
    ["Galm"] = 4478.63,
    ["Goodjorb"] = 5221.24,
    ["Hulkhigginz"] = 0.0,
@@ -146,7 +146,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Ashori"] = 4733.65,
    ["Bankdude"] = 2873.12,
    ["Baopi"] = 1344.77,
-   ["Barnabris"] = 4503.110000000001,
+   ["Barnabris"] = 4503.11,
    ["Brittany"] = 0.0,
    ["Chubrock"] = 5120.59,
    ["Chuunin"] = -448.13,
@@ -156,7 +156,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Digie"] = 3377.67,
    ["Ellievyra"] = 628.59,
    ["Galm"] = 2091.85,
-   ["Goodjorb"] = -705.5699999999999,
+   ["Goodjorb"] = -705.57,
    ["Hulkhigginz"] = 0.0,
    ["Hyolin"] = 2889.89,
    ["Jahmee"] = 5664.77,
@@ -182,7 +182,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Vermora"] = 2469.72,
    ["Weedster"] = 2873.12,
    ["Wildshrimp"] = 6034.24,
-   ["Zeion"] = 906.1800000000001,
+   ["Zeion"] = 906.18,
    ["Zerxx"] = 5935.66,
    ["goodjorb"] = 0.0,
 }
@@ -472,6 +472,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29997] = {
 		["Abstinence"] = 1,
 		["Baopi"] = 1,
+		["Chuunin"] = 1,
 		["Digie"] = 1,
 		["Kang"] = 1,
 		["Vermora"] = 1,
@@ -580,6 +581,10 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Chubrock"] = 1,
 		["Galm"] = 1,
 	},
+	[29949] = {
+		["Chuunin"] = 1,
+		["Vermora"] = 1,
+	},
 	[30082] = {
 		["Chuunin"] = 1,
 		["Vermora"] = 1,
@@ -667,8 +672,5 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28823] = {
 		["Sekkondary"] = 1,
 		["Zeion"] = 1,
-	},
-	[29949] = {
-		["Vermora"] = 1,
 	},
 }

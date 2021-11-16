@@ -479,6 +479,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Demeker"] = 1,
 		["Digie"] = 1,
 		["Galm"] = 1,
+		["Hyolin"] = 1,
 		["Kinastra"] = 1,
 		["Murduc"] = 1,
 		["Rayas"] = 1,
@@ -627,6 +628,18 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30067] = {
 		["Goodjorb"] = 1,
+	},
+	[30665] = {
+		["Hyolin"] = 1,
+	},
+	[30108] = {
+		["Hyolin"] = 1,
+	},
+	[30080] = {
+		["Hyolin"] = 1,
+	},
+	[29989] = {
+		["Hyolin"] = 1,
 	},
 	[30103] = {
 		["Kang"] = 1,

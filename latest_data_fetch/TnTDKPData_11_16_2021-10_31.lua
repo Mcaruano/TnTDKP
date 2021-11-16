@@ -547,7 +547,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30245] = {
 		["Barnabris"] = 1,
-		["Digie"] = 1,
 		["Malchazor"] = 1,
 		["Vermora"] = 1,
 	},
@@ -673,12 +672,4 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sekkondary"] = 1,
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabris", -- [1]
-	"Murduc", -- [2]
-	"Shnacks", -- [3]
-	"Kang", -- [4]
-	"Chuunin", -- [5]
-	"Vermora", -- [6]
 }

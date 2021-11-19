@@ -156,7 +156,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Digie"] = 2151.52,
    ["Ellievyra"] = 1814.8,
    ["Galm"] = 3058.57,
-   ["Goodjorb"] = 624.4299999999998,
+   ["Goodjorb"] = 624.43,
    ["Hulkhigginz"] = 0.0,
    ["Hyolin"] = 2036.91,
    ["Jahmee"] = 6095.55,
@@ -177,7 +177,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Sekkondary"] = 1866.4,
    ["Shnacks"] = 3504.04,
    ["Sizzleñips"] = 3784.98,
-   ["Solzar"] = 4917.690000000001,
+   ["Solzar"] = 4917.69,
    ["Sylador"] = 2133.1,
    ["Vermora"] = -320.24,
    ["Weedster"] = 3445.15,
@@ -396,7 +396,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[30108] = {
 		["Barnabris"] = 1,
-		["Ellievyra"] = 1,
 		["Rayas"] = 1,
 		["Sekkondary"] = 1,
 		["Sylador"] = 1,
@@ -437,12 +436,14 @@ PLAYER_PRIORITY_REGISTRY = {
 	[28783] = {
 		["Justin"] = 1,
 	},
+	[29918] = {
+		["Justin"] = 1,
+	},
 	[29982] = {
 		["Justin"] = 1,
 	},
 	[29992] = {
 		["Malchazor"] = 1,
-		["Solzar"] = 1,
 	},
 	[34845] = {
 		["Murduc"] = 1,
@@ -452,9 +453,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[28789] = {
 		["Sizzleñips"] = 1,
-	},
-	[28780] = {
-		["Solzar"] = 1,
 	},
 }
 PLAYER_LOTTERY_REGISTRY = {
@@ -487,7 +485,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30237] = {
 		["Akaran"] = 1,
-		["Ellievyra"] = 1,
 		["Nashy"] = 1,
 		["Sylador"] = 1,
 		["Zeion"] = 1,
@@ -562,7 +559,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29918] = {
 		["Chubrock"] = 1,
 		["Demeker"] = 1,
-		["Justin"] = 1,
 		["Kinastra"] = 1,
 		["Murduc"] = 1,
 	},
@@ -646,7 +642,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30243] = {
 		["Nashy"] = 1,
 		["Shnacks"] = 1,
-		["Solzar"] = 1,
 		["Sylador"] = 1,
 		["Wildshrimp"] = 1,
 	},

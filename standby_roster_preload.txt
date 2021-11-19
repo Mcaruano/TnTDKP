@@ -1,9 +1,10 @@
-==== Standby Roster for 11/16 (SSC) ====
+==== Standby Roster for 11/18 (Vashj) ====
 STANDBY_ROSTER = {
 	"Barnabris", -- [1]
 	"Murduc", -- [2]
-	"Shnacks", -- [3]
-	"Kang", -- [4]
-	"Chuunin", -- [5]
-	"Vermora", -- [6]
+	"Crazydaisy", -- [3]
+	"Searious", -- [4]
+	"Solzar", -- [5]
+	"Ellievyra", -- [6]
+	"Baopi", -- [7]
 }

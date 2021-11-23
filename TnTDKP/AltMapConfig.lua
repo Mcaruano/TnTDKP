@@ -394,4 +394,13 @@ altMapConfig = {
 
 	-- Baopi's Shaman
 	["Mikoyagi"] = "Baopi",
+
+	-- Velyri's Shaman
+	["Velyri"] = "Velyris",
+
+	-- Remi's Warrior
+	["Reminosc"] = "Spookyremi",
+
+	-- Remi's Druid
+	["Reminosk"] = "Spookyremi",
 }

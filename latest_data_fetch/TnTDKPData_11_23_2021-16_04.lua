@@ -658,4 +658,6 @@ STANDBY_ROSTER = {
 	"Searious", -- [4]
 	"Ashori", -- [5]
 	"Vermora", -- [6]
+	"Spookyremi", -- [7]
+	"Velyris", -- [8]
 }

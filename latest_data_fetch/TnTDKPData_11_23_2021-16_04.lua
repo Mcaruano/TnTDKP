@@ -422,6 +422,10 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30095] = {
 		["Chubrock"] = 1,
 	},
+	[29918] = {
+		["Chubrock"] = 1,
+		["Justin"] = 1,
+	},
 	[29996] = {
 		["Crazydaisy"] = 1,
 	},
@@ -443,9 +447,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[29988] = {
 		["Jahmee"] = 1,
-	},
-	[29918] = {
-		["Justin"] = 1,
 	},
 	[29982] = {
 		["Justin"] = 1,
@@ -565,12 +566,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Chubrock"] = 1,
 		["Sizzleñips"] = 1,
 	},
-	[29918] = {
-		["Chubrock"] = 1,
-		["Demeker"] = 1,
-		["Kinastra"] = 1,
-		["Murduc"] = 1,
-	},
 	[29762] = {
 		["Chubrock"] = 1,
 		["Sizzleñips"] = 1,
@@ -600,6 +595,11 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30095] = {
 		["Demeker"] = 1,
 		["Justin"] = 1,
+		["Murduc"] = 1,
+	},
+	[29918] = {
+		["Demeker"] = 1,
+		["Kinastra"] = 1,
 		["Murduc"] = 1,
 	},
 	[30109] = {
@@ -650,12 +650,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28823] = {
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabris", -- [1]
-	"Sekkondary", -- [2]
-	"Nashy", -- [3]
-	"Searious", -- [4]
-	"Ashori", -- [5]
-	"Vermora", -- [6]
 }

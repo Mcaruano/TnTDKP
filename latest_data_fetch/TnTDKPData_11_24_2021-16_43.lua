@@ -508,6 +508,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30237] = {
 		["Akaran"] = 1,
+		["Ellievyra"] = 1,
 		["Nashy"] = 1,
 		["Sylador"] = 1,
 		["Zeion"] = 1,
@@ -565,6 +566,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[28789] = {
 		["Chubrock"] = 1,
+		["Ellievyra"] = 1,
 	},
 	[32385] = {
 		["Chubrock"] = 1,
@@ -612,12 +614,28 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29992] = {
 		["Demeker"] = 1,
+		["Ellievyra"] = 1,
 		["Galm"] = 1,
 		["Murduc"] = 1,
 	},
 	[29996] = {
 		["Digie"] = 1,
 		["Nashy"] = 1,
+	},
+	[30243] = {
+		["Ellievyra"] = 1,
+		["Nashy"] = 1,
+		["Sylador"] = 1,
+		["Wildshrimp"] = 1,
+	},
+	[30246] = {
+		["Ellievyra"] = 1,
+	},
+	[30249] = {
+		["Ellievyra"] = 1,
+	},
+	[28780] = {
+		["Ellievyra"] = 1,
 	},
 	[29988] = {
 		["Galm"] = 1,
@@ -640,11 +658,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32515] = {
 		["Malchazor"] = 1,
-	},
-	[30243] = {
-		["Nashy"] = 1,
-		["Sylador"] = 1,
-		["Wildshrimp"] = 1,
 	},
 	[29995] = {
 		["Nashy"] = 1,

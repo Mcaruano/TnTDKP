@@ -36,6 +36,7 @@ T4_PRIORITY_DKP_TABLE = {
    ["Searious"] = 3372.09,
    ["Seion"] = 2635.15,
    ["Sekkondary"] = 3348.54,
+   ["Shlarred"] = 0.0,
    ["Shnacks"] = 3571.79,
    ["Sizzleñips"] = 1869.42,
    ["Solzar"] = 3893.59,
@@ -47,7 +48,6 @@ T4_PRIORITY_DKP_TABLE = {
    ["Wildshrimp"] = 3951.22,
    ["Zeion"] = 3690.18,
    ["Zerxx"] = 3240.16,
-   ["Shlarred"] = 0.0,
 }
 T4_LOTTERY_DKP_TABLE = {
    ["Abstinence"] = 3743.18,
@@ -87,6 +87,7 @@ T4_LOTTERY_DKP_TABLE = {
    ["Searious"] = 3372.09,
    ["Seion"] = 2866.76,
    ["Sekkondary"] = 2664.99,
+   ["Shlarred"] = 0.0,
    ["Shnacks"] = 2262.66,
    ["Sizzleñips"] = 1869.42,
    ["Solzar"] = 3679.22,
@@ -98,7 +99,6 @@ T4_LOTTERY_DKP_TABLE = {
    ["Wildshrimp"] = 3727.22,
    ["Zeion"] = 3962.66,
    ["Zerxx"] = 3641.64,
-   ["Shlarred"] = 0.0,
 }
 T5_PRIORITY_DKP_TABLE = {
    ["Abstinence"] = 2230.66,
@@ -138,6 +138,7 @@ T5_PRIORITY_DKP_TABLE = {
    ["Searious"] = 4728.25,
    ["Seion"] = 3883.82,
    ["Sekkondary"] = 5277.45,
+   ["Shlarred"] = 0,
    ["Shnacks"] = 6583.7,
    ["Sizzleñips"] = 3217.23,
    ["Solzar"] = 6165.54,
@@ -149,7 +150,6 @@ T5_PRIORITY_DKP_TABLE = {
    ["Wildshrimp"] = 6958.41,
    ["Zeion"] = 5749.2,
    ["Zerxx"] = 6977.45,
-   ["Shlarred"] = 0,
 }
 T5_LOTTERY_DKP_TABLE = {
    ["Abstinence"] = 4398.45,
@@ -189,6 +189,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Searious"] = 381.16,
    ["Seion"] = 1611.72,
    ["Sekkondary"] = 2919.44,
+   ["Shlarred"] = 0,
    ["Shnacks"] = 2311.43,
    ["Sizzleñips"] = 3217.23,
    ["Solzar"] = 5513.04,
@@ -200,7 +201,6 @@ T5_LOTTERY_DKP_TABLE = {
    ["Wildshrimp"] = 6781.16,
    ["Zeion"] = 3076.14,
    ["Zerxx"] = 6709.94,
-   ["Shlarred"] = 0,
 }
 T6_PRIORITY_DKP_TABLE = {
    ["Abstinence"] = 0.0,
@@ -240,6 +240,7 @@ T6_PRIORITY_DKP_TABLE = {
    ["Searious"] = 0.0,
    ["Seion"] = 0.0,
    ["Sekkondary"] = 0.0,
+   ["Shlarred"] = 0,
    ["Shnacks"] = 0.0,
    ["Sizzleñips"] = 0.0,
    ["Solzar"] = 0.0,
@@ -251,7 +252,6 @@ T6_PRIORITY_DKP_TABLE = {
    ["Wildshrimp"] = 0.0,
    ["Zeion"] = 0.0,
    ["Zerxx"] = 0.0,
-   ["Shlarred"] = 0,
 }
 T6_LOTTERY_DKP_TABLE = {
    ["Abstinence"] = 0.0,
@@ -291,6 +291,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Searious"] = 0.0,
    ["Seion"] = 0.0,
    ["Sekkondary"] = 0.0,
+   ["Shlarred"] = 0,
    ["Shnacks"] = 0.0,
    ["Sizzleñips"] = 0.0,
    ["Solzar"] = 0.0,
@@ -302,7 +303,6 @@ T6_LOTTERY_DKP_TABLE = {
    ["Wildshrimp"] = 0.0,
    ["Zeion"] = 0.0,
    ["Zerxx"] = 0.0,
-   ["Shlarred"] = 0,
 }
 T6PT5_PRIORITY_DKP_TABLE = {
    ["Abstinence"] = 0.0,
@@ -342,6 +342,7 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Searious"] = 0.0,
    ["Seion"] = 0.0,
    ["Sekkondary"] = 0.0,
+   ["Shlarred"] = 0,
    ["Shnacks"] = 0.0,
    ["Sizzleñips"] = 0.0,
    ["Solzar"] = 0.0,
@@ -353,7 +354,6 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Wildshrimp"] = 0.0,
    ["Zeion"] = 0.0,
    ["Zerxx"] = 0.0,
-   ["Shlarred"] = 0,
 }
 T6PT5_LOTTERY_DKP_TABLE = {
    ["Abstinence"] = 0.0,
@@ -393,6 +393,7 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Searious"] = 0.0,
    ["Seion"] = 0.0,
    ["Sekkondary"] = 0.0,
+   ["Shlarred"] = 0,
    ["Shnacks"] = 0.0,
    ["Sizzleñips"] = 0.0,
    ["Solzar"] = 0.0,
@@ -404,7 +405,6 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Wildshrimp"] = 0.0,
    ["Zeion"] = 0.0,
    ["Zerxx"] = 0.0,
-   ["Shlarred"] = 0,
 }
 PLAYER_PRIORITY_REGISTRY = {
 	[30106] = {
@@ -519,6 +519,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ellievyra"] = 1,
 		["Nashy"] = 1,
 		["Sylador"] = 1,
+		["Velyris"] = 1,
 		["Zeion"] = 1,
 		["Zerxx"] = 1,
 	},
@@ -612,6 +613,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29918] = {
 		["Demeker"] = 1,
+		["Ellievyra"] = 1,
 		["Kinastra"] = 1,
 		["Murduc"] = 1,
 	},
@@ -638,9 +640,11 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30246] = {
 		["Ellievyra"] = 1,
+		["Velyris"] = 1,
 	},
 	[30249] = {
 		["Ellievyra"] = 1,
+		["Velyris"] = 1,
 	},
 	[28780] = {
 		["Ellievyra"] = 1,
@@ -669,6 +673,12 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29995] = {
 		["Nashy"] = 1,
+	},
+	[29753] = {
+		["Velyris"] = 1,
+	},
+	[30100] = {
+		["Velyris"] = 1,
 	},
 	[28823] = {
 		["Zeion"] = 1,

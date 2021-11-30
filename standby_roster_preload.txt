@@ -1,16 +1,9 @@
-==== Standby Roster for 11/24 (Gruul) ====
+==== Standby Roster for 11/30 (SSC) ====
 STANDBY_ROSTER = {
-	"Murduc", -- [1]
+	"Barnabris", -- [1]
 	"Searious", -- [2]
-	"Sekkondary", -- [3]
+	"Rayas", -- [3]
 	"Nashy", -- [4]
-	"Zeion", -- [5]
-	"Chubrock", -- [6]
-	"Sylador", -- [7]
-	"Justin", -- [8]
-	"Digie", -- [9]
-	"Barnabris", -- [10]
-	"Ashori", -- [11]
-	"Demeker", -- [12]
-	"Ellievyra", -- [13]
+	"Digie", -- [5]
+	"Chuunin", -- [5]
 }

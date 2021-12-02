@@ -575,6 +575,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34845] = {
 		["Chubrock"] = 1,
 	},
+	[30720] = {
+		["Chubrock"] = 1,
+	},
 	[29982] = {
 		["Chubrock"] = 1,
 		["Demeker"] = 1,

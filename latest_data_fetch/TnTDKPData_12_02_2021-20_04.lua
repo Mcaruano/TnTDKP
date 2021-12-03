@@ -607,12 +607,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29989] = {
 		["Hyolin"] = 1,
+		["Sekkondary"] = 1,
 	},
 	[30095] = {
-		["Justin"] = 1,
-		["Murduc"] = 1,
-	},
-	[30109] = {
 		["Justin"] = 1,
 		["Murduc"] = 1,
 	},
@@ -627,6 +624,15 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32515] = {
 		["Malchazor"] = 1,
+	},
+	[30109] = {
+		["Murduc"] = 1,
+	},
+	[30047] = {
+		["Sekkondary"] = 1,
+	},
+	[30110] = {
+		["Sekkondary"] = 1,
 	},
 	[32385] = {
 		["Sizzleñips"] = 1,

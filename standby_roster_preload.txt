@@ -1,11 +1,9 @@
-==== Standby Roster for 12/2 (Gruul's Lair) ====
+==== Standby Roster for 12/7 (SSC) ====
 STANDBY_ROSTER = {
 	"Barnabris", -- [1]
-	"Baopi", -- [2]
-	"Rayas", -- [3]
-	"Crazydaisy", -- [4]
-	"Zerxx", -- [5]
+	"Crazydaisy", -- [2]
+	"Searious", -- [3]
+	"Digie", -- [4]
+	"Chuunin", -- [5]
 	"Nashy", -- [6]
-	"Sekkondary", -- [7]
-	"Digie", -- [8]
 }

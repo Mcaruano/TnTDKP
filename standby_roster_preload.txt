@@ -1,9 +1,9 @@
-==== Standby Roster for 12/7 (SSC) ====
+==== Standby Roster for 12/9 (Kael'thas) ====
 STANDBY_ROSTER = {
 	"Barnabris", -- [1]
-	"Crazydaisy", -- [2]
-	"Searious", -- [3]
-	"Digie", -- [4]
-	"Chuunin", -- [5]
-	"Nashy", -- [6]
+	"Shnacks", -- [2]
+	"Vermora", -- [3]
+	"Kang", -- [4]
+	"Zeion", -- [5]
+	"Digie", -- [6]
 }

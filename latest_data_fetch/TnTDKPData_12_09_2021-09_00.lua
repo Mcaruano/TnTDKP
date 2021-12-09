@@ -432,14 +432,15 @@ PLAYER_PRIORITY_REGISTRY = {
 	[28802] = {
 		["Chubrock"] = 1,
 		["Sizzleñips"] = 1,
-	},
-	[30095] = {
-		["Chubrock"] = 1,
 		["Spookyremi"] = 1,
 	},
 	[29918] = {
 		["Chubrock"] = 1,
 		["Justin"] = 1,
+	},
+	[29988] = {
+		["Chubrock"] = 1,
+		["Jahmee"] = 1,
 	},
 	[29996] = {
 		["Crazydaisy"] = 1,
@@ -461,9 +462,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30109] = {
 		["Jahmee"] = 1,
 	},
-	[29988] = {
-		["Jahmee"] = 1,
-	},
 	[29982] = {
 		["Justin"] = 1,
 	},
@@ -475,6 +473,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[28789] = {
 		["Sizzleñips"] = 1,
+	},
+	[30095] = {
+		["Spookyremi"] = 1,
 	},
 }
 PLAYER_LOTTERY_REGISTRY = {
@@ -556,6 +557,11 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Chubrock"] = 1,
 		["Ellievyra"] = 1,
 	},
+	[30095] = {
+		["Chubrock"] = 1,
+		["Justin"] = 1,
+		["Murduc"] = 1,
+	},
 	[29762] = {
 		["Chubrock"] = 1,
 		["Sizzleñips"] = 1,
@@ -610,10 +616,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hyolin"] = 1,
 		["Rayas"] = 1,
 		["Sekkondary"] = 1,
-	},
-	[30095] = {
-		["Justin"] = 1,
-		["Murduc"] = 1,
 	},
 	[29988] = {
 		["Kinastra"] = 1,

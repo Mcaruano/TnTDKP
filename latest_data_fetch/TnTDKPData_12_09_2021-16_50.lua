@@ -494,7 +494,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32405] = {
 		["Abstinence"] = 1,
 		["Digie"] = 1,
-		["Galm"] = 1,
 		["Hyolin"] = 1,
 		["Murduc"] = 1,
 		["Searious"] = 1,
@@ -600,7 +599,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29992] = {
 		["Ellievyra"] = 1,
-		["Galm"] = 1,
 		["Murduc"] = 1,
 	},
 	[30665] = {
@@ -630,6 +628,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32515] = {
 		["Malchazor"] = 1,
 	},
+	[30244] = {
+		["Murduc"] = 1,
+		["Spookyremi"] = 1,
+	},
 	[30109] = {
 		["Murduc"] = 1,
 		["Spookyremi"] = 1,
@@ -647,9 +649,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30049] = {
 		["Spookyremi"] = 1,
 	},
-	[30244] = {
-		["Spookyremi"] = 1,
-	},
 	[29753] = {
 		["Velyris"] = 1,
 	},
@@ -662,12 +661,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28823] = {
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabris", -- [1]
-	"Shnacks", -- [2]
-	"Vermora", -- [3]
-	"Kang", -- [4]
-	"Zeion", -- [5]
-	"Digie", -- [6]
 }

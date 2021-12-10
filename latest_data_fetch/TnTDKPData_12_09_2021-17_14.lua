@@ -429,11 +429,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Rayas"] = 1,
 		["Sylador"] = 1,
 	},
-	[28802] = {
-		["Chubrock"] = 1,
-		["Sizzleñips"] = 1,
-		["Spookyremi"] = 1,
-	},
 	[29918] = {
 		["Chubrock"] = 1,
 		["Justin"] = 1,
@@ -470,6 +465,10 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32405] = {
 		["Rayas"] = 1,
+	},
+	[28802] = {
+		["Sizzleñips"] = 1,
+		["Spookyremi"] = 1,
 	},
 	[28789] = {
 		["Sizzleñips"] = 1,
@@ -661,12 +660,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28823] = {
 		["Zeion"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabris", -- [1]
-	"Shnacks", -- [2]
-	"Vermora", -- [3]
-	"Kang", -- [4]
-	"Zeion", -- [5]
-	"Digie", -- [6]
 }

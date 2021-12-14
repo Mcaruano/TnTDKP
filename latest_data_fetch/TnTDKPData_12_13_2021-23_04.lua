@@ -669,3 +669,11 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Zeion"] = 1,
 	},
 }
+STANDBY_ROSTER = {
+	"Barnabris", -- [1]
+	"Kang", -- [2]
+	"Chuunin", -- [3]
+	"Nashy", -- [4]
+	"Crazydaisy", -- [5]
+	"Searious", -- [6]
+}

@@ -5,7 +5,7 @@ T4_PRIORITY_DKP_TABLE = {
    ["Aro"] = 13.05,
    ["Ashori"] = 3353.38,
    ["Bankdude"] = 2638.84,
-   ["Baopi"] = 3106.93,
+   ["Baopi"] = 3357.68,
    ["Barnabris"] = 3155.98,
    ["Brittany"] = 0.0,
    ["Chubrock"] = 2998.66,
@@ -58,7 +58,7 @@ T4_LOTTERY_DKP_TABLE = {
    ["Aro"] = 13.05,
    ["Ashori"] = 2501.02,
    ["Bankdude"] = 3284.99,
-   ["Baopi"] = 2147.07,
+   ["Baopi"] = 2397.82,
    ["Barnabris"] = 3166.11,
    ["Brittany"] = 0.0,
    ["Chubrock"] = -594.65,
@@ -503,6 +503,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29994] = {
 		["Abstinence"] = 1,
+		["Wildshrimp"] = 1,
 	},
 	[32405] = {
 		["Abstinence"] = 1,
@@ -557,6 +558,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30245] = {
 		["Barnabris"] = 1,
+		["Digie"] = 1,
 		["Malchazor"] = 1,
 	},
 	[28783] = {

@@ -470,14 +470,15 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30109] = {
 		["Jahmee"] = 1,
 	},
+	[32405] = {
+		["Jahmee"] = 1,
+		["Searious"] = 1,
+	},
 	[29982] = {
 		["Justin"] = 1,
 	},
 	[29992] = {
 		["Malchazor"] = 1,
-	},
-	[32405] = {
-		["Searious"] = 1,
 	},
 	[28802] = {
 		["Sizzleñips"] = 1,
@@ -603,6 +604,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hyolin"] = 1,
 		["Rayas"] = 1,
 		["Velyris"] = 1,
+	},
+	[30250] = {
+		["Justin"] = 1,
 	},
 	[29988] = {
 		["Kinastra"] = 1,

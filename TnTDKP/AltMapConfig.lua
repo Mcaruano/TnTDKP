@@ -17,6 +17,9 @@ altMapConfig = {
 	-- Searus' Warrior
 	["Seariously"] = "Searious",
 
+	-- Searus' Shaman
+	["Onetotemman"] = "Searious",
+
 	-- Searus' Paladin
 	["Searusbuffs"] = "Searious",
 

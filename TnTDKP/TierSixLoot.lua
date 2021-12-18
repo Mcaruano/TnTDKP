@@ -23,8 +23,8 @@ tierSixLoot = {
     [10] = 34011, -- Illidari Runeshield
     [11] = 32526, -- Band of Devastation
     [12] = 32527, -- Ring of Ancient Knowledge
-    [13] = 99999, -- Shroud of the Final Stand
-    [14] = 99999, -- Swiftsteel Bludgeon
+    [13] = 34012, -- Shroud of the Final Stand
+    [14] = 32943, -- Swiftsteel Bludgeon
     [15] = 32606, -- Girdle of the Lightbearer
 
     -- High Warlord Naj'entus

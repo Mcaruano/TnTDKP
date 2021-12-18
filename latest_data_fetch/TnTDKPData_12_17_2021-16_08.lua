@@ -429,6 +429,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Vermora"] = 1,
 		["Zerxx"] = 1,
 	},
+	[32369] = {
+		["Akaran"] = 1,
+	},
 	[28830] = {
 		["Ashori"] = 1,
 		["Baopi"] = 1,

@@ -439,6 +439,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Searious"] = 1,
 		["Vermora"] = 1,
 	},
+	[32345] = {
+		["Ashori"] = 1,
+	},
 	[30627] = {
 		["Ashori"] = 1,
 	},
@@ -480,8 +483,26 @@ PLAYER_PRIORITY_REGISTRY = {
 	[29982] = {
 		["Justin"] = 1,
 	},
+	[31089] = {
+		["Malchazor"] = 1,
+	},
+	[31092] = {
+		["Malchazor"] = 1,
+	},
+	[31097] = {
+		["Malchazor"] = 1,
+	},
+	[31098] = {
+		["Malchazor"] = 1,
+	},
+	[31101] = {
+		["Malchazor"] = 1,
+	},
 	[29992] = {
 		["Malchazor"] = 1,
+	},
+	[32528] = {
+		["Sekkondary"] = 2,
 	},
 	[28802] = {
 		["Sizzleñips"] = 1,
@@ -492,6 +513,15 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[30095] = {
 		["Spookyremi"] = 1,
+	},
+	[32524] = {
+		["Sylador"] = 1,
+	},
+	[32496] = {
+		["Velyris"] = 1,
+	},
+	[32341] = {
+		["Zerxx"] = 1,
 	},
 }
 PLAYER_LOTTERY_REGISTRY = {
@@ -512,6 +542,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hyolin"] = 1,
 		["Murduc"] = 1,
 		["Spookyremi"] = 1,
+		["Velyris"] = 1,
 	},
 	[30237] = {
 		["Akaran"] = 1,
@@ -523,10 +554,26 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28777] = {
 		["Akaran"] = 1,
 	},
+	[32526] = {
+		["Ashori"] = 1,
+	},
 	[30106] = {
 		["Ashori"] = 1,
 		["Crazydaisy"] = 1,
 		["Nashy"] = 1,
+	},
+	[31089] = {
+		["Ashori"] = 1,
+		["Velyris"] = 1,
+	},
+	[31098] = {
+		["Ashori"] = 1,
+	},
+	[32323] = {
+		["Ashori"] = 1,
+	},
+	[32332] = {
+		["Ashori"] = 1,
 	},
 	[30627] = {
 		["Baopi"] = 1,
@@ -621,6 +668,24 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32267] = {
 		["Malchazor"] = 1,
 	},
+	[32375] = {
+		["Malchazor"] = 1,
+	},
+	[32342] = {
+		["Malchazor"] = 1,
+	},
+	[34009] = {
+		["Malchazor"] = 1,
+	},
+	[30889] = {
+		["Malchazor"] = 1,
+	},
+	[32279] = {
+		["Malchazor"] = 1,
+	},
+	[32245] = {
+		["Malchazor"] = 1,
+	},
 	[32515] = {
 		["Malchazor"] = 1,
 	},
@@ -635,6 +700,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30110] = {
 		["Sekkondary"] = 1,
 	},
+	[32751] = {
+		["Sekkondary"] = 1,
+	},
 	[29762] = {
 		["Sizzleñips"] = 1,
 	},
@@ -644,11 +712,48 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30049] = {
 		["Spookyremi"] = 1,
 	},
+	[32528] = {
+		["Sylador"] = 2,
+		["Velyris"] = 2,
+	},
 	[30243] = {
 		["Sylador"] = 1,
 		["Velyris"] = 1,
 	},
+	[30911] = {
+		["Sylador"] = 1,
+	},
+	[30871] = {
+		["Velyris"] = 1,
+	},
+	[31092] = {
+		["Velyris"] = 1,
+	},
+	[31097] = {
+		["Velyris"] = 1,
+	},
+	[30912] = {
+		["Velyris"] = 1,
+	},
 	[28823] = {
 		["Zeion"] = 1,
+	},
+	[31091] = {
+		["Zerxx"] = 1,
+	},
+	[32591] = {
+		["Zerxx"] = 1,
+	},
+	[32345] = {
+		["Zerxx"] = 1,
+	},
+	[32278] = {
+		["Zerxx"] = 1,
+	},
+	[32373] = {
+		["Zerxx"] = 1,
+	},
+	[31103] = {
+		["Zerxx"] = 1,
 	},
 }

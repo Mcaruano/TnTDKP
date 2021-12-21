@@ -4,7 +4,7 @@ tierSixLoot = {
     -- BT/Hyjal Shared Boss/Trash Patterns
     [1] = 32739, -- Plans: Dawnsteel Shoulders
     [2] = 32745, -- Pattern: Shoulderpads of Renewed Life
-    [3]] = 32751, -- Pattern: Living Earth Shoulders
+    [3] = 32751, -- Pattern: Living Earth Shoulders
     [4] = 32755, -- Pattern: Mantle of Nimble Thought
     [5] = 32749, -- Pattern: Shoulders of Lightning Reflexes
     [6] = 32753, -- Pattern: Swiftheal Mantle

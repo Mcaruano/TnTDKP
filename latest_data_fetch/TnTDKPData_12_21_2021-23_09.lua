@@ -434,7 +434,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[28830] = {
 		["Ashori"] = 1,
-		["Baopi"] = 1,
 		["Nashy"] = 1,
 		["Searious"] = 1,
 	},
@@ -574,6 +573,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32332] = {
 		["Ashori"] = 1,
+	},
+	[28830] = {
+		["Baopi"] = 1,
 	},
 	[30627] = {
 		["Baopi"] = 1,

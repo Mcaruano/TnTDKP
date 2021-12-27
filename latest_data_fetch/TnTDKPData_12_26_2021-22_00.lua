@@ -602,9 +602,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sylador"] = 1,
 		["Velyris"] = 1,
 	},
-	[28777] = {
-		["Akaran"] = 1,
-	},
 	[32526] = {
 		["Ashori"] = 1,
 	},

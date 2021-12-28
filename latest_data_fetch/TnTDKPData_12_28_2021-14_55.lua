@@ -732,6 +732,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34009] = {
 		["Malchazor"] = 1,
 	},
+	[29925] = {
+		["Malchazor"] = 1,
+	},
 	[32279] = {
 		["Malchazor"] = 1,
 	},
@@ -801,11 +804,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32278] = {
 		["Zerxx"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabris", -- [1]
-	"Chuunin", -- [2]
-	"Kang", -- [3]
-	"Nashy", -- [4]
-	"Searious", -- [5]
 }

@@ -627,24 +627,14 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Nashy"] = 1,
 		["Wildshrimp"] = 1,
 	},
-	[30081] = {
-		["Baopi"] = 1,
-	},
-	[29754] = {
-		["Barnabris"] = 1,
-	},
 	[30236] = {
 		["Barnabris"] = 1,
 	},
 	[30242] = {
 		["Barnabris"] = 1,
 	},
-	[29766] = {
-		["Barnabris"] = 1,
-	},
 	[30245] = {
 		["Barnabris"] = 1,
-		["Digie"] = 1,
 	},
 	[28783] = {
 		["Chubrock"] = 1,
@@ -666,6 +656,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29966] = {
 		["Chuunin"] = 1,
+		["Digie"] = 1,
 	},
 	[30106] = {
 		["Crazydaisy"] = 1,

@@ -260,17 +260,17 @@ altMapConfig = {
 	-- Glim's other Mage
 	["Notglim"] = "Glimfolkor",
 
-	-- Hulkhigginz's Paladin
-	["Higginz"] = "Hulkhigginz",
+	-- Barnabris' Paladin
+	["Higginz"] = "Barnabris",
 
-	-- Hulkhigginz's Mage
-	["Higginzz"] = "Hulkhigginz",
+	-- Barnabris' Warrior
+	["Hulkhigginz"] = "Barnabris",
 
-	-- Hulkhigginz's Priest
-	["Fearwardz"] = "Hulkhigginz",
+	-- Barnabris' Priest
+	["Fearwardz"] = "Barnabris",
 
-	-- Hulkhigginz's Druid
-	["Cyclonespam"] = "Hulkhigginz",
+	-- Barnabris' Druid
+	["Cyclonespam"] = "Barnabris",
 
 	-- Salchant's Hunter
 	["Putri"] = "Salchant",
@@ -321,7 +321,7 @@ altMapConfig = {
 	["Hamiltonadam"] = "Ellievyra",
 
 	-- Murduc's Paladin
-	["Lancetankman"] = "Ellievyra",
+	["Lancetankman"] = "Murduc",
 
 	-- Drizzyydrake's Rogue
 	["Youngdrizzy"] = "Drizzyydrake",
@@ -368,8 +368,11 @@ altMapConfig = {
 	-- Vermora's Warlock
 	["Lunarie"] = "Vermora",
 
-	-- Snickercakes' Mage
-	["Manarolls"] = "Snickercakes",
+	-- Crazydaisy's Mage
+	["Manarolls"] = "Crazydaisy",
+
+	-- Crazydaisy's Mage
+	["Snickercakes"] = "Crazydaisy",
 
 	-- Kinastra's Priest
 	["Kinasa"] = "Kinastra",

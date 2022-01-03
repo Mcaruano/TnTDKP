@@ -627,11 +627,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28783] = {
 		["Chubrock"] = 1,
 	},
-	[30095] = {
-		["Chubrock"] = 1,
-		["Justin"] = 1,
-		["Spookyremi"] = 1,
-	},
 	[29982] = {
 		["Chubrock"] = 1,
 		["Demeker"] = 1,
@@ -696,6 +691,10 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hyolin"] = 1,
 		["Rayas"] = 1,
 		["Velyris"] = 1,
+	},
+	[30095] = {
+		["Justin"] = 1,
+		["Spookyremi"] = 1,
 	},
 	[29988] = {
 		["Kinastra"] = 1,

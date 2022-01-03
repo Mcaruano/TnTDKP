@@ -792,6 +792,6 @@ STANDBY_ROSTER = {
 	"Barnabris", -- [1]
 	"Chuunin", -- [2]
 	"Kang", -- [3]
-	"Nashy", -- [4]
+	"Zerxx", -- [4]
 	"Searious", -- [5]
 }

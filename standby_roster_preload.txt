@@ -1,8 +1,8 @@
-==== Standby Roster for 12/28 (SSC) ====
+==== Standby Roster for 1/4 (SSC) ====
 STANDBY_ROSTER = {
 	"Barnabris", -- [1]
 	"Chuunin", -- [2]
 	"Kang", -- [3]
-	"Nashy", -- [4]
+	"Zerxx", -- [4]
 	"Searious", -- [5]
 }

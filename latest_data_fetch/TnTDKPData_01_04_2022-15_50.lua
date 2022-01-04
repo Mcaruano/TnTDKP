@@ -505,7 +505,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[28802] = {
 		["Sizzleñips"] = 1,
-		["Spookyremi"] = 1,
 	},
 	[28789] = {
 		["Sizzleñips"] = 1,
@@ -676,7 +675,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29992] = {
 		["Ellievyra"] = 1,
-		["Murduc"] = 1,
 	},
 	[30665] = {
 		["Hyolin"] = 1,
@@ -694,11 +692,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30095] = {
 		["Justin"] = 1,
-		["Spookyremi"] = 1,
 	},
 	[29988] = {
 		["Kinastra"] = 1,
-		["Spookyremi"] = 1,
 	},
 	[30909] = {
 		["Malchazor"] = 1,
@@ -730,10 +726,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32515] = {
 		["Malchazor"] = 1,
 	},
-	[30109] = {
-		["Murduc"] = 1,
-		["Spookyremi"] = 1,
-	},
 	[30906] = {
 		["Searious"] = 1,
 	},
@@ -756,7 +748,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28797] = {
 		["Spookyremi"] = 1,
 	},
-	[30049] = {
+	[30109] = {
 		["Spookyremi"] = 1,
 	},
 	[32528] = {
@@ -787,11 +779,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32345] = {
 		["Zerxx"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabris", -- [1]
-	"Chuunin", -- [2]
-	"Kang", -- [3]
-	"Zerxx", -- [4]
-	"Searious", -- [5]
 }

@@ -389,7 +389,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[30107] = {
 		["Murduc"] = 1,
-		["Shnacks"] = 1,
 		["Spookyremi"] = 1,
 	},
 	[30082] = {
@@ -650,6 +649,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32496] = {
 		["Sekkondary"] = 1,
 		["Sylador"] = 1,
+	},
+	[30107] = {
+		["Shnacks"] = 1,
 	},
 	[32385] = {
 		["Sizzleñips"] = 1,

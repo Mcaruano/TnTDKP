@@ -702,3 +702,10 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Zerxx"] = 1,
 	},
 }
+STANDBY_ROSTER = {
+	"Barnabris", -- [1]
+	"Searious", -- [2]
+	"Crazydaisy", -- [3]
+	"Zerxx", -- [4]
+	"Digie", -- [5]
+}

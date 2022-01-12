@@ -355,6 +355,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32483] = {
 		["Demeker"] = 1,
+		["Murduc"] = 1,
 	},
 	[29982] = {
 		["Demeker"] = 1,
@@ -368,6 +369,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32374] = {
 		["Kinastra"] = 1,
+		["Murduc"] = 1,
 	},
 	[31089] = {
 		["Malchazor"] = 1,
@@ -386,6 +388,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[29992] = {
 		["Malchazor"] = 1,
+	},
+	[30910] = {
+		["Murduc"] = 1,
 	},
 	[30107] = {
 		["Murduc"] = 1,
@@ -501,6 +506,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[31098] = {
 		["Ashori"] = 1,
 		["Demeker"] = 1,
+		["Murduc"] = 1,
 	},
 	[32323] = {
 		["Ashori"] = 1,
@@ -561,13 +567,16 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30872] = {
 		["Demeker"] = 1,
+		["Murduc"] = 1,
 	},
 	[31092] = {
 		["Demeker"] = 1,
+		["Murduc"] = 1,
 		["Velyris"] = 1,
 	},
 	[31097] = {
 		["Demeker"] = 1,
+		["Murduc"] = 1,
 		["Velyris"] = 1,
 	},
 	[29918] = {
@@ -578,6 +587,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[31101] = {
 		["Demeker"] = 1,
+		["Murduc"] = 1,
 	},
 	[32527] = {
 		["Demeker"] = 1,

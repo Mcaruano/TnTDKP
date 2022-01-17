@@ -571,6 +571,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ashori"] = 1,
 		["Demeker"] = 1,
 		["Ellievyra"] = 1,
+		["Justinjr"] = 1,
 		["Murduc"] = 1,
 	},
 	[32323] = {
@@ -660,6 +661,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[31092] = {
 		["Demeker"] = 1,
 		["Ellievyra"] = 1,
+		["Justinjr"] = 1,
 		["Murduc"] = 1,
 		["Seion"] = 1,
 		["Velyris"] = 1,
@@ -667,6 +669,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[31097] = {
 		["Demeker"] = 1,
 		["Ellievyra"] = 1,
+		["Justinjr"] = 1,
 		["Murduc"] = 1,
 		["Seion"] = 1,
 		["Velyris"] = 1,
@@ -680,6 +683,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[31101] = {
 		["Demeker"] = 1,
 		["Ellievyra"] = 1,
+		["Justinjr"] = 1,
 		["Murduc"] = 1,
 		["Seion"] = 1,
 	},
@@ -719,6 +723,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Velyris"] = 1,
 	},
 	[30095] = {
+		["Justinjr"] = 1,
+	},
+	[32247] = {
 		["Justinjr"] = 1,
 	},
 	[30870] = {

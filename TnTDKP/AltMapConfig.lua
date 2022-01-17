@@ -97,4 +97,13 @@ altMapConfig = {
 
 	-- Wildshrimp's Shaman
 	["Shramps"] = "Wildshrimp",
+
+	-- Jaamii's Mage
+	["Emianne"] = "Jaamii",
+
+	-- Lilchub's Druid
+	["Restochub"] = "Lilchub",
+
+	-- Thorinix's Paladin
+	["Thrainix"] = "Thorinix",
 }

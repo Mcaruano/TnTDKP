@@ -379,6 +379,7 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Kinestra"] = 1,
 		["Lilchub"] = 1,
 		["Murduc"] = 1,
+		["Shnacks"] = 1,
 	},
 	[28797] = {
 		["Jaamii"] = 1,
@@ -609,6 +610,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[31090] = {
 		["Chuunin"] = 1,
+		["Shnacks"] = 1,
 		["Wildshrimp"] = 1,
 	},
 	[31093] = {
@@ -623,6 +625,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[31102] = {
 		["Chuunin"] = 1,
+		["Shnacks"] = 1,
 		["Wildshrimp"] = 1,
 	},
 	[30082] = {
@@ -723,6 +726,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32239] = {
 		["Lilchub"] = 1,
+		["Shnacks"] = 1,
 	},
 	[29982] = {
 		["Lilchub"] = 1,
@@ -794,6 +798,15 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32496] = {
 		["Sekkondary"] = 1,
 		["Sylador"] = 1,
+	},
+	[31096] = {
+		["Shnacks"] = 1,
+	},
+	[30916] = {
+		["Shnacks"] = 1,
+	},
+	[32483] = {
+		["Shnacks"] = 1,
 	},
 	[30107] = {
 		["Shnacks"] = 1,

@@ -364,6 +364,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Chuunin"] = 1,
 		["Searious"] = 1,
 	},
+	[28783] = {
+		["Demeker"] = 1,
+	},
 	[32483] = {
 		["Demeker"] = 1,
 		["Murduc"] = 1,
@@ -860,11 +863,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Digie", -- [2]
-	"Searious", -- [3]
-	"Seion", -- [4]
-	"Zerxx", -- [5]
 }

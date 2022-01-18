@@ -374,6 +374,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	[29982] = {
 		["Demeker"] = 1,
 	},
+	[31096] = {
+		["Digie"] = 1,
+	},
 	[32527] = {
 		["Ellievyra"] = 1,
 	},
@@ -483,6 +486,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30879] = {
 		["Abjection"] = 1,
+		["Digie"] = 1,
 		["Searious"] = 1,
 	},
 	[31094] = {
@@ -565,6 +569,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32266] = {
 		["Akaran"] = 1,
+		["Digie"] = 1,
 	},
 	[32526] = {
 		["Ashori"] = 1,
@@ -863,11 +868,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Rayashaman", -- [1]
-	"Digie", -- [2]
-	"Searious", -- [3]
-	"Seion", -- [4]
-	"Zerxx", -- [5]
 }

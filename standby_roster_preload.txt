@@ -1,8 +1,8 @@
-==== Standby Roster for 1/11 (SSC) ====
+==== Standby Roster for 1/18 (SSC) ====
 STANDBY_ROSTER = {
-	"Barnabris", -- [1]
-	"Searious", -- [2]
-	"Crazydaisy", -- [3]
-	"Zerxx", -- [4]
-	"Digie", -- [5]
+	"Barnabae", -- [1]
+	"Digie", -- [2]
+	"Searious", -- [3]
+	"Seion", -- [4]
+	"Zerxx", -- [5]
 }

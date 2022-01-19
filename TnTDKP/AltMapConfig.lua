@@ -53,6 +53,9 @@ altMapConfig = {
 	-- Hyolin's Paladin
 	["Envisage"] = "Hyolin",
 
+	-- Jaamii's Warlock
+	["Emianne"] = "Jaamii",
+
 	-- Justin's Warrior
 	["Justinbiceps"] = "Justin",
 
@@ -61,6 +64,9 @@ altMapConfig = {
 
 	-- Kinestra's Warrior
 	["Kineztra"] = "Kinestra",
+
+	-- Lilchub's Druid
+	["Restochub"] = "Lilchub",
 
 	-- Nashborne's Mage
 	["Eneldy"] = "Nashborne",
@@ -95,15 +101,12 @@ altMapConfig = {
 	-- Sylador's Paladin
 	["Silador"] = "Sylador",
 
-	-- Wildshrimp's Shaman
-	["Shramps"] = "Wildshrimp",
-
-	-- Jaamii's Mage
-	["Emianne"] = "Jaamii",
-
-	-- Lilchub's Druid
-	["Restochub"] = "Lilchub",
-
 	-- Thorinix's Paladin
 	["Thrainix"] = "Thorinix",
+
+	-- Velyris' Paladin
+	["Telyris"] = "Velyris",
+
+	-- Wildshrimp's Shaman
+	["Shramps"] = "Wildshrimp",	
 }

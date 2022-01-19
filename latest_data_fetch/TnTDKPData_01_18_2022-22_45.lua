@@ -345,6 +345,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32497] = {
 		["Baopi"] = 1,
+		["Crazydaisy"] = 1,
 	},
 	[30108] = {
 		["Barnabae"] = 1,
@@ -526,7 +527,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32497] = {
 		["Abjection"] = 1,
 		["Chuunin"] = 1,
-		["Crazydaisy"] = 1,
 		["Kangdude"] = 1,
 		["Nashborne"] = 1,
 		["Vermora"] = 1,

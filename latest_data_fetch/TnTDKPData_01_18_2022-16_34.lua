@@ -454,6 +454,7 @@ PLAYER_PRIORITY_REGISTRY = {
 PLAYER_LOTTERY_REGISTRY = {
 	[29997] = {
 		["Abjection"] = 1,
+		["Ashori"] = 1,
 		["Baopi"] = 1,
 		["Chuunin"] = 1,
 		["Kangdude"] = 1,
@@ -868,11 +869,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Rayashaman", -- [1]
-	"Digie", -- [2]
-	"Searious", -- [3]
-	"Seion", -- [4]
-	"Zerxx", -- [5]
 }

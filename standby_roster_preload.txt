@@ -1,6 +1,6 @@
-==== Standby Roster for 1/18 (SSC) ====
+==== Standby Roster for 1/25 (SSC) ====
 STANDBY_ROSTER = {
-	"Rayashaman", -- [1]
+	"Barnabae", -- [1]
 	"Digie", -- [2]
 	"Searious", -- [3]
 	"Seion", -- [4]

@@ -98,6 +98,9 @@ altMapConfig = {
 	-- Shnacks' Warlock
 	["Shpookyshnax"] = "Shnacks",
 
+	-- Shnacks' Paladin
+	["Shnacky"] = "Shnacks",
+
 	-- Sylador's Paladin
 	["Silador"] = "Sylador",
 
@@ -108,5 +111,20 @@ altMapConfig = {
 	["Telyris"] = "Velyris",
 
 	-- Wildshrimp's Shaman
-	["Shramps"] = "Wildshrimp",	
+	["Shramps"] = "Wildshrimp",
+
+	-- Wildshrimp's Warrior?
+	["Prawnz"] = "Wildshrimp",
+
+	-- Wildshrimp's Paladin
+	["Shrimpbae"] = "Wildshrimp",
+
+	-- Wildshrimp's Priest
+	["Tempurra"] = "Wildshrimp",
+
+	-- Wildshrimp's Warlock
+	["Dottyshrimp"] = "Wildshrimp",
+
+	-- Wildshrimp's Mage
+	["Shrimptea"] = "Wildshrimp",
 }

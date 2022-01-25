@@ -494,6 +494,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Nashborne"] = 1,
 		["Rayashaman"] = 1,
 		["Searious"] = 1,
+		["Sekkondary"] = 1,
 		["Zerxx"] = 1,
 	},
 	[32591] = {
@@ -525,6 +526,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Abjection"] = 1,
 		["Akaran"] = 1,
 		["Rayashaman"] = 1,
+		["Sekkondary"] = 1,
 	},
 	[32505] = {
 		["Abjection"] = 1,
@@ -540,6 +542,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Nashborne"] = 1,
 		["Rayashaman"] = 1,
 		["Searious"] = 1,
+		["Sekkondary"] = 1,
 		["Zerxx"] = 1,
 	},
 	[32366] = {
@@ -742,7 +745,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32500] = {
 		["Hyolin"] = 1,
-		["Sekkondary"] = 1,
 		["Sylador"] = 1,
 	},
 	[30665] = {
@@ -767,6 +769,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Kinestra"] = 1,
 		["Nashborne"] = 1,
 		["Rayashaman"] = 1,
+		["Sekkondary"] = 1,
 		["Zerxx"] = 1,
 	},
 	[30870] = {
@@ -814,7 +817,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32524] = {
 		["Rayashaman"] = 1,
 		["Seion"] = 1,
-		["Sekkondary"] = 1,
 	},
 	[29989] = {
 		["Rayashaman"] = 1,
@@ -827,10 +829,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32370] = {
 		["Seion"] = 1,
-	},
-	[32496] = {
-		["Sekkondary"] = 1,
-		["Sylador"] = 1,
 	},
 	[31096] = {
 		["Shnacks"] = 1,
@@ -857,6 +855,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Spookyremi"] = 1,
 	},
 	[32339] = {
+		["Sylador"] = 1,
+	},
+	[32496] = {
 		["Sylador"] = 1,
 	},
 	[30911] = {

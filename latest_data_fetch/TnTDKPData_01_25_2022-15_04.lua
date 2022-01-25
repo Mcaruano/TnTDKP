@@ -707,7 +707,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Demeker"] = 1,
 		["Ellievyra"] = 1,
 		["Murduc"] = 1,
-		["Spookyremi"] = 1,
 	},
 	[31101] = {
 		["Demeker"] = 1,
@@ -849,9 +848,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sizzleñips"] = 1,
 	},
 	[28797] = {
-		["Spookyremi"] = 1,
-	},
-	[30109] = {
 		["Spookyremi"] = 1,
 	},
 	[32339] = {

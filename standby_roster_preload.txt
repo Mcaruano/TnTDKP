@@ -1,8 +1,8 @@
-==== Standby Roster for 1/25 (SSC) ====
+==== Standby Roster for 1/27 (Hyjal) ====
 STANDBY_ROSTER = {
 	"Barnabae", -- [1]
 	"Digie", -- [2]
-	"Searious", -- [3]
-	"Seion", -- [4]
-	"Zerxx", -- [5]
+	"Nashborne", -- [3]
+	"Vermora", -- [4]
+	"Demeker", -- [5]
 }

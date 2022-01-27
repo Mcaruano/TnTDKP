@@ -1,7 +1,7 @@
 ==== Standby Roster for 1/27 (Hyjal) ====
 STANDBY_ROSTER = {
 	"Barnabae", -- [1]
-	"Digie", -- [2]
+	"Digitalz", -- [2]
 	"Nashborne", -- [3]
 	"Vermora", -- [4]
 	"Demeker", -- [5]

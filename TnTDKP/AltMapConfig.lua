@@ -41,11 +41,14 @@ altMapConfig = {
 	-- Demeker's Druid
 	["Ristin"] = "Demeker",
 
-    -- Digie's Paladin
-	["Digitoh"] = "Digie",
+	-- Digitalz's Gnome Rogue
+	["Digie"] = "Digitalz",
 
-	-- Digie's Hunter
-	["Digitizzle"] = "Digie",
+    -- Digitalz's Paladin
+	["Digitoh"] = "Digitalz",
+
+	-- Digitalz's Hunter
+	["Digitizzle"] = "Digitalz",
 
 	-- Ellievyra's Warlock
 	["Bryandee"] = "Ellievyra",

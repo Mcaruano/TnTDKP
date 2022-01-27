@@ -10,7 +10,7 @@ T4_PRIORITY_DKP_TABLE = {
    ["Crazydaisy"] = 3316.16,
    ["Dalran"] = 49.8,
    ["Demeker"] = 3128.2,
-   ["Digie"] = 3092.89,
+   ["Digitalz"] = 3092.89,
    ["Ellievyra"] = 3189.82,
    ["Hyolin"] = 3303.51,
    ["Jaamii"] = 3265.88,
@@ -52,7 +52,7 @@ T4_LOTTERY_DKP_TABLE = {
    ["Crazydaisy"] = 3272.7,
    ["Dalran"] = 42.16,
    ["Demeker"] = 3340.13,
-   ["Digie"] = 3349.1,
+   ["Digitalz"] = 3349.1,
    ["Ellievyra"] = 2308.72,
    ["Hyolin"] = 3336.79,
    ["Jaamii"] = 3349.1,
@@ -94,7 +94,7 @@ T5_PRIORITY_DKP_TABLE = {
    ["Crazydaisy"] = 6484.15,
    ["Dalran"] = 41.49,
    ["Demeker"] = 3746.14,
-   ["Digie"] = 5612.01,
+   ["Digitalz"] = 5612.01,
    ["Ellievyra"] = 6300.62,
    ["Hyolin"] = 6165.03,
    ["Jaamii"] = 4889.14,
@@ -136,7 +136,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Crazydaisy"] = 3868.85,
    ["Dalran"] = 35.13,
    ["Demeker"] = 5989.48,
-   ["Digie"] = 4716.39,
+   ["Digitalz"] = 4716.39,
    ["Ellievyra"] = 3271.44,
    ["Hyolin"] = 4512.97,
    ["Jaamii"] = 5840.69,
@@ -178,7 +178,7 @@ T6_PRIORITY_DKP_TABLE = {
    ["Crazydaisy"] = 3734.45,
    ["Dalran"] = 23.61,
    ["Demeker"] = 2157.5,
-   ["Digie"] = 3232.22,
+   ["Digitalz"] = 3232.22,
    ["Ellievyra"] = 3430.92,
    ["Hyolin"] = 3750.0,
    ["Jaamii"] = 2815.81,
@@ -220,7 +220,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Crazydaisy"] = 2246.05,
    ["Dalran"] = 20.32,
    ["Demeker"] = 3477.66,
-   ["Digie"] = 2738.46,
+   ["Digitalz"] = 2738.46,
    ["Ellievyra"] = 1899.39,
    ["Hyolin"] = 2620.01,
    ["Jaamii"] = 3391.14,
@@ -262,7 +262,7 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Crazydaisy"] = 0.0,
    ["Dalran"] = 0.0,
    ["Demeker"] = 0.0,
-   ["Digie"] = 0.0,
+   ["Digitalz"] = 0.0,
    ["Ellievyra"] = 0.0,
    ["Hyolin"] = 0.0,
    ["Jaamii"] = 0.0,
@@ -304,7 +304,7 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Crazydaisy"] = 0.0,
    ["Dalran"] = 0.0,
    ["Demeker"] = 0.0,
-   ["Digie"] = 0.0,
+   ["Digitalz"] = 0.0,
    ["Ellievyra"] = 0.0,
    ["Hyolin"] = 0.0,
    ["Jaamii"] = 0.0,
@@ -374,7 +374,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32235] = {
 		["Chuunin"] = 1,
 		["Crazydaisy"] = 1,
-		["Digie"] = 1,
+		["Digitalz"] = 1,
 		["Vermora"] = 1,
 	},
 	[32324] = {
@@ -386,7 +386,7 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Spookyremi"] = 1,
 	},
 	[31096] = {
-		["Digie"] = 1,
+		["Digitalz"] = 1,
 	},
 	[32527] = {
 		["Ellievyra"] = 1,
@@ -513,7 +513,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30879] = {
 		["Abjection"] = 1,
-		["Digie"] = 1,
+		["Digitalz"] = 1,
 		["Searious"] = 1,
 	},
 	[31094] = {
@@ -555,7 +555,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32366] = {
 		["Abjection"] = 1,
-		["Digie"] = 1,
+		["Digitalz"] = 1,
 		["Searious"] = 1,
 	},
 	[32497] = {
@@ -599,7 +599,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32266] = {
 		["Akaran"] = 1,
-		["Digie"] = 1,
+		["Digitalz"] = 1,
 	},
 	[32526] = {
 		["Ashori"] = 1,
@@ -687,7 +687,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[31099] = {
 		["Chuunin"] = 1,
-		["Digie"] = 1,
+		["Digitalz"] = 1,
 		["Lilchub"] = 1,
 	},
 	[31102] = {
@@ -885,11 +885,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Digie", -- [2]
-	"Nashborne", -- [3]
-	"Vermora", -- [4]
-	"Demeker", -- [5]
 }

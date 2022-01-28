@@ -345,6 +345,8 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Ashori"] = 1,
 		["Baopi"] = 1,
 		["Vermora"] = 1,
+		["Wildshrimp"] = 1,
+		["Zerxx"] = 1,
 	},
 	[28830] = {
 		["Ashori"] = 1,
@@ -781,7 +783,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30912] = {
 		["Hyolin"] = 1,
 		["Seion"] = 1,
-		["Sylador"] = 1,
 		["Velyris"] = 1,
 	},
 	[30108] = {
@@ -876,20 +877,16 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28797] = {
 		["Spookyremi"] = 1,
 	},
-	[32339] = {
-		["Sylador"] = 1,
-	},
 	[30911] = {
 		["Sylador"] = 1,
+	},
+	[29753] = {
+		["Wildshrimp"] = 1,
+	},
+	[29767] = {
+		["Wildshrimp"] = 1,
 	},
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Digitalz", -- [2]
-	"Nashborne", -- [3]
-	"Vermora", -- [4]
-	"Demeker", -- [5]
 }

@@ -60,6 +60,10 @@ function CEPGP_handleCombat(bossEncounter, except)
 				-- Announce the boss kill to Raid and Gchat
 				SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T5 DKP has been awarded to the Raid & Standby", RAID, CEPGP_LANGUAGE);
 				CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T5");
+			elseif tier == "T6" then
+				-- Announce the boss kill to Raid and Gchat
+				SendChatMessage(bossEncounter .. " has been defeated! " .. DKP .. " T5 DKP has been awarded to the Raid & Standby", RAID, CEPGP_LANGUAGE);
+				CEPGP_AddRaidDKP(timestamp, DKP, nil, bossEncounter, "T6");
 			end
 			-- Award standby members
 			if STANDBYEP then
@@ -76,6 +80,9 @@ function CEPGP_handleCombat(bossEncounter, except)
 							elseif tier == "T5" then
 								CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T5 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T5");
 							end
+							elseif tier == "T6" then
+								CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T6 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T6");
+							end
 						end
 					end
 				end
@@ -83,6 +90,9 @@ function CEPGP_handleCombat(bossEncounter, except)
 					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T4 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
 				elseif tier == "T5" then
 					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T5 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
+				end
+				elseif tier == "T6" then
+					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T6 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
 				end
 				CEPGP_UpdateTrafficScrollBar();
 				SendChatMessage("Whisper me \"" .. CEPGP_standby_whisper_msg .. "\" from your MAIN to add yourself to the Standby list", GUILD, CEPGP_LANGUAGE);

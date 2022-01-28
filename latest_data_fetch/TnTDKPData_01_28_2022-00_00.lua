@@ -346,7 +346,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Baopi"] = 1,
 		["Vermora"] = 1,
 		["Wildshrimp"] = 1,
-		["Zerxx"] = 1,
 	},
 	[28830] = {
 		["Ashori"] = 1,

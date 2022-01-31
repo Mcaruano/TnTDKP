@@ -1,4 +1,4 @@
-==== Standby Roster for 1/27 (Hyjal) ====
+==== Standby Roster for 1/30 (BT) ====
 STANDBY_ROSTER = {
 	"Barnabae", -- [1]
 	"Digitalz", -- [2]

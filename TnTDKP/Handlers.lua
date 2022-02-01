@@ -79,7 +79,6 @@ function CEPGP_handleCombat(bossEncounter, except)
 								CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T4 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T4");
 							elseif tier == "T5" then
 								CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T5 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T5");
-							end
 							elseif tier == "T6" then
 								CEPGP_addStandbyDKP(timestamp, standbyMember, DKP*(STANDBYPERCENT/100), "[T6 DKP " .. DKP .. "]: " .. bossEncounter .. " (Standby)", "T6");
 							end
@@ -90,7 +89,6 @@ function CEPGP_handleCombat(bossEncounter, except)
 					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T4 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
 				elseif tier == "T5" then
 					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T5 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
-				end
 				elseif tier == "T6" then
 					SendChatMessage("Standby members have been awarded " .. DKP*(STANDBYPERCENT/100) .. " T6 DKP for Encounter: " .. bossEncounter, GUILD, CEPGP_LANGUAGE);
 				end

@@ -646,6 +646,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30236] = {
 		["Barnabae"] = 2,
 		["Digitalz"] = 1,
+		["Jaamii"] = 1,
 		["Vermora"] = 1,
 	},
 	[32500] = {
@@ -668,10 +669,12 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30242] = {
 		["Barnabae"] = 1,
+		["Jaamii"] = 1,
 	},
 	[30245] = {
 		["Barnabae"] = 2,
 		["Digitalz"] = 1,
+		["Jaamii"] = 1,
 		["Vermora"] = 1,
 	},
 	[32496] = {
@@ -681,6 +684,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30248] = {
 		["Barnabae"] = 1,
 		["Digitalz"] = 1,
+		["Jaamii"] = 1,
 		["Vermora"] = 1,
 	},
 	[32369] = {
@@ -885,11 +889,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Rayashaman", -- [2]
-	"Demeker", -- [3]
-	"Digitalz", -- [4]
-	"Zerxx", -- [5]
 }

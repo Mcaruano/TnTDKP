@@ -410,17 +410,14 @@ PLAYER_PRIORITY_REGISTRY = {
 	[28797] = {
 		["Jaamii"] = 1,
 	},
-	[31091] = {
-		["Jaamii"] = 1,
-	},
-	[31094] = {
-		["Jaamii"] = 1,
-	},
-	[31095] = {
+	[32276] = {
 		["Jaamii"] = 1,
 	},
 	[30109] = {
 		["Jaamii"] = 1,
+	},
+	[30095] = {
+		["Justinjr"] = 1,
 	},
 	[29918] = {
 		["Justinjr"] = 1,
@@ -487,6 +484,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Abjection"] = 1,
 		["Akaran"] = 1,
 		["Barnabae"] = 1,
+		["Jaamii"] = 1,
 		["Kinestra"] = 1,
 		["Nashborne"] = 1,
 		["Rayashaman"] = 1,
@@ -503,11 +501,11 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30879] = {
 		["Abjection"] = 1,
-		["Digitalz"] = 1,
 		["Searious"] = 1,
 	},
 	[31094] = {
 		["Abjection"] = 1,
+		["Jaamii"] = 1,
 		["Nashborne"] = 1,
 		["Searious"] = 1,
 	},
@@ -646,6 +644,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[31095] = {
 		["Barnabae"] = 1,
+		["Jaamii"] = 1,
 		["Kinestra"] = 1,
 		["Nashborne"] = 1,
 		["Rayashaman"] = 1,
@@ -770,9 +769,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30108] = {
 		["Hyolin"] = 1,
 	},
-	[32276] = {
-		["Jaamii"] = 1,
-	},
 	[30916] = {
 		["Jaamii"] = 1,
 		["Shnacks"] = 1,
@@ -782,9 +778,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Lilchub"] = 1,
 		["Shnacks"] = 1,
 		["Spookyremi"] = 1,
-	},
-	[30095] = {
-		["Justinjr"] = 1,
 	},
 	[32247] = {
 		["Justinjr"] = 1,
@@ -815,9 +808,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Malchazor"] = 1,
 	},
 	[30863] = {
-		["Nashborne"] = 1,
-	},
-	[32335] = {
 		["Nashborne"] = 1,
 	},
 	[32328] = {

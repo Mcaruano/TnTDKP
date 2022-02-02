@@ -192,7 +192,7 @@ T6_PRIORITY_DKP_TABLE = {
    ["Murduc"] = 4988.48,
    ["Nashborne"] = 5120.66,
    ["Pudsey"] = 0.0,
-   ["Rayashaman"] = 5332.639999999999,
+   ["Rayashaman"] = 5332.64,
    ["Rotheart"] = 0.0,
    ["Salchant"] = 0.0,
    ["Searious"] = 4855.32,
@@ -201,7 +201,7 @@ T6_PRIORITY_DKP_TABLE = {
    ["Shnacks"] = 5922.55,
    ["Sizzleñips"] = 309.89,
    ["Spookyremi"] = 5401.66,
-   ["Sylador"] = 5379.639999999999,
+   ["Sylador"] = 5379.64,
    ["Thorinix"] = 0.0,
    ["Velyris"] = 5287.6,
    ["Vermora"] = 5960.25,
@@ -221,7 +221,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Dalran"] = 17.27,
    ["Demeker"] = 5728.76,
    ["Despia"] = 0.0,
-   ["Digitalz"] = 5100.440000000001,
+   ["Digitalz"] = 5100.44,
    ["Ellievyra"] = 4387.23,
    ["Hyolin"] = 4999.76,
    ["Jaamii"] = 5655.22,
@@ -230,7 +230,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Kangdude"] = 5370.92,
    ["Kinestra"] = 2558.48,
    ["Lilchub"] = 4888.2,
-   ["Malchazor"] = 164.6500000000001,
+   ["Malchazor"] = 164.65,
    ["Murduc"] = 2655.71,
    ["Nashborne"] = 4077.26,
    ["Pudsey"] = 0.0,
@@ -240,7 +240,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Searious"] = 5076.26,
    ["Seion"] = -171.18,
    ["Sekkondary"] = 2456.67,
-   ["Shnacks"] = 284.6400000000001,
+   ["Shnacks"] = 284.64,
    ["Sizzleñips"] = 312.43,
    ["Spookyremi"] = 4258.9,
    ["Sylador"] = 1726.81,
@@ -361,10 +361,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Baopi"] = 1,
 		["Nashborne"] = 1,
 	},
-	[30108] = {
-		["Barnabae"] = 1,
-		["Velyris"] = 1,
-	},
 	[30881] = {
 		["Chuunin"] = 1,
 		["Searious"] = 2,
@@ -403,6 +399,10 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Shnacks"] = 1,
 		["Spookyremi"] = 1,
 	},
+	[30108] = {
+		["Hyolin"] = 1,
+		["Velyris"] = 1,
+	},
 	[32496] = {
 		["Hyolin"] = 1,
 		["Seion"] = 1,
@@ -426,6 +426,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30910] = {
 		["Justinjr"] = 1,
 		["Murduc"] = 1,
+	},
+	[29988] = {
+		["Kinestra"] = 1,
 	},
 	[31089] = {
 		["Malchazor"] = 1,
@@ -469,7 +472,6 @@ PLAYER_PRIORITY_REGISTRY = {
 PLAYER_LOTTERY_REGISTRY = {
 	[29997] = {
 		["Abjection"] = 1,
-		["Ashori"] = 1,
 		["Chuunin"] = 1,
 		["Kangdude"] = 1,
 		["Zerxx"] = 1,
@@ -561,6 +563,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30237] = {
 		["Akaran"] = 1,
+		["Sylador"] = 1,
 	},
 	[32232] = {
 		["Akaran"] = 1,
@@ -570,12 +573,14 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30246] = {
 		["Akaran"] = 1,
+		["Sylador"] = 1,
 	},
 	[32253] = {
 		["Akaran"] = 1,
 	},
 	[30249] = {
 		["Akaran"] = 1,
+		["Sylador"] = 1,
 	},
 	[34010] = {
 		["Akaran"] = 1,
@@ -638,10 +643,19 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sylador"] = 2,
 		["Velyris"] = 2,
 	},
+	[30236] = {
+		["Barnabae"] = 2,
+		["Digitalz"] = 1,
+		["Vermora"] = 1,
+	},
 	[32500] = {
 		["Barnabae"] = 1,
 		["Hyolin"] = 1,
 		["Sylador"] = 1,
+	},
+	[30239] = {
+		["Barnabae"] = 1,
+		["Vermora"] = 1,
 	},
 	[31095] = {
 		["Barnabae"] = 1,
@@ -655,9 +669,19 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30242] = {
 		["Barnabae"] = 1,
 	},
+	[30245] = {
+		["Barnabae"] = 2,
+		["Digitalz"] = 1,
+		["Vermora"] = 1,
+	},
 	[32496] = {
 		["Barnabae"] = 1,
 		["Sylador"] = 1,
+	},
+	[30248] = {
+		["Barnabae"] = 1,
+		["Digitalz"] = 1,
+		["Vermora"] = 1,
 	},
 	[32369] = {
 		["Chuunin"] = 1,
@@ -736,18 +760,14 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29988] = {
 		["Demeker"] = 1,
-		["Kinestra"] = 1,
 	},
-	[30236] = {
-		["Digitalz"] = 1,
-	},
-	[30245] = {
-		["Digitalz"] = 1,
-	},
-	[30248] = {
+	[29949] = {
 		["Digitalz"] = 1,
 	},
 	[32266] = {
+		["Digitalz"] = 1,
+	},
+	[29996] = {
 		["Digitalz"] = 1,
 	},
 	[32367] = {
@@ -767,7 +787,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Hyolin"] = 1,
 		["Velyris"] = 1,
 	},
-	[30108] = {
+	[30080] = {
 		["Hyolin"] = 1,
 	},
 	[30916] = {
@@ -805,10 +825,13 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32245] = {
 		["Malchazor"] = 1,
 	},
-	[32515] = {
-		["Malchazor"] = 1,
+	[30057] = {
+		["Nashborne"] = 1,
 	},
 	[30863] = {
+		["Nashborne"] = 1,
+	},
+	[30105] = {
 		["Nashborne"] = 1,
 	},
 	[32328] = {
@@ -850,17 +873,16 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28797] = {
 		["Spookyremi"] = 1,
 	},
+	[30240] = {
+		["Sylador"] = 1,
+	},
+	[30243] = {
+		["Sylador"] = 1,
+	},
 	[29767] = {
 		["Wildshrimp"] = 1,
 	},
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Rayashaman", -- [2]
-	"Demeker", -- [3]
-	"Digitalz", -- [4]
-	"Zerxx", -- [5]
 }

@@ -377,6 +377,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32366] = {
 		["Chuunin"] = 1,
+		["Wildshrimp"] = 1,
 	},
 	[32497] = {
 		["Crazydaisy"] = 1,

@@ -1,8 +1,9 @@
-==== Standby Roster for 2/2 (BT) ====
+==== Standby Roster for 2/3 (Gruul's Lair) ====
 STANDBY_ROSTER = {
 	"Barnabae", -- [1]
 	"Rayashaman", -- [2]
 	"Demeker", -- [3]
 	"Digitalz", -- [4]
-	"Zerxx", -- [5]
+	"Nashborne", -- [5]
+	"Vermora", -- [6]
 }

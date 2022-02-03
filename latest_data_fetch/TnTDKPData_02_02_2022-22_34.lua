@@ -867,3 +867,11 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Wildshrimp"] = 1,
 	},
 }
+STANDBY_ROSTER = {
+	"Barnabae", -- [1]
+	"Rayashaman", -- [2]
+	"Demeker", -- [3]
+	"Digitalz", -- [4]
+	"Nashborne", -- [5]
+	"Vermora", -- [6]
+}

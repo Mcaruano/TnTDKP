@@ -88,7 +88,7 @@ T4_LOTTERY_DKP_TABLE = {
 }
 T5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 5920.52,
-   ["Akaran"] = 5269.860000000001,
+   ["Akaran"] = 5269.86,
    ["Albynonurse"] = 1390.51,
    ["Ashori"] = 6507.5,
    ["Babyshrimp"] = 0.0,
@@ -98,18 +98,18 @@ T5_PRIORITY_DKP_TABLE = {
    ["Chuunin"] = 6251.64,
    ["Crazydaisy"] = 6691.53,
    ["Dalran"] = 35.27,
-   ["Demeker"] = 4364.219999999999,
+   ["Demeker"] = 4364.22,
    ["Despia"] = 75.78,
    ["Digitalz"] = 5950.21,
    ["Ellievyra"] = 6535.53,
-   ["Hyolin"] = 4420.280000000001,
+   ["Hyolin"] = 4420.28,
    ["Jaamii"] = 5335.77,
    ["Justin"] = 0.0,
    ["Justinjr"] = 5734.47,
    ["Kangdude"] = 6714.86,
    ["Kinestra"] = 6535.53,
    ["Lilchub"] = 4589.0,
-   ["Malchazor"] = 5113.889999999999,
+   ["Malchazor"] = 5113.89,
    ["Metasyn"] = 1180.0,
    ["Murduc"] = 3027.43,
    ["Nashborne"] = 5256.85,
@@ -351,8 +351,18 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Zerxx"] = 0.0,
 }
 PLAYER_PRIORITY_REGISTRY = {
+	[29997] = {
+		["Abjection"] = 1,
+	},
 	[30906] = {
 		["Abjection"] = 1,
+	},
+	[32235] = {
+		["Abjection"] = 1,
+		["Chuunin"] = 1,
+		["Crazydaisy"] = 1,
+		["Digitalz"] = 1,
+		["Vermora"] = 1,
 	},
 	[32369] = {
 		["Akaran"] = 1,
@@ -381,12 +391,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30881] = {
 		["Chuunin"] = 1,
 		["Searious"] = 2,
-	},
-	[32235] = {
-		["Chuunin"] = 1,
-		["Crazydaisy"] = 1,
-		["Digitalz"] = 1,
-		["Vermora"] = 1,
 	},
 	[32366] = {
 		["Chuunin"] = 1,
@@ -480,12 +484,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 }
 PLAYER_LOTTERY_REGISTRY = {
-	[29997] = {
-		["Abjection"] = 1,
-		["Chuunin"] = 1,
-		["Kangdude"] = 1,
-		["Zerxx"] = 1,
-	},
 	[30881] = {
 		["Abjection"] = 1,
 	},
@@ -505,9 +503,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Abjection"] = 1,
 		["Kangdude"] = 1,
 		["Nashborne"] = 1,
-	},
-	[32235] = {
-		["Abjection"] = 1,
 	},
 	[30879] = {
 		["Abjection"] = 1,
@@ -675,6 +670,11 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30248] = {
 		["Barnabae"] = 1,
 		["Vermora"] = 1,
+	},
+	[29997] = {
+		["Chuunin"] = 1,
+		["Kangdude"] = 1,
+		["Zerxx"] = 1,
 	},
 	[32369] = {
 		["Chuunin"] = 1,

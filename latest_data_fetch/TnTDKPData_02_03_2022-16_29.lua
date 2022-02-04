@@ -875,18 +875,16 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28797] = {
 		["Spookyremi"] = 1,
 	},
+	[29766] = {
+		["Vermora"] = 1,
+	},
+	[29763] = {
+		["Vermora"] = 1,
+	},
 	[29767] = {
 		["Wildshrimp"] = 1,
 	},
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Rayashaman", -- [2]
-	"Demeker", -- [3]
-	"Digitalz", -- [4]
-	"Nashborne", -- [5]
-	"Vermora", -- [6]
 }

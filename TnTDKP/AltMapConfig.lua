@@ -68,6 +68,9 @@ altMapConfig = {
 	-- Kinestra's Warrior
 	["Kineztra"] = "Kinestra",
 
+	-- Kinestra's Hunter
+	["Artsenik"] = "Kinestra",
+
 	-- Lilchub's Druid
 	["Restochub"] = "Lilchub",
 
@@ -130,4 +133,13 @@ altMapConfig = {
 
 	-- Wildshrimp's Mage
 	["Shrimptea"] = "Wildshrimp",
+
+	-- Wildshrimp's Rogue
+	["Babyshrimp"] = "Wildshrimp",
+
+	-- Seion's Hunter
+	["Seidowmeld"] = "Seion",
+
+	-- Seion's Shaman
+	["Seionish"] = "Seion",
 }

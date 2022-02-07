@@ -420,7 +420,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32496] = {
 		["Hyolin"] = 1,
-		["Seion"] = 1,
 		["Velyris"] = 1,
 	},
 	[28797] = {
@@ -665,6 +664,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32496] = {
 		["Barnabae"] = 1,
+		["Seion"] = 1,
 		["Sylador"] = 1,
 	},
 	[30248] = {

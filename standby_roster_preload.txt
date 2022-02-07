@@ -1,9 +1,8 @@
-==== Standby Roster for 2/3 (Gruul's Lair) ====
+==== Standby Roster for 2/8 (Hyjal) ====
 STANDBY_ROSTER = {
 	"Barnabae", -- [1]
-	"Rayashaman", -- [2]
-	"Demeker", -- [3]
-	"Digitalz", -- [4]
-	"Nashborne", -- [5]
-	"Vermora", -- [6]
+	"Vermora", -- [2]
+	"Digitalz", -- [3]
+	"Zerxx", -- [4]
+	"Baopi", -- [5]
 }

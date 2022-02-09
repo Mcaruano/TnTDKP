@@ -481,9 +481,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 }
 PLAYER_LOTTERY_REGISTRY = {
-	[30881] = {
-		["Abjection"] = 1,
-	},
 	[30901] = {
 		["Abjection"] = 1,
 	},

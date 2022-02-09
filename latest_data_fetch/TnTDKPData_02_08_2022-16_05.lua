@@ -398,9 +398,23 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30082] = {
 		["Chuunin"] = 1,
 	},
+	[30910] = {
+		["Demeker"] = 1,
+		["Justinjr"] = 1,
+		["Lilchub"] = 1,
+		["Murduc"] = 1,
+	},
 	[32483] = {
 		["Demeker"] = 1,
 		["Murduc"] = 1,
+		["Spookyremi"] = 1,
+	},
+	[32374] = {
+		["Demeker"] = 1,
+		["Ellievyra"] = 1,
+		["Kinestra"] = 1,
+		["Murduc"] = 1,
+		["Shnacks"] = 1,
 		["Spookyremi"] = 1,
 	},
 	[29994] = {
@@ -409,13 +423,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32527] = {
 		["Ellievyra"] = 1,
 		["Jaamii"] = 1,
-	},
-	[32374] = {
-		["Ellievyra"] = 1,
-		["Kinestra"] = 1,
-		["Murduc"] = 1,
-		["Shnacks"] = 1,
-		["Spookyremi"] = 1,
 	},
 	[32496] = {
 		["Hyolin"] = 1,
@@ -432,11 +439,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[30095] = {
 		["Justinjr"] = 1,
-	},
-	[30910] = {
-		["Justinjr"] = 1,
-		["Lilchub"] = 1,
-		["Murduc"] = 1,
 	},
 	[29988] = {
 		["Kinestra"] = 1,
@@ -581,6 +583,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Akaran"] = 1,
 	},
 	[34010] = {
+		["Akaran"] = 1,
+	},
+	[32263] = {
 		["Akaran"] = 1,
 	},
 	[31089] = {
@@ -728,10 +733,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Spookyremi"] = 1,
 		["Velyris"] = 1,
 	},
-	[29918] = {
-		["Demeker"] = 1,
-		["Ellievyra"] = 1,
-	},
 	[31101] = {
 		["Demeker"] = 1,
 		["Ellievyra"] = 1,
@@ -745,14 +746,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Demeker"] = 1,
 		["Lilchub"] = 1,
 	},
-	[30910] = {
-		["Demeker"] = 1,
-		["Spookyremi"] = 1,
-	},
-	[29988] = {
-		["Demeker"] = 1,
-		["Justinjr"] = 1,
-	},
 	[29949] = {
 		["Digitalz"] = 1,
 	},
@@ -762,6 +755,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29996] = {
 		["Digitalz"] = 1,
+	},
+	[29918] = {
+		["Ellievyra"] = 1,
 	},
 	[29992] = {
 		["Ellievyra"] = 1,
@@ -790,6 +786,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Spookyremi"] = 1,
 	},
 	[32247] = {
+		["Justinjr"] = 1,
+	},
+	[29988] = {
 		["Justinjr"] = 1,
 	},
 	[30888] = {
@@ -864,6 +863,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[28797] = {
 		["Spookyremi"] = 1,
 	},
+	[30910] = {
+		["Spookyremi"] = 1,
+	},
 	[30249] = {
 		["Sylador"] = 1,
 	},
@@ -873,11 +875,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Vermora", -- [2]
-	"Digitalz", -- [3]
-	"Zerxx", -- [4]
-	"Baopi", -- [5]
 }

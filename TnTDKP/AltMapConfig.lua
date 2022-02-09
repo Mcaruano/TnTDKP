@@ -59,11 +59,11 @@ altMapConfig = {
 	-- Jaamii's Warlock
 	["Emianne"] = "Jaamii",
 
-	-- Justin's Warrior
-	["Justinbiceps"] = "Justin",
+	-- Justinjr's Warrior
+	["Justinbiceps"] = "Justinjr",
 
-	-- Justin's Druid
-	["Justinsr"] = "Justin",
+	-- Justinjr's Druid
+	["Justinsr"] = "Justinjr",
 
 	-- Kinestra's Warrior
 	["Kineztra"] = "Kinestra",

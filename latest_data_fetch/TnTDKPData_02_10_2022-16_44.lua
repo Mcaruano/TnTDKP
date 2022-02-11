@@ -542,7 +542,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32375] = {
 		["Akaran"] = 1,
-		["Malchazor"] = 1,
 	},
 	[30237] = {
 		["Akaran"] = 1,
@@ -850,11 +849,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Chuunin", -- [2]
-	"Digitalz", -- [3]
-	"Searious", -- [4]
-	"Justinjr", -- [5]
 }

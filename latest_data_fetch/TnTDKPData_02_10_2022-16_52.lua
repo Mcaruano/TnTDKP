@@ -380,6 +380,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Nashborne"] = 1,
 		["Searious"] = 1,
 	},
+	[32323] = {
+		["Ashori"] = 1,
+	},
 	[32341] = {
 		["Baopi"] = 1,
 		["Nashborne"] = 1,
@@ -525,7 +528,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32323] = {
 		["Abjection"] = 1,
-		["Ashori"] = 1,
 		["Chuunin"] = 1,
 		["Crazydaisy"] = 1,
 		["Nashborne"] = 1,
@@ -849,11 +851,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Chuunin", -- [2]
-	"Digitalz", -- [3]
-	"Searious", -- [4]
-	"Justinjr", -- [5]
 }

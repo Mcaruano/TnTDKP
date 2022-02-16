@@ -394,9 +394,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32497] = {
 		["Baopi"] = 1,
 		["Vermora"] = 1,
-	},
-	[30082] = {
-		["Chuunin"] = 1,
+		["Zerxx"] = 1,
 	},
 	[30910] = {
 		["Demeker"] = 1,
@@ -533,7 +531,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Chuunin"] = 1,
 		["Kangdude"] = 1,
 		["Nashborne"] = 1,
-		["Zerxx"] = 1,
 	},
 	[32375] = {
 		["Akaran"] = 1,
@@ -588,6 +585,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Baopi"] = 1,
 		["Crazydaisy"] = 1,
 		["Nashborne"] = 1,
+		["Zerxx"] = 1,
 	},
 	[29764] = {
 		["Baopi"] = 1,

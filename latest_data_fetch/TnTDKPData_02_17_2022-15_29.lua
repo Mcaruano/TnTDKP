@@ -665,6 +665,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32405] = {
 		["Crazydaisy"] = 1,
+		["Wildshrimp"] = 1,
 	},
 	[30872] = {
 		["Demeker"] = 1,
@@ -724,6 +725,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Jaamii"] = 1,
 		["Kinestra"] = 1,
 		["Shnacks"] = 1,
+		["Spookyremi"] = 1,
 	},
 	[32239] = {
 		["Jaamii"] = 1,
@@ -734,6 +736,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32331] = {
 		["Justinjr"] = 1,
 		["Lilchub"] = 1,
+		["Spookyremi"] = 1,
 	},
 	[29988] = {
 		["Justinjr"] = 1,
@@ -828,11 +831,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Chuunin", -- [2]
-	"Digitalz", -- [3]
-	"Searious", -- [4]
-	"Baopi", -- [5]
 }

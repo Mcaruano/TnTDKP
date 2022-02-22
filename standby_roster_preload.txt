@@ -1,8 +1,8 @@
-==== Standby Roster for 2/17 (BT) ====
+==== Standby Roster for 2/22 (Hyjal) ====
 STANDBY_ROSTER = {
 	"Barnabae", -- [1]
 	"Chuunin", -- [2]
-	"Digitalz", -- [3]
-	"Searious", -- [4]
-	"Baopi", -- [5]
+	"Jaamii", -- [3]
+	"Sekkondary", -- [4]
+	"Ashori", -- [5]
 }

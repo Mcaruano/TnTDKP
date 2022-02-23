@@ -463,7 +463,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32528] = {
 		["Sekkondary"] = 1,
-		["Sylador"] = 1,
 	},
 	[28802] = {
 		["Sizzleñips"] = 1,
@@ -598,7 +597,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Barnabae"] = 2,
 		["Hyolin"] = 2,
 		["Rayashaman"] = 2,
-		["Sylador"] = 1,
+		["Sylador"] = 2,
 		["Velyris"] = 2,
 	},
 	[30236] = {
@@ -819,11 +818,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32405] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Chuunin", -- [2]
-	"Jaamii", -- [3]
-	"Sekkondary", -- [4]
-	"Ashori", -- [5]
 }

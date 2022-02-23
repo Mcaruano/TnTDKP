@@ -1,8 +1,8 @@
-==== Standby Roster for 2/22 (Hyjal) ====
+==== Standby Roster for 2/24 (Hyjal) ====
 STANDBY_ROSTER = {
 	"Barnabae", -- [1]
-	"Chuunin", -- [2]
+	"Digitalz", -- [2]
 	"Jaamii", -- [3]
 	"Sekkondary", -- [4]
-	"Ashori", -- [5]
+	"Nashborne", -- [5]
 }

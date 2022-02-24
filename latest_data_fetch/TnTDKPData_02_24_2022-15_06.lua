@@ -552,7 +552,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[31089] = {
 		["Ashori"] = 1,
 		["Hyolin"] = 1,
-		["Spookyremi"] = 1,
 		["Velyris"] = 1,
 	},
 	[31098] = {
@@ -808,11 +807,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32405] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Digitalz", -- [2]
-	"Jaamii", -- [3]
-	"Sekkondary", -- [4]
-	"Nashborne", -- [5]
 }

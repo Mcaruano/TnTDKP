@@ -50,6 +50,9 @@ altMapConfig = {
 	-- Digitalz's Hunter
 	["Digitizzle"] = "Digitalz",
 
+	-- Digitalz's Priest
+	["Nekryss"] = "Digitalz",
+
 	-- Ellievyra's Warlock
 	["Bryandee"] = "Ellievyra",
 
@@ -119,7 +122,10 @@ altMapConfig = {
 	-- Wildshrimp's Shaman
 	["Shramps"] = "Wildshrimp",
 
-	-- Wildshrimp's Warrior?
+	-- Wildshrimp's Hunter
+	["Shrimpea"] = "Wildshrimp",
+
+	-- Wildshrimp's Warrior
 	["Prawnz"] = "Wildshrimp",
 
 	-- Wildshrimp's Paladin

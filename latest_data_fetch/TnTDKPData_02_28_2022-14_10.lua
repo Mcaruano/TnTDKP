@@ -520,9 +520,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Kangdude"] = 1,
 		["Nashborne"] = 1,
 	},
-	[32375] = {
-		["Akaran"] = 1,
-	},
 	[32232] = {
 		["Akaran"] = 1,
 	},
@@ -717,6 +714,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Lilchub"] = 1,
 		["Spookyremi"] = 1,
 	},
+	[32375] = {
+		["Malchazor"] = 1,
+	},
 	[32342] = {
 		["Malchazor"] = 1,
 	},
@@ -778,11 +778,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Digitalz", -- [2]
-	"Chuunin", -- [3]
-	"Sekkondary", -- [4]
-	"Vermora", -- [5]
 }

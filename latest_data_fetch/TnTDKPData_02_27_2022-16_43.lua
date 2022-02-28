@@ -43,7 +43,6 @@ T4_PRIORITY_DKP_TABLE = {
    ["Vermora"] = 3431.49,
    ["Wildshrimp"] = 3627.19,
    ["Zerxx"] = 2605.69,
-   ["akaran"] = 0.0,
 }
 T4_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 3605.81,
@@ -90,7 +89,6 @@ T4_LOTTERY_DKP_TABLE = {
    ["Vermora"] = 2939.98,
    ["Wildshrimp"] = 2990.05,
    ["Zerxx"] = 2646.94,
-   ["akaran"] = 0.0,
 }
 T5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 6671.48,
@@ -137,7 +135,6 @@ T5_PRIORITY_DKP_TABLE = {
    ["Vermora"] = 7159.32,
    ["Wildshrimp"] = 7157.35,
    ["Zerxx"] = 5459.32,
-   ["akaran"] = 0.0,
 }
 T5_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 6253.11,
@@ -184,7 +181,6 @@ T5_LOTTERY_DKP_TABLE = {
    ["Vermora"] = 3004.15,
    ["Wildshrimp"] = 4056.73,
    ["Zerxx"] = 7131.83,
-   ["akaran"] = 0.0,
 }
 T6_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 6090.26,
@@ -231,7 +227,6 @@ T6_PRIORITY_DKP_TABLE = {
    ["Vermora"] = 6371.06,
    ["Wildshrimp"] = 6971.35,
    ["Zerxx"] = 3972.55,
-   ["akaran"] = 0.0,
 }
 T6_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 1620.03,
@@ -278,7 +273,6 @@ T6_LOTTERY_DKP_TABLE = {
    ["Vermora"] = 5292.31,
    ["Wildshrimp"] = 2329.73,
    ["Zerxx"] = 2988.56,
-   ["akaran"] = 0.0,
 }
 T6PT5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 0.0,
@@ -325,7 +319,6 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Vermora"] = 0.0,
    ["Wildshrimp"] = 0.0,
    ["Zerxx"] = 0.0,
-   ["akaran"] = 0.0,
 }
 T6PT5_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 0.0,
@@ -372,7 +365,6 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Vermora"] = 0.0,
    ["Wildshrimp"] = 0.0,
    ["Zerxx"] = 0.0,
-   ["akaran"] = 0.0,
 }
 PLAYER_PRIORITY_REGISTRY = {
 	[29997] = {
@@ -539,9 +531,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Sylador"] = 1,
 	},
 	[32263] = {
-		["Akaran"] = 1,
-	},
-	[30082] = {
 		["Akaran"] = 1,
 	},
 	[31089] = {
@@ -761,9 +750,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30881] = {
 		["Searious"] = 2,
-	},
-	[32370] = {
-		["Seion"] = 1,
 	},
 	[32483] = {
 		["Shnacks"] = 1,

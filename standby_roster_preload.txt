@@ -1,8 +1,8 @@
-==== Standby Roster for 2/24 (Hyjal) ====
+==== Standby Roster for 3/1 (BT) ====
 STANDBY_ROSTER = {
 	"Barnabae", -- [1]
 	"Digitalz", -- [2]
-	"Jaamii", -- [3]
+	"Chuunin", -- [3]
 	"Sekkondary", -- [4]
-	"Nashborne", -- [5]
+	"Vermora", -- [5]
 }

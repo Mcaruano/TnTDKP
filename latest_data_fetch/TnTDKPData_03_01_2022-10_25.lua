@@ -439,9 +439,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Kinestra"] = 1,
 		["Searious"] = 1,
 	},
-	[29988] = {
-		["Kinestra"] = 1,
-	},
 	[31089] = {
 		["Malchazor"] = 1,
 	},
@@ -729,9 +726,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30106] = {
 		["Nashborne"] = 1,
 	},
-	[30863] = {
-		["Nashborne"] = 1,
-	},
 	[30105] = {
 		["Nashborne"] = 1,
 	},
@@ -778,11 +772,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Digitalz", -- [2]
-	"Chuunin", -- [3]
-	"Sekkondary", -- [4]
-	"Vermora", -- [5]
 }

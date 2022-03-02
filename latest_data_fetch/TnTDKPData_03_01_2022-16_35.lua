@@ -369,6 +369,7 @@ T6PT5_LOTTERY_DKP_TABLE = {
 PLAYER_PRIORITY_REGISTRY = {
 	[29997] = {
 		["Abjection"] = 1,
+		["Zerxx"] = 1,
 	},
 	[32235] = {
 		["Abjection"] = 1,
@@ -629,7 +630,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32505] = {
 		["Crazydaisy"] = 1,
-		["Zerxx"] = 1,
 	},
 	[29994] = {
 		["Crazydaisy"] = 1,
@@ -772,11 +772,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Digitalz", -- [2]
-	"Chuunin", -- [3]
-	"Sekkondary", -- [4]
-	"Vermora", -- [5]
 }

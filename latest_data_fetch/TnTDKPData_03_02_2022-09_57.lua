@@ -198,11 +198,11 @@ T6_PRIORITY_DKP_TABLE = {
    ["Despia"] = 0.0,
    ["Digitalz"] = 7046.93,
    ["Ellievyra"] = 8466.21,
-   ["Hyolin"] = 8607.779999999999,
+   ["Hyolin"] = 8607.78,
    ["Jaamii"] = 6862.16,
    ["Justin"] = 0.0,
    ["Justinjr"] = 6982.01,
-   ["Kangdude"] = 8607.779999999999,
+   ["Kangdude"] = 8607.78,
    ["Kinestra"] = 4597.65,
    ["Lilchub"] = 7968.65,
    ["Malchazor"] = 2403.09,
@@ -216,7 +216,7 @@ T6_PRIORITY_DKP_TABLE = {
    ["Salchant"] = 0.0,
    ["Searious"] = 3914.99,
    ["Searusdots"] = 337.77,
-   ["Seion"] = 8545.939999999999,
+   ["Seion"] = 8545.94,
    ["Sekkondary"] = 6561.47,
    ["Shnacks"] = 5588.11,
    ["Sizzleñips"] = 161.76,
@@ -238,7 +238,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Barnabae"] = 7810.88,
    ["Brittany"] = 0.0,
    ["Chuunin"] = 6086.28,
-   ["Crazydaisy"] = 4441.860000000001,
+   ["Crazydaisy"] = 4441.86,
    ["Dalran"] = 9.02,
    ["Demeker"] = 6319.45,
    ["Despia"] = 0.0,
@@ -249,7 +249,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Justin"] = 0.0,
    ["Justinjr"] = 4861.87,
    ["Kangdude"] = 6132.64,
-   ["Kinestra"] = 5266.030000000001,
+   ["Kinestra"] = 5266.03,
    ["Lilchub"] = 1314.65,
    ["Malchazor"] = 1358.2,
    ["Metasyn"] = 0.0,
@@ -257,7 +257,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Nashborne"] = 1014.67,
    ["Nekryss"] = 3620.12,
    ["Pudsey"] = 0.0,
-   ["Rayashaman"] = 4278.940000000001,
+   ["Rayashaman"] = 4278.94,
    ["Rotheart"] = 0.0,
    ["Salchant"] = 0.0,
    ["Searious"] = 1737.94,
@@ -404,7 +404,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[30910] = {
 		["Demeker"] = 1,
-		["Justinjr"] = 1,
 		["Lilchub"] = 1,
 		["Murduc"] = 1,
 	},
@@ -656,6 +655,8 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ellievyra"] = 1,
 		["Kinestra"] = 1,
 		["Lilchub"] = 1,
+		["Shnacks"] = 2,
+		["Spookyremi"] = 1,
 	},
 	[29949] = {
 		["Digitalz"] = 1,
@@ -763,11 +764,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Searious", -- [2]
-	"Chuunin", -- [3]
-	"Lilchub", -- [4]
-	"Nashborne", -- [5]
 }

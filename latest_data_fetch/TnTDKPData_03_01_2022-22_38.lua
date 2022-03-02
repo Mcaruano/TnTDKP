@@ -411,6 +411,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32483] = {
 		["Demeker"] = 1,
 		["Murduc"] = 1,
+		["Shnacks"] = 1,
 	},
 	[32374] = {
 		["Demeker"] = 1,
@@ -736,9 +737,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Searious"] = 1,
 	},
 	[30888] = {
-		["Shnacks"] = 1,
-	},
-	[32483] = {
 		["Shnacks"] = 1,
 	},
 	[30107] = {

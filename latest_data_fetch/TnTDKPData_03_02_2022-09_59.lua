@@ -415,7 +415,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32374] = {
 		["Demeker"] = 1,
 		["Ellievyra"] = 1,
-		["Murduc"] = 1,
 		["Spookyremi"] = 1,
 	},
 	[32496] = {
@@ -655,6 +654,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ellievyra"] = 1,
 		["Kinestra"] = 1,
 		["Lilchub"] = 1,
+		["Murduc"] = 1,
 		["Shnacks"] = 2,
 		["Spookyremi"] = 1,
 	},
@@ -764,11 +764,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Searious", -- [2]
-	"Chuunin", -- [3]
-	"Lilchub", -- [4]
-	"Nashborne", -- [5]
 }

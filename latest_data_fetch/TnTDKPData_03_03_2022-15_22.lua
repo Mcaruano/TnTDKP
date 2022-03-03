@@ -758,17 +758,13 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30912] = {
 		["Velyris"] = 1,
 	},
+	[29766] = {
+		["Vermora"] = 1,
+	},
 	[32266] = {
 		["Wildshrimp"] = 1,
 	},
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Searious", -- [2]
-	"Chuunin", -- [3]
-	"Lilchub", -- [4]
-	"Nashborne", -- [5]
 }

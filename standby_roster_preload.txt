@@ -1,6 +1,6 @@
 ==== Standby Roster for 3/2 (Hyjal) ====
 STANDBY_ROSTER = {
-	"Barnabae", -- [1]
+	"Ashori", -- [1]
 	"Searious", -- [2]
 	"Chuunin", -- [3]
 	"Lilchub", -- [4]

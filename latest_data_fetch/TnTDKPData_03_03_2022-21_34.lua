@@ -484,7 +484,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32591] = {
 		["Abjection"] = 1,
-		["Kangdude"] = 1,
 		["Nashborne"] = 1,
 	},
 	[32324] = {
@@ -566,6 +565,10 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Barnabae"] = 1,
 		["Hyolin"] = 1,
 		["Sylador"] = 1,
+	},
+	[31094] = {
+		["Barnabae"] = 1,
+		["Nashborne"] = 1,
 	},
 	[30239] = {
 		["Barnabae"] = 1,
@@ -704,9 +707,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Malchazor"] = 1,
 	},
 	[30106] = {
-		["Nashborne"] = 1,
-	},
-	[31094] = {
 		["Nashborne"] = 1,
 	},
 	[30105] = {

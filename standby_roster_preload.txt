@@ -1,8 +1,8 @@
-==== Standby Roster for 3/2 (Hyjal) ====
+==== Standby Roster for 3/8 (Hyjal) ====
 STANDBY_ROSTER = {
-	"Ashori", -- [1]
-	"Searious", -- [2]
-	"Chuunin", -- [3]
-	"Lilchub", -- [4]
-	"Nashborne", -- [5]
+	"Barnabae", -- [1]
+	"Zerxx", -- [2]
+	"Digie", -- [3]
+	"Chuunin", -- [4]
+	"Barnabae", -- [5]
 }

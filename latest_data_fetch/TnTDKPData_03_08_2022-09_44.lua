@@ -383,6 +383,7 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Ashori"] = 1,
 		["Baopi"] = 1,
 		["Crazydaisy"] = 1,
+		["Nashborne"] = 1,
 		["Vermora"] = 1,
 		["Wildshrimp"] = 1,
 	},
@@ -484,7 +485,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32591] = {
 		["Abjection"] = 1,
-		["Nashborne"] = 1,
 	},
 	[32324] = {
 		["Abjection"] = 1,
@@ -708,9 +708,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32245] = {
 		["Malchazor"] = 1,
-	},
-	[30106] = {
-		["Nashborne"] = 1,
 	},
 	[30105] = {
 		["Nashborne"] = 1,

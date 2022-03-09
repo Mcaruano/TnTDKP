@@ -675,7 +675,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Jaamii"] = 1,
 		["Kinestra"] = 1,
 		["Shnacks"] = 1,
-		["Spookyremi"] = 1,
 	},
 	[32239] = {
 		["Jaamii"] = 1,
@@ -755,11 +754,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Zerxx", -- [2]
-	"Digie", -- [3]
-	"Chuunin", -- [4]
-	"Barnabae", -- [5]
 }

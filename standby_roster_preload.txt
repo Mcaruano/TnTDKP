@@ -1,8 +1,8 @@
-==== Standby Roster for 3/8 (Hyjal) ====
+==== Standby Roster for 3/10 (BT) ====
 STANDBY_ROSTER = {
 	"Barnabae", -- [1]
-	"Zerxx", -- [2]
-	"Digie", -- [3]
-	"Chuunin", -- [4]
-	"Barnabae", -- [5]
+	"Vermora", -- [2]
+	"Baopi", -- [3]
+	"Nashborne", -- [4]
+	"Murduc", -- [5]
 }

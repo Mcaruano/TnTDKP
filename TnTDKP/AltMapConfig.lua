@@ -148,4 +148,7 @@ altMapConfig = {
 
 	-- Seion's Shaman
 	["Seionish"] = "Seion",
+
+	-- Spookyremi's Druid
+	["Cwuddles"] = "Spookyremi",
 }

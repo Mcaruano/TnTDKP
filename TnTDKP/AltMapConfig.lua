@@ -152,6 +152,9 @@ altMapConfig = {
 	-- Seion's Warlock
 	["Neoxis"] = "Seion",
 
+	-- Seion's Mage
+	["Xeosin"] = "Seion",
+
 	-- Spookyremi's Druid
 	["Cwuddles"] = "Spookyremi",
 }

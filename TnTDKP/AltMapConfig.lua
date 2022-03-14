@@ -44,7 +44,7 @@ altMapConfig = {
 	-- Digitalz's Gnome Rogue
 	["Digie"] = "Digitalz",
 
-    -- Digitalz's Paladin
+    -- Digitalz's Warrior
 	["Digitoh"] = "Digitalz",
 
 	-- Digitalz's Hunter

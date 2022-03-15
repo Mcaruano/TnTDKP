@@ -412,7 +412,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32276] = {
 		["Jaamii"] = 1,
 	},
-	[30109] = {
+	[30626] = {
 		["Jaamii"] = 1,
 	},
 	[30095] = {
@@ -568,7 +568,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30245] = {
 		["Barnabae"] = 2,
-		["Jaamii"] = 1,
 		["Vermora"] = 1,
 	},
 	[32496] = {
@@ -721,11 +720,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Digitalz", -- [2]
-	"Zerxx", -- [3]
-	"Kangdude", -- [4]
-	"Chuunin", -- [5]
 }

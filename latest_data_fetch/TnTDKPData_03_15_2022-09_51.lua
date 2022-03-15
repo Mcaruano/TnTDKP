@@ -629,14 +629,14 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ellievyra"] = 1,
 		["Hyolin"] = 1,
 	},
+	[32590] = {
+		["Ellievyra"] = 1,
+	},
 	[31101] = {
 		["Ellievyra"] = 1,
 		["Justinjr"] = 1,
 		["Murduc"] = 1,
 		["Seion"] = 1,
-	},
-	[29992] = {
-		["Ellievyra"] = 1,
 	},
 	[31092] = {
 		["Hyolin"] = 1,
@@ -686,9 +686,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Nashborne"] = 1,
 	},
 	[32328] = {
-		["Rayashaman"] = 1,
-	},
-	[29989] = {
 		["Rayashaman"] = 1,
 	},
 	[30881] = {

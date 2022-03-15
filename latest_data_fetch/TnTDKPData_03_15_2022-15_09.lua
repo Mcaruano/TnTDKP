@@ -470,6 +470,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Abjection"] = 1,
 		["Barnabae"] = 1,
 		["Sekkondary"] = 1,
+		["Zerxx"] = 1,
 	},
 	[32324] = {
 		["Abjection"] = 1,
@@ -683,6 +684,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30627] = {
 		["Nashborne"] = 1,
+		["Zerxx"] = 1,
 	},
 	[32328] = {
 		["Rayashaman"] = 1,
@@ -711,6 +713,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32524] = {
 		["Velyris"] = 1,
 	},
+	[32405] = {
+		["Vermora"] = 1,
+	},
 	[32505] = {
 		["Wildshrimp"] = 1,
 	},
@@ -720,11 +725,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Barnabae", -- [1]
-	"Digitalz", -- [2]
-	"Zerxx", -- [3]
-	"Kangdude", -- [4]
-	"Chuunin", -- [5]
 }

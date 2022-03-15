@@ -1,8 +1,8 @@
 ==== Standby Roster for 3/10 (BT) ====
 STANDBY_ROSTER = {
 	"Barnabae", -- [1]
-	"Vermora", -- [2]
-	"Baopi", -- [3]
-	"Nashborne", -- [4]
-	"Murduc", -- [5]
+	"Digitalz", -- [2]
+	"Zerxx", -- [3]
+	"Kangdude", -- [4]
+	"Chuunin", -- [5]
 }

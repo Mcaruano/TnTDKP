@@ -647,6 +647,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29988] = {
 		["Justinjr"] = 1,
 	},
+	[32505] = {
+		["Kangdude"] = 1,
+	},
 	[32331] = {
 		["Lilchub"] = 1,
 		["Spookyremi"] = 1,

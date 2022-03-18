@@ -1,8 +1,8 @@
-==== Standby Roster for 3/10 (BT) ====
+==== Standby Roster for 3/17 (BT) ====
 STANDBY_ROSTER = {
 	"Barnabae", -- [1]
-	"Digitalz", -- [2]
-	"Zerxx", -- [3]
-	"Kangdude", -- [4]
-	"Chuunin", -- [5]
+	"Vermora", -- [2]
+	"Baopi", -- [3]
+	"Nashborne", -- [4]
+	"Shnacks", -- [5]
 }

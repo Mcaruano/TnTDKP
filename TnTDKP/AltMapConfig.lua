@@ -74,6 +74,9 @@ altMapConfig = {
 	-- Kinestra's Hunter
 	["Artsenik"] = "Kinestra",
 
+	-- Kinestra's Druid
+	["Kines"] = "Kinestra",
+
 	-- Lilchub's Druid
 	["Restochub"] = "Lilchub",
 

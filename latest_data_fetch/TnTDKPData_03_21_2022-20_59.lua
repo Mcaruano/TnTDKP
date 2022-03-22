@@ -397,6 +397,7 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Justinjr"] = 1,
 	},
 	[30910] = {
+		["Justinjr"] = 1,
 		["Lilchub"] = 1,
 	},
 	[32483] = {
@@ -471,6 +472,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Crazydaisy"] = 1,
 		["Nashborne"] = 1,
 		["Vermora"] = 1,
+		["Zerxx"] = 1,
 	},
 	[32497] = {
 		["Abjection"] = 1,

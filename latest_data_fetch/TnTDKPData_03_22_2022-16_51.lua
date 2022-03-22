@@ -373,6 +373,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32323] = {
 		["Ashori"] = 1,
+		["Vermora"] = 1,
 	},
 	[32374] = {
 		["Demeker"] = 1,
@@ -471,7 +472,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Chuunin"] = 1,
 		["Crazydaisy"] = 1,
 		["Nashborne"] = 1,
-		["Vermora"] = 1,
 		["Zerxx"] = 1,
 	},
 	[32497] = {
@@ -696,11 +696,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Zerxx", -- [1]
-	"Searious", -- [2]
-	"Ashori", -- [3]
-	"Digitalz", -- [4]
-	"Kangdude", -- [5]
 }

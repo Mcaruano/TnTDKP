@@ -374,6 +374,10 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Ashori"] = 1,
 		["Vermora"] = 1,
 	},
+	[32497] = {
+		["Chuunin"] = 1,
+		["Zerxx"] = 1,
+	},
 	[32374] = {
 		["Demeker"] = 1,
 		["Ellievyra"] = 1,
@@ -427,9 +431,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[29997] = {
 		["Zerxx"] = 1,
 	},
-	[32497] = {
-		["Zerxx"] = 1,
-	},
 }
 PLAYER_LOTTERY_REGISTRY = {
 	[30901] = {
@@ -460,7 +461,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32497] = {
 		["Abjection"] = 1,
-		["Chuunin"] = 1,
 		["Kangdude"] = 1,
 		["Nashborne"] = 1,
 	},
@@ -531,10 +531,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30248] = {
 		["Barnabae"] = 1,
 	},
-	[29997] = {
-		["Chuunin"] = 1,
-		["Kangdude"] = 1,
-	},
 	[32369] = {
 		["Chuunin"] = 1,
 		["Vermora"] = 1,
@@ -595,6 +591,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[29988] = {
 		["Justinjr"] = 1,
+	},
+	[29997] = {
+		["Kangdude"] = 1,
 	},
 	[32505] = {
 		["Kangdude"] = 1,

@@ -194,14 +194,14 @@ T6_PRIORITY_DKP_TABLE = {
    ["Justin"] = 0.0,
    ["Justinjr"] = 4936.49,
    ["Kangdude"] = 9681.58,
-   ["Kinestra"] = 4668.860000000001,
+   ["Kinestra"] = 4668.86,
    ["Lilchub"] = 6289.07,
    ["Malchazor"] = 3321.12,
    ["Metasyn"] = 254.86,
    ["Murduc"] = 6820.05,
    ["Nashborne"] = 7244.93,
    ["Nekryss"] = 6254.32,
-   ["Rayashaman"] = 9480.380000000001,
+   ["Rayashaman"] = 9480.38,
    ["Rotheart"] = 0.0,
    ["Salchant"] = 0.0,
    ["Searious"] = 6799.62,
@@ -213,7 +213,7 @@ T6_PRIORITY_DKP_TABLE = {
    ["Spookyremi"] = 8683.15,
    ["Sylador"] = 6366.22,
    ["Thorinix"] = 0.0,
-   ["Velyris"] = 9465.939999999999,
+   ["Velyris"] = 9465.94,
    ["Vermora"] = 6707.75,
    ["Wildshrimp"] = 8863.48,
    ["Zerxx"] = 4298.09,
@@ -232,7 +232,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Demeker"] = 3941.26,
    ["Despia"] = 0.0,
    ["Digitalz"] = 7839.93,
-   ["Ellievyra"] = 945.9100000000001,
+   ["Ellievyra"] = 945.91,
    ["Hyolin"] = -931.27,
    ["Jaamii"] = 5478.52,
    ["Justin"] = 0.0,
@@ -257,7 +257,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Spookyremi"] = 622.55,
    ["Sylador"] = 8324.43,
    ["Thorinix"] = 0.0,
-   ["Velyris"] = 743.8399999999999,
+   ["Velyris"] = 743.84,
    ["Vermora"] = 7987.01,
    ["Wildshrimp"] = 890.53,
    ["Zerxx"] = 6784.45,
@@ -390,6 +390,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[30910] = {
 		["Justinjr"] = 1,
+		["Malchazor"] = 1,
 	},
 	[32483] = {
 		["Murduc"] = 1,
@@ -514,7 +515,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30239] = {
 		["Barnabae"] = 1,
-		["Vermora"] = 1,
 	},
 	[31095] = {
 		["Barnabae"] = 1,
@@ -534,7 +534,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30248] = {
 		["Barnabae"] = 1,
-		["Vermora"] = 1,
 	},
 	[29997] = {
 		["Chuunin"] = 1,
@@ -549,7 +548,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Crazydaisy"] = 1,
 		["Digitalz"] = 1,
 		["Searious"] = 1,
-		["Vermora"] = 1,
 	},
 	[29994] = {
 		["Crazydaisy"] = 1,
@@ -592,6 +590,12 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Seion"] = 1,
 	},
 	[30080] = {
+		["Hyolin"] = 1,
+	},
+	[32363] = {
+		["Hyolin"] = 1,
+	},
+	[30911] = {
 		["Hyolin"] = 1,
 	},
 	[29988] = {

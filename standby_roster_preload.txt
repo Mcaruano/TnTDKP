@@ -1,8 +1,8 @@
-==== Standby Roster for 3/22 (Hyjal) ====
+==== Standby Roster for 3/24 (BT) ====
 STANDBY_ROSTER = {
-	"Zerxx", -- [1]
+	"Barnabae", -- [1]
 	"Searious", -- [2]
 	"Ashori", -- [3]
-	"Digitalz", -- [4]
-	"Kangdude", -- [5]
+	"Vermora", -- [4]
+	"Nashborne", -- [5]
 }

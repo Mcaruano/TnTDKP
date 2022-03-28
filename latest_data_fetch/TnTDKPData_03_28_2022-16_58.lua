@@ -543,7 +543,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32260] = {
 		["Crazydaisy"] = 1,
-		["Zerxx"] = 1,
 	},
 	[29994] = {
 		["Crazydaisy"] = 1,
@@ -669,8 +668,5 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32501] = {
 		["Wildshrimp"] = 1,
-	},
-	[32335] = {
-		["Zerxx"] = 1,
 	},
 }

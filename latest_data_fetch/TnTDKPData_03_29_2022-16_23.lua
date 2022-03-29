@@ -365,10 +365,8 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30106] = {
 		["Ashori"] = 1,
 		["Baopi"] = 1,
-		["Crazydaisy"] = 1,
 		["Nashborne"] = 1,
 		["Vermora"] = 1,
-		["Wildshrimp"] = 1,
 	},
 	[32323] = {
 		["Ashori"] = 1,
@@ -544,10 +542,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32260] = {
 		["Crazydaisy"] = 1,
 	},
-	[29994] = {
-		["Crazydaisy"] = 1,
-		["Wildshrimp"] = 1,
-	},
 	[30872] = {
 		["Demeker"] = 1,
 	},
@@ -572,6 +566,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32483] = {
 		["Demeker"] = 1,
+	},
+	[30879] = {
+		["Digitalz"] = 1,
 	},
 	[29996] = {
 		["Digitalz"] = 1,
@@ -666,12 +663,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30246] = {
 		["Sylador"] = 1,
 	},
+	[30883] = {
+		["Wildshrimp"] = 1,
+	},
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Searious", -- [1]
-	"Digitalz", -- [2]
-	"Kangdude", -- [3]
 }

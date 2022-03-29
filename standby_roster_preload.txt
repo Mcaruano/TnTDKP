@@ -1,6 +1,7 @@
 ==== Standby Roster for 3/29 (Hyjal) ====
 STANDBY_ROSTER = {
 	"Searious", -- [1]
-	"Digitalz", -- [2]
+	"Jaamii", -- [2]
 	"Kangdude", -- [3]
+	"Digitalz", -- [4]
 }

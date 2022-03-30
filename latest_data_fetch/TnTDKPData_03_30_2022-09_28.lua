@@ -536,9 +536,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Digitalz"] = 1,
 		["Searious"] = 1,
 	},
-	[32260] = {
-		["Crazydaisy"] = 1,
-	},
 	[30872] = {
 		["Demeker"] = 1,
 	},
@@ -648,9 +645,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30246] = {
 		["Sylador"] = 1,
-	},
-	[31092] = {
-		["Velyris"] = 1,
 	},
 	[30883] = {
 		["Wildshrimp"] = 1,

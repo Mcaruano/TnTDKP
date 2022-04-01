@@ -182,7 +182,7 @@ T6_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 9248.01,
    ["Akaran"] = 5776.45,
    ["Albynonurse"] = 0.0,
-   ["Ashori"] = 9340.060000000001,
+   ["Ashori"] = 9340.06,
    ["Babyshrimp"] = 7873.96,
    ["Baopi"] = 7530.1,
    ["Barnabae"] = 8562.01,
@@ -203,7 +203,7 @@ T6_PRIORITY_DKP_TABLE = {
    ["Malchazor"] = 4927.95,
    ["Metasyn"] = 716.63,
    ["Murduc"] = 7902.04,
-   ["Nashborne"] = 8263.189999999999,
+   ["Nashborne"] = 8263.19,
    ["Nekryss"] = 6591.38,
    ["Rayashaman"] = 10163.32,
    ["Rotheart"] = 0.0,
@@ -236,8 +236,8 @@ T6_LOTTERY_DKP_TABLE = {
    ["Dalran"] = 4.71,
    ["Demeker"] = 5455.07,
    ["Despia"] = 0.0,
-   ["Digitalz"] = 8768.939999999999,
-   ["Ellievyra"] = -90.98000000000002,
+   ["Digitalz"] = 8768.94,
+   ["Ellievyra"] = -90.98,
    ["Hyolin"] = 1233.73,
    ["Jaamii"] = 6761.74,
    ["Justin"] = 0.0,
@@ -260,10 +260,10 @@ T6_LOTTERY_DKP_TABLE = {
    ["Shnacks"] = 7456.68,
    ["Sizzleñips"] = 85.14,
    ["Solljus"] = 0,
-   ["Spookyremi"] = -365.8299999999999,
+   ["Spookyremi"] = -365.83,
    ["Sylador"] = 9180.77,
    ["Thorinix"] = 0.0,
-   ["Velyris"] = -91.16000000000008,
+   ["Velyris"] = -91.16,
    ["Vermora"] = 8893.96,
    ["Wildshrimp"] = 2861.95,
    ["Zerxx"] = 3556.78,
@@ -408,6 +408,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[31103] = {
 		["Searious"] = 1,
+	},
+	[32524] = {
+		["Sekkondary"] = 1,
 	},
 	[28802] = {
 		["Sizzleñips"] = 1,
@@ -617,10 +620,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30881] = {
 		["Searious"] = 1,
 	},
-	[32524] = {
-		["Sekkondary"] = 1,
-		["Velyris"] = 1,
-	},
 	[30888] = {
 		["Shnacks"] = 1,
 	},
@@ -641,6 +640,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30246] = {
 		["Sylador"] = 1,
+	},
+	[32524] = {
+		["Velyris"] = 1,
 	},
 	[32369] = {
 		["Vermora"] = 1,

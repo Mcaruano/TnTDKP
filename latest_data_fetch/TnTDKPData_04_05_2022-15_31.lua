@@ -615,7 +615,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30888] = {
 		["Shnacks"] = 1,
-		["Spookyremi"] = 1,
 	},
 	[30916] = {
 		["Shnacks"] = 1,
@@ -641,10 +640,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Searious", -- [1]
-	"Crazydaisy", -- [2]
-	"Velyris", -- [3]
-	"Shnacks", -- [4]
 }

@@ -26,5 +26,4 @@ mainRaiders = {
 	[25] = "Velyris",
 	[26] = "Vermora",
 	[27] = "Wildshrimp",
-	[28] = "Zerxx",
 }

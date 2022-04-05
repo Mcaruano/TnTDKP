@@ -41,7 +41,6 @@ T4_PRIORITY_DKP_TABLE = {
    ["Velyris"] = 3097.59,
    ["Vermora"] = 3154.06,
    ["Wildshrimp"] = 3227.87,
-   ["Zerxx"] = 1978.77,
 }
 T4_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 3219.81,
@@ -86,7 +85,6 @@ T4_LOTTERY_DKP_TABLE = {
    ["Velyris"] = 3034.47,
    ["Vermora"] = 2524.98,
    ["Wildshrimp"] = 2987.57,
-   ["Zerxx"] = 1994.33,
 }
 T5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 3492.95,
@@ -131,7 +129,6 @@ T5_PRIORITY_DKP_TABLE = {
    ["Velyris"] = 4293.89,
    ["Vermora"] = 4564.35,
    ["Wildshrimp"] = 4563.6,
-   ["Zerxx"] = 3615.21,
 }
 T5_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 4222.56,
@@ -176,7 +173,6 @@ T5_LOTTERY_DKP_TABLE = {
    ["Velyris"] = 1547.4,
    ["Vermora"] = 540.72,
    ["Wildshrimp"] = 3394.2,
-   ["Zerxx"] = 4246.0,
 }
 T6_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 7860.81,
@@ -221,7 +217,6 @@ T6_PRIORITY_DKP_TABLE = {
    ["Velyris"] = 8628.39,
    ["Vermora"] = 6635.6,
    ["Wildshrimp"] = 8193.12,
-   ["Zerxx"] = 3394.37,
 }
 T6_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 625.09,
@@ -266,7 +261,6 @@ T6_LOTTERY_DKP_TABLE = {
    ["Velyris"] = -91.16,
    ["Vermora"] = 7559.87,
    ["Wildshrimp"] = 2432.66,
-   ["Zerxx"] = 3023.26,
 }
 T6PT5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 0.0,
@@ -311,7 +305,6 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Velyris"] = 0.0,
    ["Vermora"] = 0.0,
    ["Wildshrimp"] = 0.0,
-   ["Zerxx"] = 0.0,
 }
 T6PT5_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 0.0,
@@ -356,7 +349,6 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Velyris"] = 0.0,
    ["Vermora"] = 0.0,
    ["Wildshrimp"] = 0.0,
-   ["Zerxx"] = 0.0,
 }
 PLAYER_PRIORITY_REGISTRY = {
 	[32235] = {
@@ -375,10 +367,10 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32323] = {
 		["Ashori"] = 1,
-		["Vermora"] = 1,
 	},
 	[32369] = {
 		["Chuunin"] = 1,
+		["Vermora"] = 1,
 	},
 	[32374] = {
 		["Demeker"] = 1,
@@ -430,12 +422,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32366] = {
 		["Wildshrimp"] = 1,
 	},
-	[29997] = {
-		["Zerxx"] = 1,
-	},
-	[32497] = {
-		["Zerxx"] = 1,
-	},
 }
 PLAYER_LOTTERY_REGISTRY = {
 	[30901] = {
@@ -458,6 +444,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Chuunin"] = 1,
 		["Crazydaisy"] = 1,
 		["Nashborne"] = 1,
+		["Vermora"] = 1,
 	},
 	[32497] = {
 		["Abjection"] = 1,
@@ -615,7 +602,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30627] = {
 		["Nashborne"] = 1,
-		["Zerxx"] = 1,
 	},
 	[30881] = {
 		["Searious"] = 1,
@@ -643,9 +629,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32524] = {
 		["Velyris"] = 1,
-	},
-	[32369] = {
-		["Vermora"] = 1,
 	},
 	[30883] = {
 		["Wildshrimp"] = 1,

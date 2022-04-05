@@ -1,7 +1,7 @@
-==== Standby Roster for 3/31 (BT) ====
+==== Standby Roster for 4/5 (Hyjal) ====
 STANDBY_ROSTER = {
 	"Searious", -- [1]
-	"Jaamii", -- [2]
+	"Crazydaisy", -- [2]
 	"Velyris", -- [3]
-	"Vermora", -- [4]
+	"Shnacks", -- [4]
 }

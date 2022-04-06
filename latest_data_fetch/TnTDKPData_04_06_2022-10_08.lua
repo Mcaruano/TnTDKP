@@ -524,6 +524,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Crazydaisy"] = 1,
 		["Digitalz"] = 1,
 		["Searious"] = 1,
+		["Vermora"] = 1,
 	},
 	[30872] = {
 		["Demeker"] = 1,

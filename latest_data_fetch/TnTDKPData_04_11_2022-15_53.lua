@@ -406,6 +406,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Nashborne"] = 1,
 		["Searious"] = 1,
 	},
+	[32324] = {
+		["Searious"] = 1,
+	},
 	[32366] = {
 		["Searious"] = 1,
 		["Wildshrimp"] = 1,

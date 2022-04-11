@@ -1,6 +1,6 @@
-==== Standby Roster for 4/7 (BT) ====
+==== Standby Roster for 4/12 (Hyjal) ====
 STANDBY_ROSTER = {
-	"Chuunin", -- [1]
-	"Crazydaisy", -- [2]
-	"Baopi", -- [3]
+	"Vermora", -- [1]
+	"Digitalz", -- [2]
+	"Kangdude", -- [3]
 }

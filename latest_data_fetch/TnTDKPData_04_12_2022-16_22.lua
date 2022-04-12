@@ -446,6 +446,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32260] = {
 		["Abjection"] = 1,
+		["Crazydaisy"] = 1,
 	},
 	[32324] = {
 		["Abjection"] = 1,
@@ -636,15 +637,16 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30246] = {
 		["Sylador"] = 1,
 	},
+	[30908] = {
+		["Wildshrimp"] = 1,
+	},
+	[32591] = {
+		["Wildshrimp"] = 1,
+	},
 	[30883] = {
 		["Wildshrimp"] = 1,
 	},
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Vermora", -- [1]
-	"Digitalz", -- [2]
-	"Kangdude", -- [3]
 }

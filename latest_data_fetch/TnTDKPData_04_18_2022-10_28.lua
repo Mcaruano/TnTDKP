@@ -378,7 +378,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32235] = {
 		["Abjection"] = 1,
 		["Crazydaisy"] = 1,
-		["Digitalz"] = 1,
 	},
 	[29994] = {
 		["Abjection"] = 1,
@@ -426,7 +425,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32366] = {
 		["Searious"] = 1,
-		["Wildshrimp"] = 1,
 	},
 	[28802] = {
 		["Sizzleñips"] = 1,
@@ -476,9 +474,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Nashborne"] = 1,
 	},
 	[32375] = {
-		["Akaran"] = 1,
-	},
-	[30902] = {
 		["Akaran"] = 1,
 	},
 	[32332] = {
@@ -549,6 +544,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Crazydaisy"] = 1,
 		["Digitalz"] = 1,
 		["Vermora"] = 1,
+		["Wildshrimp"] = 1,
 	},
 	[30910] = {
 		["Demeker"] = 1,
@@ -634,12 +630,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30246] = {
 		["Sylador"] = 1,
-	},
-	[30908] = {
-		["Wildshrimp"] = 1,
-	},
-	[30883] = {
-		["Wildshrimp"] = 1,
 	},
 	[32501] = {
 		["Wildshrimp"] = 1,

@@ -451,6 +451,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[31091] = {
 		["Abjection"] = 1,
+		["Akaran"] = 1,
 		["Barnabae"] = 1,
 		["Sekkondary"] = 1,
 	},
@@ -475,6 +476,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32375] = {
 		["Akaran"] = 1,
+	},
+	[31103] = {
+		["Akaran"] = 1,
+		["Barnabae"] = 1,
 	},
 	[32332] = {
 		["Ashori"] = 1,
@@ -533,9 +538,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Seion"] = 1,
 		["Sylador"] = 1,
 	},
-	[31103] = {
-		["Barnabae"] = 1,
-	},
 	[30248] = {
 		["Barnabae"] = 1,
 	},
@@ -593,9 +595,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Lilchub"] = 1,
 	},
 	[32342] = {
-		["Malchazor"] = 1,
-	},
-	[32279] = {
 		["Malchazor"] = 1,
 	},
 	[32245] = {

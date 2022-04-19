@@ -382,6 +382,15 @@ PLAYER_PRIORITY_REGISTRY = {
 	[29994] = {
 		["Abjection"] = 1,
 	},
+	[34854] = {
+		["Akaran"] = 1,
+	},
+	[34857] = {
+		["Akaran"] = 1,
+	},
+	[34851] = {
+		["Akaran"] = 1,
+	},
 	[30106] = {
 		["Ashori"] = 1,
 		["Baopi"] = 1,
@@ -474,12 +483,36 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Kangdude"] = 1,
 		["Nashborne"] = 1,
 	},
+	[34352] = {
+		["Akaran"] = 1,
+	},
 	[32375] = {
+		["Akaran"] = 1,
+	},
+	[34178] = {
+		["Akaran"] = 1,
+	},
+	[34190] = {
+		["Akaran"] = 1,
+	},
+	[34400] = {
+		["Akaran"] = 1,
+	},
+	[34164] = {
+		["Akaran"] = 1,
+	},
+	[34381] = {
 		["Akaran"] = 1,
 	},
 	[31103] = {
 		["Akaran"] = 1,
 		["Barnabae"] = 1,
+	},
+	[34213] = {
+		["Akaran"] = 1,
+	},
+	[34428] = {
+		["Akaran"] = 1,
 	},
 	[32332] = {
 		["Ashori"] = 1,

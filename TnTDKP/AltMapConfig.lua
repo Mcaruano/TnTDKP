@@ -158,6 +158,12 @@ altMapConfig = {
 	-- Seion's Mage
 	["Xeosin"] = "Seion",
 
+	-- Seion's Paladin
+	["Exoisn"] = "Seion",
+
 	-- Spookyremi's Druid
 	["Cwuddles"] = "Spookyremi",
+
+	-- Metasyn's Mage
+	["Demacian"] = "Metasyn",
 }

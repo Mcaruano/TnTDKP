@@ -444,6 +444,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	[29982] = {
 		["Spookyremi"] = 1,
 	},
+	[34335] = {
+		["Sylador"] = 1,
+	},
 	[30108] = {
 		["Velyris"] = 1,
 	},
@@ -652,10 +655,25 @@ PLAYER_LOTTERY_REGISTRY = {
 	[31098] = {
 		["Spookyremi"] = 1,
 	},
+	[34206] = {
+		["Sylador"] = 1,
+	},
+	[34169] = {
+		["Sylador"] = 1,
+	},
 	[30237] = {
 		["Sylador"] = 1,
 	},
+	[34245] = {
+		["Sylador"] = 1,
+	},
 	[30246] = {
+		["Sylador"] = 1,
+	},
+	[34209] = {
+		["Sylador"] = 1,
+	},
+	[34351] = {
 		["Sylador"] = 1,
 	},
 	[32501] = {

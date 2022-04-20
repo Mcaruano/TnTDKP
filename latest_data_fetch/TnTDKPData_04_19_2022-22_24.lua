@@ -495,13 +495,13 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34190] = {
 		["Akaran"] = 1,
 	},
-	[34400] = {
+	[34345] = {
 		["Akaran"] = 1,
 	},
 	[34164] = {
 		["Akaran"] = 1,
 	},
-	[34381] = {
+	[34180] = {
 		["Akaran"] = 1,
 	},
 	[31103] = {
@@ -576,9 +576,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32366] = {
 		["Chuunin"] = 1,
-		["Crazydaisy"] = 1,
 		["Digitalz"] = 1,
-		["Vermora"] = 1,
 		["Wildshrimp"] = 1,
 	},
 	[30910] = {
@@ -638,9 +636,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30627] = {
 		["Nashborne"] = 1,
-	},
-	[30881] = {
-		["Searious"] = 1,
 	},
 	[30888] = {
 		["Shnacks"] = 1,

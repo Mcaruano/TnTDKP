@@ -577,10 +577,59 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30248] = {
 		["Barnabae"] = 1,
 	},
+	[34189] = {
+		["Chuunin"] = 1,
+		["Crazydaisy"] = 1,
+	},
+	[34427] = {
+		["Chuunin"] = 1,
+		["Vermora"] = 1,
+	},
+	[34241] = {
+		["Chuunin"] = 1,
+		["Vermora"] = 1,
+	},
+	[34244] = {
+		["Chuunin"] = 1,
+		["Vermora"] = 1,
+	},
+	[34196] = {
+		["Chuunin"] = 1,
+		["Vermora"] = 1,
+	},
+	[34211] = {
+		["Chuunin"] = 1,
+		["Crazydaisy"] = 1,
+		["Vermora"] = 1,
+	},
+	[34188] = {
+		["Chuunin"] = 1,
+		["Crazydaisy"] = 1,
+		["Vermora"] = 1,
+	},
 	[32366] = {
 		["Chuunin"] = 1,
 		["Digitalz"] = 1,
 		["Wildshrimp"] = 1,
+	},
+	[34854] = {
+		["Crazydaisy"] = 1,
+	},
+	[34857] = {
+		["Crazydaisy"] = 1,
+	},
+	[34851] = {
+		["Crazydaisy"] = 1,
+	},
+	[34331] = {
+		["Crazydaisy"] = 1,
+		["Vermora"] = 1,
+	},
+	[34194] = {
+		["Crazydaisy"] = 1,
+	},
+	[34346] = {
+		["Crazydaisy"] = 1,
 	},
 	[30910] = {
 		["Demeker"] = 1,
@@ -640,6 +689,12 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30627] = {
 		["Nashborne"] = 1,
 	},
+	[32336] = {
+		["Searious"] = 1,
+	},
+	[32235] = {
+		["Searious"] = 1,
+	},
 	[30888] = {
 		["Shnacks"] = 1,
 	},
@@ -675,6 +730,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34351] = {
 		["Sylador"] = 1,
+	},
+	[34214] = {
+		["Vermora"] = 1,
 	},
 	[32501] = {
 		["Wildshrimp"] = 1,

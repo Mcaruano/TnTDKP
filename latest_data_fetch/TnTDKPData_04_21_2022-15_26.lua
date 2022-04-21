@@ -554,7 +554,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[30249] = {
 		["Baopi"] = 1,
-		["Sylador"] = 1,
 	},
 	[32528] = {
 		["Barnabae"] = 2,
@@ -777,13 +776,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34169] = {
 		["Sylador"] = 1,
 	},
-	[30237] = {
-		["Sylador"] = 1,
-	},
 	[34245] = {
-		["Sylador"] = 1,
-	},
-	[30246] = {
 		["Sylador"] = 1,
 	},
 	[34209] = {
@@ -798,9 +791,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Chuunin", -- [1]
-	"Digitalz", -- [2]
-	"Murduc", -- [3]
 }

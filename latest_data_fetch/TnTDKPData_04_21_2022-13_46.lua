@@ -435,6 +435,12 @@ PLAYER_PRIORITY_REGISTRY = {
 	[34336] = {
 		["Kinestra"] = 1,
 	},
+	[34853] = {
+		["Malchazor"] = 1,
+	},
+	[34848] = {
+		["Malchazor"] = 1,
+	},
 	[32483] = {
 		["Murduc"] = 1,
 	},
@@ -714,7 +720,25 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32239] = {
 		["Lilchub"] = 1,
 	},
+	[35201] = {
+		["Malchazor"] = 1,
+	},
 	[32342] = {
+		["Malchazor"] = 1,
+	},
+	[34243] = {
+		["Malchazor"] = 1,
+	},
+	[34216] = {
+		["Malchazor"] = 1,
+	},
+	[34167] = {
+		["Malchazor"] = 1,
+	},
+	[34192] = {
+		["Malchazor"] = 1,
+	},
+	[34185] = {
 		["Malchazor"] = 1,
 	},
 	[32245] = {
@@ -774,9 +798,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Chuunin", -- [1]
-	"Digitalz", -- [2]
-	"Murduc", -- [3]
 }

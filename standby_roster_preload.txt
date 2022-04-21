@@ -1,6 +1,6 @@
-==== Standby Roster for 4/19 (Hyjal) ====
+==== Standby Roster for 4/21 (BT) ====
 STANDBY_ROSTER = {
-	"Kangdude", -- [1]
+	"Chuunin", -- [1]
 	"Digitalz", -- [2]
-	"Ashori", -- [3]
+	"Murduc", -- [3]
 }

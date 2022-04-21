@@ -410,11 +410,17 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Justinjr"] = 1,
 		["Spookyremi"] = 1,
 	},
+	[34331] = {
+		["Digitalz"] = 1,
+	},
 	[32500] = {
 		["Hyolin"] = 1,
 		["Rayashaman"] = 1,
 		["Seion"] = 1,
 		["Velyris"] = 1,
+	},
+	[32497] = {
+		["Jaamii"] = 1,
 	},
 	[30095] = {
 		["Justinjr"] = 1,
@@ -422,6 +428,12 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30910] = {
 		["Justinjr"] = 1,
 		["Malchazor"] = 1,
+	},
+	[34429] = {
+		["Kinestra"] = 1,
+	},
+	[34336] = {
+		["Kinestra"] = 1,
 	},
 	[32483] = {
 		["Murduc"] = 1,
@@ -587,6 +599,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34241] = {
 		["Chuunin"] = 1,
+		["Digitalz"] = 1,
 		["Vermora"] = 1,
 	},
 	[34244] = {
@@ -614,12 +627,15 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34854] = {
 		["Crazydaisy"] = 1,
+		["Kinestra"] = 1,
 	},
 	[34857] = {
 		["Crazydaisy"] = 1,
+		["Kinestra"] = 1,
 	},
 	[34851] = {
 		["Crazydaisy"] = 1,
+		["Kinestra"] = 1,
 	},
 	[34331] = {
 		["Crazydaisy"] = 1,
@@ -637,6 +653,18 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32483] = {
 		["Demeker"] = 1,
+	},
+	[34855] = {
+		["Digitalz"] = 1,
+	},
+	[34858] = {
+		["Digitalz"] = 1,
+	},
+	[34852] = {
+		["Digitalz"] = 1,
+	},
+	[35203] = {
+		["Digitalz"] = 1,
 	},
 	[29996] = {
 		["Digitalz"] = 1,
@@ -658,6 +686,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32524] = {
 		["Hyolin"] = 1,
 	},
+	[32262] = {
+		["Jaamii"] = 2,
+	},
 	[29988] = {
 		["Justinjr"] = 1,
 	},
@@ -666,6 +697,12 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32505] = {
 		["Kangdude"] = 1,
+	},
+	[34230] = {
+		["Kinestra"] = 1,
+	},
+	[34242] = {
+		["Kinestra"] = 1,
 	},
 	[32331] = {
 		["Lilchub"] = 1,

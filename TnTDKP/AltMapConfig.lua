@@ -166,4 +166,7 @@ altMapConfig = {
 
 	-- Metasyn's Mage
 	["Demacian"] = "Metasyn",
+
+	-- Metasyn's Warlock
+	["Odyssasthai"] = "Metasyn",
 }

@@ -1,6 +1,6 @@
 ==== Standby Roster for 4/21 (BT) ====
 STANDBY_ROSTER = {
-	"Chuunin", -- [1]
-	"Digitalz", -- [2]
+	"Nashborne", -- [1]
+	"Searious", -- [2]
 	"Murduc", -- [3]
 }

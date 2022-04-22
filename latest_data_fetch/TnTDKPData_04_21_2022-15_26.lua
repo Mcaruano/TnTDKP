@@ -793,7 +793,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 }
 STANDBY_ROSTER = {
-	"Chuunin", -- [1]
-	"Digitalz", -- [2]
+	"Nashborne", -- [1]
+	"Searious", -- [2]
 	"Murduc", -- [3]
 }

@@ -393,7 +393,6 @@ T6PT5_LOTTERY_DKP_TABLE = {
 PLAYER_PRIORITY_REGISTRY = {
 	[32235] = {
 		["Abjection"] = 1,
-		["Crazydaisy"] = 1,
 	},
 	[29994] = {
 		["Abjection"] = 1,
@@ -615,15 +614,18 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34427] = {
 		["Chuunin"] = 1,
+		["Crazydaisy"] = 1,
 		["Vermora"] = 1,
 	},
 	[34241] = {
 		["Chuunin"] = 1,
+		["Crazydaisy"] = 1,
 		["Digitalz"] = 1,
 		["Vermora"] = 1,
 	},
 	[34244] = {
 		["Chuunin"] = 1,
+		["Crazydaisy"] = 1,
 		["Vermora"] = 1,
 	},
 	[34196] = {
@@ -656,6 +658,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34851] = {
 		["Crazydaisy"] = 1,
 		["Kinestra"] = 1,
+	},
+	[32235] = {
+		["Crazydaisy"] = 1,
+		["Searious"] = 1,
 	},
 	[34331] = {
 		["Crazydaisy"] = 1,
@@ -766,9 +772,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Nashborne"] = 1,
 	},
 	[32336] = {
-		["Searious"] = 1,
-	},
-	[32235] = {
 		["Searious"] = 1,
 	},
 	[30888] = {

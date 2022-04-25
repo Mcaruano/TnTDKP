@@ -1,6 +1,6 @@
 -- The configuration which hosts boss-specific configuration variables.
 tierSixPointFiveBossConfig = {	
-	["Kalecgos"] = {
+	["Sathrovarr the Corruptor"] = {
 		["KillDKPAward"] = 1570,
 	},
 	["Brutallus"] = {

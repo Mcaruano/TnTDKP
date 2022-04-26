@@ -1,13 +1,13 @@
 -- The configuration which hosts boss-specific configuration variables.
 tierSixPointFiveBossConfig = {	
 	["Sathrovarr the Corruptor"] = {
-		["KillDKPAward"] = 1570,
+		["KillDKPAward"] = 785,
 	},
 	["Brutallus"] = {
-		["KillDKPAward"] = 1570,
+		["KillDKPAward"] = 785,
 	},
 	["Felmyst"] = {
-		["KillDKPAward"] = 1570,
+		["KillDKPAward"] = 785,
 	},
 
 	-- Can redistribute the DKP later if I want to

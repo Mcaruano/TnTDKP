@@ -564,6 +564,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32528] = {
 		["Barnabae"] = 2,
 		["Hyolin"] = 2,
+		["Metasyn"] = 1,
 		["Rayashaman"] = 2,
 		["Sylador"] = 2,
 		["Velyris"] = 2,
@@ -594,6 +595,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32496] = {
 		["Barnabae"] = 1,
+		["Metasyn"] = 1,
 		["Seion"] = 1,
 		["Sylador"] = 1,
 	},

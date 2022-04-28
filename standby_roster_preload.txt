@@ -1,7 +1,7 @@
-==== Standby Roster for 4/26 (Hyjal) ====
+==== Standby Roster for 4/28 (BT) ====
 STANDBY_ROSTER = {
-	"Chuunin", -- [1]
-	"Seion", -- [2]
-	"Akaran", -- [3]
-	"Shnacks", -- [3]
+	"Searious", -- [1]
+	"Nashborne", -- [2]
+	"Murduc", -- [3]
+	"Seion", -- [3]
 }

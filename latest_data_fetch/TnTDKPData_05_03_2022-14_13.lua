@@ -688,6 +688,18 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Shnacks"] = 2,
 		["Spookyremi"] = 1,
 	},
+	[34853] = {
+		["Hyolin"] = 1,
+	},
+	[34856] = {
+		["Hyolin"] = 1,
+	},
+	[34848] = {
+		["Hyolin"] = 1,
+	},
+	[34337] = {
+		["Hyolin"] = 1,
+	},
 	[30080] = {
 		["Hyolin"] = 1,
 	},
@@ -799,10 +811,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Searious", -- [1]
-	"Digitalz", -- [2]
-	"Chuunin", -- [3]
-	"Hyolin", -- [3]
 }

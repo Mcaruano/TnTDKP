@@ -438,9 +438,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32500] = {
 		["Hyolin"] = 1,
-		["Rayashaman"] = 1,
 		["Seion"] = 1,
-		["Velyris"] = 1,
 	},
 	[28830] = {
 		["Jaamii"] = 1,
@@ -484,12 +482,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34335] = {
 		["Sylador"] = 1,
-	},
-	[30108] = {
-		["Velyris"] = 1,
-	},
-	[32496] = {
-		["Velyris"] = 1,
 	},
 }
 PLAYER_LOTTERY_REGISTRY = {
@@ -562,23 +554,11 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Baopi"] = 1,
 		["Nashborne"] = 1,
 	},
-	[30240] = {
-		["Baopi"] = 1,
-	},
-	[32278] = {
-		["Baopi"] = 1,
-		["Nashborne"] = 1,
-	},
-	[30249] = {
-		["Baopi"] = 1,
-	},
 	[32528] = {
 		["Barnabae"] = 2,
 		["Hyolin"] = 2,
 		["Metasyn"] = 1,
-		["Rayashaman"] = 2,
 		["Sylador"] = 2,
-		["Velyris"] = 2,
 	},
 	[30236] = {
 		["Barnabae"] = 2,
@@ -596,7 +576,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[31095] = {
 		["Barnabae"] = 1,
 		["Nashborne"] = 1,
-		["Rayashaman"] = 1,
 	},
 	[31100] = {
 		["Barnabae"] = 1,
@@ -768,6 +747,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34185] = {
 		["Malchazor"] = 1,
+	},
+	[32278] = {
+		["Nashborne"] = 1,
 	},
 	[30105] = {
 		["Nashborne"] = 1,

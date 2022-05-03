@@ -1,7 +1,7 @@
-==== Standby Roster for 4/28 (BT) ====
+==== Standby Roster for 5/3 (Hyjal) ====
 STANDBY_ROSTER = {
 	"Searious", -- [1]
-	"Nashborne", -- [2]
-	"Murduc", -- [3]
-	"Seion", -- [3]
+	"Digitalz", -- [2]
+	"Chuunin", -- [3]
+	"Hyolin", -- [3]
 }

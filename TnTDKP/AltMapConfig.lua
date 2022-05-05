@@ -83,11 +83,11 @@ altMapConfig = {
 	-- Nashborne's Mage
 	["Eneldy"] = "Nashborne",
 
-	-- Rayashaman's Paladin
-	["Rayapaladin"] = "Rayashaman",
+	-- Raya's Shaman
+	["Rayashaman"] = "Rayapaladin",
 
-	-- Rayashaman's Mage
-	["Rayamage"] = "Rayashaman",
+	-- Raya's Mage
+	["Rayamage"] = "Rayapaladin",
 
 	-- Searious' Rogue
 	["Searus"] = "Searious",
@@ -120,7 +120,10 @@ altMapConfig = {
 	["Thrainix"] = "Thorinix",
 
 	-- Velyris' Paladin
-	["Telyris"] = "Velyris",
+	["Telyris"] = "Velyri",
+
+	-- Velyris' Priest
+	["Velyris"] = "Velyri",
 
 	-- Wildshrimp's Shaman
 	["Shramps"] = "Wildshrimp",

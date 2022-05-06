@@ -471,9 +471,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[34853] = {
 		["Malchazor"] = 1,
 	},
-	[34848] = {
-		["Malchazor"] = 1,
-	},
 	[32366] = {
 		["Searious"] = 1,
 	},
@@ -606,6 +603,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ashori"] = 1,
 		["Demeker"] = 1,
 		["Hyolin"] = 1,
+		["Malchazor"] = 1,
 		["Seion"] = 1,
 	},
 	[34177] = {

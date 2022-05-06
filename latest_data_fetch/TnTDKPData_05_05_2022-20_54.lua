@@ -250,7 +250,7 @@ T6_PRIORITY_DKP_TABLE = {
 }
 T6_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 1322.04,
-   ["Akaran"] = -9707.0,
+   ["Akaran"] = -12707.0,
    ["Albynonurse"] = 0.0,
    ["Ashori"] = 8399.49,
    ["Babyshrimp"] = 1658.22,

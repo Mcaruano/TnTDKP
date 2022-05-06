@@ -1,7 +1,7 @@
-==== Standby Roster for 5/3 (Hyjal) ====
+==== Standby Roster for 5/5 (BT) ====
 STANDBY_ROSTER = {
 	"Searious", -- [1]
-	"Digitalz", -- [2]
-	"Chuunin", -- [3]
-	"Hyolin", -- [3]
+	"Velyri", -- [2]
+	"Nashborne", -- [3]
+	"Murduc", -- [3]
 }

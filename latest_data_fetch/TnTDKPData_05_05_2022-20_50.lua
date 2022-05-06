@@ -399,6 +399,10 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Wildshrimp"] = 0.0,
 }
 PLAYER_PRIORITY_REGISTRY = {
+	[31091] = {
+		["Abjection"] = 1,
+		["Sekkondary"] = 1,
+	},
 	[29994] = {
 		["Abjection"] = 1,
 	},
@@ -426,6 +430,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32369] = {
 		["Chuunin"] = 1,
 		["Vermora"] = 1,
+	},
+	[34214] = {
+		["Chuunin"] = 1,
 	},
 	[34429] = {
 		["Demeker"] = 1,
@@ -475,9 +482,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Seion"] = 1,
 		["Sylador"] = 1,
 	},
-	[31091] = {
-		["Sekkondary"] = 1,
-	},
 	[28802] = {
 		["Sizzleñips"] = 1,
 	},
@@ -520,11 +524,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Kinestra"] = 1,
 		["Sekkondary"] = 1,
 	},
-	[31091] = {
-		["Abjection"] = 1,
-		["Akaran"] = 1,
-		["Barnabae"] = 1,
-	},
 	[32260] = {
 		["Abjection"] = 1,
 	},
@@ -558,6 +557,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32375] = {
 		["Akaran"] = 1,
+	},
+	[31091] = {
+		["Akaran"] = 1,
+		["Barnabae"] = 1,
 	},
 	[34178] = {
 		["Akaran"] = 1,
@@ -609,9 +612,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32235] = {
 		["Ashori"] = 1,
 		["Searious"] = 1,
-	},
-	[31097] = {
-		["Ashori"] = 1,
 	},
 	[34388] = {
 		["Ashori"] = 1,
@@ -694,7 +694,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32366] = {
 		["Chuunin"] = 1,
-		["Crazydaisy"] = 1,
 		["Digitalz"] = 1,
 	},
 	[34333] = {
@@ -725,14 +724,17 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34855] = {
 		["Digitalz"] = 1,
+		["Vermora"] = 1,
 		["Wildshrimp"] = 1,
 	},
 	[34858] = {
 		["Digitalz"] = 1,
+		["Vermora"] = 1,
 		["Wildshrimp"] = 1,
 	},
 	[34852] = {
 		["Digitalz"] = 1,
+		["Vermora"] = 1,
 		["Wildshrimp"] = 1,
 	},
 	[35203] = {

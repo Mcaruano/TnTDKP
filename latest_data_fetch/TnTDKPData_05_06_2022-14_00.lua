@@ -474,6 +474,16 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34853] = {
 		["Malchazor"] = 1,
+		["Murduc"] = 1,
+	},
+	[34856] = {
+		["Murduc"] = 1,
+	},
+	[34848] = {
+		["Murduc"] = 1,
+	},
+	[32496] = {
+		["Rayapaladin"] = 1,
 	},
 	[32366] = {
 		["Searious"] = 1,
@@ -591,12 +601,14 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ashori"] = 1,
 		["Demeker"] = 1,
 		["Hyolin"] = 1,
+		["Rayapaladin"] = 1,
 		["Seion"] = 1,
 	},
 	[34856] = {
 		["Ashori"] = 1,
 		["Demeker"] = 1,
 		["Hyolin"] = 1,
+		["Rayapaladin"] = 1,
 		["Seion"] = 1,
 	},
 	[34848] = {
@@ -604,6 +616,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Demeker"] = 1,
 		["Hyolin"] = 1,
 		["Malchazor"] = 1,
+		["Rayapaladin"] = 1,
 		["Seion"] = 1,
 	},
 	[34177] = {
@@ -711,9 +724,11 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34181] = {
 		["Demeker"] = 1,
+		["Murduc"] = 1,
 	},
 	[35206] = {
 		["Demeker"] = 1,
+		["Murduc"] = 1,
 	},
 	[30910] = {
 		["Demeker"] = 1,
@@ -721,6 +736,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34347] = {
 		["Demeker"] = 1,
+		["Murduc"] = 1,
 	},
 	[34855] = {
 		["Digitalz"] = 1,
@@ -761,6 +777,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32524] = {
 		["Hyolin"] = 1,
+		["Rayapaladin"] = 1,
 		["Velyri"] = 1,
 	},
 	[30900] = {
@@ -780,6 +797,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34230] = {
 		["Kinestra"] = 1,
+		["Murduc"] = 1,
 	},
 	[34242] = {
 		["Kinestra"] = 1,
@@ -807,6 +825,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34185] = {
 		["Malchazor"] = 1,
+	},
+	[34429] = {
+		["Murduc"] = 1,
 	},
 	[32278] = {
 		["Nashborne"] = 1,

@@ -442,7 +442,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34429] = {
 		["Demeker"] = 1,
-		["Justin"] = 1,
+		["Justinjr"] = 1,
 		["Kinestra"] = 1,
 	},
 	[32483] = {
@@ -470,16 +470,16 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Jaamii"] = 1,
 	},
 	[34853] = {
-		["Justin"] = 1,
+		["Justinjr"] = 1,
 		["Malchazor"] = 1,
 		["Murduc"] = 1,
 	},
 	[34856] = {
-		["Justin"] = 1,
+		["Justinjr"] = 1,
 		["Murduc"] = 1,
 	},
 	[34848] = {
-		["Justin"] = 1,
+		["Justinjr"] = 1,
 		["Murduc"] = 1,
 	},
 	[30095] = {
@@ -753,7 +753,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34181] = {
 		["Demeker"] = 1,
-		["Justin"] = 1,
+		["Justinjr"] = 1,
 		["Lilchub"] = 1,
 		["Murduc"] = 1,
 	},
@@ -825,14 +825,14 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Jaamii"] = 2,
 	},
 	[34232] = {
-		["Justin"] = 1,
+		["Justinjr"] = 1,
 	},
 	[34179] = {
-		["Justin"] = 1,
+		["Justinjr"] = 1,
 		["Lilchub"] = 1,
 	},
 	[34230] = {
-		["Justin"] = 1,
+		["Justinjr"] = 1,
 		["Kinestra"] = 1,
 		["Murduc"] = 1,
 	},

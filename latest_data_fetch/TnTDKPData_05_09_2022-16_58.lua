@@ -409,10 +409,12 @@ PLAYER_PRIORITY_REGISTRY = {
 	[34854] = {
 		["Akaran"] = 1,
 		["Baopi"] = 1,
+		["Nashborne"] = 1,
 		["Searious"] = 1,
 	},
 	[34857] = {
 		["Akaran"] = 1,
+		["Kangdude"] = 1,
 	},
 	[34851] = {
 		["Akaran"] = 1,
@@ -431,6 +433,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34427] = {
 		["Baopi"] = 1,
+		["Jaamii"] = 1,
 		["Searious"] = 1,
 	},
 	[32369] = {
@@ -439,11 +442,13 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34214] = {
 		["Chuunin"] = 1,
+		["Nashborne"] = 1,
 	},
 	[34429] = {
 		["Demeker"] = 1,
 		["Justinjr"] = 1,
 		["Kinestra"] = 1,
+		["Shnacks"] = 1,
 	},
 	[32483] = {
 		["Demeker"] = 1,
@@ -462,6 +467,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Hyolin"] = 1,
 		["Seion"] = 1,
 		["Sekkondary"] = 1,
+	},
+	[34177] = {
+		["Jaamii"] = 1,
 	},
 	[28830] = {
 		["Jaamii"] = 1,
@@ -493,6 +501,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Kinestra"] = 1,
 		["Lilchub"] = 1,
 	},
+	[34189] = {
+		["Nashborne"] = 1,
+	},
 	[32496] = {
 		["Rayapaladin"] = 1,
 	},
@@ -509,6 +520,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	[34335] = {
 		["Seion"] = 1,
 		["Sylador"] = 1,
+		["Velyri"] = 1,
 	},
 	[28802] = {
 		["Sizzleñips"] = 1,
@@ -524,14 +536,18 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34854] = {
 		["Abjection"] = 1,
 		["Crazydaisy"] = 1,
+		["Jaamii"] = 1,
+		["Kangdude"] = 1,
 		["Kinestra"] = 1,
 		["Sekkondary"] = 1,
+		["Velyri"] = 1,
 	},
 	[34427] = {
 		["Abjection"] = 1,
 		["Ashori"] = 1,
 		["Chuunin"] = 1,
 		["Crazydaisy"] = 1,
+		["Nashborne"] = 1,
 		["Vermora"] = 1,
 	},
 	[32346] = {
@@ -542,16 +558,21 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Baopi"] = 1,
 		["Crazydaisy"] = 1,
 		["Kinestra"] = 1,
+		["Nashborne"] = 1,
 		["Searious"] = 1,
 		["Sekkondary"] = 1,
+		["Velyri"] = 1,
 	},
 	[34851] = {
 		["Abjection"] = 1,
 		["Baopi"] = 1,
 		["Crazydaisy"] = 1,
+		["Kangdude"] = 1,
 		["Kinestra"] = 1,
+		["Nashborne"] = 1,
 		["Searious"] = 1,
 		["Sekkondary"] = 1,
+		["Velyri"] = 1,
 	},
 	[32260] = {
 		["Abjection"] = 1,
@@ -562,6 +583,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Chuunin"] = 1,
 		["Crazydaisy"] = 1,
 		["Digitalz"] = 1,
+		["Nashborne"] = 1,
 		["Searious"] = 1,
 		["Vermora"] = 1,
 	},
@@ -604,6 +626,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34345] = {
 		["Akaran"] = 1,
+		["Nashborne"] = 1,
 	},
 	[34164] = {
 		["Akaran"] = 1,
@@ -719,6 +742,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34196] = {
 		["Chuunin"] = 1,
+		["Nashborne"] = 1,
 		["Searious"] = 1,
 		["Vermora"] = 1,
 	},
@@ -732,6 +756,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34188] = {
 		["Chuunin"] = 1,
 		["Crazydaisy"] = 1,
+		["Jaamii"] = 1,
 		["Vermora"] = 1,
 	},
 	[32366] = {
@@ -756,10 +781,12 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Justinjr"] = 1,
 		["Lilchub"] = 1,
 		["Murduc"] = 1,
+		["Shnacks"] = 1,
 	},
 	[35206] = {
 		["Demeker"] = 1,
 		["Murduc"] = 1,
+		["Shnacks"] = 1,
 	},
 	[30910] = {
 		["Demeker"] = 1,
@@ -773,18 +800,21 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34855] = {
 		["Digitalz"] = 1,
 		["Lilchub"] = 1,
+		["Shnacks"] = 1,
 		["Vermora"] = 1,
 		["Wildshrimp"] = 1,
 	},
 	[34858] = {
 		["Digitalz"] = 1,
 		["Lilchub"] = 1,
+		["Shnacks"] = 1,
 		["Vermora"] = 1,
 		["Wildshrimp"] = 1,
 	},
 	[34852] = {
 		["Digitalz"] = 1,
 		["Lilchub"] = 1,
+		["Shnacks"] = 1,
 		["Vermora"] = 1,
 		["Wildshrimp"] = 1,
 	},
@@ -835,6 +865,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Justinjr"] = 1,
 		["Kinestra"] = 1,
 		["Murduc"] = 1,
+		["Shnacks"] = 1,
 	},
 	[29988] = {
 		["Justinjr"] = 1,
@@ -842,12 +873,17 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29997] = {
 		["Kangdude"] = 1,
 	},
+	[35211] = {
+		["Kangdude"] = 1,
+	},
 	[34242] = {
 		["Kinestra"] = 1,
 		["Lilchub"] = 1,
+		["Shnacks"] = 1,
 	},
 	[34204] = {
 		["Lilchub"] = 1,
+		["Shnacks"] = 1,
 	},
 	[30870] = {
 		["Lilchub"] = 1,
@@ -922,6 +958,15 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30888] = {
 		["Shnacks"] = 1,
 	},
+	[34340] = {
+		["Shnacks"] = 1,
+	},
+	[34344] = {
+		["Shnacks"] = 1,
+	},
+	[34336] = {
+		["Shnacks"] = 1,
+	},
 	[30107] = {
 		["Shnacks"] = 1,
 	},
@@ -943,7 +988,22 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34351] = {
 		["Sylador"] = 1,
 	},
+	[34166] = {
+		["Velyri"] = 1,
+	},
 	[32328] = {
+		["Velyri"] = 1,
+	},
+	[34186] = {
+		["Velyri"] = 1,
+	},
+	[34332] = {
+		["Velyri"] = 1,
+	},
+	[34350] = {
+		["Velyri"] = 1,
+	},
+	[34212] = {
 		["Velyri"] = 1,
 	},
 	[34214] = {

@@ -1,7 +1,7 @@
-==== Standby Roster for 5/10 (Hyjal) ====
+==== Standby Roster for 5/12 (Sunwell) ====
 STANDBY_ROSTER = {
-	"Searious", -- [1]
-	"Crazydaisy", -- [2]
+	"Crazydaisy", -- [1]
+	"Digitalz", -- [2]
 	"Chuunin", -- [3]
-	"Sekkondary", -- [4]
+	"Vermora", -- [4]
 }

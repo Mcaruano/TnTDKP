@@ -1,6 +1,6 @@
-==== Standby Roster for 5/12 (Sunwell) ====
+==== Standby Roster for 5/17 (Sunwell) ====
 STANDBY_ROSTER = {
-	"Crazydaisy", -- [1]
+	"Searious", -- [1]
 	"Digitalz", -- [2]
 	"Chuunin", -- [3]
 	"Vermora", -- [4]

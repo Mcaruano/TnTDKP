@@ -1,6 +1,6 @@
-==== Standby Roster for 5/17 (Sunwell) ====
+==== Standby Roster for 5/18 (M'uru) ====
 STANDBY_ROSTER = {
-	"Searious", -- [1]
+	"Nashborne", -- [1]
 	"Digitalz", -- [2]
 	"Chuunin", -- [3]
 	"Vermora", -- [4]

@@ -681,7 +681,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34185] = {
 		["Akaran"] = 1,
-		["Malchazor"] = 1,
 	},
 	[34853] = {
 		["Ashori"] = 1,

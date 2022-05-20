@@ -299,7 +299,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Wildshrimp"] = 3377.5,
 }
 T6PT5_PRIORITY_DKP_TABLE = {
-   ["Abjection"] = 7489.41,
+   ["Abjection"] = 3489.41,
    ["Akaran"] = 4559.8,
    ["Albynonurse"] = 0.0,
    ["Ashori"] = 8468.970000000001,
@@ -371,7 +371,7 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Justin"] = 0.0,
    ["Justinjr"] = 6873.29,
    ["Kangdude"] = 4586.360000000001,
-   ["Kinestra"] = 8197.14,
+   ["Kinestra"] = 4197.14,
    ["Lilchub"] = -1733.63,
    ["Loopfish"] = 0.0,
    ["Malchazor"] = 6745.4,
@@ -399,9 +399,6 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Wildshrimp"] = -1202.29,
 }
 PLAYER_PRIORITY_REGISTRY = {
-	[34397] = {
-		["Abjection"] = 1,
-	},
 	[31091] = {
 		["Abjection"] = 1,
 		["Sekkondary"] = 1,
@@ -556,7 +553,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34189] = {
 		["Abjection"] = 1,
 		["Chuunin"] = 1,
-		["Crazydaisy"] = 1,
 		["Kangdude"] = 1,
 	},
 	[34854] = {
@@ -716,8 +712,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ashori"] = 1,
 		["Searious"] = 1,
 	},
-	[34388] = {
+	[34192] = {
 		["Ashori"] = 1,
+		["Malchazor"] = 1,
 	},
 	[32332] = {
 		["Ashori"] = 1,
@@ -866,7 +863,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34230] = {
 		["Ellievyra"] = 1,
 		["Justinjr"] = 1,
-		["Kinestra"] = 1,
 		["Murduc"] = 1,
 		["Shnacks"] = 1,
 		["Spookyremi"] = 1,
@@ -954,9 +950,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Malchazor"] = 1,
 	},
 	[34167] = {
-		["Malchazor"] = 1,
-	},
-	[34192] = {
 		["Malchazor"] = 1,
 	},
 	[34166] = {
@@ -1049,10 +1042,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34198] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Nashborne", -- [1]
-	"Digitalz", -- [2]
-	"Chuunin", -- [3]
-	"Vermora", -- [4]
 }

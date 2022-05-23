@@ -497,6 +497,10 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30095] = {
 		["Justinjr"] = 1,
 	},
+	[34189] = {
+		["Kangdude"] = 1,
+		["Nashborne"] = 1,
+	},
 	[34336] = {
 		["Kinestra"] = 1,
 		["Lilchub"] = 1,
@@ -522,9 +526,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[35206] = {
 		["Murduc"] = 1,
-	},
-	[34189] = {
-		["Nashborne"] = 1,
 	},
 	[34333] = {
 		["Searious"] = 1,
@@ -553,7 +554,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34189] = {
 		["Abjection"] = 1,
 		["Chuunin"] = 1,
-		["Kangdude"] = 1,
 	},
 	[34854] = {
 		["Abjection"] = 1,
@@ -914,6 +914,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29997] = {
 		["Kangdude"] = 1,
 	},
+	[34341] = {
+		["Kangdude"] = 1,
+	},
 	[35195] = {
 		["Kangdude"] = 1,
 	},
@@ -1034,9 +1037,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Wildshrimp"] = 1,
 	},
 	[32501] = {
-		["Wildshrimp"] = 1,
-	},
-	[34195] = {
 		["Wildshrimp"] = 1,
 	},
 	[34198] = {

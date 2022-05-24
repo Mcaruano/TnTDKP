@@ -701,7 +701,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34848] = {
 		["Ashori"] = 1,
 		["Demeker"] = 1,
-		["Digitalz"] = 1,
 		["Ellievyra"] = 1,
 		["Hyolin"] = 1,
 		["Malchazor"] = 1,
@@ -824,6 +823,10 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Murduc"] = 1,
 		["Spookyremi"] = 1,
 	},
+	[34852] = {
+		["Digitalz"] = 1,
+		["Lilchub"] = 1,
+	},
 	[35203] = {
 		["Digitalz"] = 1,
 	},
@@ -930,9 +933,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34858] = {
 		["Lilchub"] = 1,
 		["Wildshrimp"] = 1,
-	},
-	[34852] = {
-		["Lilchub"] = 1,
 	},
 	[30870] = {
 		["Lilchub"] = 1,
@@ -1043,10 +1043,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34198] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Nashborne", -- [1]
-	"Searious", -- [2]
-	"Chuunin", -- [3]
-	"Vermora", -- [4]
 }

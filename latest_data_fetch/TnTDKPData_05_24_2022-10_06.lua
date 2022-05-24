@@ -701,6 +701,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34848] = {
 		["Ashori"] = 1,
 		["Demeker"] = 1,
+		["Digitalz"] = 1,
 		["Ellievyra"] = 1,
 		["Hyolin"] = 1,
 		["Malchazor"] = 1,
@@ -1042,10 +1043,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34198] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Nashborne", -- [1]
-	"Searious", -- [2]
-	"Chuunin", -- [3]
-	"Vermora", -- [4]
 }

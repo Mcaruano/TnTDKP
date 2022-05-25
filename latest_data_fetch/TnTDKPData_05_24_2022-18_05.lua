@@ -1019,9 +1019,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34245] = {
 		["Sylador"] = 1,
 	},
-	[34209] = {
-		["Sylador"] = 1,
-	},
 	[34186] = {
 		["Velyri"] = 1,
 	},
@@ -1043,10 +1040,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34198] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Nashborne", -- [1]
-	"Searious", -- [2]
-	"Chuunin", -- [3]
-	"Vermora", -- [4]
 }

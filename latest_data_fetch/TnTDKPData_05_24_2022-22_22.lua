@@ -302,7 +302,7 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 5321.0,
    ["Akaran"] = 6230.83,
    ["Albynonurse"] = 0.0,
-   ["Ashori"] = 9553.619999999999,
+   ["Ashori"] = 9553.62,
    ["Babyshrimp"] = 7235.01,
    ["Baopi"] = 9333.82,
    ["Barnabae"] = 1039.94,
@@ -310,14 +310,14 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Crazydaisy"] = 8876.39,
    ["Dalran"] = 0.0,
    ["Demacian"] = 5347.66,
-   ["Demeker"] = 9629.810000000001,
+   ["Demeker"] = 9629.81,
    ["Despia"] = 0.0,
    ["Digitalz"] = 9575.61,
    ["Ellievyra"] = 9665.43,
    ["Goodjorb"] = 0.0,
    ["Hipon"] = 0.0,
    ["Hyolin"] = 5909.95,
-   ["Jaamii"] = 9339.880000000001,
+   ["Jaamii"] = 9339.88,
    ["Justin"] = 0.0,
    ["Justinjr"] = 818.08,
    ["Kangdude"] = 5081.03,
@@ -337,10 +337,10 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Searusdots"] = 0.0,
    ["Seion"] = 9670.74,
    ["Sekkondary"] = 5351.31,
-   ["Shnacks"] = 9173.130000000001,
+   ["Shnacks"] = 9173.13,
    ["Sizzleñips"] = 0.0,
    ["Solljus"] = 0.0,
-   ["Spookyremi"] = 9571.439999999999,
+   ["Spookyremi"] = 9571.44,
    ["Sylador"] = 9332.3,
    ["Thorinix"] = 0.0,
    ["Velyri"] = 9652.16,
@@ -383,11 +383,11 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Reminosc"] = 0.0,
    ["Rotheart"] = 0.0,
    ["Salchant"] = 0.0,
-   ["Searious"] = 8918.060000000001,
+   ["Searious"] = 8918.06,
    ["Searusdots"] = 0.0,
    ["Seion"] = 4612.04,
    ["Sekkondary"] = 5595.27,
-   ["Shnacks"] = -853.0100000000002,
+   ["Shnacks"] = -853.01,
    ["Sizzleñips"] = 0.0,
    ["Solljus"] = 0.0,
    ["Spookyremi"] = 7108.28,
@@ -500,6 +500,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Lilchub"] = 1,
 		["Spookyremi"] = 1,
 	},
+	[34848] = {
+		["Malchazor"] = 1,
+	},
 	[30910] = {
 		["Malchazor"] = 1,
 	},
@@ -510,7 +513,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Metasyn"] = 1,
 		["Seion"] = 1,
 		["Sylador"] = 1,
-		["Velyri"] = 1,
 	},
 	[34340] = {
 		["Murduc"] = 1,
@@ -536,6 +538,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[29982] = {
 		["Spookyremi"] = 1,
+	},
+	[34430] = {
+		["Velyri"] = 1,
 	},
 	[34241] = {
 		["Vermora"] = 1,
@@ -691,7 +696,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Demeker"] = 1,
 		["Ellievyra"] = 1,
 		["Hyolin"] = 1,
-		["Malchazor"] = 1,
 		["Seion"] = 1,
 		["Spookyremi"] = 1,
 	},
@@ -701,7 +705,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34192] = {
 		["Ashori"] = 1,
-		["Malchazor"] = 1,
 	},
 	[32332] = {
 		["Ashori"] = 1,
@@ -997,6 +1000,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Velyri"] = 1,
 	},
 	[34332] = {
+		["Velyri"] = 1,
+	},
+	[34335] = {
 		["Velyri"] = 1,
 	},
 	[34212] = {

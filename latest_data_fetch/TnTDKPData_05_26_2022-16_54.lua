@@ -645,9 +645,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Akaran"] = 1,
 		["Barnabae"] = 1,
 	},
-	[34178] = {
-		["Akaran"] = 1,
-	},
 	[34190] = {
 		["Akaran"] = 1,
 	},
@@ -662,9 +659,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34180] = {
 		["Akaran"] = 1,
 		["Kangdude"] = 1,
-	},
-	[34213] = {
-		["Akaran"] = 1,
 	},
 	[34428] = {
 		["Akaran"] = 1,
@@ -1010,6 +1004,12 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34214] = {
 		["Vermora"] = 1,
 	},
+	[34178] = {
+		["Wildshrimp"] = 1,
+	},
+	[34213] = {
+		["Wildshrimp"] = 1,
+	},
 	[34234] = {
 		["Wildshrimp"] = 1,
 	},
@@ -1019,10 +1019,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34198] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Nashborne", -- [1]
-	"Kangdude", -- [2]
-	"Chuunin", -- [3]
-	"Vermora", -- [4]
 }

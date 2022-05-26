@@ -1,4 +1,4 @@
-==== Standby Roster for 5/25 (Sunwell) ====
+==== Standby Roster for 5/26 (Sunwell) ====
 STANDBY_ROSTER = {
 	"Nashborne", -- [1]
 	"Kangdude", -- [2]

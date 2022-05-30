@@ -405,6 +405,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34188] = {
 		["Abjection"] = 1,
+		["Crazydaisy"] = 1,
 		["Vermora"] = 1,
 	},
 	[29994] = {
@@ -415,7 +416,7 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Searious"] = 1,
 		["Sekkondary"] = 1,
 	},
-	[34857] = {
+	[34180] = {
 		["Akaran"] = 1,
 	},
 	[34247] = {
@@ -553,6 +554,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34854] = {
 		["Abjection"] = 1,
 		["Baopi"] = 1,
+		["Crazydaisy"] = 1,
 		["Jaamii"] = 1,
 		["Kangdude"] = 1,
 		["Kinestra"] = 1,
@@ -571,7 +573,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34857] = {
 		["Abjection"] = 1,
+		["Akaran"] = 1,
 		["Baopi"] = 1,
+		["Crazydaisy"] = 1,
 		["Kinestra"] = 1,
 		["Nashborne"] = 1,
 		["Searious"] = 1,
@@ -628,6 +632,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34343] = {
 		["Abjection"] = 1,
 	},
+	[34349] = {
+		["Akaran"] = 1,
+	},
 	[34352] = {
 		["Akaran"] = 1,
 	},
@@ -638,9 +645,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Akaran"] = 1,
 		["Barnabae"] = 1,
 	},
-	[34190] = {
-		["Akaran"] = 1,
-	},
 	[34345] = {
 		["Akaran"] = 1,
 		["Baopi"] = 1,
@@ -649,7 +653,15 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34164] = {
 		["Akaran"] = 1,
 	},
-	[34180] = {
+	[34192] = {
+		["Akaran"] = 1,
+		["Ashori"] = 1,
+	},
+	[34213] = {
+		["Akaran"] = 1,
+		["Wildshrimp"] = 1,
+	},
+	[35195] = {
 		["Akaran"] = 1,
 		["Kangdude"] = 1,
 	},
@@ -659,6 +671,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34185] = {
 		["Akaran"] = 1,
+	},
+	[34215] = {
+		["Akaran"] = 1,
+		["Ashori"] = 1,
 	},
 	[34853] = {
 		["Ashori"] = 1,
@@ -690,13 +706,7 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ashori"] = 1,
 		["Searious"] = 1,
 	},
-	[34192] = {
-		["Ashori"] = 1,
-	},
 	[32332] = {
-		["Ashori"] = 1,
-	},
-	[34215] = {
 		["Ashori"] = 1,
 	},
 	[34247] = {
@@ -767,7 +777,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34188] = {
 		["Chuunin"] = 1,
-		["Crazydaisy"] = 1,
 		["Jaamii"] = 1,
 		["Searious"] = 1,
 	},
@@ -878,7 +887,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34341] = {
 		["Kangdude"] = 1,
 	},
-	[35195] = {
+	[34180] = {
 		["Kangdude"] = 1,
 	},
 	[34242] = {
@@ -991,9 +1000,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Vermora"] = 1,
 	},
 	[34178] = {
-		["Wildshrimp"] = 1,
-	},
-	[34213] = {
 		["Wildshrimp"] = 1,
 	},
 	[34234] = {

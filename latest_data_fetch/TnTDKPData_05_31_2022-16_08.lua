@@ -584,6 +584,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34851] = {
 		["Abjection"] = 1,
 		["Baopi"] = 1,
+		["Jaamii"] = 1,
 		["Kinestra"] = 1,
 		["Searious"] = 1,
 		["Sekkondary"] = 1,
@@ -711,6 +712,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34247] = {
 		["Baopi"] = 1,
+	},
+	[34341] = {
+		["Baopi"] = 1,
+		["Kangdude"] = 1,
 	},
 	[28830] = {
 		["Baopi"] = 1,
@@ -884,9 +889,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29997] = {
 		["Kangdude"] = 1,
 	},
-	[34341] = {
-		["Kangdude"] = 1,
-	},
 	[34180] = {
 		["Kangdude"] = 1,
 	},
@@ -1011,10 +1013,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34198] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Nashborne", -- [1]
-	"Searious", -- [2]
-	"Chuunin", -- [3]
-	"Vermora", -- [4]
 }

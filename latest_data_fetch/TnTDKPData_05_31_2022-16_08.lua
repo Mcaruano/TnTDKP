@@ -1019,4 +1019,5 @@ STANDBY_ROSTER = {
 	"Searious", -- [2]
 	"Chuunin", -- [3]
 	"Vermora", -- [4]
+	"Lilchub", -- [5]
 }

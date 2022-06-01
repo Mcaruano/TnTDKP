@@ -414,6 +414,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Akaran"] = 1,
 		["Searious"] = 1,
 	},
+	[34857] = {
+		["Akaran"] = 1,
+	},
 	[34247] = {
 		["Ashori"] = 1,
 	},
@@ -561,7 +564,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34857] = {
 		["Abjection"] = 1,
-		["Akaran"] = 1,
 		["Crazydaisy"] = 1,
 		["Kinestra"] = 1,
 		["Nashborne"] = 1,
@@ -925,13 +927,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Seion"] = 1,
 		["Sylador"] = 1,
 	},
-	[34199] = {
-		["Sekkondary"] = 1,
-		["Sylador"] = 1,
-	},
-	[34184] = {
-		["Sekkondary"] = 1,
-	},
 	[34204] = {
 		["Shnacks"] = 1,
 		["Spookyremi"] = 1,
@@ -957,6 +952,9 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34210] = {
 		["Spookyremi"] = 1,
+	},
+	[34199] = {
+		["Sylador"] = 1,
 	},
 	[34245] = {
 		["Sylador"] = 1,

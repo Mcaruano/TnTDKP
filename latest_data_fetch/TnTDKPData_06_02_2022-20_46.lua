@@ -47,6 +47,8 @@ T4_PRIORITY_DKP_TABLE = {
    ["Venatir"] = 189.13,
    ["Vermora"] = 1564.75,
    ["Wildshrimp"] = 1581.84,
+   ["Tongcatsu"] = 0.0,
+   ["ellievyra"] = 0.0,
 }
 T4_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 1579.98,
@@ -97,6 +99,8 @@ T4_LOTTERY_DKP_TABLE = {
    ["Venatir"] = 189.13,
    ["Vermora"] = 1419.04,
    ["Wildshrimp"] = 1526.18,
+   ["Tongcatsu"] = 0.0,
+   ["ellievyra"] = 0.0,
 }
 T5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 809.03,
@@ -147,6 +151,8 @@ T5_PRIORITY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 1057.19,
    ["Wildshrimp"] = 1057.01,
+   ["Tongcatsu"] = 0,
+   ["ellievyra"] = 0,
 }
 T5_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 978.01,
@@ -197,6 +203,8 @@ T5_LOTTERY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 125.24,
    ["Wildshrimp"] = 786.15,
+   ["Tongcatsu"] = 0,
+   ["ellievyra"] = 0,
 }
 T6_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 4315.3,
@@ -247,6 +255,8 @@ T6_PRIORITY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 5362.64,
    ["Wildshrimp"] = 5723.38,
+   ["Tongcatsu"] = 0,
+   ["ellievyra"] = 0,
 }
 T6_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 1507.93,
@@ -297,9 +307,11 @@ T6_LOTTERY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 4881.86,
    ["Wildshrimp"] = 2440.25,
+   ["Tongcatsu"] = 0,
+   ["ellievyra"] = 0,
 }
 T6PT5_PRIORITY_DKP_TABLE = {
-   ["Abjection"] = 6877.85,
+   ["Abjection"] = 2877.85,
    ["Akaran"] = 3651.21,
    ["Albynonurse"] = 0.0,
    ["Ashori"] = 10475.58,
@@ -313,7 +325,7 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Demeker"] = 10540.34,
    ["Despia"] = 0.0,
    ["Digitalz"] = 10494.27,
-   ["Ellievyra"] = 10570.62,
+   ["Ellievyra"] = 6570.62,
    ["Goodjorb"] = 0.0,
    ["Hipon"] = 0.0,
    ["Hyolin"] = 3378.46,
@@ -341,15 +353,17 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Sizzleñips"] = 0.0,
    ["Solljus"] = 0.0,
    ["Spookyremi"] = 10490.72,
-   ["Sylador"] = 10287.45,
+   ["Sylador"] = 6287.45,
    ["Thorinix"] = 0.0,
    ["Velyri"] = 10559.34,
    ["Venatir"] = 0.0,
    ["Vermora"] = 6317.42,
    ["Wildshrimp"] = 7106.51,
+   ["Tongcatsu"] = 0,
+   ["ellievyra"] = 0,
 }
 T6PT5_LOTTERY_DKP_TABLE = {
-   ["Abjection"] = 4926.389999999999,
+   ["Abjection"] = 926.39,
    ["Akaran"] = -5522.0,
    ["Albynonurse"] = 0.0,
    ["Ashori"] = 6038.13,
@@ -390,13 +404,15 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Shnacks"] = 1501.99,
    ["Sizzleñips"] = 0.0,
    ["Solljus"] = 0.0,
-   ["Spookyremi"] = 8397.04,
-   ["Sylador"] = 10575.13,
+   ["Spookyremi"] = 4397.04,
+   ["Sylador"] = 6575.13,
    ["Thorinix"] = 0.0,
    ["Velyri"] = 5389.190000000001,
    ["Venatir"] = 0.0,
    ["Vermora"] = 7275.69,
    ["Wildshrimp"] = -4492.29,
+   ["Tongcatsu"] = 0,
+   ["ellievyra"] = 0,
 }
 PLAYER_PRIORITY_REGISTRY = {
 	[31091] = {
@@ -485,7 +501,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34337] = {
 		["Hyolin"] = 1,
-		["Sylador"] = 1,
 	},
 	[32235] = {
 		["Jaamii"] = 1,
@@ -617,9 +632,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Abjection"] = 1,
 		["Kangdude"] = 1,
 		["Nashborne"] = 1,
-	},
-	[34343] = {
-		["Abjection"] = 1,
 	},
 	[34352] = {
 		["Akaran"] = 1,
@@ -891,7 +903,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34347] = {
 		["Lilchub"] = 1,
 		["Murduc"] = 1,
-		["Spookyremi"] = 1,
 	},
 	[35201] = {
 		["Malchazor"] = 1,
@@ -959,9 +970,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Spookyremi"] = 1,
 	},
 	[34199] = {
-		["Sylador"] = 1,
-	},
-	[34245] = {
 		["Sylador"] = 1,
 	},
 	[34186] = {

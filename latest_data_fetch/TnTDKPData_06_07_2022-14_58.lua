@@ -489,6 +489,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34856] = {
 		["Ellievyra"] = 1,
+		["Rayapaladin"] = 1,
 	},
 	[32500] = {
 		["Hyolin"] = 1,
@@ -510,6 +511,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34853] = {
 		["Justinjr"] = 1,
+		["Rayapaladin"] = 1,
 	},
 	[30095] = {
 		["Justinjr"] = 1,
@@ -674,7 +676,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Demeker"] = 1,
 		["Ellievyra"] = 1,
 		["Murduc"] = 1,
-		["Rayapaladin"] = 1,
 		["Seion"] = 1,
 		["Spookyremi"] = 1,
 	},
@@ -682,7 +683,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Ashori"] = 1,
 		["Demeker"] = 1,
 		["Murduc"] = 1,
-		["Rayapaladin"] = 1,
 		["Seion"] = 1,
 		["Spookyremi"] = 1,
 	},
@@ -977,10 +977,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34198] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Nashborne", -- [1]
-	"Searious", -- [2]
-	"Chuunin", -- [3]
-	"Velyri", -- [4]
 }

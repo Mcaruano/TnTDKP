@@ -48,9 +48,6 @@ T4_PRIORITY_DKP_TABLE = {
    ["Venatir"] = 160.76,
    ["Vermora"] = 1330.04,
    ["Wildshrimp"] = 1344.56,
-   ["akaran"] = 0.0,
-   ["digitalz"] = 0.0,
-   ["searious"] = 0.0,
 }
 T4_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 1342.98,
@@ -102,9 +99,6 @@ T4_LOTTERY_DKP_TABLE = {
    ["Venatir"] = 160.76,
    ["Vermora"] = 1206.18,
    ["Wildshrimp"] = 1297.25,
-   ["akaran"] = 0.0,
-   ["digitalz"] = 0.0,
-   ["searious"] = 0.0,
 }
 T5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 687.68,
@@ -156,9 +150,6 @@ T5_PRIORITY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 898.61,
    ["Wildshrimp"] = 898.46,
-   ["akaran"] = 0,
-   ["digitalz"] = 0,
-   ["searious"] = 0,
 }
 T5_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 831.31,
@@ -210,9 +201,6 @@ T5_LOTTERY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 106.45,
    ["Wildshrimp"] = 668.23,
-   ["akaran"] = 0,
-   ["digitalz"] = 0,
-   ["searious"] = 0,
 }
 T6_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 3668.01,
@@ -264,9 +252,6 @@ T6_PRIORITY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 4558.24,
    ["Wildshrimp"] = 4864.87,
-   ["akaran"] = 0,
-   ["digitalz"] = 0,
-   ["searious"] = 0,
 }
 T6_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 1281.74,
@@ -318,9 +303,6 @@ T6_LOTTERY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 4149.58,
    ["Wildshrimp"] = 2074.21,
-   ["akaran"] = 0,
-   ["digitalz"] = 0,
-   ["searious"] = 0,
 }
 T6PT5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 4801.17,
@@ -372,9 +354,6 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 7724.81,
    ["Wildshrimp"] = 8395.529999999999,
-   ["akaran"] = 0,
-   ["digitalz"] = 0,
-   ["searious"] = 0,
 }
 T6PT5_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 3142.43,
@@ -426,9 +405,6 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 4539.34,
    ["Wildshrimp"] = -10137.29,
-   ["akaran"] = 0,
-   ["digitalz"] = 0,
-   ["searious"] = 0,
 }
 PLAYER_PRIORITY_REGISTRY = {
 	[31091] = {
@@ -442,10 +418,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[29994] = {
 		["Abjection"] = 1,
-	},
-	[34854] = {
-		["Akaran"] = 1,
-		["searious"] = 1,
 	},
 	[34857] = {
 		["Akaran"] = 1,
@@ -505,9 +477,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Justinjr"] = 1,
 		["Spookyremi"] = 1,
 	},
-	[34331] = {
+	[34852] = {
 		["Digitalz"] = 1,
-		["Vermora"] = 1,
+		["Sylador"] = 1,
 	},
 	[34856] = {
 		["Ellievyra"] = 1,
@@ -527,6 +499,10 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[28830] = {
 		["Jaamii"] = 1,
+	},
+	[34331] = {
+		["Jaamii"] = 1,
+		["Vermora"] = 1,
 	},
 	[32497] = {
 		["Jaamii"] = 1,
@@ -563,6 +539,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	[34340] = {
 		["Murduc"] = 1,
 	},
+	[34854] = {
+		["Searious"] = 1,
+	},
 	[34333] = {
 		["Searious"] = 1,
 	},
@@ -580,9 +559,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[29982] = {
 		["Spookyremi"] = 1,
-	},
-	[34852] = {
-		["Sylador"] = 1,
 	},
 }
 PLAYER_LOTTERY_REGISTRY = {
@@ -768,7 +744,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34852] = {
 		["Chuunin"] = 1,
-		["Digitalz"] = 1,
 		["Vermora"] = 1,
 	},
 	[34244] = {
@@ -777,6 +752,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34196] = {
 		["Chuunin"] = 1,
+		["Kangdude"] = 1,
 		["Nashborne"] = 1,
 		["Vermora"] = 1,
 	},

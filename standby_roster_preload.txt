@@ -1,8 +1,7 @@
-==== Standby Roster for 6/7 (Sunwell) ====
+==== Standby Roster for 6/14 (Sunwell) ====
 STANDBY_ROSTER = {
 	"Nashborne", -- [1]
-	"Searious", -- [2]
-	"Chuunin", -- [3]
-	"Velyri", -- [4]
-	"Ashori", -- [5]
+	"Chuunin", -- [2]
+	"Vermora", -- [3]
+	"Crazydaisy", -- [4]
 }

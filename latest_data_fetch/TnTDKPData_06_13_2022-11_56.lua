@@ -407,6 +407,17 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Wildshrimp"] = -10137.29,
 }
 PLAYER_PRIORITY_REGISTRY = {
+	[34854] = {
+		["Abjection"] = 1,
+		["Searious"] = 1,
+	},
+	[34857] = {
+		["Abjection"] = 1,
+		["Akaran"] = 1,
+	},
+	[34851] = {
+		["Abjection"] = 1,
+	},
 	[31091] = {
 		["Abjection"] = 1,
 		["Sekkondary"] = 1,
@@ -418,9 +429,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[29994] = {
 		["Abjection"] = 1,
-	},
-	[34857] = {
-		["Akaran"] = 1,
 	},
 	[34247] = {
 		["Ashori"] = 1,
@@ -517,6 +525,9 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Kangdude"] = 1,
 		["Nashborne"] = 1,
 	},
+	[34196] = {
+		["Kangdude"] = 1,
+	},
 	[34336] = {
 		["Kinestra"] = 1,
 		["Lilchub"] = 1,
@@ -534,9 +545,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[32483] = {
 		["Murduc"] = 1,
-	},
-	[34854] = {
-		["Searious"] = 1,
 	},
 	[34333] = {
 		["Searious"] = 1,
@@ -562,14 +570,6 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Abjection"] = 1,
 		["Chuunin"] = 1,
 	},
-	[34854] = {
-		["Abjection"] = 1,
-		["Baopi"] = 1,
-		["Jaamii"] = 1,
-		["Kangdude"] = 1,
-		["Kinestra"] = 1,
-		["Velyri"] = 1,
-	},
 	[34427] = {
 		["Abjection"] = 1,
 		["Ashori"] = 1,
@@ -578,17 +578,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[32346] = {
 		["Abjection"] = 1,
-	},
-	[34857] = {
-		["Abjection"] = 1,
-		["Nashborne"] = 1,
-		["Velyri"] = 1,
-	},
-	[34851] = {
-		["Abjection"] = 1,
-		["Baopi"] = 1,
-		["Jaamii"] = 1,
-		["Velyri"] = 1,
 	},
 	[32260] = {
 		["Abjection"] = 1,
@@ -688,9 +677,21 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34247] = {
 		["Baopi"] = 1,
 	},
+	[34854] = {
+		["Baopi"] = 1,
+		["Jaamii"] = 1,
+		["Kangdude"] = 1,
+		["Kinestra"] = 1,
+		["Velyri"] = 1,
+	},
 	[34341] = {
 		["Baopi"] = 1,
 		["Kangdude"] = 1,
+	},
+	[34851] = {
+		["Baopi"] = 1,
+		["Jaamii"] = 1,
+		["Velyri"] = 1,
 	},
 	[28830] = {
 		["Baopi"] = 1,
@@ -748,7 +749,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34196] = {
 		["Chuunin"] = 1,
-		["Kangdude"] = 1,
 		["Nashborne"] = 1,
 		["Vermora"] = 1,
 	},
@@ -887,6 +887,10 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Murduc"] = 1,
 		["Shnacks"] = 1,
 		["Spookyremi"] = 1,
+	},
+	[34857] = {
+		["Nashborne"] = 1,
+		["Velyri"] = 1,
 	},
 	[32278] = {
 		["Nashborne"] = 1,

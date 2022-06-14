@@ -546,9 +546,15 @@ PLAYER_PRIORITY_REGISTRY = {
 	[30910] = {
 		["Malchazor"] = 1,
 	},
+	[34339] = {
+		["Metasyn"] = 1,
+	},
 	[34335] = {
 		["Metasyn"] = 1,
 		["Velyri"] = 1,
+	},
+	[34202] = {
+		["Metasyn"] = 1,
 	},
 	[34340] = {
 		["Murduc"] = 1,
@@ -802,7 +808,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34339] = {
 		["Hyolin"] = 1,
-		["Metasyn"] = 1,
 	},
 	[34342] = {
 		["Hyolin"] = 1,
@@ -814,7 +819,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34202] = {
 		["Hyolin"] = 1,
-		["Metasyn"] = 1,
 	},
 	[32524] = {
 		["Hyolin"] = 1,

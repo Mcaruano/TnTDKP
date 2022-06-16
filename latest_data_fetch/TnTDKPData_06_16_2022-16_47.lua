@@ -427,6 +427,13 @@ PLAYER_PRIORITY_REGISTRY = {
 	[29994] = {
 		["Abjection"] = 1,
 	},
+	[34857] = {
+		["Akaran"] = 1,
+	},
+	[34345] = {
+		["Akaran"] = 1,
+		["Baopi"] = 1,
+	},
 	[34164] = {
 		["Akaran"] = 1,
 	},
@@ -448,9 +455,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Searious"] = 1,
 	},
 	[34341] = {
-		["Baopi"] = 1,
-	},
-	[34345] = {
 		["Baopi"] = 1,
 	},
 	[32369] = {
@@ -475,6 +479,10 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34337] = {
 		["Hyolin"] = 1,
+	},
+	[34333] = {
+		["Jaamii"] = 1,
+		["Searious"] = 1,
 	},
 	[32235] = {
 		["Jaamii"] = 1,
@@ -555,9 +563,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[34856] = {
 		["Rayapaladin"] = 1,
 	},
-	[34333] = {
-		["Searious"] = 1,
-	},
 	[32366] = {
 		["Searious"] = 1,
 	},
@@ -625,19 +630,12 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Kangdude"] = 1,
 		["Nashborne"] = 1,
 	},
-	[34857] = {
-		["Akaran"] = 1,
-	},
 	[32375] = {
 		["Akaran"] = 1,
 	},
 	[31091] = {
 		["Akaran"] = 1,
 		["Barnabae"] = 1,
-	},
-	[34345] = {
-		["Akaran"] = 1,
-		["Nashborne"] = 1,
 	},
 	[34192] = {
 		["Akaran"] = 1,
@@ -815,12 +813,18 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Kinestra"] = 1,
 		["Velyri"] = 1,
 	},
+	[34857] = {
+		["Jaamii"] = 1,
+	},
 	[30900] = {
 		["Jaamii"] = 1,
 	},
 	[34851] = {
 		["Jaamii"] = 1,
 		["Velyri"] = 1,
+	},
+	[34211] = {
+		["Jaamii"] = 1,
 	},
 	[34188] = {
 		["Jaamii"] = 1,
@@ -892,6 +896,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Shnacks"] = 1,
 		["Spookyremi"] = 1,
 	},
+	[34345] = {
+		["Nashborne"] = 1,
+	},
 	[32278] = {
 		["Nashborne"] = 1,
 	},
@@ -953,10 +960,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Ashori", -- [1]
-	"Demeker", -- [2]
-	"Seion", -- [3]
-	"Crazydaisy", -- [4]
 }

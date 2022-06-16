@@ -427,7 +427,7 @@ PLAYER_PRIORITY_REGISTRY = {
 	[29994] = {
 		["Abjection"] = 1,
 	},
-	[34857] = {
+	[34164] = {
 		["Akaran"] = 1,
 	},
 	[34247] = {
@@ -528,6 +528,12 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Kinestra"] = 1,
 		["Lilchub"] = 1,
 		["Spookyremi"] = 1,
+	},
+	[32342] = {
+		["Malchazor"] = 1,
+	},
+	[34167] = {
+		["Malchazor"] = 1,
 	},
 	[30910] = {
 		["Malchazor"] = 1,
@@ -632,10 +638,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34345] = {
 		["Akaran"] = 1,
 		["Nashborne"] = 1,
-	},
-	[34164] = {
-		["Akaran"] = 1,
-		["Vermora"] = 1,
 	},
 	[34192] = {
 		["Akaran"] = 1,
@@ -874,12 +876,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34347] = {
 		["Lilchub"] = 1,
 	},
-	[32342] = {
-		["Malchazor"] = 1,
-	},
-	[34167] = {
-		["Malchazor"] = 1,
-	},
 	[34166] = {
 		["Metasyn"] = 1,
 		["Sylador"] = 1,
@@ -943,6 +939,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Velyri"] = 1,
 	},
 	[34858] = {
+		["Vermora"] = 1,
+	},
+	[34164] = {
 		["Vermora"] = 1,
 	},
 	[34178] = {

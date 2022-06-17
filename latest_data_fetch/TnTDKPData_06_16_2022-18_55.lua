@@ -327,7 +327,7 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Justin"] = 0.0,
    ["Justinjr"] = 3160.64,
    ["Kangdude"] = 9178.630000000001,
-   ["Kinestra"] = 4881.68,
+   ["Kinestra"] = 881.68,
    ["Lilchub"] = 11784.56,
    ["Loopfish"] = 0.0,
    ["Malchazor"] = 6249.76,
@@ -339,7 +339,7 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Reminosc"] = 0.0,
    ["Rotheart"] = 0.0,
    ["Salchant"] = 0.0,
-   ["Searious"] = 7987.95,
+   ["Searious"] = 3987.95,
    ["Searusdots"] = 0.0,
    ["Seion"] = 2740.78,
    ["Sekkondary"] = 6454.61,
@@ -350,7 +350,7 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Sylador"] = 5499.43,
    ["Thorinix"] = 0.0,
    ["Tongcatsu"] = 0.0,
-   ["Velyri"] = 11985.87,
+   ["Velyri"] = 7985.87,
    ["Venatir"] = 0.0,
    ["Vermora"] = 8921.09,
    ["Wildshrimp"] = 9491.2,
@@ -518,7 +518,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34242] = {
 		["Justinjr"] = 1,
-		["Kinestra"] = 1,
 	},
 	[32374] = {
 		["Justinjr"] = 1,
@@ -551,7 +550,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34335] = {
 		["Metasyn"] = 1,
-		["Velyri"] = 1,
 	},
 	[34340] = {
 		["Murduc"] = 1,
@@ -960,10 +958,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Ashori", -- [1]
-	"Demeker", -- [2]
-	"Seion", -- [3]
-	"Crazydaisy", -- [4]
 }

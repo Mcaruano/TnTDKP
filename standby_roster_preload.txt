@@ -1,7 +1,7 @@
-==== Standby Roster for 6/16 (Sunwell) ====
+==== Standby Roster for 6/21 (Sunwell) ====
 STANDBY_ROSTER = {
-	"Ashori", -- [1]
-	"Demeker", -- [2]
-	"Seion", -- [3]
-	"Crazydaisy", -- [4]
+	"Baopi", -- [1]
+	"Spookyremi", -- [2]
+	"Searious", -- [3]
+	"Murduc", -- [4]
 }

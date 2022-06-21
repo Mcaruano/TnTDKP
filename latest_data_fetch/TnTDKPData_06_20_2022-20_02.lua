@@ -446,6 +446,11 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Chuunin"] = 1,
 		["Searious"] = 1,
 	},
+	[34331] = {
+		["Crazydaisy"] = 1,
+		["Jaamii"] = 1,
+		["Vermora"] = 1,
+	},
 	[32500] = {
 		["Hyolin"] = 1,
 		["Seion"] = 1,
@@ -464,10 +469,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[28830] = {
 		["Jaamii"] = 1,
-	},
-	[34331] = {
-		["Jaamii"] = 1,
-		["Vermora"] = 1,
 	},
 	[32497] = {
 		["Jaamii"] = 1,
@@ -615,6 +616,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34177] = {
 		["Ashori"] = 1,
+		["Digitalz"] = 1,
 		["Searious"] = 1,
 	},
 	[32235] = {
@@ -690,6 +692,16 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Chuunin"] = 1,
 		["Nashborne"] = 1,
 		["Vermora"] = 1,
+	},
+	[34855] = {
+		["Crazydaisy"] = 1,
+	},
+	[34858] = {
+		["Crazydaisy"] = 1,
+		["Vermora"] = 1,
+	},
+	[34194] = {
+		["Crazydaisy"] = 1,
 	},
 	[34181] = {
 		["Demeker"] = 1,
@@ -899,7 +911,7 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34212] = {
 		["Velyri"] = 1,
 	},
-	[34858] = {
+	[34349] = {
 		["Vermora"] = 1,
 	},
 	[34164] = {

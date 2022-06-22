@@ -568,6 +568,13 @@ PLAYER_PRIORITY_REGISTRY = {
 	[34852] = {
 		["Sylador"] = 1,
 	},
+	[34212] = {
+		["Sylador"] = 1,
+		["Velyri"] = 1,
+	},
+	[34430] = {
+		["Velyri"] = 1,
+	},
 	[34244] = {
 		["Vermora"] = 1,
 	},
@@ -906,14 +913,14 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34210] = {
 		["Spookyremi"] = 1,
 	},
-	[34384] = {
+	[34169] = {
+		["Sylador"] = 1,
+	},
+	[34184] = {
 		["Sylador"] = 1,
 	},
 	[34430] = {
-		["Velyri"] = 1,
-	},
-	[34212] = {
-		["Velyri"] = 1,
+		["Sylador"] = 1,
 	},
 	[34349] = {
 		["Vermora"] = 1,
@@ -930,10 +937,4 @@ PLAYER_LOTTERY_REGISTRY = {
 	[32501] = {
 		["Wildshrimp"] = 1,
 	},
-}
-STANDBY_ROSTER = {
-	"Baopi", -- [1]
-	"Spookyremi", -- [2]
-	"Searious", -- [3]
-	"Murduc", -- [4]
 }

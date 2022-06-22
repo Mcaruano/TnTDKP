@@ -48,8 +48,6 @@ T4_PRIORITY_DKP_TABLE = {
    ["Venatir"] = 116.15,
    ["Vermora"] = 960.95,
    ["Wildshrimp"] = 971.45,
-   ["velyri"] = 0.0,
-   ["crazydaisy"] = 0.0,
 }
 T4_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 970.3,
@@ -101,8 +99,6 @@ T4_LOTTERY_DKP_TABLE = {
    ["Venatir"] = 116.15,
    ["Vermora"] = 871.46,
    ["Wildshrimp"] = 937.26,
-   ["velyri"] = 0.0,
-   ["crazydaisy"] = 0.0,
 }
 T5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 496.85,
@@ -154,8 +150,6 @@ T5_PRIORITY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 649.25,
    ["Wildshrimp"] = 649.14,
-   ["velyri"] = 0,
-   ["crazydaisy"] = 0,
 }
 T5_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 600.62,
@@ -207,8 +201,6 @@ T5_LOTTERY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 76.91,
    ["Wildshrimp"] = 482.8,
-   ["velyri"] = 0,
-   ["crazydaisy"] = 0,
 }
 T6_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 2650.14,
@@ -260,8 +252,6 @@ T6_PRIORITY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 3293.32,
    ["Wildshrimp"] = 3514.87,
-   ["velyri"] = 0,
-   ["crazydaisy"] = 0,
 }
 T6_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 926.06,
@@ -313,8 +303,6 @@ T6_LOTTERY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 2998.07,
    ["Wildshrimp"] = 1498.62,
-   ["velyri"] = 0,
-   ["crazydaisy"] = 0,
 }
 T6PT5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 4425.59,
@@ -366,8 +354,6 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 9937.93,
    ["Wildshrimp"] = 10422.52,
-   ["velyri"] = 0,
-   ["crazydaisy"] = 0,
 }
 T6PT5_LOTTERY_DKP_TABLE = {
    ["Abjection"] = 3227.16,
@@ -419,8 +405,6 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Venatir"] = 0.0,
    ["Vermora"] = 3636.42,
    ["Wildshrimp"] = -9427.29,
-   ["velyri"] = 0,
-   ["crazydaisy"] = 0,
 }
 PLAYER_PRIORITY_REGISTRY = {
 	[34345] = {
@@ -439,25 +423,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32323] = {
 		["Ashori"] = 1,
 		["Jaamii"] = 1,
-	},
-	[32369] = {
-		["Chuunin"] = 1,
-		["Vermora"] = 1,
-	},
-	[34241] = {
-		["Chuunin"] = 1,
-		["Searious"] = 1,
-		["Vermora"] = 1,
-	},
-	[34211] = {
-		["Chuunin"] = 1,
-		["Searious"] = 1,
-		["Vermora"] = 1,
-		["Wildshrimp"] = 1,
-	},
-	[34188] = {
-		["Chuunin"] = 1,
-		["Searious"] = 1,
 	},
 	[34331] = {
 		["Crazydaisy"] = 1,
@@ -554,6 +519,18 @@ PLAYER_PRIORITY_REGISTRY = {
 	[34854] = {
 		["Searious"] = 1,
 	},
+	[34241] = {
+		["Searious"] = 1,
+		["Vermora"] = 1,
+	},
+	[34211] = {
+		["Searious"] = 1,
+		["Vermora"] = 1,
+		["Wildshrimp"] = 1,
+	},
+	[34188] = {
+		["Searious"] = 1,
+	},
 	[32366] = {
 		["Searious"] = 1,
 	},
@@ -581,6 +558,9 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34430] = {
 		["Velyri"] = 1,
+	},
+	[32369] = {
+		["Vermora"] = 1,
 	},
 	[34244] = {
 		["Vermora"] = 1,
@@ -620,7 +600,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34427] = {
 		["Ashori"] = 1,
-		["Chuunin"] = 1,
 	},
 	[34856] = {
 		["Ashori"] = 1,
@@ -680,39 +659,11 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30248] = {
 		["Barnabae"] = 1,
 	},
-	[34189] = {
-		["Chuunin"] = 1,
-	},
-	[34852] = {
-		["Chuunin"] = 1,
-		["Vermora"] = 1,
-	},
-	[34244] = {
-		["Chuunin"] = 1,
-	},
-	[34196] = {
-		["Chuunin"] = 1,
-		["Vermora"] = 1,
-	},
-	[34214] = {
-		["Chuunin"] = 1,
-	},
-	[32366] = {
-		["Chuunin"] = 1,
-		["Digitalz"] = 1,
-	},
-	[32323] = {
-		["Chuunin"] = 1,
-		["Nashborne"] = 1,
-		["Vermora"] = 1,
-	},
 	[34854] = {
 		["Crazydaisy"] = 1,
 		["Jaamii"] = 1,
 		["Kinestra"] = 1,
 		["Velyri"] = 1,
-		["velyri"] = 1,
-		["crazydaisy"] = 1,
 	},
 	[34857] = {
 		["Crazydaisy"] = 1,
@@ -755,6 +706,9 @@ PLAYER_LOTTERY_REGISTRY = {
 		["Digitalz"] = 1,
 	},
 	[29996] = {
+		["Digitalz"] = 1,
+	},
+	[32366] = {
 		["Digitalz"] = 1,
 	},
 	[34848] = {
@@ -871,6 +825,10 @@ PLAYER_LOTTERY_REGISTRY = {
 	[30105] = {
 		["Nashborne"] = 1,
 	},
+	[32323] = {
+		["Nashborne"] = 1,
+		["Vermora"] = 1,
+	},
 	[30627] = {
 		["Nashborne"] = 1,
 	},
@@ -918,7 +876,13 @@ PLAYER_LOTTERY_REGISTRY = {
 	[34349] = {
 		["Vermora"] = 1,
 	},
+	[34852] = {
+		["Vermora"] = 1,
+	},
 	[34164] = {
+		["Vermora"] = 1,
+	},
+	[34196] = {
 		["Vermora"] = 1,
 	},
 	[34234] = {

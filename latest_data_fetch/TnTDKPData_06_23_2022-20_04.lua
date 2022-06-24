@@ -14,6 +14,7 @@ T4_PRIORITY_DKP_TABLE = {
    ["Despia"] = 56.56,
    ["Digitalz"] = 964.33,
    ["Ellievyra"] = 967.05,
+   ["Emraku"] = 0.0,
    ["Goodjorb"] = 0.0,
    ["Hipon"] = 0.0,
    ["Hyolin"] = 970.24,
@@ -65,6 +66,7 @@ T4_LOTTERY_DKP_TABLE = {
    ["Despia"] = 56.56,
    ["Digitalz"] = 971.51,
    ["Ellievyra"] = 942.38,
+   ["Emraku"] = 0.0,
    ["Goodjorb"] = 0.0,
    ["Hipon"] = 0.0,
    ["Hyolin"] = 971.16,
@@ -116,6 +118,7 @@ T5_PRIORITY_DKP_TABLE = {
    ["Despia"] = 2.5,
    ["Digitalz"] = 516.76,
    ["Ellievyra"] = 643.33,
+   ["Emraku"] = 0,
    ["Goodjorb"] = 0.0,
    ["Hipon"] = 0.0,
    ["Hyolin"] = 573.64,
@@ -167,6 +170,7 @@ T5_LOTTERY_DKP_TABLE = {
    ["Despia"] = 2.5,
    ["Digitalz"] = 221.88,
    ["Ellievyra"] = 558.5,
+   ["Emraku"] = 0,
    ["Goodjorb"] = 0.0,
    ["Hipon"] = 0.0,
    ["Hyolin"] = 515.75,
@@ -218,6 +222,7 @@ T6_PRIORITY_DKP_TABLE = {
    ["Despia"] = 0.0,
    ["Digitalz"] = 3500.44,
    ["Ellievyra"] = 3590.01,
+   ["Emraku"] = 0,
    ["Goodjorb"] = 0.0,
    ["Hipon"] = 0.0,
    ["Hyolin"] = 3236.23,
@@ -269,6 +274,7 @@ T6_LOTTERY_DKP_TABLE = {
    ["Despia"] = 0.0,
    ["Digitalz"] = 2982.96,
    ["Ellievyra"] = 1834.5,
+   ["Emraku"] = 0,
    ["Goodjorb"] = 0.0,
    ["Hipon"] = 0.0,
    ["Hyolin"] = 1996.6,
@@ -308,9 +314,9 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Abjection"] = 4425.59,
    ["Akaran"] = 1410.54,
    ["Albynonurse"] = 0.0,
-   ["Ashori"] = 12491.55,
+   ["Ashori"] = 8491.55,
    ["Babyshrimp"] = 8067.52,
-   ["Baopi"] = 8976.810000000001,
+   ["Baopi"] = 8976.81,
    ["Barnabae"] = 542.86,
    ["Chuunin"] = 12154.05,
    ["Crazydaisy"] = 12138.03,
@@ -320,6 +326,7 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Despia"] = 0.0,
    ["Digitalz"] = 4511.54,
    ["Ellievyra"] = 6693.43,
+   ["Emraku"] = 0,
    ["Goodjorb"] = 0.0,
    ["Hipon"] = 0.0,
    ["Hyolin"] = 8133.04,
@@ -331,9 +338,9 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Lilchub"] = 12371.88,
    ["Loopfish"] = 0.0,
    ["Malchazor"] = 7667.3,
-   ["Metasyn"] = 6037.31,
+   ["Metasyn"] = 2037.31,
    ["Murduc"] = 8803.73,
-   ["Nashborne"] = 8024.71,
+   ["Nashborne"] = 4024.71,
    ["Nekryss"] = 1833.06,
    ["Rayapaladin"] = 5149.31,
    ["Reminosc"] = 0.0,
@@ -352,7 +359,7 @@ T6PT5_PRIORITY_DKP_TABLE = {
    ["Tongcatsu"] = 0.0,
    ["Velyri"] = 9142.99,
    ["Venatir"] = 0.0,
-   ["Vermora"] = 9937.93,
+   ["Vermora"] = 5937.93,
    ["Wildshrimp"] = 10422.52,
 }
 T6PT5_LOTTERY_DKP_TABLE = {
@@ -360,7 +367,7 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Akaran"] = -2457.0,
    ["Albynonurse"] = 0.0,
    ["Ashori"] = 2876.4,
-   ["Babyshrimp"] = -7782.290000000001,
+   ["Babyshrimp"] = -7782.29,
    ["Baopi"] = 5252.71,
    ["Barnabae"] = 537.23,
    ["Chuunin"] = 12374.03,
@@ -371,13 +378,14 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Despia"] = 0.0,
    ["Digitalz"] = 7041.88,
    ["Ellievyra"] = 4404.12,
+   ["Emraku"] = 0,
    ["Goodjorb"] = 0.0,
    ["Hipon"] = 0.0,
    ["Hyolin"] = 7210.65,
    ["Jaamii"] = 7869.08,
    ["Justin"] = 0.0,
    ["Justinjr"] = 5493.54,
-   ["Kangdude"] = 4680.79,
+   ["Kangdude"] = 680.79,
    ["Kinestra"] = 10596.12,
    ["Lilchub"] = 2041.37,
    ["Loopfish"] = 0.0,
@@ -386,11 +394,11 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Murduc"] = 2691.52,
    ["Nashborne"] = 5788.09,
    ["Nekryss"] = 3983.85,
-   ["Rayapaladin"] = 9949.439999999999,
+   ["Rayapaladin"] = 9949.44,
    ["Reminosc"] = 0.0,
    ["Rotheart"] = 0.0,
    ["Salchant"] = 0.0,
-   ["Searious"] = 5000.030000000001,
+   ["Searious"] = 5000.03,
    ["Searusdots"] = 0.0,
    ["Seion"] = -377.98,
    ["Sekkondary"] = 7968.77,
@@ -404,7 +412,7 @@ T6PT5_LOTTERY_DKP_TABLE = {
    ["Velyri"] = 5967.87,
    ["Venatir"] = 0.0,
    ["Vermora"] = 3636.42,
-   ["Wildshrimp"] = -9427.29,
+   ["Wildshrimp"] = -13427.29,
 }
 PLAYER_PRIORITY_REGISTRY = {
 	[34345] = {
@@ -412,9 +420,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	},
 	[34164] = {
 		["Akaran"] = 1,
-	},
-	[34247] = {
-		["Ashori"] = 1,
 	},
 	[30106] = {
 		["Ashori"] = 1,
@@ -501,9 +506,6 @@ PLAYER_PRIORITY_REGISTRY = {
 	[34339] = {
 		["Metasyn"] = 1,
 	},
-	[34335] = {
-		["Metasyn"] = 1,
-	},
 	[34340] = {
 		["Murduc"] = 1,
 		["Spookyremi"] = 1,
@@ -511,13 +513,12 @@ PLAYER_PRIORITY_REGISTRY = {
 	[32483] = {
 		["Murduc"] = 1,
 	},
-	[34427] = {
-		["Nashborne"] = 1,
-		["Searious"] = 1,
-		["Vermora"] = 1,
-	},
 	[34854] = {
 		["Searious"] = 1,
+	},
+	[34427] = {
+		["Searious"] = 1,
+		["Vermora"] = 1,
 	},
 	[34241] = {
 		["Searious"] = 1,
@@ -563,9 +564,6 @@ PLAYER_PRIORITY_REGISTRY = {
 		["Vermora"] = 1,
 	},
 	[34244] = {
-		["Vermora"] = 1,
-	},
-	[34214] = {
 		["Vermora"] = 1,
 	},
 }
@@ -758,9 +756,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	[29997] = {
 		["Kangdude"] = 1,
 	},
-	[34341] = {
-		["Kangdude"] = 1,
-	},
 	[34180] = {
 		["Kangdude"] = 1,
 	},
@@ -884,9 +879,6 @@ PLAYER_LOTTERY_REGISTRY = {
 	},
 	[34196] = {
 		["Vermora"] = 1,
-	},
-	[34234] = {
-		["Wildshrimp"] = 1,
 	},
 	[32501] = {
 		["Wildshrimp"] = 1,
